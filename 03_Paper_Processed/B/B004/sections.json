@@ -1,0 +1,100 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 2,
+    "pdf_page_end": 6,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Conclusion: To summarize, when we have a convergent nozzle,",
+    "pdf_page_start": 7,
+    "pdf_page_end": 8,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Conclusion: In summary, this feature is relatively well known only",
+    "pdf_page_start": 9,
+    "pdf_page_end": 10,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "4.1.4. Conclusion",
+    "pdf_page_start": 11,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "Conclusion: Globally, there is a lack of data concerning this fea-",
+    "pdf_page_start": 14,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "Conclusion: Eventually, the phenomena arising inside the",
+    "pdf_page_start": 15,
+    "pdf_page_end": 20,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S08",
+    "section_title": "5.3. Conclusion",
+    "pdf_page_start": 21,
+    "pdf_page_end": 23,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S09",
+    "section_title": "8. Conclusion",
+    "pdf_page_start": 24,
+    "pdf_page_end": 24,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S10",
+    "section_title": "Appendix A. Isentropic relations for a perfect gas",
+    "pdf_page_start": 24,
+    "pdf_page_end": 24,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S11",
+    "section_title": "Appendix B. Normal shock relations for a perfect gas",
+    "pdf_page_start": 24,
+    "pdf_page_end": 24,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S12",
+    "section_title": "Appendix C. Discharge coef ﬁcient",
+    "pdf_page_start": 25,
+    "pdf_page_end": 25,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S13",
+    "section_title": "Appendix D. Overview of the various studies dealing with the",
+    "pdf_page_start": 25,
+    "pdf_page_end": 25,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S14",
+    "section_title": "References",
+    "pdf_page_start": 25,
+    "pdf_page_end": 29,
+    "boundary_status": "best_effort"
+  }
+]

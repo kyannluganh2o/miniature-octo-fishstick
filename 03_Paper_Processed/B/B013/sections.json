@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Abstract and introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 3,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Numerical method and boundary conditions",
+    "pdf_page_start": 3,
+    "pdf_page_end": 7,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Transient jet results",
+    "pdf_page_start": 7,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Conclusions",
+    "pdf_page_start": 14,
+    "pdf_page_end": 14,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "References",
+    "pdf_page_start": 14,
+    "pdf_page_end": 15,
+    "boundary_status": "confirmed"
+  }
+]

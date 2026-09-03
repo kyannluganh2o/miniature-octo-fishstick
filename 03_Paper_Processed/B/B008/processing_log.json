@@ -1,0 +1,16 @@
+{
+  "paper_id": "B008",
+  "input_pdf": "02_PDF_Raw/B/B-H2-03_2013_Bonelli_Hydrogen_UnderexpandedJets_RealGas.pdf",
+  "processing_started": "2026-09-01T00:35:49+00:00",
+  "processing_completed": "2026-09-01T00:35:49+00:00",
+  "parser_method": "pypdf page-by-page text extraction",
+  "identity_title_token_coverage": 1.0,
+  "identity_confirmation_basis": "title token coverage >= 0.70",
+  "warnings": [],
+  "unreadable_pages": [],
+  "extraction_limitations": [
+    "Multi-column order, equations, and glyphs may require PDF cross-check.",
+    "Section boundaries are best-effort.",
+    "No figure digitization was performed."
+  ]
+}

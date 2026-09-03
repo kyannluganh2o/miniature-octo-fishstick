@@ -1,0 +1,51 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "model",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "modeling. Traditional RANS calculations struggle to reconcile",
+    "pdf_page_start": 2,
+    "pdf_page_end": 3,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "3.2. Results",
+    "pdf_page_start": 4,
+    "pdf_page_end": 6,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "4.3. Results",
+    "pdf_page_start": 7,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "references",
+    "pdf_page_start": 12,
+    "pdf_page_end": 12,
+    "boundary_status": "best_effort"
+  }
+]
