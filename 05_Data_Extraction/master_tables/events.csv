@@ -1,0 +1,115 @@
+event_id,paper_id,case_id,condition_id,event_type,event_label,event_domain,reported_time,reported_time_unit,normalized_time,normalized_time_unit,reference_event_id,signed_offset,offset_unit,event_status,source_locator_id,verification_status,notes
+EVT-A020-001,A020,A020-C01,A020-C01,hydrogen_SOI,hydrogen_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-002,A020,A020-C01,A020-C01,diesel_SOI,diesel_SOI after reference,injection,0.07,ms,,,EVT-A020-001,0.07,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-003,A020,A020-C02,A020-C02,diesel_SOI,diesel_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-004,A020,A020-C02,A020-C02,hydrogen_SOI,hydrogen_SOI after reference,injection,0.93,ms,,,EVT-A020-003,0.93,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-005,A020,A020-C03,A020-C03,diesel_SOI,diesel_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-006,A020,A020-C03,A020-C03,hydrogen_SOI,hydrogen_SOI after reference,injection,1.93,ms,,,EVT-A020-005,1.93,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-007,A020,A020-C04,A020-C04,diesel_SOI,diesel_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-008,A020,A020-C04,A020-C04,hydrogen_SOI,hydrogen_SOI after reference,injection,2.93,ms,,,EVT-A020-007,2.93,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-009,A020,A020-C05,A020-C05,hydrogen_SOI,hydrogen_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-010,A020,A020-C05,A020-C05,diesel_SOI,diesel_SOI after reference,injection,1.07,ms,,,EVT-A020-009,1.07,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-011,A020,A020-C06,A020-C06,hydrogen_SOI,hydrogen_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-012,A020,A020-C06,A020-C06,diesel_SOI,diesel_SOI after reference,injection,2.07,ms,,,EVT-A020-011,2.07,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-013,A020,A020-C07,A020-C07,hydrogen_SOI,hydrogen_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-014,A020,A020-C07,A020-C07,diesel_SOI,diesel_SOI after reference,injection,3.07,ms,,,EVT-A020-013,3.07,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-015,A020,A020-C08,A020-C08,hydrogen_SOI,hydrogen_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-016,A020,A020-C08,A020-C08,diesel_SOI,diesel_SOI after reference,injection,0.07,ms,,,EVT-A020-015,0.07,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A020-017,A020,A020-C09,A020-C09,hydrogen_SOI,hydrogen_SOI reference,injection,,,,,,,,reference_only,LOC-A020-0006,verified,
+EVT-A020-018,A020,A020-C09,A020-C09,diesel_SOI,diesel_SOI after reference,injection,0.07,ms,,,EVT-A020-017,0.07,ms,relative_only,LOC-A020-0006,verified,Positive offset means the target SOI occurs after the reference SOI.
+EVT-A022-001,A022,ALL,ALL,hydrogen_SOI,Hydrogen SOI reference,injection,,,,,,,,reference_only,LOC-A022-0003,verified,
+EVT-A022-002,A022,ALL,ALL,diesel_SOI,Pilot diesel SOI after hydrogen SOI,injection,0.6,ms,,,EVT-A022-001,0.6,ms,relative_only,LOC-A022-0003,verified,
+EVT-B013-001,B013,B013-C01,B013-C01,gas_SOI,Hydrogen injection start reference,injection,,,,,,,,reference_only,LOC-B013-0006,verified,
+EVT-B013-002,B013,B013-C01,B013-C01,Mach_disk_formation,First Mach-disk formation,shock_structure,19–22,μs,,,EVT-B013-001,19–22,μs,relative_only,LOC-B013-0004,verified,
+EVT-B013-003,B013,B013-C01,B013-C01,Mach_disk_stabilization,Dynamically stable/oscillating Mach-disk state,shock_structure,37–42,μs,,,EVT-B013-001,37–42,μs,relative_only,LOC-B013-0006,verified,
+EVT-B029-001,B029,B029-C01,B029-C01,gas_SOI,Hydrogen injection start reference,injection,,,,,,,,reference_only,LOC-B029-0007,verified,
+EVT-B029-002,B029,B029-C01,B029-C01,other,Shock/core turning state,shock_structure,1.1,ms,,,EVT-B029-001,1.1,ms,relative_only,LOC-B029-0006,verified,"The legacy parameter name is preserved; source semantics are a turning time, not first formation."
+EVT-B029-003,B029,B029-C02,B029-C02,gas_SOI,Hydrogen injection start reference,injection,,,,,,,,reference_only,LOC-B029-0007,verified,
+EVT-B029-004,B029,B029-C02,B029-C02,other,Shock/core turning state,shock_structure,0.4,ms,,,EVT-B029-003,0.4,ms,relative_only,LOC-B029-0006,verified,"The legacy parameter name is preserved; source semantics are a turning time, not first formation."
+EVT-B029-005,B029,B029-C03,B029-C03,gas_SOI,Hydrogen injection start reference,injection,,,,,,,,reference_only,LOC-B029-0007,verified,
+EVT-B029-006,B029,B029-C03,B029-C03,other,Shock/core turning state,shock_structure,0.0,ms,,,EVT-B029-005,0.0,ms,relative_only,LOC-B029-0006,verified,"The legacy parameter name is preserved; source semantics are a turning time, not first formation."
+EVT-D003-001,D003,D003-M01,D003-M01,shock_arrival,Jet-induced shock arrival,wave,,,,,,,,reported,LOC-D003-0004,verified,
+EVT-D003-002,D003,D003-M01,D003-M01,shock_departure,Shock-front departure,wave,,,,,,,,NV,LOC-D003-0004,verified,Separate departure time is not verified in the existing Pilot extraction.
+EVT-D003-003,D003,D003-M01,D003-M01,expansion_wave_arrival,Expansion wave terminates shocked-state loading,wave,,,,,,,,reported,LOC-D003-0004,verified,
+EVT-B009-001,B009,B009-H2-NPR10,B009-H2-NPR10,other,simulation start,jet,0,us,0,s,,0,us,reference_only,LOC-B009-0005,verified,Reference event for early jet development.
+EVT-B009-002,B009,B009-H2-NPR10,B009-H2-NPR10,Mach_disk_formation,first small normal shock identified as Mach-disk appearance,shock_structure,13,us,1.3e-5,s,EVT-B009-001,13,us,reported,LOC-B009-0005,verified,Approximately 21 t0; unit confirmed as microseconds from rendered page.
+EVT-B009-003,B009,B009-H2-NPR10,B009-H2-NPR10,Mach_disk_stabilization,shock structure reaches semi-steady condition,shock_structure,49.6,us,4.96e-5,s,EVT-B009-001,49.6,us,reported,LOC-B009-0005,verified,Approximately 80 t0.
+EVT-B028-001,B028,B028-NPR5,B028-NPR5,Mach_disk_formation,weak Mach disk becomes visible,shock_structure,16-20,us,,,,,,reported,LOC-B028-0005,verified,At 12 us no clearly defined normal shock; weak disk forms by 16-20 us.
+EVT-C018-001,C018,ALL,ALL,shock_arrival,incident shock contacts upstream droplet interface,shock_droplet,0,t*,,,,,,reference_only,LOC-C018-0002,verified,Reference for nondimensional chronology.
+EVT-C018-002,C018,ALL,shock_Mach_sweep,other,negative peak pressure occurrence,internal_droplet,approximately 1.25,t*=c_l t/D0,,,EVT-C018-001,,,reported,LOC-C018-0005,verified,NPP occurs slightly earlier at higher shock Mach number.
+EVT-C019-001,C019,C019-M24-W6,C019-M24-W6,shock_arrival,incident divergent shock first touches windward surface,wave_droplet,0,t,0,t*,,0,t*,reference_only,LOC-C019-0003,verified,Definition of t0 and origin of t*.
+EVT-C019-002,C019,C019-M24-W6,C019-M24-W6,other,windward fixed point becomes relatively immobile and K-H starts nearby,droplet_response,0.15,t*,0.15,t*,EVT-C019-001,0.15,t*,reported,LOC-C019-0007,verified,Approximate nondimensional time stated in text.
+EVT-C024-001,C024,ALL,ALL,shock_arrival,shock reaches droplet curtain,wave_droplet,0,us,0,us,,0,us,reference_only,LOC-C024-0005,verified,Experimental time origin.
+EVT-C024-002,C024,ALL,ALL,other,child-droplet cloud growth begins,breakup,8.4,us,8.4,us,EVT-C024-001,8.4,us,reported,LOC-C024-0005,verified,Boundary stated in qualitative sequence.
+EVT-C024-003,C024,ALL,ALL,evaporation,late evaporation-dominated stage begins,phase_change,98,us,98,us,EVT-C024-001,98,us,reported,LOC-C024-0005,verified,Boundary stated in qualitative sequence.
+EVT-C025-001,C025,C025-M2,C025-M2,shock_arrival,shock-droplet reference interaction,wave_droplet,0,tau,0,tau,,0,tau,reference_only,LOC-C025-0002,verified,Reference origin for nondimensional history.
+EVT-C025-002,C025,C025-M3,C025-M3,shock_arrival,shock-droplet reference interaction,wave_droplet,0,tau,0,tau,,0,tau,reference_only,LOC-C025-0002,verified,Reference origin for nondimensional history.
+EVT-C025-003,C025,C025-M2,C025-M2,breakup_onset,windward piercing becomes prominent,droplet_response,1,tau,1,tau,EVT-C025-001,1,tau,reported,LOC-C025-0006,verified,Approximate text value.
+EVT-C025-004,C025,C025-M3,C025-M3,breakup_onset,windward piercing becomes prominent,droplet_response,1,tau,1,tau,EVT-C025-002,1,tau,reported,LOC-C025-0006,verified,Approximate text value.
+EVT-C035-001,C035,ALL,ALL,shock_arrival,incident shock impacts lead-droplet frontal surface,wave_droplet,0,ms,0,T,,0,T,reference_only,LOC-C035-0003,verified,Lead-droplet time origin; trailing offset below 0.06 ms.
+EVT-D018-001,D018,ALL,ALL,detonation_arrival,detonation reaches droplet,wave_droplet,0,us,0,t*,,0,t*,reference_only,LOC-D018-0002,verified,Reference for images and t*.
+EVT-D018-002,D018,D018-B,B4,breakup_completion,B4 representative complete breakup,droplet_response,37.5,us,,,EVT-D018-001,37.5,us,reported,LOC-D018-0008,verified,Midpoint of observed 35-40 us interval.
+EVT-A026-001,A026,ALL,ALL,other,top dead center reference,engine_cycle,0,CA,0,CA,,0,CA,reference_only,LOC-A026-0002,verified,Negative signed offsets denote crank angles before TDC.
+EVT-A026-002,A026,A026-E95,A026-E95,SOI,hydrogen electronic start of injection at 10 CA bTDC,injection,10,CA bTDC,,,EVT-A026-001,-10,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-003,A026,A026-E90,A026-E90,SOI,hydrogen electronic start of injection at 10 CA bTDC,injection,10,CA bTDC,,,EVT-A026-001,-10,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-004,A026,A026-E80,A026-E80,SOI,hydrogen electronic start of injection at 10 CA bTDC,injection,10,CA bTDC,,,EVT-A026-001,-10,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-005,A026,A026-E70,A026-E70,SOI,hydrogen electronic start of injection at 10 CA bTDC,injection,10,CA bTDC,,,EVT-A026-001,-10,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-006,A026,A026-T0,A026-T0,SOI,hydrogen electronic start of injection at 0 CA bTDC,injection,0,CA bTDC,,,EVT-A026-001,-0,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-007,A026,A026-T10,A026-T10,SOI,hydrogen electronic start of injection at 10 CA bTDC,injection,10,CA bTDC,,,EVT-A026-001,-10,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-008,A026,A026-T20,A026-T20,SOI,hydrogen electronic start of injection at 20 CA bTDC,injection,20,CA bTDC,,,EVT-A026-001,-20,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-009,A026,A026-T30,A026-T30,SOI,hydrogen electronic start of injection at 30 CA bTDC,injection,30,CA bTDC,,,EVT-A026-001,-30,CA,reported,LOC-A026-0002,verified,"Electronic signal timing, not hydraulic SOI."
+EVT-A026-010,A026,ALL,ALL,SOI,diesel pilot electronic start of injection at 6 CA bTDC,injection,6,CA bTDC,,,EVT-A026-001,-6,CA,reported,LOC-A026-0002,verified,Fixed across all cases; electronic signal timing.
+EVT-A013-001,A013,CORE,CORE,injection_start,Main/pilot injection reference,injection,,,,,,,,reference_only,LOC-A013-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A013-002,A013,CORE,CORE,ignition,Ignition reference,ignition_combustion,,,,,,,,reference_only,LOC-A013-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A014-001,A014,CORE,CORE,injection_start,Main/pilot injection reference,injection,,,,,,,,reference_only,LOC-A014-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A014-002,A014,CORE,CORE,ignition,Ignition reference,ignition_combustion,,,,,,,,reference_only,LOC-A014-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A018-001,A018,CORE,CORE,injection_start,Main/pilot injection reference,injection,,,,,,,,reference_only,LOC-A018-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A018-002,A018,CORE,CORE,ignition,Ignition reference,ignition_combustion,,,,,,,,reference_only,LOC-A018-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A021-001,A021,CORE,CORE,injection_start,Main/pilot injection reference,injection,,,,,,,,reference_only,LOC-A021-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A021-002,A021,CORE,CORE,ignition,Ignition reference,ignition_combustion,,,,,,,,reference_only,LOC-A021-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A024-001,A024,CORE,CORE,injection_start,Main/pilot injection reference,injection,,,,,,,,reference_only,LOC-A024-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A024-002,A024,CORE,CORE,ignition,Ignition reference,ignition_combustion,,,,,,,,reference_only,LOC-A024-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A025-001,A025,CORE,CORE,injection_start,Main/pilot injection reference,injection,,,,,,,,reference_only,LOC-A025-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A025-002,A025,CORE,CORE,ignition,Ignition reference,ignition_combustion,,,,,,,,reference_only,LOC-A025-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C001-001,C001,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C001-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C001-002,C001,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C001-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C002-001,C002,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C002-0001,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C002-002,C002,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C002-0001,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C006-001,C006,CORE,CORE,other,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C006-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C006-002,C006,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C006-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C010-001,C010,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C010-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C010-002,C010,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C010-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C015-001,C015,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C015-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C015-002,C015,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C015-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C017-001,C017,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C017-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C017-002,C017,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C017-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C020-001,C020,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C020-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C020-002,C020,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C020-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C022-001,C022,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C022-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C022-002,C022,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C022-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C023-001,C023,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C023-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C023-002,C023,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C023-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C026-001,C026,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C026-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C026-002,C026,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C026-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C030-001,C030,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C030-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C030-002,C030,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C030-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C033-001,C033,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C033-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C033-002,C033,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C033-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C034-001,C034,CORE,CORE,shock_arrival,Aerodynamic/shock loading reference,shock_loading,,,,,,,,reference_only,LOC-C034-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-C034-002,C034,CORE,CORE,breakup_onset,Breakup/deformation response reference,droplet_response,,,,,,,,reference_only,LOC-C034-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D002-001,D002,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D002-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D005-001,D005,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D005-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D007-001,D007,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D007-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D010-001,D010,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D010-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D011-001,D011,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D011-0001,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D013-001,D013,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D013-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D014-001,D014,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D014-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D015-001,D015,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D015-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-D016-001,D016,CORE,CORE,detonation_arrival,Detonation-wave reference,rde_detonation,,,,,,,,reference_only,LOC-D016-0002,verified,Typed chronology reference; no unreported event time inferred.
+EVT-A007-001,A007,A007-RCEM,A007-RCEM,TDC,top dead center reference,engine_cycle,,,,,,,,reference_only,LOC-A007-0002,verified,
+EVT-A007-002,A007,A007-RCEM,A007-RCEM,diesel_SOI,diesel pilot SOI,injection,-2,ms ATDC,,,EVT-A007-001,-2,ms,reported,LOC-A007-0002,verified,
+EVT-A007-003,A007,A007-RCEM,A007-RCEM,natural_gas_SOI,gas SOI varied relative to pilot SOI,injection,,,,,EVT-A007-002,-2.5 to +1.5,ms,relative_only,LOC-A007-0002,verified,Range; sign and reference preserved.
+EVT-A007-004,A007,A007-RCEM,A007-RCEM,pilot_ignition,pilot ignition at HRR threshold 0.1 MW,ignition,,,,,,,,reference_only,LOC-A007-0003,verified,
+EVT-A007-005,A007,A007-RCEM,A007-RCEM,natural_gas_ignition,gas ignition at HRR threshold 0.3 MW,ignition,,,,,,,,reference_only,LOC-A007-0003,verified,
+EVT-B021-001,B021,B021-ICE,B021-ICE,hydrogen_SOI,start of hydrogen injection,injection,0,ms,,,,,,reference_only,LOC-B021-0005,verified,
+EVT-B021-002,B021,B021-ICE,B021-ICE,hydrogen_EOI,end of modeled injection,injection,4.9,ms,0.0049,s,EVT-B021-001,,,reported,LOC-B021-0005,verified,
