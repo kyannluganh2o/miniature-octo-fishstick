@@ -1,0 +1,49 @@
+# Immutable raw PDFs (keep locally; consider Git LFS separately if needed)
+02_PDF_Raw/**/*.pdf
+
+# Large or reproducible paper-processing outputs
+03_Paper_Processed/**/figures/
+03_Paper_Processed/**/tables/
+
+# Temporary, backup, and log files
+*.tmp
+*.temp
+*.bak
+*.log
+~$*
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# Test, coverage, and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Office temporary and lock files
+~*.doc*
+~*.xls*
+~*.ppt*
+*.asd
+*.wbk
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS
+.DS_Store

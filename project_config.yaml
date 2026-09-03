@@ -1,0 +1,81 @@
+project:
+  name: HPDI_ShockDroplet_Review
+  root: "D:/HPDI_ShockDroplet_Review"
+  type: academic_review
+  language: en
+  status: initialization
+
+research:
+  topic: "High-pressure gas-liquid direct injection, underexpanded jets, compressible shock structures, and shock-droplet interaction"
+  review_type: mechanism-oriented review
+  target_reference_count: 120
+  literature_libraries:
+    - A
+    - B
+    - C
+    - D
+
+paths:
+  project: 00_Project
+  library: 01_Library
+  pdf_raw: 02_PDF_Raw
+  processed: 03_Paper_Processed
+  notes: 04_Paper_Notes
+  extraction: 05_Data_Extraction
+  evidence: 06_Evidence_Base
+  chapters: 07_Chapters
+  figures_tables: 08_Figures_Tables
+  manuscript: 09_Manuscript
+  scripts: 10_Scripts
+  qc: 11_QC
+  archive: 99_Archive
+
+literature:
+  libraries:
+    - A
+    - B
+    - C
+    - D
+  paper_id_format: "^[ABCD][0-9]{3}$"
+  paper_id_immutable: true
+  canonical_pdf_template: "{paper_id}_{year}_{first_author}_{short_title}.pdf"
+  allow_duplicate_canonical_papers: false
+  library_classification_is_chapter_assignment: false
+
+source_control:
+  raw_pdf_immutable: true
+  original_pdf_is_primary_source: true
+  library_master_is_primary_index: true
+
+evidence:
+  require_paper_id: true
+  require_source_location_when_available: true
+  distinguish_reported_and_inferred: true
+  allow_fabricated_citations: false
+
+data:
+  preferred_unit_system: SI
+  missing_value_codes:
+    NR: Not Reported
+    NA: Not Applicable
+    NV: Not Verified
+
+workflow:
+  stages:
+    - library_finalization
+    - pdf_acquisition
+    - pdf_processing
+    - paper_note_generation
+    - parameter_extraction
+    - evidence_base_construction
+    - cross_paper_synthesis
+    - chapter_drafting
+    - manuscript_integration
+    - quality_control
+
+agent:
+  allow_modify_raw_pdf: false
+  allow_invent_metadata: false
+  allow_invent_citations: false
+  allow_guess_missing_parameters: false
+  overwrite_existing_files_by_default: false
