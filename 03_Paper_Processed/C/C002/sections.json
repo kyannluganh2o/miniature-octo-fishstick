@@ -1,0 +1,16 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Front matter and abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 6,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "APPENDIX: RECORDS OF COMPLETE „BREAKUP…",
+    "pdf_page_start": 7,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  }
+]

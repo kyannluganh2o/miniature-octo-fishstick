@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Front matter and abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "1 Introduction",
+    "pdf_page_start": 2,
+    "pdf_page_end": 26,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "results",
+    "pdf_page_start": 27,
+    "pdf_page_end": 29,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "References",
+    "pdf_page_start": 30,
+    "pdf_page_end": 30,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "method. Prog Nucl Energ 34(4):471–488",
+    "pdf_page_start": 31,
+    "pdf_page_end": 32,
+    "boundary_status": "best_effort"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "paper_id": "C001",
+  "input_pdf": "02_PDF_Raw/C/C-F-01_2007_Theofanous_Aerobreakup_Disturbed_SubsonicSupersonic_Flow.pdf",
+  "processing_started": "2026-08-31T05:53:04+00:00",
+  "processing_completed": "2026-08-31T05:53:05+00:00",
+  "parser_method": "pypdf page-by-page text extraction",
+  "identity_title_token_coverage": 0.6667,
+  "identity_confirmation_basis": "inventory match plus first author and year on first page",
+  "warnings": [],
+  "unreadable_pages": [],
+  "extraction_limitations": [
+    "Multi-column order, equations, and glyphs may require PDF cross-check.",
+    "Section boundaries are best-effort.",
+    "No figure digitization was performed."
+  ]
+}

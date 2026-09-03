@@ -1,0 +1,16 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Front matter and abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 3,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "REFERENCES",
+    "pdf_page_start": 4,
+    "pdf_page_end": 4,
+    "boundary_status": "best_effort"
+  }
+]

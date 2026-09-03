@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 2,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "results. Finally, we present the important conclusions from this study in §4",
+    "pdf_page_start": 3,
+    "pdf_page_end": 21,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "4. Conclusion",
+    "pdf_page_start": 22,
+    "pdf_page_end": 22,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "References",
+    "pdf_page_start": 22,
+    "pdf_page_end": 24,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "method. Int. J. Multiphase Flow 35, 550–565. (doi:10.1016/j.ijmultiphaseﬂow.2009.02.014)",
+    "pdf_page_start": 25,
+    "pdf_page_end": 25,
+    "boundary_status": "best_effort"
+  }
+]

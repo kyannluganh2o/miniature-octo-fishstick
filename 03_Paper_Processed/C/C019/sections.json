@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 16,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "discussion. Noting that θcr < θf, t1 < θIS, t1 and the limit relation θIS, t1 → θcr",
+    "pdf_page_start": 17,
+    "pdf_page_end": 21,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Conclusion",
+    "pdf_page_start": 22,
+    "pdf_page_end": 22,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Appendix A. The generation of a divergent shock wave",
+    "pdf_page_start": 23,
+    "pdf_page_end": 25,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "References",
+    "pdf_page_start": 26,
+    "pdf_page_end": 29,
+    "boundary_status": "best_effort"
+  }
+]

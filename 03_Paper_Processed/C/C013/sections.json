@@ -1,0 +1,30 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "background. Despite a slight deviation due to the 2-D planar assumption and the threshold",
+    "pdf_page_start": 14,
+    "pdf_page_end": 23,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "6. Conclusion",
+    "pdf_page_start": 24,
+    "pdf_page_end": 24,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "REFERENCES",
+    "pdf_page_start": 25,
+    "pdf_page_end": 28,
+    "boundary_status": "best_effort"
+  }
+]
