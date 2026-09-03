@@ -1,0 +1,200 @@
+{
+  "paper_id": "A006",
+  "source_record_id": "A-NG-06",
+  "reading_tier": "tier3",
+  "study_context": "Single-cylinder HPDI engine experiments with reacting-CFD interpretation.",
+  "cases": [
+    {
+      "case_id": "A006-SPC",
+      "description": "Delayed-pilot slightly premixed combustion versus baseline mixing-controlled HPDI."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A006",
+      "source_record_id": "A-NG-06",
+      "reading_tier": "tier3",
+      "case_id": "A006-SPC",
+      "condition_id": "A006-SPC",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ignition_combustion",
+      "parameter_name": "combustion_mode",
+      "reported_value": "slightly premixed combustion by delaying diesel pilot until after NG injection begins",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "SPC strategy used to premix more NG before ignition.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Preserves paper definition.",
+      "parameter_record_id": "PAR-A006-0001",
+      "context_id": "CTX-A006-A006-SPC-A006-SPC",
+      "parameter_role": "experimental_control",
+      "parameter_context": "relative_injection_timing",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A006-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A006",
+      "source_record_id": "A-NG-06",
+      "reading_tier": "tier3",
+      "case_id": "A006-SPC",
+      "condition_id": "A006-SPC",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "mixing",
+      "parameter_name": "equivalence_ratio",
+      "reported_value": "baseline >50% versus optimized SPC <10% of fuel in 2<EQR<5 at gas ignition",
+      "reported_unit": "1",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Fraction of injected gas in the paper-defined rich zone at ignition.",
+      "source_location": "PDF p. 10, Conclusions",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "CFD trend; ignition timing was not correctly predicted.",
+      "parameter_record_id": "PAR-A006-0002",
+      "context_id": "CTX-A006-A006-SPC-A006-SPC",
+      "parameter_role": "simulated_output",
+      "parameter_context": "gas_ignition_state",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A006-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Optimized SPC removed >90% PM and improved fuel efficiency ~2% at near-baseline NOx and methane."
+  ],
+  "mechanisms": [
+    "Premixing reduces the fuel fraction in the rich soot-forming interval at ignition."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A006-C01",
+      "claim": "Delaying the diesel pilot to create slightly premixed NG combustion greatly reduced PM, but stable low-PM operation required managing methane, NOx, pressure-rise, and cycle-variation tradeoffs.",
+      "evidence_type": "reported result",
+      "evidence_summary": "The optimized B75 point removed over 90% PM with about 2% efficiency improvement at similar NOx/methane, but increased cycle variation and peak pressure-rise rate.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Optimized at one mode; CFD did not correctly predict premixed NG ignition.",
+      "parameters": [
+        "mode",
+        "rich"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Context for premixing-based soot control and its stability tradeoffs.",
+      "source_locator_id": "LOC-A006-0002",
+      "relevant_parameter_ids": [
+        "PAR-A006-0001",
+        "PAR-A006-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A006-001"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 3 target question: can pre-ignition premixing suppress HPDI soot without unacceptable tradeoffs?"
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A006-A006-SPC-A006-SPC",
+      "case_id": "A006-SPC",
+      "condition_id": "A006-SPC"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A006-001",
+      "paper_id": "A006",
+      "case_id": "A006-SPC",
+      "condition_id": "",
+      "source_process": "delaying pilot relative to NG injection",
+      "relation_type": "promotes",
+      "target_process": "pre-ignition NG premixing and PM reduction",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-A006-0002",
+      "verification_status": "verified",
+      "notes": "EQR adjustment mitigated methane/NOx tradeoff at the optimized point."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A006-0001",
+      "paper_id": "A006",
+      "source_file": "02_PDF_Raw/A/A-NG-06_2017_Faghani_InjectionStrategies_SlightlyPremixed_Combustion.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Strategy and emissions tradeoffs."
+    },
+    {
+      "source_locator_id": "LOC-A006-0002",
+      "paper_id": "A006",
+      "source_file": "02_PDF_Raw/A/A-NG-06_2017_Faghani_InjectionStrategies_SlightlyPremixed_Combustion.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusions",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 10, Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Optimized point, mechanism, and limitations."
+    }
+  ],
+  "tier3_role": "Context evidence on slightly premixed HPDI emission tradeoffs.",
+  "extraction_scope": "claim_targeted",
+  "full_text_pages_assessed": 14
+}

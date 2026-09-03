@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "A027",
+  "source_record_id": "A-R-01",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-A",
+  "supporting_role": "HPDI natural-gas review context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-A027-01",
+      "question": "Does the review supply terminology and secondary context for injection timing, pressure, interval, injector design, and fuel composition?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 A030 is the hydrogen-diesel review anchor; this natural-gas review supplies parallel HPDI context without primary-data promotion."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "historical_context",
+      "definition_context"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A027-C01",
+      "claim_text": "The review organizes pilot-ignited HPDI natural-gas performance around injection timing, pressure, pilot-to-gas interval, injector design, load range, and gas composition.",
+      "evidence_summary": "A secondary synthesis maps the principal controllable factors and their reported combustion/emission tradeoffs.",
+      "contribution_type": "review_secondary",
+      "support_type": "review_secondary",
+      "source_locator_id": "LOC-A027-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "A030",
+      "core_candidate_claim_id_or_anchor": "T1-A030-C01",
+      "link_type": "review_secondary_support",
+      "shared_parameter_or_mechanism": "injection-strategy control of dual-fuel combustion",
+      "source_locator_id": "LOC-A027-0001"
+    }
+  ],
+  "process_relations": [],
+  "limitations": [
+    "Secondary evidence only; heterogeneous cited definitions and conditions must be checked against primary papers before quantitative use."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 17,
+    "focused_pages": [
+      1,
+      9,
+      13
+    ],
+    "target_keyword_page": 9,
+    "target_keyword_hits": 30,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 17,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B014",
+  "source_record_id": "B-H2-09",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "transient microscopic hydrogen-jet context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B014-01",
+      "question": "Does the transient outward-opening jet show a valve-lift-linked transition toward self-similar penetration and stable concentration structure?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 B029 emphasizes pressure-history-dependent transients; this experiment adds valve-lift and concentration behavior."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "methodological_context"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B014-C01",
+      "claim_text": "For the outward-opening hydrogen injector, jet asymmetry and penetration constant evolve during valve opening and approach stable ranges, while axial concentration remains nonuniform downstream.",
+      "evidence_summary": "High-speed schlieren analysis separates a developing phase from a self-similar phase and reports stabilized asymmetry, penetration, and concentration metrics.",
+      "contribution_type": "additional_condition",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-B014-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B029",
+      "core_candidate_claim_id_or_anchor": "PILOT-B029-C01",
+      "link_type": "extends_condition",
+      "shared_parameter_or_mechanism": "injector transient history controls jet development",
+      "source_locator_id": "LOC-B014-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-B014-001"
+  ],
+  "limitations": [
+    "Optical concentration inference and injector-specific geometry; no direct Mach-disk measurement is used for the claim."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 9,
+    "focused_pages": [
+      1,
+      6,
+      8
+    ],
+    "target_keyword_page": 6,
+    "target_keyword_hits": 14,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 9,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

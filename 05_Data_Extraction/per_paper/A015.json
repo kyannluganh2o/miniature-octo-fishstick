@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "A015",
+  "source_record_id": "A-NG-15",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-A",
+  "supporting_role": "combustion-chamber and spray-angle optimization context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-A015-01",
+      "question": "Does the numerical study add a transferable mechanism for geometry-pressure control of HPDI mixture formation?",
+      "status": "complete",
+      "priority": "low",
+      "target_basis": "Tier 1 A026/A030 already establish strong timing and interaction anchors; this paper is checked for geometry-specific boundary evidence."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "methodological_context",
+      "mostly_redundant"
+    ],
+    "redundancy_level": "high",
+    "retain_priority": "archive_only"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A015-C01",
+      "claim_text": "The model predicts an intermediate natural-gas spray angle that improves bowl-vortex-driven mixture stratification and soot performance, whereas excessive angle promotes fuel accumulation and worsens soot.",
+      "evidence_summary": "Numerical comparisons across two combustion modes show a non-monotonic spray-angle response conditioned by chamber geometry and injection pressure.",
+      "contribution_type": "redundant_support",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-A015-0001",
+      "retain_for_global_consolidation": "NO",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [],
+  "process_relations": [],
+  "limitations": [
+    "Geometry-specific numerical optimization with limited transferability and substantial overlap with existing injector-design evidence."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 19,
+    "focused_pages": [
+      1,
+      16
+    ],
+    "target_keyword_page": 16,
+    "target_keyword_hits": 27,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 0,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 19,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

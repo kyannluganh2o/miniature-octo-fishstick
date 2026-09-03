@@ -1,0 +1,200 @@
+{
+  "paper_id": "B018",
+  "source_record_id": "B-NG-03",
+  "reading_tier": "tier3",
+  "study_context": "Schlieren experiments and LES of methane injection through a single-hole commercial injector.",
+  "cases": [
+    {
+      "case_id": "B018-CH4",
+      "description": "Methane jets with varied injection pressure and chamber counter-pressure/temperature."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "B018",
+      "source_record_id": "B-NG-03",
+      "reading_tier": "tier3",
+      "case_id": "B018-CH4",
+      "condition_id": "B018-CH4",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "up to 1.2",
+      "reported_unit": "MPa",
+      "normalized_value": "up to 1200000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Methane injection-pressure range maximum.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Pressure sweeps paired with chamber-state changes.",
+      "parameter_record_id": "PAR-B018-0001",
+      "context_id": "CTX-B018-B018-CH4-B018-CH4",
+      "parameter_role": "experimental_control",
+      "parameter_context": "commercial_single_hole_injector",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-B018-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "B018",
+      "source_record_id": "B-NG-03",
+      "reading_tier": "tier3",
+      "case_id": "B018-CH4",
+      "condition_id": "B018-CH4",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "shock_structure",
+      "parameter_name": "wave_type",
+      "reported_value": "subsonic; moderately underexpanded shock cells; highly underexpanded Mach disk and barrel shock",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Three transient flow patterns observed as pressure ratio evolved.",
+      "source_location": "PDF p. 13, Conclusions",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "LES reproduced the same sequence.",
+      "parameter_record_id": "PAR-B018-0002",
+      "context_id": "CTX-B018-B018-CH4-B018-CH4",
+      "parameter_role": "classification",
+      "parameter_context": "transient_injector_opening",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-B018-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Higher injection pressure slightly increased penetration and maximum Mach-disk height; cone angle was nearly unchanged."
+  ],
+  "mechanisms": [
+    "Pintle motion and gas compressibility create time-varying upstream pressure and shock structure."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B018-C01",
+      "claim": "The transient methane jet passed through subsonic, moderately underexpanded, and Mach-disk/barrel-shock topologies as injector/NPR conditions evolved; higher chamber pressure reduced penetration and increased cone angle.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Schlieren and LES agreed on penetration and Mach-disk position, with early-time discrepancies attributed to injector-opening uncertainty.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Single injector and low absolute injection-pressure range; LES opening transient uncertain.",
+      "parameters": [
+        "pinj",
+        "wave"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Context for transient topology rather than steady NPR classification.",
+      "source_locator_id": "LOC-B018-0002",
+      "relevant_parameter_ids": [
+        "PAR-B018-0001",
+        "PAR-B018-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-B018-001"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 3 target question: how does injector opening make an underexpanded methane jet traverse different wave topologies?"
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-B018-B018-CH4-B018-CH4",
+      "case_id": "B018-CH4",
+      "condition_id": "B018-CH4"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-B018-001",
+      "paper_id": "B018",
+      "case_id": "B018-CH4",
+      "condition_id": "",
+      "source_process": "time-varying upstream pressure and NPR during pintle opening",
+      "relation_type": "modifies",
+      "target_process": "underexpanded-jet topology and Mach-disk height",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-B018-0002",
+      "verification_status": "verified",
+      "notes": "Compressibility and pintle motion make Mach-disk height transient."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-B018-0001",
+      "paper_id": "B018",
+      "source_file": "02_PDF_Raw/B/B-NG-03_2020_Allocca_Underexpanded_GaseousJets_DI_Engines.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Facility, diagnostics, and objectives."
+    },
+    {
+      "source_locator_id": "LOC-B018-0002",
+      "paper_id": "B018",
+      "source_file": "02_PDF_Raw/B/B-NG-03_2020_Allocca_Underexpanded_GaseousJets_DI_Engines.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusions",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 13, Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Topology, penetration, Mach disk, and mixing results."
+    }
+  ],
+  "tier3_role": "Context evidence on transient methane-jet topology and LES-supported mixing.",
+  "extraction_scope": "claim_targeted",
+  "full_text_pages_assessed": 15
+}

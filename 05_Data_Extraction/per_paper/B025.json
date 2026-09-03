@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B025",
+  "source_record_id": "B-E-05",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "hydrogen/methane transitional-jet corroboration",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B025-01",
+      "question": "Do pressure ratio and gas species independently support Mach-disk growth and downstream mixing localization?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 B009 provides the primary matched-species/NPR anchor; this newer CFD study supplies an independent method and range."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "independent_corroboration",
+      "methodological_context"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B025-C01",
+      "claim_text": "The simulations report larger Mach-disk dimensions and jet volume with increasing pressure ratio, with principal mixing downstream of the Mach disk and along turbulent jet boundaries.",
+      "evidence_summary": "Hydrogen cases are validated against measurements and decomposed to identify coherent mixing structures, with methane used as a comparison.",
+      "contribution_type": "additional_method",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-B025-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B009",
+      "core_candidate_claim_id_or_anchor": "T1-B009-C01",
+      "link_type": "corroborates",
+      "shared_parameter_or_mechanism": "pressure-ratio-dependent Mach-disk dimensions",
+      "source_locator_id": "LOC-B025-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-B025-001"
+  ],
+  "limitations": [
+    "CFD method and transitional regime; quantitative comparison requires compatible pressure definitions and geometry."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 15,
+    "focused_pages": [
+      1,
+      10,
+      11
+    ],
+    "target_keyword_page": 10,
+    "target_keyword_hits": 37,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 15,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

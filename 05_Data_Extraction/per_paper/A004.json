@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "A004",
+  "source_record_id": "A-NG-04",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-A",
+  "supporting_role": "engine-scale injection-setting context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-A004-01",
+      "question": "Does the paper add a distinct mechanism beyond existing timing and pressure evidence for pilot-diesel/direct-injected natural-gas combustion?",
+      "status": "complete",
+      "priority": "low",
+      "target_basis": "Existing Tier 1/2 evidence already covers timing and injection-pressure effects; this paper is checked for independent incremental value."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "mostly_redundant",
+      "boundary_condition"
+    ],
+    "redundancy_level": "high",
+    "retain_priority": "archive_only"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A004-C01",
+      "claim_text": "Advancing natural-gas injection and increasing diesel rail pressure shifted combustion phasing and emissions at the two tested engine operating points.",
+      "evidence_summary": "The experiment reports timing- and pressure-dependent changes in peak pressure, heat release, combustion duration, NOx, CO, THC, and fuel consumption.",
+      "contribution_type": "redundant_support",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-A004-0001",
+      "retain_for_global_consolidation": "NO",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [],
+  "process_relations": [],
+  "limitations": [
+    "The result largely repeats timing/pressure trends already represented by stronger Tier 1/2 anchors and does not isolate a new mechanism."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 12,
+    "focused_pages": [
+      1,
+      11
+    ],
+    "target_keyword_page": 1,
+    "target_keyword_hits": 23,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 0,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 12,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

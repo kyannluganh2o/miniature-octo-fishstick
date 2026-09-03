@@ -1,0 +1,316 @@
+{
+  "paper_id": "A005",
+  "source_record_id": "A-NG-05",
+  "reading_tier": "tier2",
+  "study_context": "Single-cylinder engine experiments with reacting CFD comparing paired-hole and single-hole injectors.",
+  "cases": [
+    {
+      "case_id": "A005-NOZZLES",
+      "description": "Reference single-hole versus four paired-hole nozzle geometries."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A005",
+      "source_record_id": "A-NG-05",
+      "reading_tier": "tier2",
+      "case_id": "A005-NOZZLES",
+      "condition_id": "A005-NOZZLES",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "study_type",
+      "reported_value": "mixed",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Engine experiments plus reacting CFD.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Reported methods.",
+      "parameter_record_id": "PAR-A005-0001",
+      "context_id": "CTX-A005-A005-NOZZLES-A005-NOZZLES",
+      "parameter_role": "classification",
+      "parameter_context": "study_design",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A005-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A005",
+      "source_record_id": "A-NG-05",
+      "reading_tier": "tier2",
+      "case_id": "A005-NOZZLES",
+      "condition_id": "A005-NOZZLES",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "working_gas",
+      "reported_value": "natural gas",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Main gaseous fuel in pilot-ignited HPDI.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Diesel pilot retained.",
+      "parameter_record_id": "PAR-A005-0002",
+      "context_id": "CTX-A005-A005-NOZZLES-A005-NOZZLES",
+      "parameter_role": "descriptive_state",
+      "parameter_context": "main_fuel",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A005-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A005",
+      "source_record_id": "A-NG-05",
+      "reading_tier": "tier2",
+      "case_id": "A005-NOZZLES",
+      "condition_id": "A005-NOZZLES",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "interaction_geometry",
+      "parameter_name": "interaction_geometry",
+      "reported_value": "seven single holes replaced by seven closely aligned hole pairs",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Paired-hole nozzle concept relative to equally spaced reference holes.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Four paired-hole variants were tested.",
+      "parameter_record_id": "PAR-A005-0003",
+      "context_id": "CTX-A005-A005-NOZZLES-A005-NOZZLES",
+      "parameter_role": "experimental_control",
+      "parameter_context": "injector_nozzle_pairing",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A005-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A005",
+      "source_record_id": "A-NG-05",
+      "reading_tier": "tier2",
+      "case_id": "A005-NOZZLES",
+      "condition_id": "A005-NOZZLES",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "mixing",
+      "parameter_name": "equivalence_ratio",
+      "reported_value": "2 < phi_g < 6",
+      "reported_unit": "1",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Natural-gas-basis local equivalence-ratio interval used as the soot-forming zone in the CFD analysis.",
+      "source_location": "PDF p. 9, Figures 9–10 and Conclusions",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Operational definition from the paper; not universalized.",
+      "parameter_record_id": "PAR-A005-0004",
+      "context_id": "CTX-A005-A005-NOZZLES-A005-NOZZLES",
+      "parameter_role": "model_input",
+      "parameter_context": "soot_forming_zone",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A005-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Paired-hole nozzles raised nonvolatile PM by factors of 3–10 and also raised CO.",
+    "Soot aggregate size and particle number increased, while primary particle size changed little."
+  ],
+  "mechanisms": [
+    "Merging jets entrain air but create larger partially mixed volumes and prolonged residence in soot-forming conditions."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T2-A005-C01",
+      "claim": "Pairing nearby HPDI gas holes increased early air entrainment at equal penetration but did not reduce engine-out PM.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Reacting CFD resolved greater entrainment while engine measurements showed substantially higher PM.",
+      "locator": "mechanism",
+      "support_type": "simulation_resolved",
+      "limitations": "Specific paired geometries and engine operating range.",
+      "parameters": [
+        "geom"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Counterexample to monotonic entrainment-to-soot reasoning.",
+      "source_locator_id": "LOC-A005-0002",
+      "relevant_parameter_ids": [
+        "PAR-A005-0003"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A005-001"
+      ]
+    },
+    {
+      "claim_id": "T2-A005-C02",
+      "claim": "The authors attributed the PM increase to longer residence of natural gas in rich, moderate-temperature soot-forming conditions created by the merging jets.",
+      "evidence_type": "author interpretation",
+      "evidence_summary": "CFD mixture-fraction histories showed more fuel in the paper-defined 2<phi_g<6 interval.",
+      "locator": "mechanism",
+      "support_type": "author_interpretation",
+      "limitations": "Soot mechanism is inferred from mixture-state residence rather than directly resolved particulate chemistry.",
+      "parameters": [
+        "phi",
+        "geom"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p2"
+        ]
+      ],
+      "potential_chapter_role": "Jet-interaction topology and soot residence-time mechanism.",
+      "source_locator_id": "LOC-A005-0002",
+      "relevant_parameter_ids": [
+        "PAR-A005-0004",
+        "PAR-A005-0003"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A005-002"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 2 targeted extraction; no particle-size distributions digitized."
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A005-A005-NOZZLES-A005-NOZZLES",
+      "case_id": "A005-NOZZLES",
+      "condition_id": "A005-NOZZLES"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A005-001",
+      "paper_id": "A005",
+      "case_id": "A005-NOZZLES",
+      "condition_id": "",
+      "source_process": "paired-jet interaction",
+      "relation_type": "promotes",
+      "target_process": "early air entrainment at equal penetration",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-A005-0002",
+      "verification_status": "verified",
+      "notes": "The design achieved its immediate entrainment objective."
+    },
+    {
+      "process_relation_id": "PROC-A005-002",
+      "paper_id": "A005",
+      "case_id": "A005-NOZZLES",
+      "condition_id": "",
+      "source_process": "paired-jet partial mixing and slower penetration",
+      "relation_type": "promotes",
+      "target_process": "fuel residence in soot-forming equivalence-ratio range",
+      "support_type": "author_interpretation",
+      "source_locator_id": "LOC-A005-0002",
+      "verification_status": "verified",
+      "notes": "Used to explain increased PM despite enhanced entrainment."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A005-0001",
+      "paper_id": "A005",
+      "source_file": "02_PDF_Raw/A/A-NG-05_2016_Mabson_PairedNozzle_Jets_HPDI_NaturalGas.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Design intent and counterintuitive emission result."
+    },
+    {
+      "source_locator_id": "LOC-A005-0002",
+      "paper_id": "A005",
+      "source_file": "02_PDF_Raw/A/A-NG-05_2016_Mabson_PairedNozzle_Jets_HPDI_NaturalGas.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "CFD results and Conclusions",
+      "subsection": "",
+      "figure": "Figures 9–10",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 9, Figures 9–10 and Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Entrainment, equivalence-ratio residence, and conclusions."
+    }
+  ],
+  "tier2_role": "Chapter-core counterexample on interacting HPDI jets and soot.",
+  "extraction_scope": "chapter_core",
+  "full_text_pages_assessed": 16
+}

@@ -1,0 +1,318 @@
+{
+  "paper_id": "A009",
+  "source_record_id": "A-NG-09",
+  "reading_tier": "tier2",
+  "study_context": "Rapid-compression-machine optical study using schlieren/chemiluminescence and heat-release analysis.",
+  "cases": [
+    {
+      "case_id": "A009-RCM",
+      "description": "Four TDC pressure-temperature operating points with varied spatial and temporal pilot/gas overlap."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A009",
+      "source_record_id": "A-NG-09",
+      "reading_tier": "tier2",
+      "case_id": "A009-RCM",
+      "condition_id": "A009-RCM",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "2000",
+      "reported_unit": "bar",
+      "normalized_value": "200000000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Diesel pilot injection pressure.",
+      "source_location": "PDF p. 3, Tables 1–2",
+      "source_type": "table",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Fixed across operating points.",
+      "parameter_record_id": "PAR-A009-0001",
+      "context_id": "CTX-A009-A009-RCM-A009-RCM",
+      "parameter_role": "experimental_control",
+      "parameter_context": "diesel_pilot",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A009-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A009",
+      "source_record_id": "A-NG-09",
+      "reading_tier": "tier2",
+      "case_id": "A009-RCM",
+      "condition_id": "A009-RCM",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "330",
+      "reported_unit": "bar",
+      "normalized_value": "33000000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Natural-gas injection pressure.",
+      "source_location": "PDF p. 3, Tables 1–2",
+      "source_type": "table",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Fixed across operating points.",
+      "parameter_record_id": "PAR-A009-0002",
+      "context_id": "CTX-A009-A009-RCM-A009-RCM",
+      "parameter_role": "experimental_control",
+      "parameter_context": "natural_gas",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A009-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A009",
+      "source_record_id": "A-NG-09",
+      "reading_tier": "tier2",
+      "case_id": "A009-RCM",
+      "condition_id": "A009-RCM",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ambient_conditions",
+      "parameter_name": "ambient_pressure",
+      "reported_value": "75; 88; 100; 125",
+      "reported_unit": "bar",
+      "normalized_value": "7500000; 8800000; 10000000; 12500000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Chamber pressure at TDC for OP1–OP4.",
+      "source_location": "PDF p. 3, Tables 1–2",
+      "source_type": "table",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Four discrete operating points.",
+      "parameter_record_id": "PAR-A009-0003",
+      "context_id": "CTX-A009-A009-RCM-A009-RCM",
+      "parameter_role": "experimental_control",
+      "parameter_context": "TDC_chamber_state",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A009-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A009",
+      "source_record_id": "A-NG-09",
+      "reading_tier": "tier2",
+      "case_id": "A009-RCM",
+      "condition_id": "A009-RCM",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ambient_conditions",
+      "parameter_name": "ambient_temperature",
+      "reported_value": "780; 820; 865; 920",
+      "reported_unit": "K",
+      "normalized_value": "780; 820; 865; 920",
+      "normalized_unit": "K",
+      "value_status": "reported",
+      "definition": "Adiabatic-core temperature at TDC for OP1–OP4.",
+      "source_location": "PDF p. 3, Tables 1–2",
+      "source_type": "table",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Four discrete operating points.",
+      "parameter_record_id": "PAR-A009-0004",
+      "context_id": "CTX-A009-A009-RCM-A009-RCM",
+      "parameter_role": "experimental_control",
+      "parameter_context": "TDC_adiabatic_core",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A009-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "TDC states were 75–125 bar and 780–920 K with fixed 2000 bar diesel and 330 bar gas injection.",
+    "Gas-jet soot luminosity generally began only after peak heat release; ending injection before that peak could prevent visible sooting."
+  ],
+  "mechanisms": [
+    "Ambient reactivity controls pilot ignition delay; geometry and timing then determine whether gas disrupts or couples to the pilot."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T2-A009-C01",
+      "claim": "At lower chamber temperature and pressure, longer pilot ignition delay made pilot ignition more vulnerable to disruption by the adjacent natural-gas jet.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Optical imaging showed delayed/downstream pilot ignition and misfire when overlap reduced the free path below lift-off length.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Single free-jet arrangement without wall, swirl, or neighboring-jet effects.",
+      "parameters": [
+        "ptdc",
+        "ttdc"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Ambient-state control of pilot robustness.",
+      "source_locator_id": "LOC-A009-0002",
+      "relevant_parameter_ids": [
+        "PAR-A009-0003",
+        "PAR-A009-0004"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A009-001"
+      ]
+    },
+    {
+      "claim_id": "T2-A009-C02",
+      "claim": "Relative pilot/gas timing controlled premixing and the resulting natural-gas heat-release mode across the tested elevated chamber states.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Heat-release behavior organized by gas ignition time relative to gas SOI, with timing controlling premixing.",
+      "locator": "conclusion",
+      "support_type": "experimental_correlation",
+      "limitations": "RCM abstraction limits direct full-engine transfer.",
+      "parameters": [
+        "pd",
+        "pg"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p2"
+        ]
+      ],
+      "potential_chapter_role": "Timing–premixing–combustion linkage.",
+      "source_locator_id": "LOC-A009-0002",
+      "relevant_parameter_ids": [
+        "PAR-A009-0001",
+        "PAR-A009-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A009-002"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 2 targeted extraction; optical intensities were not digitized."
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A009-A009-RCM-A009-RCM",
+      "case_id": "A009-RCM",
+      "condition_id": "A009-RCM"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A009-001",
+      "paper_id": "A009",
+      "case_id": "A009-RCM",
+      "condition_id": "",
+      "source_process": "greater pilot/gas spatial overlap at low ambient reactivity",
+      "relation_type": "suppresses",
+      "target_process": "pilot ignition stability",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-A009-0002",
+      "verification_status": "verified",
+      "notes": "Ignition shifted downstream and could misfire when free path fell below lift-off length."
+    },
+    {
+      "process_relation_id": "PROC-A009-002",
+      "paper_id": "A009",
+      "case_id": "A009-RCM",
+      "condition_id": "",
+      "source_process": "relative injection timing",
+      "relation_type": "modifies",
+      "target_process": "natural-gas premixing and heat-release mode",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-A009-0002",
+      "verification_status": "verified",
+      "notes": "Same degree of premixing produced similar heat release across elevated states."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A009-0001",
+      "paper_id": "A009",
+      "source_file": "02_PDF_Raw/A/A-NG-09_2019_Fink_DieselPiloted_NG_DirectInjection_OperatingConditions.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Experimental setup",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "Tables 1–2",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 3, Tables 1–2",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Fixed injection settings and four TDC states."
+    },
+    {
+      "source_locator_id": "LOC-A009-0002",
+      "paper_id": "A009",
+      "source_file": "02_PDF_Raw/A/A-NG-09_2019_Fink_DieselPiloted_NG_DirectInjection_OperatingConditions.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusions",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF pp. 7–8, Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Ignition and combustion findings and transfer limitations."
+    }
+  ],
+  "tier2_role": "Chapter-core optical evidence on ambient state and pilot/gas interaction.",
+  "extraction_scope": "chapter_core",
+  "full_text_pages_assessed": 8
+}

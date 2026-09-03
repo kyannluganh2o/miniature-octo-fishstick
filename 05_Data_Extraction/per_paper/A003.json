@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "A003",
+  "source_record_id": "A-NG-03",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-A",
+  "supporting_role": "injection-sequence and combustion-response support",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-A003-01",
+      "question": "Does the paper independently support injection interval and pressure as controls on pilot-ignited natural-gas heat release and stability?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 A020 and A030 identify dwell and sequence as mechanism anchors; the title and abstract indicate an engine-scale operating-parameter sweep."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "independent_corroboration",
+      "boundary_condition"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A003-C01",
+      "claim_text": "Within the tested pilot-ignited direct-injection natural-gas engine, shorter injection interval and higher injection pressure changed peak heat release, combustion stability, and fuel economy.",
+      "evidence_summary": "The experimental parameter sweep reports coordinated combustion-response changes with injection interval, pilot pulse width, timing, and pressure.",
+      "contribution_type": "independent_support",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-A003-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "A020",
+      "core_candidate_claim_id_or_anchor": "PILOT-A020-C01",
+      "link_type": "corroborates",
+      "shared_parameter_or_mechanism": "injection interval and pilot-main interaction chronology",
+      "source_locator_id": "LOC-A003-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-A003-001"
+  ],
+  "limitations": [
+    "Engine-specific operating range; correlated parameter effects do not establish a universal optimum."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 10,
+    "focused_pages": [
+      1,
+      6,
+      9
+    ],
+    "target_keyword_page": 6,
+    "target_keyword_hits": 34,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 10,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B001",
+  "source_record_id": "B-T-01",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "near-field/far-field modelling boundary context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B001-01",
+      "question": "Does the simulation provide supporting evidence for near-field shock/core scales used to initialize far-field jet models?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 B004 separates near-field shock structure from far-field similarity; this paper tests their modelling connection."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "methodological_context",
+      "boundary_condition"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B001-C01",
+      "claim_text": "The validated simulations reproduce Mach-disk and potential-core scales and identify a downstream location beyond the shock cells but before the end of the potential core for far-field initialization.",
+      "evidence_summary": "Near-field gas-dynamic predictions are compared with measurements and correlations, then used to propose far-field initial conditions.",
+      "contribution_type": "additional_method",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-B001-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B004",
+      "core_candidate_claim_id_or_anchor": "T1-B004-C02",
+      "link_type": "extends_method",
+      "shared_parameter_or_mechanism": "near-field shock structure to far-field similarity",
+      "source_locator_id": "LOC-B001-0001"
+    }
+  ],
+  "process_relations": [],
+  "limitations": [
+    "Safety-release configurations and model validation ranges; not an engine-transient experiment."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 10,
+    "focused_pages": [
+      1,
+      6,
+      9
+    ],
+    "target_keyword_page": 6,
+    "target_keyword_hits": 14,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 10,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

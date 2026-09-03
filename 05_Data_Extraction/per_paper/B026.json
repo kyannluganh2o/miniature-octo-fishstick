@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B026",
+  "source_record_id": "B-E-06",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "engineering URANS method context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B026-01",
+      "question": "Can an open URANS-WENO workflow reproduce the underexpanded-jet quantities needed for engine engineering studies?",
+      "status": "complete",
+      "priority": "low",
+      "target_basis": "Tier 1 A028 already frames fidelity-cost tradeoffs; this paper is checked for a distinct Tier 3 method contribution."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "methodological_context",
+      "mostly_redundant"
+    ],
+    "redundancy_level": "high",
+    "retain_priority": "archive_only"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B026-C01",
+      "claim_text": "The open URANS-WENO implementation reproduces barrel-shock, cone-angle, and hydrogen-air mixing trends for NPR 8.5-30 while targeting lower-cost engine-cycle analysis.",
+      "evidence_summary": "Pressure-based compressible URANS results are compared with experimental and LES data to define method capability and limits.",
+      "contribution_type": "additional_method",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-B026-0001",
+      "retain_for_global_consolidation": "NO",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [],
+  "process_relations": [],
+  "limitations": [
+    "Primarily methodological and substantially overlaps the established fidelity-cost framework; no new physical mechanism is isolated."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 11,
+    "focused_pages": [
+      1,
+      6,
+      9
+    ],
+    "target_keyword_page": 6,
+    "target_keyword_hits": 25,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 0,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 11,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

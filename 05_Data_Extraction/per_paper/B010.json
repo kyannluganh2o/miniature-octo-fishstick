@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B010",
+  "source_record_id": "B-H2-05",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "gas-species comparison at matched NPR",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B010-01",
+      "question": "At matched NPR, do hydrogen and nitrogen retain similar initial shock geometry but differ in downstream structure and mixing?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 B009 reports hydrogen/methane differences at matched NPR; this paper adds nitrogen as an independent species comparison."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "independent_corroboration",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B010-C01",
+      "claim_text": "At the same NPR, LES predicts similar Mach-barrel size for hydrogen and nitrogen but markedly different downstream shock cells, potential-core length, instability mode, and mixing development.",
+      "evidence_summary": "Matched-NPR simulations isolate gas-species-dependent density and instability effects after the Mach disk.",
+      "contribution_type": "additional_fuel_or_species",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-B010-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B009",
+      "core_candidate_claim_id_or_anchor": "T1-B009-C02",
+      "link_type": "extends_fuel_or_species",
+      "shared_parameter_or_mechanism": "matched-NPR gas-species effects on shock structure and mixing",
+      "source_locator_id": "LOC-B010-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-B010-001"
+  ],
+  "limitations": [
+    "One matched NPR and Reynolds-number range; gas properties remain coupled."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 11,
+    "focused_pages": [
+      1,
+      2,
+      8
+    ],
+    "target_keyword_page": 2,
+    "target_keyword_hits": 17,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 11,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

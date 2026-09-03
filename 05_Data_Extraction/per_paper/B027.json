@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B027",
+  "source_record_id": "B-E-07",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "high-fidelity hydrogen mixing and geometry evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B027-01",
+      "question": "How do hydrogen properties, pressure ratio, and round/annular geometry alter mixing outside the shock-containing core?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 B028 links NPR/nozzle geometry to mixing; this LES study adds round-versus-annular and baroclinic interpretation."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "methodological_context"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B027-C01",
+      "claim_text": "Validated LES indicates that hydrogen enhances mixing outside the jet core through baroclinic effects, while pressure ratio and round-versus-annular geometry reorganize coherent structures and mixture formation.",
+      "evidence_summary": "PIV/schlieren validation and flow-structure analysis separate shock-core similarity from species- and geometry-dependent turbulent mixing.",
+      "contribution_type": "mechanism_support",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-B027-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B028",
+      "core_candidate_claim_id_or_anchor": "T1-B028-C01",
+      "link_type": "supports_mechanism",
+      "shared_parameter_or_mechanism": "shock-vortex organization of hydrogen-jet mixing",
+      "source_locator_id": "LOC-B027-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-B027-001"
+  ],
+  "limitations": [
+    "Free nonreacting jets; baroclinic attribution is simulation-based and configuration-dependent."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 17,
+    "focused_pages": [
+      1,
+      2
+    ],
+    "target_keyword_page": 2,
+    "target_keyword_hits": 13,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 17,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

@@ -1,0 +1,333 @@
+{
+  "paper_id": "A012",
+  "source_record_id": "A-NG-12",
+  "reading_tier": "tier2",
+  "study_context": "Engine-scale CFD plus homogeneous-reactor analysis at a medium-speed/load HPDI condition.",
+  "cases": [
+    {
+      "case_id": "A012-HPDI",
+      "description": "Pilot+NG versus NG-only CFD and HRM sensitivity study."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A012",
+      "source_record_id": "A-NG-12",
+      "reading_tier": "tier2",
+      "case_id": "A012-HPDI",
+      "condition_id": "A012-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "application_context",
+      "reported_value": "engine-like HPDI at 1400 RPM and 1285 Nm",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Selected medium-speed, medium-load operating point.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Composite context retained as text.",
+      "parameter_record_id": "PAR-A012-0001",
+      "context_id": "CTX-A012-A012-HPDI-A012-HPDI",
+      "parameter_role": "operating_condition",
+      "parameter_context": "engine_operating_point",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A012-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A012",
+      "source_record_id": "A-NG-12",
+      "reading_tier": "tier2",
+      "case_id": "A012-HPDI",
+      "condition_id": "A012-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "234",
+      "reported_unit": "bar",
+      "normalized_value": "23400000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Main natural-gas injection pressure.",
+      "source_location": "PDF p. 4, Tables 2–3",
+      "source_type": "table",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "CFD boundary input.",
+      "parameter_record_id": "PAR-A012-0002",
+      "context_id": "CTX-A012-A012-HPDI-A012-HPDI",
+      "parameter_role": "model_input",
+      "parameter_context": "natural_gas",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A012-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A012",
+      "source_record_id": "A-NG-12",
+      "reading_tier": "tier2",
+      "case_id": "A012-HPDI",
+      "condition_id": "A012-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_temperature",
+      "reported_value": "328",
+      "reported_unit": "K",
+      "normalized_value": "328",
+      "normalized_unit": "K",
+      "value_status": "reported",
+      "definition": "Estimated natural-gas temperature at injector nozzle.",
+      "source_location": "PDF p. 4, Tables 2–3",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Paper labels this as estimated.",
+      "parameter_record_id": "PAR-A012-0003",
+      "context_id": "CTX-A012-A012-HPDI-A012-HPDI",
+      "parameter_role": "model_input",
+      "parameter_context": "natural_gas_nozzle",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A012-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A012",
+      "source_record_id": "A-NG-12",
+      "reading_tier": "tier2",
+      "case_id": "A012-HPDI",
+      "condition_id": "A012-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ignition_combustion",
+      "parameter_name": "combustion_mode",
+      "reported_value": "NG ignition within considered engine timing required initial temperature above approximately 1110 K in HRM",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Homogeneous-reactor ignition threshold under the selected engine-like composition/timing window.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Not a universal methane ignition temperature.",
+      "parameter_record_id": "PAR-A012-0004",
+      "context_id": "CTX-A012-A012-HPDI-A012-HPDI",
+      "parameter_role": "simulated_output",
+      "parameter_context": "HRM_sensitivity",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A012-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Reported radical effects shortened ID by up to about 4.5 CAD for H and 5.5 CAD for OH at 1400 RPM within the modeled range."
+  ],
+  "mechanisms": [
+    "Pilot combustion supplies heat and reactive species; their relative influence depends on local temperature."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T2-A012-C01",
+      "claim": "At the simulated medium-load HPDI point, the natural-gas injection did not ignite without the diesel pilot, demonstrating a required pilot trigger for that condition.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Paired CFD cases differed only by pilot injection; the NG-only case released no heat.",
+      "locator": "conclusion",
+      "support_type": "simulation_resolved",
+      "limitations": "Single operating point and model-dependent chemistry/turbulence representation.",
+      "parameters": [
+        "pg",
+        "tg"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Numerical isolation of the pilot-trigger function.",
+      "source_locator_id": "LOC-A012-0003",
+      "relevant_parameter_ids": [
+        "PAR-A012-0002",
+        "PAR-A012-0003"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A012-001"
+      ]
+    },
+    {
+      "claim_id": "T2-A012-C02",
+      "claim": "In the homogeneous-reactor analysis, temperature dominated methane ignition above about 1100 K, while realistic H/OH radicals shortened ignition delay mainly in the 950–1100 K interval.",
+      "evidence_type": "reported result",
+      "evidence_summary": "HRM sensitivity maps varied initial temperature and radical concentration using states sampled from engine CFD.",
+      "locator": "conclusion",
+      "support_type": "model_based",
+      "limitations": "Zero-dimensional chemistry isolates kinetics and omits turbulent transport.",
+      "parameters": [
+        "threshold"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p2"
+        ]
+      ],
+      "potential_chapter_role": "Thermal-versus-radical pathways in pilot-assisted NG ignition.",
+      "source_locator_id": "LOC-A012-0003",
+      "relevant_parameter_ids": [
+        "PAR-A012-0004"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A012-002"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 2 targeted extraction; threshold retained as condition-specific qualitative output rather than universal property."
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A012-A012-HPDI-A012-HPDI",
+      "case_id": "A012-HPDI",
+      "condition_id": "A012-HPDI"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A012-001",
+      "paper_id": "A012",
+      "case_id": "A012-HPDI",
+      "condition_id": "",
+      "source_process": "diesel-pilot combustion",
+      "relation_type": "promotes",
+      "target_process": "natural-gas ignition",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-A012-0003",
+      "verification_status": "verified",
+      "notes": "NG-only CFD did not ignite at the selected condition."
+    },
+    {
+      "process_relation_id": "PROC-A012-002",
+      "paper_id": "A012",
+      "case_id": "A012-HPDI",
+      "condition_id": "",
+      "source_process": "temperature and realistic H/OH radicals",
+      "relation_type": "modifies",
+      "target_process": "homogeneous-reactor ignition delay",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-A012-0003",
+      "verification_status": "verified",
+      "notes": "Temperature dominates above 1100 K; radicals matter in an intermediate temperature band."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A012-0001",
+      "paper_id": "A012",
+      "source_file": "02_PDF_Raw/A/A-NG-12_2021_Diepstraten_PilotDiesel_MainNG_Interaction_HPDI.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Scope and main threshold findings."
+    },
+    {
+      "source_locator_id": "LOC-A012-0002",
+      "paper_id": "A012",
+      "source_file": "02_PDF_Raw/A/A-NG-12_2021_Diepstraten_PilotDiesel_MainNG_Interaction_HPDI.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "CFD simulation environment",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "Tables 2–3",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 4, Tables 2–3",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Models and injection conditions."
+    },
+    {
+      "source_locator_id": "LOC-A012-0003",
+      "paper_id": "A012",
+      "source_file": "02_PDF_Raw/A/A-NG-12_2021_Diepstraten_PilotDiesel_MainNG_Interaction_HPDI.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusions and Recommendations",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF pp. 7–8, Conclusions and Recommendations",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Pilot-trigger and HRM interpretation."
+    }
+  ],
+  "tier2_role": "Chapter-core numerical evidence on pilot trigger, temperature, and radical effects.",
+  "extraction_scope": "chapter_core",
+  "full_text_pages_assessed": 9
+}

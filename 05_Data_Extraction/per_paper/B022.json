@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B022",
+  "source_record_id": "B-E-02",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "non-axisymmetric nozzle-shape evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B022-01",
+      "question": "Does exit cross-section shape reorganize shock topology and radial mixing independently of pressure ratio?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 B028 identifies nozzle diameter as a mixing control; this study extends geometry to non-axisymmetric shapes."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B022-C01",
+      "claim_text": "Non-axisymmetric hydrogen-jet exit shapes generate different shock systems and nonuniform radial expansion, with axis switching and mixing/penetration differences correlated with boundary vorticity.",
+      "evidence_summary": "Triangular, star, elliptical, and rectangular sections are compared under a common numerical framework.",
+      "contribution_type": "additional_condition",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-B022-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B028",
+      "core_candidate_claim_id_or_anchor": "T1-B028-C02",
+      "link_type": "extends_condition",
+      "shared_parameter_or_mechanism": "nozzle geometry controls shear-layer growth and mixing",
+      "source_locator_id": "LOC-B022-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-B022-001"
+  ],
+  "limitations": [
+    "Numerical free-jet configurations; shape and aspect-ratio effects are coupled."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 30,
+    "focused_pages": [
+      1,
+      24,
+      27
+    ],
+    "target_keyword_page": 24,
+    "target_keyword_hits": 7,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 30,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

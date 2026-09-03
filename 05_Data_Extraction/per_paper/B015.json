@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B015",
+  "source_record_id": "B-H2-10",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "outward-opening injector pressure-ratio boundary evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B015-01",
+      "question": "How does pressure ratio affect penetration, volume, angle, and entrainment for an outward-opening hydrogen injector?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 B028 ranks NPR and nozzle geometry as major controls; this experiment supplies an outward-opening geometry boundary."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "boundary_condition",
+      "independent_corroboration"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B015-C01",
+      "claim_text": "For the outward-opening injector, increasing pressure ratio increased axial/radial penetration and jet volume, while the reported entrainment rate decreased and spread angle was comparatively insensitive except at low ratios.",
+      "evidence_summary": "Schlieren-derived jet metrics across pressure ratios 10-140 show geometry-specific penetration and entrainment scaling.",
+      "contribution_type": "additional_condition",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-B015-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B028",
+      "core_candidate_claim_id_or_anchor": "T1-B028-C01",
+      "link_type": "extends_condition",
+      "shared_parameter_or_mechanism": "pressure-ratio control of hydrogen-jet development",
+      "source_locator_id": "LOC-B015-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-B015-001"
+  ],
+  "limitations": [
+    "Outward-opening injector only; pressure-ratio definition and evolving chamber pressure limit direct comparison with steady round jets."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 11,
+    "focused_pages": [
+      1,
+      2,
+      8
+    ],
+    "target_keyword_page": 2,
+    "target_keyword_hits": 20,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 11,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

@@ -1,0 +1,334 @@
+{
+  "paper_id": "A002",
+  "source_record_id": "A-NG-02",
+  "reading_tier": "tier2",
+  "study_context": "Experimental heavy-duty HPDI engine study supported by injector and reacting-CFD analysis.",
+  "cases": [
+    {
+      "case_id": "A002-HPDI",
+      "description": "Pilot-ignited direct-injection natural-gas engine pressure sweep."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A002",
+      "source_record_id": "A-NG-02",
+      "reading_tier": "tier2",
+      "case_id": "A002-HPDI",
+      "condition_id": "A002-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "study_type",
+      "reported_value": "mixed",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Experimental engine study with numerical support.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Classification from reported methods.",
+      "parameter_record_id": "PAR-A002-0001",
+      "context_id": "CTX-A002-A002-HPDI-A002-HPDI",
+      "parameter_role": "classification",
+      "parameter_context": "study_design",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A002-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A002",
+      "source_record_id": "A-NG-02",
+      "reading_tier": "tier2",
+      "case_id": "A002-HPDI",
+      "condition_id": "A002-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "working_gas",
+      "reported_value": "natural gas",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Main directly injected gaseous fuel.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Pilot fuel is diesel.",
+      "parameter_record_id": "PAR-A002-0002",
+      "context_id": "CTX-A002-A002-HPDI-A002-HPDI",
+      "parameter_role": "descriptive_state",
+      "parameter_context": "HPDI_main_fuel",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A002-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A002",
+      "source_record_id": "A-NG-02",
+      "reading_tier": "tier2",
+      "case_id": "A002-HPDI",
+      "condition_id": "A002-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "300 to approximately 600",
+      "reported_unit": "bar",
+      "normalized_value": "30000000 to approximately 60000000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Natural-gas rail/injection pressure range evaluated.",
+      "source_location": "PDF p. 14, Conclusions and Recommendations",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Pressure reference type is not stated in the cited conclusion.",
+      "parameter_record_id": "PAR-A002-0003",
+      "context_id": "CTX-A002-A002-HPDI-A002-HPDI",
+      "parameter_role": "experimental_control",
+      "parameter_context": "natural_gas_rail_pressure",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A002-0003",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A002",
+      "source_record_id": "A-NG-02",
+      "reading_tier": "tier2",
+      "case_id": "A002-HPDI",
+      "condition_id": "A002-HPDI",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "mixing",
+      "parameter_name": "mixing_rate",
+      "reported_value": "higher pressure improved late-cycle mixing",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Qualitative CFD comparison of 280 and 580 bar cases.",
+      "source_location": "PDF p. 12, Figure 16 and accompanying text",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "No project quantification.",
+      "parameter_record_id": "PAR-A002-0004",
+      "context_id": "CTX-A002-A002-HPDI-A002-HPDI",
+      "parameter_role": "simulated_output",
+      "parameter_context": "post_end_of_injection",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A002-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Cycle-composite efficiency benefit was of order 3% and PM reduction 40–60%; peak-torque alternatives were reported as 7% efficiency, 20% power, or 90% PM benefit.",
+    "Benefits were concentrated above roughly 75% load."
+  ],
+  "mechanisms": [
+    "Higher pressure raises gas mass injection rate and improves late-cycle mixing/oxidation; it also raises heat-release intensity."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T2-A002-C01",
+      "claim": "Increasing natural-gas rail pressure shortened the mixing-controlled combustion event in the tested HPDI engine, with the strongest benefits at high-load/high-speed conditions.",
+      "evidence_type": "reported result",
+      "evidence_summary": "The 300-to-600 bar program and CFD comparison associate higher pressure with increased injection rate and improved late-cycle mixing.",
+      "locator": "conclusion",
+      "support_type": "simulation_resolved",
+      "limitations": "Single engine architecture; transient-cycle performance was not evaluated.",
+      "parameters": [
+        "pinj",
+        "mix"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "HPDI injection-pressure control and mixing-rate mechanism.",
+      "source_locator_id": "LOC-A002-0003",
+      "relevant_parameter_ids": [
+        "PAR-A002-0003",
+        "PAR-A002-0004"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A002-001"
+      ]
+    },
+    {
+      "claim_id": "T2-A002-C02",
+      "claim": "The efficiency and PM advantages of higher gas pressure came with higher combustion harshness and NOx, and nozzle-flow control was proposed as mitigation.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Conclusion reports load-dependent efficiency/PM benefits plus combustion-noise and NOx penalties.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Tradeoffs depend on operating point and nozzle design.",
+      "parameters": [
+        "pinj"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p2"
+        ]
+      ],
+      "potential_chapter_role": "Engineering tradeoffs for high-pressure HPDI.",
+      "source_locator_id": "LOC-A002-0003",
+      "relevant_parameter_ids": [
+        "PAR-A002-0003"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A002-002"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 2 targeted extraction; figure curves were not digitized."
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A002-A002-HPDI-A002-HPDI",
+      "case_id": "A002-HPDI",
+      "condition_id": "A002-HPDI"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A002-001",
+      "paper_id": "A002",
+      "case_id": "A002-HPDI",
+      "condition_id": "",
+      "source_process": "higher gas injection pressure",
+      "relation_type": "promotes",
+      "target_process": "mass injection rate and fuel-air mixing",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-A002-0002",
+      "verification_status": "verified",
+      "notes": "Paper attributes faster combustion and improved oxidation to injection-rate/mixing changes."
+    },
+    {
+      "process_relation_id": "PROC-A002-002",
+      "paper_id": "A002",
+      "case_id": "A002-HPDI",
+      "condition_id": "",
+      "source_process": "enhanced late-cycle mixing",
+      "relation_type": "promotes",
+      "target_process": "fuel conversion and particulate oxidation",
+      "support_type": "author_interpretation",
+      "source_locator_id": "LOC-A002-0003",
+      "verification_status": "verified",
+      "notes": "Engine and CFD evidence are combined in the conclusion."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A002-0001",
+      "paper_id": "A002",
+      "source_file": "02_PDF_Raw/A/A-NG-02_2015_McTaggartCowan_NaturalGasInjection_600Bar_HPDI.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Scope and cycle-composite outcomes."
+    },
+    {
+      "source_locator_id": "LOC-A002-0002",
+      "paper_id": "A002",
+      "source_file": "02_PDF_Raw/A/A-NG-02_2015_McTaggartCowan_NaturalGasInjection_600Bar_HPDI.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "CFD results",
+      "subsection": "",
+      "figure": "Figure 16",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 12, Figure 16 and accompanying text",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Mixing, acetylene, and fuel-conversion comparison."
+    },
+    {
+      "source_locator_id": "LOC-A002-0003",
+      "paper_id": "A002",
+      "source_file": "02_PDF_Raw/A/A-NG-02_2015_McTaggartCowan_NaturalGasInjection_600Bar_HPDI.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusions and Recommendations",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 14, Conclusions and Recommendations",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Pressure-range findings and limitations."
+    }
+  ],
+  "tier2_role": "Chapter-core HPDI engine evidence on gas-rail pressure effects.",
+  "extraction_scope": "chapter_core",
+  "full_text_pages_assessed": 16
+}

@@ -1,0 +1,334 @@
+{
+  "paper_id": "A029",
+  "source_record_id": "A-R-03",
+  "reading_tier": "tier1",
+  "tier1_role": "Broad DFDI review framework placing hydrogen-diesel dual-direct injection among gasoline, natural-gas, alcohol and ammonia strategies.",
+  "study_context": "Technology review of dual-fuel dual-direct-injection combustion, injection controls, fuel pairing, emissions and future applications.",
+  "cases": [
+    {
+      "case_id": "A029-REV",
+      "description": "Review-level synthesis; no primary case claimed."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A029",
+      "source_record_id": "A-R-03",
+      "reading_tier": "tier1",
+      "case_id": "ALL",
+      "condition_id": "ALL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "study_type",
+      "reported_value": "review",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Review of dual-fuel dual-direct-injection combustion.",
+      "source_location": "PDF p.1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Broad multi-fuel review.",
+      "parameter_record_id": "PAR-A029-0001",
+      "context_id": "CTX-A029-ALL-ALL",
+      "parameter_role": "classification",
+      "parameter_context": "review_secondary",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A029-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A029",
+      "source_record_id": "A-R-03",
+      "reading_tier": "tier1",
+      "case_id": "ALL",
+      "condition_id": "ALL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ignition_combustion",
+      "parameter_name": "combustion_mode",
+      "reported_value": "DFDI independently controls timing, quantity and interval of two fuels to regulate mixture, reactivity and concentration stratification",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Review-level DFDI control taxonomy.",
+      "source_location": "PDF pp.21-22, Section 7",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "No primary performance values claimed.",
+      "parameter_record_id": "PAR-A029-0002",
+      "context_id": "CTX-A029-ALL-ALL",
+      "parameter_role": "classification",
+      "parameter_context": "review_secondary",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A029-0003",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A029",
+      "source_record_id": "A-R-03",
+      "reading_tier": "tier1",
+      "case_id": "ALL",
+      "condition_id": "ALL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ignition_combustion",
+      "parameter_name": "gas_jet_pilot_interaction",
+      "reported_value": "diesel autoignition can ignite hydrogen after jet contact; sequence, interval, ambient oxygen and injector arrangement condition the interaction",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Hydrogen-diesel mechanism synthesis.",
+      "source_location": "PDF pp.13-14, Section 5",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Cited results remain secondary.",
+      "parameter_record_id": "PAR-A029-0003",
+      "context_id": "CTX-A029-ALL-ALL",
+      "parameter_role": "descriptive_state",
+      "parameter_context": "review_secondary",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A029-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A029",
+      "source_record_id": "A-R-03",
+      "reading_tier": "tier1",
+      "case_id": "ALL",
+      "condition_id": "ALL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "process_context",
+      "parameter_name": "model_applicability_note",
+      "reported_value": "future work should address real transient vehicle operation, injector/chamber design, injection optimization, flash boiling and EGR",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Review-authored future-work framework.",
+      "source_location": "PDF pp.21-22, Section 7",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Candidate knowledge gaps retained per paper only.",
+      "parameter_record_id": "PAR-A029-0004",
+      "context_id": "CTX-A029-ALL-ALL",
+      "parameter_role": "descriptive_state",
+      "parameter_context": "review_secondary",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A029-0003",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Independent dual injection is the core lever for mixture/reactivity stratification.",
+    "Hydrogen-diesel behavior depends on pilot sequence, interval, oxygen and injector layout."
+  ],
+  "mechanisms": [
+    {
+      "summary": "Independent timing and quantity control shapes two-fuel contact, stratification and ignition sequence.",
+      "support_type": "author_interpretation"
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T1-A029-C01",
+      "claim": "DFDI's central control advantage is independent adjustment of two fuels' timing, quantity and interval to shape mixture and reactivity stratification.",
+      "evidence_type": "review_synthesis",
+      "evidence_summary": "The conclusion generalizes across five fuel-pair families.",
+      "locator": "conclusion",
+      "support_type": "author_interpretation",
+      "limitations": "Broad review; fuel pairs and facilities are heterogeneous.",
+      "parameters": [
+        "taxonomy"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "control"
+        ]
+      ],
+      "potential_chapter_role": "Cross-fuel DFDI taxonomy.",
+      "source_locator_id": "LOC-A029-0003",
+      "relevant_parameter_ids": [
+        "PAR-A029-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A029-001"
+      ]
+    },
+    {
+      "claim_id": "T1-A029-C02",
+      "claim": "For hydrogen-diesel DFDI, ignition and flame development depend on which fuel pilots, injection interval, oxygen level and injector arrangement.",
+      "evidence_type": "review_synthesis",
+      "evidence_summary": "Section 5 organizes reported mechanisms and identifies macro-engine versus controlled-facility evidence gaps.",
+      "locator": "h2",
+      "support_type": "author_interpretation",
+      "limitations": "Secondary synthesis; numerical values from cited papers are not entered as primary records.",
+      "parameters": [
+        "h2role"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "oxygen"
+        ]
+      ],
+      "potential_chapter_role": "Hydrogen-diesel interaction framework.",
+      "source_locator_id": "LOC-A029-0002",
+      "relevant_parameter_ids": [
+        "PAR-A029-0003"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A029-002"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Review-secondary only.",
+    "No library expansion from cited pointers."
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A029-ALL-ALL",
+      "case_id": "ALL",
+      "condition_id": "ALL"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A029-001",
+      "paper_id": "A029",
+      "case_id": "A029-REV",
+      "condition_id": "A029-REV",
+      "source_process": "independent_two_fuel_injection_control",
+      "relation_type": "modifies",
+      "target_process": "mixture_and_reactivity_stratification",
+      "support_type": "author_interpretation",
+      "source_locator_id": "LOC-A029-0003",
+      "verification_status": "verified",
+      "notes": "Review-level framework."
+    },
+    {
+      "process_relation_id": "PROC-A029-002",
+      "paper_id": "A029",
+      "case_id": "A029-REV",
+      "condition_id": "A029-REV",
+      "source_process": "ambient_oxygen_reduction",
+      "relation_type": "correlates_with",
+      "target_process": "longer_H2_diesel_interaction_and_ignition_delay",
+      "support_type": "author_interpretation",
+      "source_locator_id": "LOC-A029-0002",
+      "verification_status": "verified",
+      "notes": "Secondary synthesis, not primary data."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A029-0001",
+      "paper_id": "A029",
+      "source_file": "02_PDF_Raw/A/A-R-03_2025_Li_DualFuel_DualDirectInjection_Review.pdf",
+      "pdf_page": "1",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p.1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Review scope."
+    },
+    {
+      "source_locator_id": "LOC-A029-0002",
+      "paper_id": "A029",
+      "source_file": "02_PDF_Raw/A/A-R-03_2025_Li_DualFuel_DualDirectInjection_Review.pdf",
+      "pdf_page": "13",
+      "printed_page": "",
+      "section": "5. Diesel-hydrogen DFDI combustion",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF pp.13-14, Section 5",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Hydrogen-specific synthesis and source pointers."
+    },
+    {
+      "source_locator_id": "LOC-A029-0003",
+      "paper_id": "A029",
+      "source_file": "02_PDF_Raw/A/A-R-03_2025_Li_DualFuel_DualDirectInjection_Review.pdf",
+      "pdf_page": "21",
+      "printed_page": "",
+      "section": "7. Conclusion and further recommendations",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF pp.21-22, Section 7",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Review taxonomy and future gaps."
+    }
+  ]
+}

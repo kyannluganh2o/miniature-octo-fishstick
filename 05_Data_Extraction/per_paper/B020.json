@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "B020",
+  "source_record_id": "B-NG-05",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-B",
+  "supporting_role": "near-nozzle methane forcing and mixing boundary evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-B020-01",
+      "question": "Does the methane jet exhibit a shock-dominated near-nozzle zone distinct from a downstream momentum-conserving zone?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 B004 identifies a structured near field; this experiment measures force and impulse rather than only optical geometry."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B020-C01",
+      "claim_text": "The measured high-pressure methane jet separates into a near-nozzle shock-affected zone with force/impulse fluctuations and negligible entrainment, followed by a downstream zone with weaker shock influence and conserved impulse.",
+      "evidence_summary": "Impact-force, impulse, and mass-flow measurements identify two spatial regimes relevant to injector placement and ignition avoidance.",
+      "contribution_type": "boundary_evidence",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-B020-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "B004",
+      "core_candidate_claim_id_or_anchor": "T1-B004-C01",
+      "link_type": "provides_boundary_condition",
+      "shared_parameter_or_mechanism": "near-field shock structure and mixing boundary",
+      "source_locator_id": "LOC-B020-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-B020-001"
+  ],
+  "limitations": [
+    "Single-hole methane injector and force-based zone definition; not directly equivalent to hydrogen optical-zone metrics."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 14,
+    "focused_pages": [
+      1,
+      12
+    ],
+    "target_keyword_page": 12,
+    "target_keyword_hits": 23,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 14,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

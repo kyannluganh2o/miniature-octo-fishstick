@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "A017",
+  "source_record_id": "A-NG-17",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-A",
+  "supporting_role": "commercial-engine injector-geometry boundary evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-A017-01",
+      "question": "Does coordinated injector geometry and pressure provide independent application-scale evidence for mixing-performance tradeoffs?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 A030 identifies jet geometry as a preignition-interaction control; this commercial-engine experiment extends the scale and hardware."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A017-C01",
+      "claim_text": "Commercial-engine tests show that larger injector flow area can strengthen turbulence and mixture formation, but excessive dispersion increases wall impingement and unburned hydrocarbons.",
+      "evidence_summary": "Five injector designs and a 200-300 bar pressure sweep resolve a beneficial-to-adverse dispersion transition.",
+      "contribution_type": "additional_scale",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-A017-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "A030",
+      "core_candidate_claim_id_or_anchor": "T1-A030-C02",
+      "link_type": "extends_scale",
+      "shared_parameter_or_mechanism": "jet geometry and mixture-formation control",
+      "source_locator_id": "LOC-A017-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-A017-001"
+  ],
+  "limitations": [
+    "One medium-to-high-load engine condition; design variables are coupled."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 12,
+    "focused_pages": [
+      1,
+      10
+    ],
+    "target_keyword_page": 10,
+    "target_keyword_hits": 17,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 12,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

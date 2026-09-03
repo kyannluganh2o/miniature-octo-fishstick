@@ -1,0 +1,223 @@
+{
+  "paper_id": "A008",
+  "source_record_id": "A-NG-08",
+  "reading_tier": "tier3",
+  "study_context": "Detailed-chemistry CFD validated against rapid-compression-expansion-machine measurements.",
+  "cases": [
+    {
+      "case_id": "A008-CFD",
+      "description": "High/low temperature HPDF cases with timing and jet-geometry variation."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A008",
+      "source_record_id": "A-NG-08",
+      "reading_tier": "tier3",
+      "case_id": "A008-HIGH",
+      "condition_id": "A008-HIGH",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ambient_conditions",
+      "parameter_name": "ambient_temperature",
+      "reported_value": "920",
+      "reported_unit": "K",
+      "normalized_value": "920",
+      "normalized_unit": "K",
+      "value_status": "reported",
+      "definition": "Final compression temperature for high-temperature validation case.",
+      "source_location": "PDF p. 6, Table 2",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Corresponding pressure 125 bar.",
+      "parameter_record_id": "PAR-A008-0001",
+      "context_id": "CTX-A008-A008-HIGH-A008-HIGH",
+      "parameter_role": "model_input",
+      "parameter_context": "RCEM_final_compression",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A008-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A008",
+      "source_record_id": "A-NG-08",
+      "reading_tier": "tier3",
+      "case_id": "A008-CFD",
+      "condition_id": "A008-CFD",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "numerical_method",
+      "parameter_name": "chemical_mechanism",
+      "reported_value": "Chalmers-53: 53 species, 244 reactions; reduced from Chalmers-83",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Reduced mechanism for high-temperature cases.",
+      "source_location": "PDF p. 6, Table 2",
+      "source_type": "table",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Reported to reduce total compute time about 35%.",
+      "parameter_record_id": "PAR-A008-0002",
+      "context_id": "CTX-A008-A008-CFD-A008-CFD",
+      "parameter_role": "model_input",
+      "parameter_context": "combustion_chemistry",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A008-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Reduced chemistry lowered computation time about 35% for high-temperature cases without material HRR change."
+  ],
+  "mechanisms": [
+    "At low temperature the gas jet can cover the pilot core ignition region, preventing sufficient first-stage heat release for main ignition."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A008-C01",
+      "claim": "The CFD study found a temperature/premixing boundary between mixing-limited and chemistry-limited HPDF combustion and reproduced low-temperature crossing-jet misfire when the gas jet covered the pilot’s preferred ignition region.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Detailed-chemistry simulations matched RCEM ignition/HRR trends and isolated the H2O2/first-stage-ignition failure mechanism.",
+      "locator": "conclusion",
+      "support_type": "simulation_resolved",
+      "limitations": "Model validation used an RCEM abstraction and reduced injector geometry; A008 machine metadata identity coverage was 0.9091 but PDF identity was visually verified.",
+      "parameters": [
+        "state",
+        "chem"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Context for regime-dependent model fidelity and interaction-driven misfire.",
+      "source_locator_id": "LOC-A008-0003",
+      "relevant_parameter_ids": [
+        "PAR-A008-0001",
+        "PAR-A008-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A008-001"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 3 target question: when is HPDF combustion mixing-limited versus chemistry-limited, and how can crossing jets misfire?"
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A008-A008-HIGH-A008-HIGH",
+      "case_id": "A008-HIGH",
+      "condition_id": "A008-HIGH"
+    },
+    {
+      "context_id": "CTX-A008-A008-CFD-A008-CFD",
+      "case_id": "A008-CFD",
+      "condition_id": "A008-CFD"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A008-001",
+      "paper_id": "A008",
+      "case_id": "A008-CFD",
+      "condition_id": "",
+      "source_process": "temperature and premixing degree",
+      "relation_type": "modifies",
+      "target_process": "transition between mixing-limited and chemistry-limited combustion",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-A008-0003",
+      "verification_status": "verified",
+      "notes": "Complex chemistry mattered more for colder/more premixed states."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A008-0001",
+      "paper_id": "A008",
+      "source_file": "02_PDF_Raw/A/A-NG-08_2018_Jud_NumericalAnalysis_DualFuel_DirectInjection_NG.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Model objective and validation summary."
+    },
+    {
+      "source_locator_id": "LOC-A008-0002",
+      "paper_id": "A008",
+      "source_file": "02_PDF_Raw/A/A-NG-08_2018_Jud_NumericalAnalysis_DualFuel_DirectInjection_NG.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Mechanism reduction",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "Table 2",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 6, Table 2",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Chalmers-83 to Chalmers-53 reduction range."
+    },
+    {
+      "source_locator_id": "LOC-A008-0003",
+      "paper_id": "A008",
+      "source_file": "02_PDF_Raw/A/A-NG-08_2018_Jud_NumericalAnalysis_DualFuel_DirectInjection_NG.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Summary and Conclusions",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 10, Summary and Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Mixing/chemistry boundary and misfire mechanism."
+    }
+  ],
+  "tier3_role": "Context evidence on mixing-versus-chemistry limitation and misfire prediction.",
+  "extraction_scope": "claim_targeted",
+  "full_text_pages_assessed": 12
+}

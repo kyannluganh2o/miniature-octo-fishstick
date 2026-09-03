@@ -1,0 +1,315 @@
+{
+  "paper_id": "A011",
+  "source_record_id": "A-NG-11",
+  "reading_tier": "tier2",
+  "study_context": "Optically accessible 2-L single-cylinder engine with HRR and OH* chemiluminescence.",
+  "cases": [
+    {
+      "case_id": "A011-OPTICAL",
+      "description": "Sweeps of NG injection pressure, gas pulse width, and relative injection timing."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A011",
+      "source_record_id": "A-NG-11",
+      "reading_tier": "tier2",
+      "case_id": "A011-OPTICAL",
+      "condition_id": "A011-OPTICAL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "study_type",
+      "reported_value": "experimental",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Optical single-cylinder engine experiment.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "HRR and OH* imaging.",
+      "parameter_record_id": "PAR-A011-0001",
+      "context_id": "CTX-A011-A011-OPTICAL-A011-OPTICAL",
+      "parameter_role": "classification",
+      "parameter_context": "study_design",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A011-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A011",
+      "source_record_id": "A-NG-11",
+      "reading_tier": "tier2",
+      "case_id": "A011-OPTICAL",
+      "condition_id": "A011-OPTICAL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "experimental_method",
+      "parameter_name": "engine",
+      "reported_value": "optically accessible 2 L single-cylinder engine",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Research engine used for parametric sweep.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Optical geometry has acknowledged limits.",
+      "parameter_record_id": "PAR-A011-0002",
+      "context_id": "CTX-A011-A011-OPTICAL-A011-OPTICAL",
+      "parameter_role": "descriptive_state",
+      "parameter_context": "facility",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A011-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A011",
+      "source_record_id": "A-NG-11",
+      "reading_tier": "tier2",
+      "case_id": "A011-OPTICAL",
+      "condition_id": "A011-OPTICAL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ignition_combustion",
+      "parameter_name": "combustion_mode",
+      "reported_value": "non-premixed to distributed partially premixed to stratified premixed flame propagation as RIT decreased",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Observed primary NG combustion-mode transition with relative injection timing.",
+      "source_location": "PDF pp. 14–15, Conclusion",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Preserves author terminology.",
+      "parameter_record_id": "PAR-A011-0003",
+      "context_id": "CTX-A011-A011-OPTICAL-A011-OPTICAL",
+      "parameter_role": "measured_output",
+      "parameter_context": "RIT_sweep",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A011-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A011",
+      "source_record_id": "A-NG-11",
+      "reading_tier": "tier2",
+      "case_id": "A011-OPTICAL",
+      "condition_id": "A011-OPTICAL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ignition_combustion",
+      "parameter_name": "ignition_location",
+      "reported_value": "along the side of the natural-gas jet",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Observed NG ignition location relative to jet structure.",
+      "source_location": "PDF pp. 14–15, Conclusion",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Contrasts with a previously published conceptualization.",
+      "parameter_record_id": "PAR-A011-0004",
+      "context_id": "CTX-A011-A011-OPTICAL-A011-OPTICAL",
+      "parameter_role": "measured_output",
+      "parameter_context": "OH_chemiluminescence",
+      "reference_frame": "injector_fixed",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A011-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Five combustion processes were identified: pilot autoignition, NG ignition, rapid distributed partially premixed combustion, non-premixed combustion, and late-cycle oxidation."
+  ],
+  "mechanisms": [
+    "RIT controls pre-ignition mixing; injection pressure primarily alters mixing after ignition."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T2-A011-C01",
+      "claim": "Relative pilot/gas injection timing was the primary control on natural-gas premixing and shifted combustion from non-premixed through distributed partially premixed to stratified premixed flame propagation.",
+      "evidence_type": "reported result",
+      "evidence_summary": "OH* reaction-zone analysis and HRR jointly resolved the regime transition.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Optical engine had low compression ratio, cylindrical bowl, and line-of-sight imaging.",
+      "parameters": [
+        "mode",
+        "ignloc"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Conceptual staging of HPDI ignition and combustion.",
+      "source_locator_id": "LOC-A011-0002",
+      "relevant_parameter_ids": [
+        "PAR-A011-0003",
+        "PAR-A011-0004"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A011-001"
+      ]
+    },
+    {
+      "claim_id": "T2-A011-C02",
+      "claim": "Natural-gas ignition was relatively insensitive to injection pressure, whereas higher pressure increased mixing-controlled heat release after ignition.",
+      "evidence_type": "reported result",
+      "evidence_summary": "The parametric sweep separates the ignition stage from subsequent non-premixed mixing control.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Results are bounded by the optical engine configuration.",
+      "parameters": [
+        "study"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p2"
+        ]
+      ],
+      "potential_chapter_role": "Stage-dependent role of gas injection pressure.",
+      "source_locator_id": "LOC-A011-0002",
+      "relevant_parameter_ids": [
+        "PAR-A011-0001"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A011-002"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 2 targeted extraction; no OH* intensity digitization."
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A011-A011-OPTICAL-A011-OPTICAL",
+      "case_id": "A011-OPTICAL",
+      "condition_id": "A011-OPTICAL"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A011-001",
+      "paper_id": "A011",
+      "case_id": "A011-OPTICAL",
+      "condition_id": "",
+      "source_process": "relative injection timing",
+      "relation_type": "modifies",
+      "target_process": "NG premixing and primary combustion mode",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-A011-0002",
+      "verification_status": "verified",
+      "notes": "Dominant control compared with injection pressure for ignition."
+    },
+    {
+      "process_relation_id": "PROC-A011-002",
+      "paper_id": "A011",
+      "case_id": "A011-OPTICAL",
+      "condition_id": "",
+      "source_process": "higher NG injection pressure",
+      "relation_type": "promotes",
+      "target_process": "mixing rate during non-premixed combustion",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-A011-0002",
+      "verification_status": "verified",
+      "notes": "Ignition remained comparatively insensitive to pressure."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A011-0001",
+      "paper_id": "A011",
+      "source_file": "02_PDF_Raw/A/A-NG-11_2020_Rochussen_ParametricStudy_Optical_HPDI_NG.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Objective, diagnostics, and five-process model."
+    },
+    {
+      "source_locator_id": "LOC-A011-0002",
+      "paper_id": "A011",
+      "source_file": "02_PDF_Raw/A/A-NG-11_2020_Rochussen_ParametricStudy_Optical_HPDI_NG.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusion",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF pp. 14–15, Conclusion",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Conceptual model and injection-parameter sensitivities."
+    }
+  ],
+  "tier2_role": "Chapter-core conceptual model for pilot-ignited direct-injection NG combustion.",
+  "extraction_scope": "chapter_core",
+  "full_text_pages_assessed": 17
+}

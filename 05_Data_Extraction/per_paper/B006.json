@@ -1,0 +1,200 @@
+{
+  "paper_id": "B006",
+  "source_record_id": "B-H2-01",
+  "reading_tier": "tier3",
+  "study_context": "High-frame-rate schlieren measurements of hydrogen injection into a quiescent constant-volume chamber.",
+  "cases": [
+    {
+      "case_id": "B006-H2",
+      "description": "52/104 bar hydrogen jets over chamber-density sweep."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "B006",
+      "source_record_id": "B-H2-01",
+      "reading_tier": "tier3",
+      "case_id": "B006-H2",
+      "condition_id": "B006-H2",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "52 and 104",
+      "reported_unit": "bar",
+      "normalized_value": "5200000 and 10400000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Hydrogen injection pressures.",
+      "source_location": "PDF p. 2, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Both produced underexpanded jets.",
+      "parameter_record_id": "PAR-B006-0001",
+      "context_id": "CTX-B006-B006-H2-B006-H2",
+      "parameter_role": "experimental_control",
+      "parameter_context": "hydrogen_plenum",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-B006-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "B006",
+      "source_record_id": "B-H2-01",
+      "reading_tier": "tier3",
+      "case_id": "B006-H2",
+      "condition_id": "B006-H2",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "ambient_conditions",
+      "parameter_name": "ambient_density",
+      "reported_value": "1.15 to 12.8",
+      "reported_unit": "kg/m3",
+      "normalized_value": "1.15 to 12.8",
+      "normalized_unit": "kg/m3",
+      "value_status": "reported",
+      "definition": "Quiescent chamber density range.",
+      "source_location": "PDF p. 2, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Ambient gases included nitrogen.",
+      "parameter_record_id": "PAR-B006-0002",
+      "context_id": "CTX-B006-B006-H2-B006-H2",
+      "parameter_role": "experimental_control",
+      "parameter_context": "constant_volume_chamber",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-B006-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "All tested jets were underexpanded; nondimensional far-field penetration collapsed approximately with square-root time."
+  ],
+  "mechanisms": [
+    "Pressure ratio sets near-field expansion structure; momentum and ambient density set penetration scaling."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-B006-C01",
+      "claim": "Transient underexpanded hydrogen jets showed expansion-wave spacing that scaled with exit-to-chamber pressure ratio, while tip penetration increased with injection pressure and decreased with chamber density.",
+      "evidence_type": "reported result",
+      "evidence_summary": "High-speed schlieren resolved waves and penetration; a nitrogen-in-nitrogen control separated wave structure from species mixing.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Quiescent chamber and far-field similarity treatment; virtual-origin/near-field corrections remained uncertain.",
+      "parameters": [
+        "pinj",
+        "rho"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Historical transient-jet scaling context.",
+      "source_locator_id": "LOC-B006-0002",
+      "relevant_parameter_ids": [
+        "PAR-B006-0001",
+        "PAR-B006-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-B006-001"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 3 target question: which basic scalings organize transient underexpanded hydrogen jets?"
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-B006-B006-H2-B006-H2",
+      "case_id": "B006-H2",
+      "condition_id": "B006-H2"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-B006-001",
+      "paper_id": "B006",
+      "case_id": "B006-H2",
+      "condition_id": "",
+      "source_process": "injection pressure and chamber density",
+      "relation_type": "modifies",
+      "target_process": "transient jet-tip penetration",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-B006-0002",
+      "verification_status": "verified",
+      "notes": "Penetration rose with pressure and fell with density."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-B006-0001",
+      "paper_id": "B006",
+      "source_file": "02_PDF_Raw/B/B-H2-01_2006_Petersen_Transient_HighPressure_HydrogenJet.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 2, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Conditions and scaling results."
+    },
+    {
+      "source_locator_id": "LOC-B006-0002",
+      "paper_id": "B006",
+      "source_file": "02_PDF_Raw/B/B-H2-01_2006_Petersen_Transient_HighPressure_HydrogenJet.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusions",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 11, Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Jet-structure and penetration conclusions."
+    }
+  ],
+  "tier3_role": "Context evidence on transient hydrogen-jet penetration and expansion-wave scaling.",
+  "extraction_scope": "claim_targeted",
+  "full_text_pages_assessed": 13
+}

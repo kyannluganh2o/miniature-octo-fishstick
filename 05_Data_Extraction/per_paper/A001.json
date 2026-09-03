@@ -1,0 +1,200 @@
+{
+  "paper_id": "A001",
+  "source_record_id": "A-NG-01",
+  "reading_tier": "tier3",
+  "study_context": "Single-cylinder pilot-ignited direct-injection natural-gas engine experiments over speed, load, and EGR.",
+  "cases": [
+    {
+      "case_id": "A001-ENGINE",
+      "description": "Injection-pressure comparison across multiple engine conditions."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "A001",
+      "source_record_id": "A-NG-01",
+      "reading_tier": "tier3",
+      "case_id": "A001-ENGINE",
+      "condition_id": "A001-ENGINE",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "21 and 30",
+      "reported_unit": "MPa",
+      "normalized_value": "21000000 and 30000000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Natural-gas injection-pressure levels in the operating-condition matrix.",
+      "source_location": "PDF p. 9, Conclusions",
+      "source_type": "table",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Values are shown in Table 5 adjacent to the conclusion.",
+      "parameter_record_id": "PAR-A001-0001",
+      "context_id": "CTX-A001-A001-ENGINE-A001-ENGINE",
+      "parameter_role": "experimental_control",
+      "parameter_context": "HPDI_gas",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A001-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "A001",
+      "source_record_id": "A-NG-01",
+      "reading_tier": "tier3",
+      "case_id": "A001-ENGINE",
+      "condition_id": "A001-ENGINE",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "mixing",
+      "parameter_name": "mixing_rate",
+      "reported_value": "increased injection pressure enhanced mixing and shortened combustion duration",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Qualitative engine response attributed to mass flux and turbulence.",
+      "source_location": "PDF p. 9, Conclusions",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Author interpretation tied to measurements.",
+      "parameter_record_id": "PAR-A001-0002",
+      "context_id": "CTX-A001-A001-ENGINE-A001-ENGINE",
+      "parameter_role": "measured_output",
+      "parameter_context": "mixing_controlled_combustion",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-A001-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "At high load PM reductions approached a factor of three; fuel consumption changed little."
+  ],
+  "mechanisms": [
+    "Higher pressure increases mass flux and jet-induced turbulence, changing mixing and soot residence/oxidation."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A001-C01",
+      "claim": "In this HPDI engine, raising gas injection pressure reduced PM mainly at high load, while low-load emissions and fuel consumption were comparatively insensitive.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Across the tested map, high-load PM mass/number fell and combustion duration shortened; effects diminished with engine speed.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "Engine- and operating-map-specific; multiple higher-order interactions were significant.",
+      "parameters": [
+        "pinj",
+        "mix"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Historical context for load-dependent pressure benefits.",
+      "source_locator_id": "LOC-A001-0002",
+      "relevant_parameter_ids": [
+        "PAR-A001-0001",
+        "PAR-A001-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-A001-001"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 3 target question: under what operating conditions does HPDI injection pressure materially affect emissions?"
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-A001-A001-ENGINE-A001-ENGINE",
+      "case_id": "A001-ENGINE",
+      "condition_id": "A001-ENGINE"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-A001-001",
+      "paper_id": "A001",
+      "case_id": "A001-ENGINE",
+      "condition_id": "",
+      "source_process": "higher injection pressure",
+      "relation_type": "promotes",
+      "target_process": "fuel-oxidizer mixing and soot oxidation",
+      "support_type": "author_interpretation",
+      "source_locator_id": "LOC-A001-0002",
+      "verification_status": "verified",
+      "notes": "Effect weakens at low load/high differential pressure and with greater engine-speed turbulence."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-A001-0001",
+      "paper_id": "A001",
+      "source_file": "02_PDF_Raw/A/A-NG-01_2007_McTaggartCowan_HighPressureInjection_NaturalGasEngine.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Scope and load-dependent result."
+    },
+    {
+      "source_locator_id": "LOC-A001-0002",
+      "paper_id": "A001",
+      "source_file": "02_PDF_Raw/A/A-NG-01_2007_McTaggartCowan_HighPressureInjection_NaturalGasEngine.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusions",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 9, Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Mixing interpretation and operating-condition dependence."
+    }
+  ],
+  "tier3_role": "Context evidence on injection-pressure effects across an HPDI engine map.",
+  "extraction_scope": "claim_targeted",
+  "full_text_pages_assessed": 10
+}

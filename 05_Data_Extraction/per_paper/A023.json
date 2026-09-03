@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "A023",
+  "source_record_id": "A-H2-06",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-A",
+  "supporting_role": "split-injection chronology evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-A023-01",
+      "question": "Can the two hydrogen injections independently control homogeneity and stratification in H2DDI?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 A026 links injection timing to combustion mode; this paper separates first- and second-injection roles."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-A023-C01",
+      "claim_text": "In the tested split-injection strategy, early first hydrogen injection promoted a homogeneous premixed mixture, while later or higher-energy second injection increased stratification and mixing-controlled behavior.",
+      "evidence_summary": "The experiment independently varies the timing and energy fraction of the two hydrogen injections at fixed total energy and combustion phasing.",
+      "contribution_type": "additional_condition",
+      "support_type": "experimental_correlation",
+      "source_locator_id": "LOC-A023-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "A026",
+      "core_candidate_claim_id_or_anchor": "T1-A026-C02",
+      "link_type": "extends_condition",
+      "shared_parameter_or_mechanism": "hydrogen timing controls premixed/mixing-controlled balance",
+      "source_locator_id": "LOC-A023-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-A023-001"
+  ],
+  "limitations": [
+    "Small-bore single-cylinder engine and fixed intermediate load; the roles are strategy-specific."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 14,
+    "focused_pages": [
+      1,
+      13
+    ],
+    "target_keyword_page": 13,
+    "target_keyword_hits": 20,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 14,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}
