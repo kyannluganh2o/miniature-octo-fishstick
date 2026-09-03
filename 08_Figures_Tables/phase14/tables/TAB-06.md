@@ -1,0 +1,9 @@
+# TAB-06
+
+| Paper | Fuel pair / platform | Pilot/main order and signed timing | Geometry / operating condition | Mixture observation | Ignition observation | Heat-release response | Scope/boundary |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[CITE:A007]] | diesel pilot + natural gas; RCEM | gas SOI − pilot SOI = −2.5 to +1.5 ms | paper-specific RCEM state | spatial/temporal jet interaction | pilot and gas ignition use distinct HRR thresholds | timing-dependent HRR characterization | Do not convert to another sign convention or attribute to shock |
+| [[CITE:A020]] | diesel pilot + H2; case family | both H2-first and pilot-first; separations 0.07–3.07 ms | case-specific interaction/ambient state | chronology changes encounter state | qualitative/case-conditioned in current extracted record | not paired as one common numeric y metric | Useful chronology domain; not eligible for pooled timing-response plot |
+| [[CITE:A022]] | pilot diesel + H2 direct injection | pilot SOI 0.6 ms after H2 SOI | interaction-angle study | angle controls jet intersection/entrainment | geometry-conditioned response | application result remains case-specific | Geometry and chronology cannot be pooled independently |
+| [[CITE:A026]] | pilot diesel + H2 engine | H2 electronic SOI 0–30 CA bTDC; pilot electronic SOI 6 CA bTDC | energy share and injection timing varied | timing changes mixture preparation/flame development | timing-conditioned | flame and heat-release behavior changes with timing/energy share | Electronic events; CA-to-time conversion requires speed and matching events |
+| [[CITE:A018]] | pilot/main HPDI context | typed SOI separation retained but numeric value NV | paper-specific | chronology-sensitive | injection-to-ignition interval defined | conditioned qualitative evidence | No numeric timing entry without verified events |

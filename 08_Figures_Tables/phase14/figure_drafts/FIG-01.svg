@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2F6690"/></marker></defs>
+<text x="70" y="70" font-family="Arial" font-weight="700" font-size="42" fill="#17324D">FIG-01  Unified injector-to-ignition mechanism framework</text>
+<rect x="70" y="130" width="250" height="120" rx="18" fill="#D9EEF4" stroke="#2F6690" stroke-width="3"/>
+<text x="195.0" y="162.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Injector opening</text>
+<text x="195.0" y="190.5" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">needle/valve,</text>
+<text x="195.0" y="218.8" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">A_eff</text>
+<rect x="380" y="130" width="250" height="120" rx="18" fill="#D9EEF4" stroke="#2F6690" stroke-width="3"/>
+<text x="505.0" y="176.1" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Boundary history</text>
+<text x="505.0" y="204.4" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">p_inj(t), NPR(t)</text>
+<rect x="690" y="130" width="250" height="120" rx="18" fill="#D9EEF4" stroke="#2F6690" stroke-width="3"/>
+<text x="815.0" y="162.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Underexpanded</text>
+<text x="815.0" y="190.5" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">field Mach disk,</text>
+<text x="815.0" y="218.8" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">shocks, vortices</text>
+<rect x="1000" y="130" width="250" height="120" rx="18" fill="#D9EEF4" stroke="#2F6690" stroke-width="3"/>
+<text x="1125.0" y="162.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Local gas state</text>
+<text x="1125.0" y="190.5" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">p(x,t),</text>
+<text x="1125.0" y="218.8" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">rho(x,t), u(x,t)</text>
+<rect x="1280" y="130" width="250" height="120" rx="18" fill="#F5DFDC" stroke="#C4493D" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="1405.0" y="148.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Trajectory</text>
+<text x="1405.0" y="176.6" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">sampling x_d(t),</text>
+<text x="1405.0" y="204.9" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">u_rel(t),</text>
+<text x="1405.0" y="233.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">duration</text>
+<rect x="70" y="430" width="250" height="120" rx="18" fill="#DCEFE3" stroke="#4C956C" stroke-width="3"/>
+<text x="195.0" y="462.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Liquid response</text>
+<text x="195.0" y="490.5" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">internal wave,</text>
+<text x="195.0" y="518.8" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">deformation</text>
+<rect x="380" y="430" width="250" height="120" rx="18" fill="#DCEFE3" stroke="#4C956C" stroke-width="3"/>
+<text x="505.0" y="448.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Instability</text>
+<text x="505.0" y="476.6" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">competition RT ↔</text>
+<text x="505.0" y="504.9" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">KH/shear ↔</text>
+<text x="505.0" y="533.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">capillary</text>
+<rect x="690" y="430" width="250" height="120" rx="18" fill="#F5DFDC" stroke="#C4493D" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="815.0" y="462.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Fragment</text>
+<text x="815.0" y="490.5" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">population d, v,</text>
+<text x="815.0" y="518.8" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">T distributions</text>
+<rect x="1000" y="430" width="250" height="120" rx="18" fill="#DCEFE3" stroke="#4C956C" stroke-width="3"/>
+<text x="1125.0" y="448.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Transport &amp;</text>
+<text x="1125.0" y="476.6" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">phase change</text>
+<text x="1125.0" y="504.9" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">residence,</text>
+<text x="1125.0" y="533.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">evaporation</text>
+<rect x="1280" y="430" width="250" height="120" rx="18" fill="#F5DFDC" stroke="#C4493D" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="1405.0" y="448.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Mixture →</text>
+<text x="1405.0" y="476.6" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">ignition</text>
+<text x="1405.0" y="504.9" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">species, kernel,</text>
+<text x="1405.0" y="533.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">heat release</text>
+<line x1="320" y1="190" x2="380" y2="190" stroke="#2F6690" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="630" y1="190" x2="690" y2="190" stroke="#2F6690" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="940" y1="190" x2="1000" y2="190" stroke="#2F6690" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1250" y1="190" x2="1280" y2="190" stroke="#C4493D" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="10 8"/>
+<line x1="1405" y1="250" x2="195" y2="430" stroke="#C4493D" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="10 8"/>
+<line x1="320" y1="490" x2="380" y2="490" stroke="#4C956C" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="630" y1="490" x2="690" y2="490" stroke="#C4493D" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="10 8"/>
+<line x1="940" y1="490" x2="1000" y2="490" stroke="#4C956C" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1250" y1="490" x2="1280" y2="490" stroke="#C4493D" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="10 8"/>
+<text x="90" y="650" font-family="Arial" font-size="22" fill="#C4493D">Open measurements: actual pilot load •</text>
+<text x="90" y="677" font-family="Arial" font-size="22" fill="#C4493D">dense-spray transfer • fragment-to-</text>
+<text x="90" y="704" font-family="Arial" font-size="22" fill="#C4493D">mixture transport • mixture-to-</text>
+<text x="90" y="731" font-family="Arial" font-size="22" fill="#C4493D">ignition attribution</text>
+<text x="90" y="835" font-family="Arial" font-size="22" fill="#66717E">Solid = physical progression within</text>
+<text x="90" y="862" font-family="Arial" font-size="22" fill="#66717E">native configurations; dashed =</text>
+<text x="90" y="889" font-family="Arial" font-size="22" fill="#66717E">unresolved cross-scale quantity.</text>
+<line x1="70" y1="930" x2="1530" y2="930" stroke="#A9B4BE" stroke-width="2"/>
+<text x="70" y="968" font-family="Arial" font-size="20" fill="#66717E">Author synthesis. No literature image copied. Citations and boundary conditions are listed in FIG-01_spec.md.</text>
+</svg>

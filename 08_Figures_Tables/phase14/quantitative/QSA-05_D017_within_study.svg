@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2F6690"/></marker></defs>
+<text x="70" y="60" font-family="Arial" font-size="34" font-weight="700" fill="#17324D">D017 within-study extinction distance</text>
+<line x1="130" y1="650" x2="1100" y2="650" stroke="#17324D" stroke-width="3"/><line x1="130" y1="110" x2="130" y2="650" stroke="#17324D" stroke-width="3"/>
+<line x1="130.0" y1="110" x2="130.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="650.0" x2="1100" y2="650.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="130.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">0.682</text><text x="116" y="656.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">0.0163</text>
+<line x1="324.0" y1="110" x2="324.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="542.0" x2="1100" y2="542.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="324.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">2.07</text><text x="116" y="548.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">0.104</text>
+<line x1="518.0" y1="110" x2="518.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="434.0" x2="1100" y2="434.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="518.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">6.29</text><text x="116" y="440.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">0.667</text>
+<line x1="712.0" y1="110" x2="712.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="326.0" x2="1100" y2="326.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="712.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">19.1</text><text x="116" y="332.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">4.27</text>
+<line x1="906.0" y1="110" x2="906.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="218.0" x2="1100" y2="218.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="906.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">58</text><text x="116" y="224.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">27.3</text>
+<line x1="1100.0" y1="110" x2="1100.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="110.0" x2="1100" y2="110.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="1100.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">176</text><text x="116" y="116.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">175</text>
+<polyline points="196.9,597.7 478.0,533.8 599.1,476.8 669.9,455.6 841.2,411.6 982.9,363.3 1033.1,347.1" fill="none" stroke="#2F6690" stroke-width="4"/>
+<circle cx="196.9" cy="597.7" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="478.0" cy="533.8" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="599.1" cy="476.8" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="669.9" cy="455.6" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="841.2" cy="411.6" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="982.9" cy="363.3" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="1033.1" cy="347.1" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<line x1="820" y1="125" x2="870" y2="125" stroke="#2F6690" stroke-width="4"/><text x="885" y="132" font-family="Arial" font-size="21" fill="#17324D">KH-RT</text>
+<polyline points="196.9,561.2 478.0,462.3 599.1,414.7 669.9,395.7 841.2,333.1 982.9,284.2 1033.1,266.1" fill="none" stroke="#E69F00" stroke-width="4"/>
+<circle cx="196.9" cy="561.2" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<circle cx="478.0" cy="462.3" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<circle cx="599.1" cy="414.7" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<circle cx="669.9" cy="395.7" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<circle cx="841.2" cy="333.1" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<circle cx="982.9" cy="284.2" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<circle cx="1033.1" cy="266.1" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<line x1="820" y1="165" x2="870" y2="165" stroke="#E69F00" stroke-width="4"/><text x="885" y="172" font-family="Arial" font-size="21" fill="#17324D">WERT49</text>
+<polyline points="196.9,420.6 478.0,259.8 599.1,200.3 669.9,162.3" fill="none" stroke="#4C956C" stroke-width="4"/>
+<circle cx="196.9" cy="420.6" r="8" fill="white" stroke="#4C956C" stroke-width="4"/>
+<circle cx="478.0" cy="259.8" r="8" fill="white" stroke="#4C956C" stroke-width="4"/>
+<circle cx="599.1" cy="200.3" r="8" fill="white" stroke="#4C956C" stroke-width="4"/>
+<circle cx="669.9" cy="162.3" r="8" fill="white" stroke="#4C956C" stroke-width="4"/>
+<line x1="820" y1="205" x2="870" y2="205" stroke="#4C956C" stroke-width="4"/><text x="885" y="212" font-family="Arial" font-size="21" fill="#17324D">no breakup (uncensored)</text>
+<text x="615.0" y="715" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">parent d0 (µm; log axis)</text><text transform="translate(35 380.0) rotate(-90)" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">extinction distance (mm; log axis)</text>
+<text x="130" y="765" font-family="Arial" font-size="19" fill="#C4493D">&gt;500 mm lower bounds remain in the registry; exact points are not invented.</text>
+</svg>

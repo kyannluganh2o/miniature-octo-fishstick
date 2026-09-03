@@ -1,0 +1,13 @@
+# TAB-03
+
+| Paper/case | Loading type | Mach definition/value | We definition/value | Re / Oh | d0 and liquid | Loading duration | Reported response | Comparison boundary |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[CITE:C016]] C01 | incident shock + post-shock airflow | M_s=1.12, incident shock / preshock sound speed | 219; rho_a V_i² D_i/sigma, post-shock airflow | Re=13000; Oh=NR | 2.5 mm water | NR | SIE | Author taxonomy; We definition record remains incomplete at component-ID level |
+| [[CITE:C016]] C02 | incident shock + post-shock airflow | M_s=1.30 | 1600; same source definition | Re=40000; Oh=NR | 2.9 mm water | NR | SIE | Not a universal regime threshold |
+| [[CITE:C016]] C03 | incident shock + post-shock airflow | M_s=1.12 | 44; same source definition | Re=2500; Oh=NR | 0.5 mm water | NR | RTP | Diameter and Re change with We |
+| [[CITE:C016]] C04 | incident shock + post-shock airflow | M_s=1.45 | 795; same source definition | Re=12000; Oh=NR | 0.5 mm water | NR | RTP | Mach and We change together |
+| [[CITE:C025]] M2 | analytic post-shock gas load | M_s=2 | 822; post-shock rho_g U_r² d0/sigma | NR | 100 µm water | NR | deformation/size/time statistics reported | Numerical case; response metric must remain source-typed |
+| [[CITE:C025]] M3 | analytic post-shock gas load | M_s=3 | 3760; same definition | NR | 100 µm water | NR | deformation/size/time statistics reported | No universal pooling with detonation cases |
+| [[CITE:C014]] C01–C08 | uniform post-shock freestream | M∞=0.30–1.19, post-shock freestream | 1050–1160; post-shock rho_g u_g² d0/sigma | Re=2600–24000; Oh=0.002–0.044 | d0=NV in current extraction | NR | numeric response not paired in master table | Condition context only; excluded from quantitative map |
+| [[CITE:D018]] water/RP-3 sets | reacting detonation products | detonation-front Mach about 6.03–7.07 | 3.10×10^4–5.67×10^5; averaged post-detonation state | Oh=0.0039–0.0223 | 0.25–1.27 mm water/RP-3 | reacting-wave history; not reduced to one duration | complete-breakup t*=10.06 water; 7.90 RP-3 | Reacting strong-wave analogue |
+| [[CITE:D019]] detonation/inert pair | matched-leading-Mach reacting vs inert | incident Mach 4.8 | 5.42×10^4 detonation; 3.18×10^5 inert; components not reported in Table I | Re=4.80×10^4 / 2.00×10^5; Oh=NR | 4.8 mm water | deformation scale O(10^-4 s) | different post-wave deformation/cavitation histories | Equal leading Mach does not imply equal load |

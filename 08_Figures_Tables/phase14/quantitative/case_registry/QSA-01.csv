@@ -1,0 +1,11 @@
+﻿paper_id,case_id,x_value,x_definition,y_value,y_definition,conditions,normalization,source_locator,reported_or_derived,include_exclude,exclusion_reason
+B009,B009-H2-NPR8.5,8.5,P0/P_infinity; total/static,1.853,x_MD/D,H2; D=1.5 mm; 98.37 kPa; 296 K; semi-steady,2.78 mm / 1.5 mm,LOC-B009-0001;LOC-B009-0003;LOC-B009-0006,x reported; y derived,include,
+B009,B009-H2-NPR10,10,P0/P_infinity; total/static,2.06,x_MD/D,H2; same setup; semi-steady,3.09/1.5,LOC-B009-0001;LOC-B009-0003;LOC-B009-0006,x reported; y derived,include,
+B009,B009-H2-NPR30,30,P0/P_infinity; total/static,3.767,x_MD/D,H2; same setup; semi-steady,5.65/1.5,LOC-B009-0001;LOC-B009-0003;LOC-B009-0006,x reported; y derived,include,
+B009,B009-H2-NPR70,70,P0/P_infinity; total/static,5.813,x_MD/D,H2; same setup; semi-steady,8.72/1.5,LOC-B009-0001;LOC-B009-0003;LOC-B009-0006,x reported; y derived,include,
+B009,B009-CH4-NPR8.5,8.5,P0/P_infinity; total/static,1.9,x_MD/D,CH4; same nozzle/ambient; semi-steady,2.85/1.5,LOC-B009-0001;LOC-B009-0003;LOC-B009-0006,x reported; y derived,include,
+B021,B021-NPR5,NV,NPR only encoded in case label; no paired ratio row,1.299,reported x_MD in mm; D=1 mm,steady H2 numerical endpoint,not accepted for registry plot,LOC-B021-0002;LOC-B021-0004,y reported,exclude,missing explicit paired NPR record
+B021,B021-NPR60,NV,NPR only encoded in case label; no paired ratio row,5.362,reported x_MD in mm; D=1 mm,steady H2 numerical endpoint,not accepted for registry plot,LOC-B021-0002;LOC-B021-0004,y reported,exclude,missing explicit paired NPR record
+B003,ALL,NV,candidate study,NV,no paired case values in master table,NR,NA,NV,NV,exclude,no eligible paired records
+B025,ALL,NV,candidate study,NV,no paired case values in master table,NR,NA,NV,NV,exclude,no eligible paired records
+B030,ALL,NV,candidate study,NV,no paired case values in master table,NR,NA,NV,NV,exclude,no eligible paired records

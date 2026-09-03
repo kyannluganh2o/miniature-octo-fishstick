@@ -1,0 +1,28 @@
+﻿paper_id,case_id,x_value,x_definition,y_value,y_definition,conditions,normalization,source_locator,reported_or_derived,include_exclude,exclusion_reason
+D017,D017-D1-no_breakup,1,modeled parent diameter in µm,0.84,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D5-no_breakup,5,modeled parent diameter in µm,13.32,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D10-no_breakup,10,modeled parent diameter in µm,37.05,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D15-no_breakup,15,modeled parent diameter in µm,71.25,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D40-no_breakup,40,modeled parent diameter in µm,>500,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include_censored,
+D017,D017-D90-no_breakup,90,modeled parent diameter in µm,>500,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include_censored,
+D017,D017-D120-no_breakup,120,modeled parent diameter in µm,>500,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include_censored,
+D017,D017-D1-KH-RT,1,modeled parent diameter in µm,0.04,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D5-KH-RT,5,modeled parent diameter in µm,0.12,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D10-KH-RT,10,modeled parent diameter in µm,0.32,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D15-KH-RT,15,modeled parent diameter in µm,0.46,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D40-KH-RT,40,modeled parent diameter in µm,0.98,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D90-KH-RT,90,modeled parent diameter in µm,2.25,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D120-KH-RT,120,modeled parent diameter in µm,2.97,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D1-WERT49,1,modeled parent diameter in µm,0.075,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D5-WERT49,5,modeled parent diameter in µm,0.41,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D10-WERT49,10,modeled parent diameter in µm,0.93,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D15-WERT49,15,modeled parent diameter in µm,1.29,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D40-WERT49,40,modeled parent diameter in µm,3.78,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D90-WERT49,90,modeled parent diameter in µm,8.76,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+D017,D017-D120-WERT49,120,modeled parent diameter in µm,11.96,predicted extinction distance in mm,same detonation-study model family; branch retained,none,LOC-D017-0006;LOC-D017-0007,reported,include,
+C024,ALL,NV,candidate d0,NV,candidate response,study-specific,NA,NV,NV,exclude,evaporation interval not paired to d0 cases
+C026,ALL,NV,candidate d0,NV,candidate response,study-specific,NA,NV,NV,exclude,qualitative response only
+C027,ALL,NV,candidate d0,NV,candidate response,study-specific,NA,NV,NV,exclude,no compatible paired response
+D009,ALL,NV,candidate d0,NV,candidate response,study-specific,NA,NV,NV,exclude,response is RDE device scale; audited separately in QSA-08
+D014,ALL,NV,candidate d0,NV,candidate response,study-specific,NA,NV,NV,exclude,trajectory/location response not paired to common d0 metric
+D018,ALL,NV,candidate d0,NV,candidate response,study-specific,NA,NV,NV,exclude,breakup time grouped by liquid rather than individual d0 case

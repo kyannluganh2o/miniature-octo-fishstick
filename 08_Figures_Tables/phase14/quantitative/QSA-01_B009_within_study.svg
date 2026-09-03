@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2F6690"/></marker></defs>
+<text x="70" y="60" font-family="Arial" font-size="34" font-weight="700" fill="#17324D">B009 within-study Mach-disk position</text>
+<line x1="130" y1="650" x2="1100" y2="650" stroke="#17324D" stroke-width="3"/><line x1="130" y1="110" x2="130" y2="650" stroke="#17324D" stroke-width="3"/>
+<line x1="130.0" y1="110" x2="130.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="650.0" x2="1100" y2="650.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="130.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">3.58</text><text x="116" y="656.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">1.38</text>
+<line x1="324.0" y1="110" x2="324.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="542.0" x2="1100" y2="542.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="324.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">17.8</text><text x="116" y="548.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">2.36</text>
+<line x1="518.0" y1="110" x2="518.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="434.0" x2="1100" y2="434.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="518.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">32.1</text><text x="116" y="440.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">3.34</text>
+<line x1="712.0" y1="110" x2="712.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="326.0" x2="1100" y2="326.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="712.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">46.4</text><text x="116" y="332.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">4.32</text>
+<line x1="906.0" y1="110" x2="906.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="218.0" x2="1100" y2="218.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="906.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">60.7</text><text x="116" y="224.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">5.31</text>
+<line x1="1100.0" y1="110" x2="1100.0" y2="650" stroke="#E3E8EC" stroke-width="1"/><line x1="130" y1="110.0" x2="1100" y2="110.0" stroke="#E3E8EC" stroke-width="1"/>
+<text x="1100.0" y="680" text-anchor="middle" font-family="Arial" font-size="18" fill="#66717E">74.9</text><text x="116" y="116.0" text-anchor="end" font-family="Arial" font-size="18" fill="#66717E">6.29</text>
+<polyline points="196.9,597.7 217.3,575.0 489.2,387.3 1033.1,162.3" fill="none" stroke="#2F6690" stroke-width="4"/>
+<circle cx="196.9" cy="597.7" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="217.3" cy="575.0" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="489.2" cy="387.3" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<circle cx="1033.1" cy="162.3" r="8" fill="white" stroke="#2F6690" stroke-width="4"/>
+<line x1="820" y1="125" x2="870" y2="125" stroke="#2F6690" stroke-width="4"/><text x="885" y="132" font-family="Arial" font-size="21" fill="#17324D">H2</text>
+<circle cx="196.9" cy="592.6" r="8" fill="white" stroke="#E69F00" stroke-width="4"/>
+<line x1="820" y1="165" x2="870" y2="165" stroke="#E69F00" stroke-width="4"/><text x="885" y="172" font-family="Arial" font-size="21" fill="#17324D">CH4</text>
+<text x="615.0" y="715" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">NPR = P0/P∞</text><text transform="translate(35 380.0) rotate(-90)" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">x_MD / D (derived)</text>
+<text x="130" y="765" font-family="Arial" font-size="19" fill="#C4493D">Within one study/setup; no cross-paper fit or universal coefficient.</text>
+</svg>

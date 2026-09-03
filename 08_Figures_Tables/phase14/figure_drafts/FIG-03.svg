@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2F6690"/></marker></defs>
+<text x="70" y="70" font-family="Arial" font-weight="700" font-size="42" fill="#17324D">FIG-03  Eulerian wave field → Lagrangian pilot-droplet forcing</text>
+<rect x="80" y="150" width="350" height="230" rx="18" fill="#D9EEF4" stroke="#2F6690" stroke-width="3"/>
+<text x="255.0" y="237.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Eulerian gas field</text>
+<text x="255.0" y="265.5" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">p(x,t) rho(x,t) u(x,t)</text>
+<text x="255.0" y="293.8" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">shocks + vortices</text>
+<rect x="600" y="150" width="360" height="230" rx="18" fill="#DCEFE3" stroke="#4C956C" stroke-width="3"/>
+<text x="780.0" y="223.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Moving liquid trajectory</text>
+<text x="780.0" y="251.6" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">x_d(t), u_d(t) sample the</text>
+<text x="780.0" y="279.9" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">gas field along each</text>
+<text x="780.0" y="308.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">droplet</text>
+<rect x="1130" y="150" width="380" height="230" rx="18" fill="#F5DFDC" stroke="#C4493D" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="1320.0" y="223.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Lagrangian load</text>
+<text x="1320.0" y="251.6" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">p[x_d(t),t] rho[x_d(t),t]</text>
+<text x="1320.0" y="279.9" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">u_rel(t), direction,</text>
+<text x="1320.0" y="308.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">duration</text>
+<rect x="170" y="530" width="330" height="160" rx="18" fill="#F5F7F8" stroke="#2F6690" stroke-width="3"/>
+<text x="335.0" y="596.1" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Pressure impulse front</text>
+<text x="335.0" y="624.4" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">passage</text>
+<rect x="635" y="530" width="330" height="160" rx="18" fill="#F5F7F8" stroke="#2F6690" stroke-width="3"/>
+<text x="800.0" y="596.1" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Post-wave slip</text>
+<text x="800.0" y="624.4" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">aerodynamic work</text>
+<rect x="1100" y="530" width="330" height="160" rx="18" fill="#F5F7F8" stroke="#4C956C" stroke-width="3"/>
+<text x="1265.0" y="582.2" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">Liquid response clocks</text>
+<text x="1265.0" y="610.5" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">acoustic, acceleration,</text>
+<text x="1265.0" y="638.8" text-anchor="middle" font-family="Arial" font-size="24" fill="#17324D">instability</text>
+<line x1="430" y1="265" x2="600" y2="265" stroke="#2F6690" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="960" y1="265" x2="1130" y2="265" stroke="#C4493D" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="10 8"/>
+<line x1="1330" y1="380" x2="1330" y2="530" stroke="#C4493D" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="10 8"/>
+<line x1="500" y1="610" x2="635" y2="610" stroke="#2F6690" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="965" y1="610" x2="1100" y2="610" stroke="#4C956C" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="110" y="790" font-family="Arial" font-size="22" fill="#C4493D">Actual HPDI pilot histories are not</text>
+<text x="110" y="817" font-family="Arial" font-size="22" fill="#C4493D">measured together;</text>
+<text x="110" y="844" font-family="Arial" font-size="22" fill="#C4493D">tau_loading/tau_response remains an</text>
+<text x="110" y="871" font-family="Arial" font-size="22" fill="#C4493D">organizing hypothesis.</text>
+<line x1="70" y1="930" x2="1530" y2="930" stroke="#A9B4BE" stroke-width="2"/>
+<text x="70" y="968" font-family="Arial" font-size="20" fill="#66717E">Author synthesis. Open dashed gate prevents Mach-disk topology from being read as a known pilot-droplet load.</text>
+</svg>

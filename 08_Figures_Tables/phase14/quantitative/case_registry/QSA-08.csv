@@ -1,0 +1,13 @@
+﻿paper_id,case_id,x_value,x_definition,y_value,y_definition,conditions,normalization,source_locator,reported_or_derived,include_exclude,exclusion_reason
+D009,D009-B2,0.13,evaporation distance / detonation-front height,1728,"mean rotating-detonation wave velocity, m/s",kerosene; d0=2 µm; same model family,source ratio retained,LOC-D009-0005;LOC-D009-0006;LOC-D009-0007,reported,include,
+D009,D009-B3,0.31,same,1696,"mean wave velocity, m/s",kerosene; d0=3 µm,source ratio retained,LOC-D009-0005;LOC-D009-0006;LOC-D009-0007,reported,include,
+D009,D009-B4,0.55,same,1618,"mean wave velocity, m/s",kerosene; d0=4 µm,source ratio retained,LOC-D009-0005;LOC-D009-0006;LOC-D009-0007,reported,include,
+D009,D009-B5,0.84,same,NV,mean wave velocity absent in current paired record,kerosene; d0=5 µm,source ratio retained,LOC-D009-0005;LOC-D009-0006,reported x,exclude,missing paired y value
+D006,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
+D007,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
+D008,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
+D010,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
+D011,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
+D012,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
+D013,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
+D015,ALL,NV,typed L_E/L_D unavailable or incompatible,NV,device response not paired,RDE/detonation study-specific,NA,NV,NV,exclude,missing or incompatible ratio/response definition
