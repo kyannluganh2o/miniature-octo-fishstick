@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "C013",
+  "source_record_id": "C-SD-06",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-C1",
+  "supporting_role": "ligament-formation mechanism support",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-C013-01",
+      "question": "Is ligament formation and shedding a recurrent process, and what controls successive events?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 C007 identifies a wave-to-ligament cascade; this combined experiment/DNS resolves the ligament step directly."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "mechanism_support"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C013-C01",
+      "claim_text": "Validated three-dimensional simulations and experiments show recurrent ligament formation after liquid-sheet rupture; the first shedding is weakly Weber-dependent, while later shedding is driven mainly by inertia and wake-vortex dynamics.",
+      "evidence_summary": "Fourier decomposition identifies azimuthal modes that destabilize the sheet and repeated shedding events.",
+      "contribution_type": "mechanism_support",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-C013-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "C007",
+      "core_candidate_claim_id_or_anchor": "T1-C007-C03",
+      "link_type": "supports_mechanism",
+      "shared_parameter_or_mechanism": "wave cascade terminates through ligament-mediated fragmentation",
+      "source_locator_id": "LOC-C013-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-C013-001"
+  ],
+  "limitations": [
+    "Water-droplet aerobreakup in the studied high-speed regime; later fragment statistics remain outside the claim."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 28,
+    "focused_pages": [
+      1,
+      24
+    ],
+    "target_keyword_page": 1,
+    "target_keyword_hits": 7,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 28,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

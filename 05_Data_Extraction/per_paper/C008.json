@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "C008",
+  "source_record_id": "C-SD-01",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-C1",
+  "supporting_role": "early-stage compressibility boundary evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-C008-01",
+      "question": "Does crossing from subsonic to supersonic post-shock flow materially change the early deformation/drag response?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 C007 flags compressibility effects, while C025 provides shock-Mach breakup chronology; this study isolates early-stage response."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "boundary_condition",
+      "independent_corroboration"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C008-C01",
+      "claim_text": "For the simulated early breakup of water cylinders, transition to supersonic post-shock flow did not markedly change scaled drift, acceleration, or drag, and deformed diameter improved the near-constant drag representation.",
+      "evidence_summary": "Numerical reproduction of shock-tube experiments extends the incident-Mach range and tests early-stage scaling across the sonic transition.",
+      "contribution_type": "boundary_evidence",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-C008-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "C007",
+      "core_candidate_claim_id_or_anchor": "T1-C007-C02",
+      "link_type": "provides_boundary_condition",
+      "shared_parameter_or_mechanism": "compressibility effects on droplet breakup response",
+      "source_locator_id": "LOC-C008-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-C008-001"
+  ],
+  "limitations": [
+    "Two-dimensional water-cylinder geometry and early breakup only; this does not adjudicate later supersonic compressibility effects."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 16,
+    "focused_pages": [
+      1,
+      11,
+      12
+    ],
+    "target_keyword_page": 11,
+    "target_keyword_hits": 15,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 16,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

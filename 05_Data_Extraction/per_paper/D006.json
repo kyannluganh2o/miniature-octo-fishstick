@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "D006",
+  "source_record_id": "D-RDE-01",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-D",
+  "supporting_role": "partially prevaporized two-phase RDC evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-D006-01",
+      "question": "How do droplet diameter and prevaporized fraction bound fuel survival, detonated fraction, and wave speed?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 D009 links evaporation length to wave stability; this study adds hydrogen-assisted, partially prevaporized n-heptane."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "additional_fuel_or_species",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-D006-C01",
+      "claim_text": "In the two-dimensional RDC model, n-heptane droplet diameter and prevaporized fraction control whether droplets survive beyond the refill zone, the detonated fuel fraction, and a 5-30% detonation-speed deficit, with a non-monotonic minimum near the reported critical diameter.",
+      "evidence_summary": "The Eulerian-Lagrangian study classifies droplet trajectories by evaporation/residence time and wave-structure interaction under hydrogen addition.",
+      "contribution_type": "additional_fuel_or_species",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-D006-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "D009",
+      "core_candidate_claim_id_or_anchor": "PILOT-D009-C02",
+      "link_type": "extends_fuel_or_species",
+      "shared_parameter_or_mechanism": "evaporation completeness controls detonation propagation/stability",
+      "source_locator_id": "LOC-D006-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-D006-001"
+  ],
+  "limitations": [
+    "Simplified two-dimensional chemistry/flow model; the reported critical diameter is case-specific."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 17,
+    "focused_pages": [
+      1,
+      15
+    ],
+    "target_keyword_page": 1,
+    "target_keyword_hits": 11,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 17,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

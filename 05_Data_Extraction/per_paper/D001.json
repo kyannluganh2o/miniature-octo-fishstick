@@ -1,0 +1,200 @@
+{
+  "paper_id": "D001",
+  "source_record_id": "D-IC-01",
+  "reading_tier": "tier3",
+  "study_context": "High-speed schlieren of 150 MPa diesel sprays in a high-temperature/high-pressure optical vessel.",
+  "cases": [
+    {
+      "case_id": "D001-DIESEL",
+      "description": "Ambient temperature/density matrix for injection-generated wave classification."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "D001",
+      "source_record_id": "D-IC-01",
+      "reading_tier": "tier3",
+      "case_id": "D001-DIESEL",
+      "condition_id": "D001-DIESEL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "injection_conditions",
+      "parameter_name": "injection_pressure",
+      "reported_value": "150",
+      "reported_unit": "MPa",
+      "normalized_value": "150000000",
+      "normalized_unit": "Pa",
+      "value_status": "reported",
+      "definition": "Diesel injection pressure used for shock-wave observations.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Single-hole research injector.",
+      "parameter_record_id": "PAR-D001-0001",
+      "context_id": "CTX-D001-D001-DIESEL-D001-DIESEL",
+      "parameter_role": "experimental_control",
+      "parameter_context": "diesel_spray",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-D001-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "D001",
+      "source_record_id": "D-IC-01",
+      "reading_tier": "tier3",
+      "case_id": "D001-DIESEL",
+      "condition_id": "D001-DIESEL",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "shock_structure",
+      "parameter_name": "wave_type",
+      "reported_value": "oblique shock; detached bow shock; acoustic wave; no spray shock",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Observed/predicted wave classes across ambient state and injection ramp-up.",
+      "source_location": "PDF p. 12, Conclusion",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Acoustic waves are distinguished from shocks.",
+      "parameter_record_id": "PAR-D001-0002",
+      "context_id": "CTX-D001-D001-DIESEL-D001-DIESEL",
+      "parameter_role": "classification",
+      "parameter_context": "spray_tip_wave",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-D001-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "At 600–700 K detached shocks were visible in discussed cases; at 800 K or above only weak acoustic waves were detected."
+  ],
+  "mechanisms": [
+    "Shock existence depends on local spray-tip Mach number, itself controlled by sound speed, density-driven deceleration, and injection ramp."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-D001-C01",
+      "claim": "High ambient temperature and density suppressed diesel-spray shock generation by raising sound speed and decelerating the spray during injection-rate ramp-up; typical near-TDC conditions were therefore unlikely to produce spray shocks.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Schlieren distinguished attached/detached shocks from weak acoustic waves across the ambient matrix.",
+      "locator": "conclusion",
+      "support_type": "direct_observation",
+      "limitations": "150 MPa single-hole injector and vessel conditions; conventional multi-hole injectors have slower ramp-up.",
+      "parameters": [
+        "pinj",
+        "wave"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Boundary conditions for injector-generated shocks in engines.",
+      "source_locator_id": "LOC-D001-0002",
+      "relevant_parameter_ids": [
+        "PAR-D001-0001",
+        "PAR-D001-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-D001-001"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 3 target question: under which engine-like ambient states can a high-pressure liquid spray remain locally supersonic?"
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-D001-D001-DIESEL-D001-DIESEL",
+      "case_id": "D001-DIESEL",
+      "condition_id": "D001-DIESEL"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-D001-001",
+      "paper_id": "D001",
+      "case_id": "D001-DIESEL",
+      "condition_id": "",
+      "source_process": "higher ambient temperature and density",
+      "relation_type": "suppresses",
+      "target_process": "spray-tip shock generation",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-D001-0002",
+      "verification_status": "verified",
+      "notes": "Temperature raises sound speed; density decelerates the tip during injection ramp-up."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-D001-0001",
+      "paper_id": "D001",
+      "source_file": "02_PDF_Raw/D/D-IC-01_2010_Kook_AmbientTemperatureDensity_ShockWave_DieselEngine.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Ambient-condition effects."
+    },
+    {
+      "source_locator_id": "LOC-D001-0002",
+      "paper_id": "D001",
+      "source_file": "02_PDF_Raw/D/D-IC-01_2010_Kook_AmbientTemperatureDensity_ShockWave_DieselEngine.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Conclusion",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 12, Conclusion",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Engine relevance and suppression mechanism."
+    }
+  ],
+  "tier3_role": "Context evidence on when high-pressure liquid sprays generate shocks in engine-like environments.",
+  "extraction_scope": "claim_targeted",
+  "full_text_pages_assessed": 13
+}

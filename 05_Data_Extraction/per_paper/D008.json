@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "D008",
+  "source_record_id": "D-RDE-03",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-D",
+  "supporting_role": "bidisperse spray stability evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-D008-01",
+      "question": "Can a small-droplet fraction stabilize a two-phase rotating detonation otherwise limited by larger-droplet evaporation?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 D009 provides the evaporation-length stability anchor; this paper directly tests bidisperse distributions."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-D008-C01",
+      "claim_text": "The simulations show complete refill-zone vaporization for very small droplets, destabilization/extinction as larger droplets persist and block replenishment, and stabilization when a small-droplet fraction is present in bidisperse sprays.",
+      "evidence_summary": "Monodisperse and bidisperse n-heptane cases connect size distribution to refill-zone equivalence ratio, fuel fraction, wave speed, and extinction.",
+      "contribution_type": "additional_condition",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-D008-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "D009",
+      "core_candidate_claim_id_or_anchor": "PILOT-D009-C02",
+      "link_type": "extends_condition",
+      "shared_parameter_or_mechanism": "evaporation completeness and unburned pockets govern wave stability",
+      "source_locator_id": "LOC-D008-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-D008-001"
+  ],
+  "limitations": [
+    "Two-dimensional Eulerian-Lagrangian model without fuel prevaporization; size thresholds are configuration-specific."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 15,
+    "focused_pages": [
+      1,
+      14
+    ],
+    "target_keyword_page": 1,
+    "target_keyword_hits": 8,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 15,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

@@ -1,0 +1,200 @@
+{
+  "paper_id": "C011",
+  "source_record_id": "C-SD-04",
+  "reading_tier": "tier3",
+  "study_context": "Numerical and theoretical study of a single water droplet under incident shock impact.",
+  "cases": [
+    {
+      "case_id": "C011-SINGLE",
+      "description": "Shock-strength sweep tracking the internal-flow saddle point."
+    }
+  ],
+  "parameters": [
+    {
+      "paper_id": "C011",
+      "source_record_id": "C-SD-04",
+      "reading_tier": "tier3",
+      "case_id": "C011-SINGLE",
+      "condition_id": "C011-SINGLE",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "study_context",
+      "parameter_name": "liquid_fuel",
+      "reported_value": "water",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Droplet liquid.",
+      "source_location": "PDF p. 1, Abstract",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "No external properties added.",
+      "parameter_record_id": "PAR-C011-0001",
+      "context_id": "CTX-C011-C011-SINGLE-C011-SINGLE",
+      "parameter_role": "descriptive_state",
+      "parameter_context": "single_droplet",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-C011-0001",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    },
+    {
+      "paper_id": "C011",
+      "source_record_id": "C-SD-04",
+      "reading_tier": "tier3",
+      "case_id": "C011-SINGLE",
+      "condition_id": "C011-SINGLE",
+      "time_or_stage": "",
+      "spatial_location": "",
+      "parameter_group": "droplet_response",
+      "parameter_name": "deformation_mode",
+      "reported_value": "persistent internal recirculation pattern with a stationary saddle point",
+      "reported_unit": "",
+      "normalized_value": "",
+      "normalized_unit": "",
+      "value_status": "reported",
+      "definition": "Internal-flow topology established shortly after shock passage.",
+      "source_location": "PDF p. 5, Eqs. (9)–(12) and Conclusions",
+      "source_type": "text",
+      "extraction_status": "complete",
+      "verification_status": "verified",
+      "notes": "Saddle-point position varies with incident shock strength.",
+      "parameter_record_id": "PAR-C011-0002",
+      "context_id": "CTX-C011-C011-SINGLE-C011-SINGLE",
+      "parameter_role": "simulated_output",
+      "parameter_context": "initial_shock_impact",
+      "reference_frame": "",
+      "state_qualifier": "",
+      "event_id": "",
+      "interval_id": "",
+      "history_id": "",
+      "ratio_id": "",
+      "dimensionless_definition_id": "",
+      "process_relation_id": "",
+      "source_locator_id": "LOC-C011-0002",
+      "sign_convention": "",
+      "missing_reason": "",
+      "schema_version": "1.1"
+    }
+  ],
+  "key_results": [
+    "Authors infer that the internal pattern is set during initial shock impact rather than continuously by the postshock stream."
+  ],
+  "mechanisms": [
+    "Gas-dynamic impulse establishes a persistent liquid recirculation topology."
+  ],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C011-C01",
+      "claim": "The simulated droplet internal-flow topology formed soon after shock passage and retained a nearly stationary saddle point whose position correlated with incident shock Mach number.",
+      "evidence_type": "reported result",
+      "evidence_summary": "Numerical trajectories collapsed under the proposed scaling and agreed with the theoretical correlation.",
+      "locator": "theory",
+      "support_type": "model_based",
+      "limitations": "Single water droplet and numerical/theoretical evidence; later breakup was not the main focus.",
+      "parameters": [
+        "liquid",
+        "flow"
+      ],
+      "relations_events": [
+        [
+          "process",
+          "p1"
+        ]
+      ],
+      "potential_chapter_role": "Context for early shock imprint on later deformation.",
+      "source_locator_id": "LOC-C011-0002",
+      "relevant_parameter_ids": [
+        "PAR-C011-0001",
+        "PAR-C011-0002"
+      ],
+      "relevant_process_event_ids": [
+        "PROC-C011-001"
+      ]
+    }
+  ],
+  "schema_gap_candidates": [],
+  "extraction_notes": [
+    "Tier 3 target question: is droplet internal flow set by the initial shock or the sustained postshock stream?"
+  ],
+  "extraction_status": "complete",
+  "schema_version": "1.1",
+  "contexts": [
+    {
+      "context_id": "CTX-C011-C011-SINGLE-C011-SINGLE",
+      "case_id": "C011-SINGLE",
+      "condition_id": "C011-SINGLE"
+    }
+  ],
+  "events": [],
+  "intervals": [],
+  "histories": [],
+  "ratios": [],
+  "dimensionless_definitions": [],
+  "process_relations": [
+    {
+      "process_relation_id": "PROC-C011-001",
+      "paper_id": "C011",
+      "case_id": "C011-SINGLE",
+      "condition_id": "",
+      "source_process": "incident-shock impulse",
+      "relation_type": "modifies",
+      "target_process": "droplet internal-flow saddle-point position",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-C011-0002",
+      "verification_status": "verified",
+      "notes": "Authors infer early shock imprint rather than continuous postshock setting."
+    }
+  ],
+  "source_locators": [
+    {
+      "source_locator_id": "LOC-C011-0001",
+      "paper_id": "C011",
+      "source_file": "02_PDF_Raw/C/C-SD-04_2018_Guan_Droplet_InternalFlow_ShockImpact.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Abstract",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "",
+      "appendix": "",
+      "raw_locator": "PDF p. 1, Abstract",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Internal-flow focus and saddle-point result."
+    },
+    {
+      "source_locator_id": "LOC-C011-0002",
+      "paper_id": "C011",
+      "source_file": "02_PDF_Raw/C/C-SD-04_2018_Guan_Droplet_InternalFlow_ShockImpact.pdf",
+      "pdf_page": "",
+      "printed_page": "",
+      "section": "Theoretical Prediction and Conclusions",
+      "subsection": "",
+      "figure": "",
+      "figure_panel": "",
+      "table": "",
+      "equation": "Eqs. (9)–(12)",
+      "appendix": "",
+      "raw_locator": "PDF p. 5, Eqs. (9)–(12) and Conclusions",
+      "locator_status": "complete",
+      "verification_status": "verified",
+      "notes": "Shock-strength correlation and interpretation."
+    }
+  ],
+  "tier3_role": "Context evidence on shock-imprinted droplet internal flow.",
+  "extraction_scope": "claim_targeted",
+  "full_text_pages_assessed": 6
+}

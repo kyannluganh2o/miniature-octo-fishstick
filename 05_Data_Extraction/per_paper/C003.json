@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "C003",
+  "source_record_id": "C-F-03",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-C1",
+  "supporting_role": "secondary-atomization terminology and historical context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-C003-01",
+      "question": "Does this review provide a defensible secondary framework for breakup morphology, time, fragments, and modelling terminology?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 C007 is the current multiscale review anchor; C003 is checked for older terminology and consensus context only."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "historical_context",
+      "definition_context"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C003-C01",
+      "claim_text": "The review organizes secondary atomization evidence around breakup morphology, breakup time, fragment distributions, and modelling, and concludes that viscous shear has little direct role for liquid drops in a gaseous environment.",
+      "evidence_summary": "A secondary synthesis connects experimental and numerical observations to a consistent breakup framework.",
+      "contribution_type": "review_secondary",
+      "support_type": "review_secondary",
+      "source_locator_id": "LOC-C003-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "C007",
+      "core_candidate_claim_id_or_anchor": "T1-C007-C03",
+      "link_type": "historical_context",
+      "shared_parameter_or_mechanism": "secondary-atomization mechanism and terminology",
+      "source_locator_id": "LOC-C003-0001"
+    }
+  ],
+  "process_relations": [],
+  "limitations": [
+    "Review-secondary evidence predating much of the modern compressible/shock literature; primary sources are not promoted."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 32,
+    "focused_pages": [
+      1,
+      25,
+      29
+    ],
+    "target_keyword_page": 25,
+    "target_keyword_hits": 9,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 32,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

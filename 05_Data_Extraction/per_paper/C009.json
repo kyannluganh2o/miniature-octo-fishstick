@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "C009",
+  "source_record_id": "C-SD-02",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-C1",
+  "supporting_role": "supersonic breakup-regime mechanism support",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-C009-01",
+      "question": "Does RT instability organize bag, bag-stamen, and multimode breakup in the studied supersonic-flow Weber range?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 C007/C025 provide multiscale and shock-Mach anchors; this paper supplies a supersonic-flow RT interpretation."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "independent_corroboration",
+      "mechanism_support"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C009-C01",
+      "claim_text": "The coupled compressible/incompressible simulations reproduce bag, bag-stamen, and multimode breakup and attribute morphology across the studied Weber range primarily to Rayleigh-Taylor instability.",
+      "evidence_summary": "Interface-resolved supersonic-flow cases vary Weber number while preserving Ohnesorge context.",
+      "contribution_type": "mechanism_support",
+      "support_type": "simulation_resolved",
+      "source_locator_id": "LOC-C009-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "C025",
+      "core_candidate_claim_id_or_anchor": "T1-C025-C01",
+      "link_type": "supports_mechanism",
+      "shared_parameter_or_mechanism": "shock/supersonic loading controls piercing and breakup morphology",
+      "source_locator_id": "LOC-C009-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-C009-001"
+  ],
+  "limitations": [
+    "Numerical method, reduced density-ratio strategy, and the tested Weber range bound the RT interpretation."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 8,
+    "focused_pages": [
+      1,
+      7
+    ],
+    "target_keyword_page": 1,
+    "target_keyword_hits": 8,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 8,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

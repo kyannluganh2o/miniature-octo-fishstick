@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "C032",
+  "source_record_id": "C-PC-06",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-C2",
+  "supporting_role": "real-hydrocarbon heating/volatility boundary evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-C032-01",
+      "question": "How do heating, surface-tension change, and hydrocarbon volatility alter aerodynamic breakup at moderate Weber number?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 2 C030 and Tier 1 C031 identify phase-change coupling; this paper supplies n-decane temperature and volatility boundaries."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "boundary_condition",
+      "unique_support"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C032-C01",
+      "claim_text": "For modeled n-decane droplets at We 15-90 and 600-1000 K, heating lowers surface tension and promotes breakup, especially at lower Weber number and higher gas temperature; lower volatility also leaves the liquid more breakup-prone than n-heptane.",
+      "evidence_summary": "Non-isothermal cases are compared with isothermal constant-property cases and with a more volatile hydrocarbon.",
+      "contribution_type": "additional_fuel_or_species",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-C032-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier2",
+      "core_paper_id": "C030",
+      "core_candidate_claim_id_or_anchor": "T2-C030-C02",
+      "link_type": "provides_boundary_condition",
+      "shared_parameter_or_mechanism": "phase change and thermal effects modify breakup",
+      "source_locator_id": "LOC-C032-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-C032-001"
+  ],
+  "limitations": [
+    "Two-dimensional axisymmetric incompressible-gas model at atmospheric pressure; not a direct shock-loading case."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 11,
+    "focused_pages": [
+      1,
+      4,
+      10
+    ],
+    "target_keyword_page": 4,
+    "target_keyword_hits": 35,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 11,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

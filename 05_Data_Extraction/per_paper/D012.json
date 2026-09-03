@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "D012",
+  "source_record_id": "D-RDE-07",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-D",
+  "supporting_role": "multi-stage ethanol evaporation and wave-multiplicity evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-D012-01",
+      "question": "How does droplet-size-dependent multi-stage evaporation alter reaction-zone width, local explosions, and wave multiplicity?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 1 D009 links evaporation scale to wave response; this ethanol study adds multi-stage phase-change and wave-birth behavior."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "additional_fuel_or_species",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-D012-C01",
+      "claim_text": "The ethanol RDE simulations resolve initial refill-zone evaporation followed by droplet-size-dependent secondary/post-detonation evaporation; these stages broaden the reaction zone and participate in extinction, local explosion, shock collision, and changes in wave multiplicity.",
+      "evidence_summary": "Droplet size and inlet conditions are varied in an Eulerian-Lagrangian model with simultaneous vapor and liquid ethanol injection.",
+      "contribution_type": "additional_fuel_or_species",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-D012-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "D009",
+      "core_candidate_claim_id_or_anchor": "PILOT-D009-C02",
+      "link_type": "extends_fuel_or_species",
+      "shared_parameter_or_mechanism": "evaporation-scale control of rotating-detonation wave response",
+      "source_locator_id": "LOC-D012-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-D012-001"
+  ],
+  "limitations": [
+    "Numerical ethanol configuration with prevaporized co-injection; wave-multiplicity transitions are case-specific."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 13,
+    "focused_pages": [
+      1,
+      12
+    ],
+    "target_keyword_page": 12,
+    "target_keyword_hits": 29,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 13,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

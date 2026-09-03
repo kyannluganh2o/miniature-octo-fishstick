@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "C012",
+  "source_record_id": "C-SD-05",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-C1",
+  "supporting_role": "high-resolution optical-method context",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-C012-01",
+      "question": "Does high-magnification shadowgraphy resolve sheet, ligament, and secondary-droplet features hidden by conventional imaging?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 C016 relies on synchronized imaging and C007 emphasizes multiscale breakup; this paper tests diagnostic observability."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "methodological_context",
+      "unique_support"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C012-C01",
+      "claim_text": "The high-magnification, high-speed shadowgraph method resolves the full breakup evolution and detailed sheet, ligament, and secondary-droplet structures that conventional shadowgraphy misses at high Weber number.",
+      "evidence_summary": "A long-distance microscope and short-pulse fluorescence backlight reduce coherence artifacts and improve spatial/temporal resolution of the breakup zone.",
+      "contribution_type": "additional_method",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-C012-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "C016",
+      "core_candidate_claim_id_or_anchor": "PILOT-C016-C01",
+      "link_type": "extends_method",
+      "shared_parameter_or_mechanism": "visual separation of early wave and later aerodynamic breakup stages",
+      "source_locator_id": "LOC-C012-0001"
+    }
+  ],
+  "process_relations": [],
+  "limitations": [
+    "Short optical-method paper; diagnostic capability rather than a complete regime map."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 4,
+    "focused_pages": [
+      1
+    ],
+    "target_keyword_page": 1,
+    "target_keyword_hits": 10,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 4,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

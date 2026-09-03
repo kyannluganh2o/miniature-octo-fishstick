@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "D004",
+  "source_record_id": "D-IC-04",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-D",
+  "supporting_role": "engine-scale reflected-shock/spray boundary evidence",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-D004-01",
+      "question": "Does a reflected shock selectively suppress radial spray growth and mixing without materially changing tip penetration?",
+      "status": "complete",
+      "priority": "high",
+      "target_basis": "Tier 2 D005 links shock-wave generation to spray structure; this paper isolates reflected-wave influence."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "unique_support",
+      "boundary_condition"
+    ],
+    "redundancy_level": "low",
+    "retain_priority": "high"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-D004-C01",
+      "claim_text": "Schlieren experiments show that reflected shocks suppress radial spray growth, cone angle, volume, and air entrainment while having little effect on spray-tip penetration.",
+      "evidence_summary": "N2 and SF6 atmospheres and injection-angle comparisons separate radial-interface deformation from axial penetration.",
+      "contribution_type": "boundary_evidence",
+      "support_type": "direct_observation",
+      "source_locator_id": "LOC-D004-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier2",
+      "core_paper_id": "D005",
+      "core_candidate_claim_id_or_anchor": "T2-D005-C01",
+      "link_type": "provides_boundary_condition",
+      "shared_parameter_or_mechanism": "shock-wave effects on diesel-spray penetration and angle",
+      "source_locator_id": "LOC-D004-0001"
+    }
+  ],
+  "process_relations": [
+    "PROC-D004-001"
+  ],
+  "limitations": [
+    "Engine-inspired chamber and reflected-wave configuration; the result is not equivalent to isolated-droplet planar-shock loading."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 8,
+    "focused_pages": [
+      1,
+      5,
+      7
+    ],
+    "target_keyword_page": 5,
+    "target_keyword_hits": 19,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 8,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}

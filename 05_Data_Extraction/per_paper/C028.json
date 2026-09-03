@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "paper_id": "C028",
+  "source_record_id": "C-PC-02",
+  "reading_tier": "tier3",
+  "extraction_scope": "claim_targeted",
+  "processing_batch": "T3-Batch-C2",
+  "supporting_role": "sharp-interface phase-change method support",
+  "target_questions": [
+    {
+      "target_id": "T3TARGET-C028-01",
+      "question": "Does the method preserve the pressure/velocity jumps and first-order physics needed for shock-induced droplet vaporization?",
+      "status": "complete",
+      "priority": "medium",
+      "target_basis": "Tier 1 C031 is the real-fluid phase-change anchor; this paper adds a distinct sharp-interface Riemann-solver method."
+    }
+  ],
+  "unique_contribution_assessment": {
+    "classes": [
+      "methodological_context",
+      "independent_corroboration"
+    ],
+    "redundancy_level": "moderate",
+    "retain_priority": "medium"
+  },
+  "parameters": [],
+  "evidence_candidates": [
+    {
+      "claim_id": "T3-C028-C01",
+      "claim_text": "The sharp-interface RS-GFM couples liquid and gas through interfacial pressure/normal-velocity jumps including phase change, surface tension, viscous stress, and Marangoni effects, enabling shock-induced vaporization-rate simulations.",
+      "evidence_summary": "Benchmark validation and 2D/3D shock-droplet simulations demonstrate a complementary numerical representation of first-order interface physics.",
+      "contribution_type": "additional_method",
+      "support_type": "model_based",
+      "source_locator_id": "LOC-C028-0001",
+      "retain_for_global_consolidation": "YES",
+      "status": "candidate"
+    }
+  ],
+  "core_links": [
+    {
+      "core_tier": "tier1",
+      "core_paper_id": "C031",
+      "core_candidate_claim_id_or_anchor": "PILOT-C031-C01",
+      "link_type": "extends_method",
+      "shared_parameter_or_mechanism": "phase-change/interface coupling modifies shock-droplet response",
+      "source_locator_id": "LOC-C028-0001"
+    }
+  ],
+  "process_relations": [],
+  "limitations": [
+    "Method-validation study; quantitative vaporization rates remain model- and resolution-dependent."
+  ],
+  "extraction_summary": {
+    "full_text_pages_assessed": 38,
+    "focused_pages": [
+      1,
+      29
+    ],
+    "target_keyword_page": 1,
+    "target_keyword_hits": 13,
+    "candidate_claims": 1,
+    "retained_candidate_claims": 1,
+    "new_parameter_records": 0,
+    "schema_gap_candidates": 0
+  },
+  "full_text_pages_assessed": 38,
+  "visual_verification": "Targeted visual verification performed where numeric/glyph-dependent abstract claims required it; no figure digitization."
+}
