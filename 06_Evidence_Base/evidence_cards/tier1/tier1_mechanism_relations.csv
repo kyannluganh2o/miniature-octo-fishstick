@@ -1,0 +1,48 @@
+mechanism_relation_id,paper_id,case_id,source_node,relation_type,target_node,support_type,candidate_claim_id,source_locator_id,verification_status,notes
+MECH-B004-001,B004,B004-REV,pressure_ratio,correlates_with,Mach_disk_position,author_interpretation,T1-B004-C01,LOC-B004-0004,verified,Review-secondary synthesis.
+MECH-B004-002,B004,B004-REV,near_field_shock_pattern,precedes,far_field_self_similarity,author_interpretation,T1-B004-C02,LOC-B004-0008,verified,Conceptual zone framework.
+MECH-B009-001,B009,ALL,NPR,correlates_with,Mach_disk_dimensions,simulation_resolved,T1-B009-C01,LOC-B009-0007,verified,Case-specific sweep.
+MECH-B009-002,B009,B009-H2-NPR8.5,Gortler_vortices,author_attributes_to,pre_disk_mixing,author_interpretation,T1-B009-C02,LOC-B009-0007,verified,"Author attribution, not promoted to direct causality."
+MECH-B009-003,B009,ALL,NPR,correlates_with,non_monotonic_penetration,simulation_resolved,T1-B009-C03,LOC-B009-0007,verified,Geometry-specific.
+MECH-B028-001,B028,ALL,NPR,promotes,shock_strength_and_entrainment,simulation_resolved,T1-B028-C01,LOC-B028-0009,verified,Primary factor ranking.
+MECH-B028-002,B028,B028-NHD,nozzle_hole_diameter,promotes,shear_layer_growth,experimental_correlation,T1-B028-C02,LOC-B028-0009,verified,Nonlinear saturation noted.
+MECH-B028-003,B028,B028-AT,ambient_temperature,promotes,lateral_expansion,experimental_correlation,T1-B028-C03,LOC-B028-0009,verified,Secondary effect.
+MECH-C007-001,C007,C007-REV,forcing_scale_compatibility,modifies,droplet_response,author_interpretation,T1-C007-C01,LOC-C007-0006,verified,Review synthesis.
+MECH-C007-002,C007,C007-REV,supersonic_compressibility,suppresses,breakup_intensity,author_interpretation,T1-C007-C02,LOC-C007-0005,verified,Secondary evidence.
+MECH-C007-003,C007,C007-REV,wave_cascade,precedes,ligament_fragmentation,author_interpretation,T1-C007-C03,LOC-C007-0006,verified,Review mechanism.
+MECH-C018-001,C018,ALL,reflected_expansion_focus,correlates_with,NPP_location_at_low_n,simulation_resolved,T1-C018-C01,LOC-C018-0006,verified,Correlation is not universal at high n.
+MECH-C018-002,C018,ALL,Mach_stem_motion,modifies,internal_wave_focus,model_based,T1-C018-C02,LOC-C018-0007,verified,Improved model relation.
+MECH-C018-003,C018,ALL,four_pressure_effects,couples_with,negative_peak_pressure,simulation_resolved,T1-C018-C03,LOC-C018-0008,verified,No single-factor causality claim.
+MECH-C019-001,C019,C019-M24-W6,shock_curvature,modifies,droplet_surface_loading_and_ligament_deformation,simulation_resolved,T1-C019-C01,LOC-C019-0008,verified,Primary numerical evidence.
+MECH-C019-002,C019,C019-M24-W6,external_internal_wave_impingement,promotes,fixed_point_and_KH_inception,model_based,T1-C019-C02,LOC-C019-0007,verified,Author theoretical interpretation.
+MECH-C024-001,C024,ALL,parent_droplet_size,correlates_with,cloud_survival_time,direct_observation,T1-C024-C01,LOC-C024-0005,verified,Primary experiment.
+MECH-C024-002,C024,ALL,rapid_acceleration,promotes,RT_growth_and_breakup,model_based,T1-C024-C02,LOC-C024-0007,verified,Author model interpretation.
+MECH-C025-001,C025,ALL,windward_piercing,promotes,secondary_atomization_mass_transfer,simulation_resolved,T1-C025-C01,LOC-C025-0005,verified,Primary numerical evidence.
+MECH-C025-002,C025,ALL,secondary_breakup_cascade,promotes,bimodal_size_distribution,author_interpretation,T1-C025-C02,LOC-C025-0004,verified,Distribution interpretation.
+MECH-C035-001,C035,ALL,lead_droplet_wake_shielding,suppresses,trailing_droplet_breakup_intensity,direct_observation,T1-C035-C01,LOC-C035-0006,verified,Primary experiment.
+MECH-C035-002,C035,ALL,Weber_number,correlates_with,critical_tandem_spacing,experimental_correlation,T1-C035-C02,LOC-C035-0004,verified,Endpoint values preserved.
+MECH-D018-001,D018,ALL,KHI_mass_stripping,precedes,KHI_RTI_piercing_catastrophic_breakup,direct_observation,T1-D018-C01,LOC-D018-0005,verified,Primary experiment.
+MECH-D018-002,D018,ALL,adverse_post_detonation_pressure_gradient,suppresses,droplet_acceleration_and_cross_stream_growth,author_interpretation,T1-D018-C02,LOC-D018-0006,verified,Author interpretation informed by ZND calculation.
+MECH-D018-003,D018,ALL,surface_tension,modifies,nondimensional_breakup_time,experimental_correlation,T1-D018-C03,LOC-D018-0008,verified,Water/RP-3 comparison.
+MECH-A026-001,A026,ALL,diesel_pilot_energy,promotes,initial_H2_reaction_intensity,direct_observation,T1-A026-C01,LOC-A026-0004,verified,Primary optical-engine evidence.
+MECH-A026-002,A026,ALL,advanced_H2_SOI,promotes,premixed_H2_fraction,experimental_correlation,T1-A026-C02,LOC-A026-0005,verified,Timing sweep.
+MECH-A026-003,A026,A026-T30,H2_pilot_preignition_overlap,author_attributes_to,longer_diesel_ignition_delay,author_interpretation,T1-A026-C02,LOC-A026-0005,verified,Dilution mechanism remains qualified.
+MECH-A028-001,A028,A028-REV,nozzle_geometry_and_pressure_definition,modifies,Mach_disk_model_validity,author_interpretation,T1-A028-C01,LOC-A028-0004,verified,Review-secondary.
+MECH-A028-002,A028,A028-REV,numerical_fidelity,correlates_with,computational_cost,author_interpretation,T1-A028-C02,LOC-A028-0003,verified,Review-secondary.
+MECH-A029-001,A029,A029-REV,two_fuel_injection_control,modifies,mixture_reactivity_stratification,author_interpretation,T1-A029-C01,LOC-A029-0003,verified,Review-secondary.
+MECH-A029-002,A029,A029-REV,oxygen_and_injection_sequence,modifies,pilot_H2_ignition_interaction,author_interpretation,T1-A029-C02,LOC-A029-0002,verified,Review-secondary.
+MECH-A030-001,A030,A030-REV,relative_injection_duration,modifies,pilot_product_entrainment_and_flame_stabilization,author_interpretation,T1-A030-C02,LOC-A030-0002,verified,Review-secondary.
+MECH-A030-002,A030,A030-REV,jet_convergence,correlates_with,ignition_delay_and_reaction_front_transfer,author_interpretation,T1-A030-C02,LOC-A030-0005,verified,Review-secondary; not universal causality.
+MECH-A030-003,A030,A030-REV,ambient_temperature_and_oxygen,modifies,ignition_and_flame_stabilization,author_interpretation,T1-A030-C01,LOC-A030-0005,verified,Review-secondary.
+MECH-A007-001,A007,A007-RCEM,jet_overlap,suppresses,pilot_ignition,direct_observation,T1-A007-C01,LOC-A007-0005,verified,Observed operability/ignition-delay relation.
+MECH-A007-002,A007,A007-RCEM,pilot_gas_overlap,promotes,gas_ignition,experimental_correlation,T1-A007-C01,LOC-A007-0005,verified,Opposing pilot/gas response.
+MECH-A007-003,A007,A007-RCEM,gas_ignition_timing,correlates_with,heat_release_shape,experimental_correlation,T1-A007-C02,LOC-A007-0006,verified,Premixing descriptor.
+MECH-B021-001,B021,B021-NPR,contextual_NPR,correlates_with,Mach_disk_size_and_position,simulation_resolved,T1-B021-C01,LOC-B021-0004,verified,Nozzle/configuration specific.
+MECH-B021-002,B021,B021-ICE,ambient_temperature,promotes,hydrogen_diffusion,simulation_resolved,T1-B021-C03,LOC-B021-0007,verified,Soret-enabled transport model.
+MECH-B021-003,B021,B021-MULTI,interjet_expansion_waves,author_attributes_to,jet_coalescence_tendency,author_interpretation,T1-B021-C03,LOC-B021-0008,verified,Preliminary mechanism.
+MECH-C029-001,C029,C029-TEMP,transcritical_thermodynamic_state,modifies,refracted_shock_topology,simulation_resolved,T1-C029-C01,LOC-C029-0006,verified,Mediated by speed-of-sound ratio.
+MECH-C029-002,C029,C029-T650,shock_convergence,promotes,focal_pressure_and_axial_jet,simulation_resolved,T1-C029-C02,LOC-C029-0008,verified,Strong convergence.
+MECH-C029-003,C029,C029-MACH,shock_strength,modifies,circulation_and_deformation,simulation_resolved,T1-C029-C03,LOC-C029-0009,verified,Fixed n=1.8.
+MECH-D019-001,D019,D019-ALL,reaction_heat_release,promotes,reflected_shock_speed,model_based,T1-D019-C01,LOC-D019-0006,verified,Postwave state mediation.
+MECH-D019-002,D019,D019-ALL,shorter_low_pressure_persistence,promotes,earlier_cavitation_collapse,simulation_resolved,T1-D019-C02,LOC-D019-0007,verified,Detonation vs inert shock.
+MECH-D019-003,D019,D019-ALL,postwave_velocity,modifies,breakup_morphology,simulation_resolved,T1-D019-C03,LOC-D019-0008,verified,Project transfer inference remains separate.
