@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Abstract and introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 2,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Experimental setup and observations",
+    "pdf_page_start": 2,
+    "pdf_page_end": 5,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Numerical model",
+    "pdf_page_start": 5,
+    "pdf_page_end": 8,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Droplet-cloud response",
+    "pdf_page_start": 8,
+    "pdf_page_end": 9,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Conclusions and references",
+    "pdf_page_start": 10,
+    "pdf_page_end": 10,
+    "boundary_status": "confirmed"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "paper_id": "D017",
+  "input_pdf": "02_PDF_Raw/D/D-DW-02_2025_Young_DropletBreakup_Evaporation_LiquidFueledDetonations.pdf",
+  "processing_started": "2026-08-30T09:41:56+00:00",
+  "processing_completed": "2026-08-30T09:41:59+00:00",
+  "parser_method": "pypdf 6.10.0 page-by-page text extraction; Poppler-rendered key-page visual QA",
+  "warnings": [],
+  "unreadable_pages": [],
+  "extraction_limitations": [
+    "Multi-column order, equations and embedded glyphs may require PDF cross-check.",
+    "No figure digitization or bulk image extraction was performed."
+  ]
+}

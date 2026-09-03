@@ -1,0 +1,44 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Abstract: Increasing the fuel injection pressure is currently the most e ﬀective way to achieve a",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 2,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "2.1. Experimental Setup",
+    "pdf_page_start": 3,
+    "pdf_page_end": 6,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "3. Results and Discussion",
+    "pdf_page_start": 7,
+    "pdf_page_end": 16,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "4. Conclusions",
+    "pdf_page_start": 17,
+    "pdf_page_end": 17,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "References",
+    "pdf_page_start": 17,
+    "pdf_page_end": 19,
+    "boundary_status": "best_effort"
+  }
+]

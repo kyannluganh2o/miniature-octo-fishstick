@@ -1,0 +1,44 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Abstract and introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 3,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Experimental facility and methods",
+    "pdf_page_start": 3,
+    "pdf_page_end": 5,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Results and cloud morphology",
+    "pdf_page_start": 5,
+    "pdf_page_end": 7,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Model interpretation",
+    "pdf_page_start": 7,
+    "pdf_page_end": 10,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Conclusions",
+    "pdf_page_start": 10,
+    "pdf_page_end": 10,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "Appendices and references",
+    "pdf_page_start": 10,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  }
+]
