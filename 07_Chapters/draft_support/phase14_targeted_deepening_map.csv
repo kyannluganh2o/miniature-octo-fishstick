@@ -1,0 +1,7 @@
+﻿edit_id,section_id,trigger_figure_or_table,edit_type,scientific_reason,proposed_content,paper_ids,priority,apply_now,notes
+P14-E01,S06,TAB-02;QSA-01,add_quantitative_comparison,Case audit produced a definition-complete within-study x_MD/D series while rejecting cross-paper pooling.,Add B009 NPR and derived x_MD/D values; explicitly state within-study-only status.,B009,high,yes,No correlation fit.
+P14-E02,S18,TAB-05;QSA-05,add_condition_comparison,D017 registry quantifies model sensitivity at fixed d0.,"Add the 10 µm extinction-distance spread across no-breakup, KH-RT and WERT49 branches.",D017,medium,yes,Within-study model comparison.
+P14-E03,S26,TAB-07;QSA-08,add_quantitative_comparison,D009 has three paired L_E/L_D–wave-speed cases and one unpaired ratio case.,Add the 2–4 µm paired range and retain the 5 µm exclusion transparently.,D009,high,yes,RDE-only; no HPDI mapping.
+P14-E04,S08,FIG-03;TAB-08,no_change,Current prose already states the exact unresolved Lagrangian variables and diagnostics.,No change.,B009;B021;C007;C016,high,no,Boundary preserved.
+P14-E05,S16,FIG-05;TAB-04,no_change,Current prose already separates ordered/cloud mechanisms from dense HPDI spray.,No change.,C033;C034;C035;C036,high,no,Dense-spray transfer remains unresolved.
+P14-E06,S25,FIG-07;TAB-06,no_change,No eligible timing-response pooling emerged; existing boundary is scientifically sufficient.,No change.,A007;A020;A022,high,no,Wave-to-ignition causality remains open.
