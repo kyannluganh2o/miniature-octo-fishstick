@@ -1,0 +1,72 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "ABSTRACT",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 3,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "model. Finally, the challenges associated with the numerical in -",
+    "pdf_page_start": 4,
+    "pdf_page_end": 4,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "introduction",
+    "pdf_page_start": 4,
+    "pdf_page_end": 4,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "method",
+    "pdf_page_start": 4,
+    "pdf_page_end": 10,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "model",
+    "pdf_page_start": 11,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "model",
+    "pdf_page_start": 12,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S08",
+    "section_title": "model. Therefore, it is challenging to reduce computation cost",
+    "pdf_page_start": 15,
+    "pdf_page_end": 15,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S09",
+    "section_title": "5.1. Conclusions",
+    "pdf_page_start": 15,
+    "pdf_page_end": 16,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S10",
+    "section_title": "References",
+    "pdf_page_start": 17,
+    "pdf_page_end": 19,
+    "boundary_status": "best_effort"
+  }
+]

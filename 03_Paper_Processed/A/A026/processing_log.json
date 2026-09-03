@@ -1,0 +1,15 @@
+{
+  "paper_id": "A026",
+  "input_pdf": "02_PDF_Raw/A/A-H2-09_2025_Heaton_HydrogenInjectionTiming_EnergyProportion_Flame.pdf",
+  "processing_started": "2026-08-30T13:22:15+00:00",
+  "processing_completed": "2026-08-30T13:22:16+00:00",
+  "parser_method": "pypdf page-by-page text extraction; identity checked against library_master",
+  "identity_title_token_coverage": 1.0,
+  "warnings": [],
+  "unreadable_pages": [],
+  "extraction_limitations": [
+    "Multi-column order, equations and embedded glyphs may require PDF cross-check.",
+    "Section boundaries are best-effort and require scientific-reading review.",
+    "No figure digitization or bulk image extraction was performed."
+  ]
+}

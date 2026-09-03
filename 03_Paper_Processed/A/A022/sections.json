@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Abstract and introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 2,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Experimental details",
+    "pdf_page_start": 2,
+    "pdf_page_end": 5,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Results and discussion",
+    "pdf_page_start": 5,
+    "pdf_page_end": 13,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Conclusions",
+    "pdf_page_start": 13,
+    "pdf_page_end": 14,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Appendices and references",
+    "pdf_page_start": 15,
+    "pdf_page_end": 20,
+    "boundary_status": "best_effort"
+  }
+]
