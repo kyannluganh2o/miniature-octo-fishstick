@@ -1,0 +1,147 @@
+unit_schema:
+  version: "1.1"
+  status: pilot-validated-revision
+  previous_version: "1.0"
+  system: SI
+
+value_storage:
+  required_fields:
+    - reported_value
+    - reported_unit
+    - normalized_value
+    - normalized_unit
+  preserve_reported_value_and_unit: true
+  normalization_rule: "Normalize only after both unit and physical definition are confirmed."
+  missing_value_rule: "Use NR, NA, or NV; never numeric zero."
+
+unit_dimensions:
+  pressure:
+    canonical_si_unit: Pa
+    preferred_display_unit: MPa
+    accepted_units: [Pa, kPa, MPa, bar, atm]
+    notes: "Record absolute versus gauge basis in the parameter definition; conversion does not reconcile pressure definitions."
+  temperature:
+    canonical_si_unit: K
+    preferred_display_unit: K
+    accepted_units: [K, degC]
+    notes: "Temperature differences and absolute temperatures require distinct conversion handling."
+  length:
+    canonical_si_unit: m
+    preferred_display_unit: mm
+    accepted_units: [m, cm, mm, um, nm]
+  characteristic_length:
+    canonical_si_unit: m
+    preferred_display_unit: source_dependent
+    accepted_units: [m, cm, mm, um, nm]
+    notes: "The physical meaning of every named characteristic scale must be preserved; equal units do not imply equal definitions."
+  nozzle_diameter:
+    canonical_si_unit: m
+    preferred_display_unit: mm
+    accepted_units: [m, cm, mm, um]
+  droplet_diameter:
+    canonical_si_unit: m
+    preferred_display_unit: um
+    accepted_units: [m, mm, um, nm]
+  inverse_length:
+    canonical_si_unit: 1/m
+    preferred_display_unit: 1/m
+    accepted_units: [1/m, 1/mm]
+  velocity:
+    canonical_si_unit: m/s
+    preferred_display_unit: m/s
+    accepted_units: [m/s, km/s]
+  acceleration:
+    canonical_si_unit: m/s^2
+    preferred_display_unit: m/s^2
+    accepted_units: [m/s^2]
+  density:
+    canonical_si_unit: kg/m^3
+    preferred_display_unit: kg/m^3
+    accepted_units: [kg/m^3, g/cm^3]
+  dynamic_viscosity:
+    canonical_si_unit: Pa*s
+    preferred_display_unit: mPa*s
+    accepted_units: [Pa*s, mPa*s, cP]
+  surface_tension:
+    canonical_si_unit: N/m
+    preferred_display_unit: mN/m
+    accepted_units: [N/m, mN/m]
+  time:
+    canonical_si_unit: s
+    preferred_display_unit: us_or_ms
+    accepted_units: [s, ms, us, ns]
+    notes: "Choose us or ms for display according to scale; store normalized value in s."
+  signed_time_offset:
+    canonical_si_unit: s
+    preferred_display_unit: source_dependent
+    accepted_units: [s, ms, us, ns]
+    notes: "Preserve the sign and reference event; a positive and negative offset are not interchangeable."
+  frequency:
+    canonical_si_unit: Hz
+    preferred_display_unit: kHz
+    accepted_units: [Hz, kHz, MHz, 1/s]
+  mass_flow_rate:
+    canonical_si_unit: kg/s
+    preferred_display_unit: g/s
+    accepted_units: [kg/s, g/s, mg/s]
+  mass_flux:
+    canonical_si_unit: kg/(m^2*s)
+    preferred_display_unit: source_dependent
+    accepted_units: [kg/(m^2*s), g/(m^2*s)]
+    notes: "A sign convention is mandatory when positive and negative values represent different interface directions."
+  heat_flux:
+    canonical_si_unit: W/m^2
+    preferred_display_unit: source_dependent
+    accepted_units: [W/m^2, kW/m^2, MW/m^2]
+  mass:
+    canonical_si_unit: kg
+    preferred_display_unit: mg
+    accepted_units: [kg, g, mg, ug]
+  specific_heat:
+    canonical_si_unit: J/(kg*K)
+    preferred_display_unit: J/(kg*K)
+    accepted_units: [J/(kg*K), kJ/(kg*K)]
+  latent_heat:
+    canonical_si_unit: J/kg
+    preferred_display_unit: kJ/kg
+    accepted_units: [J/kg, kJ/kg, MJ/kg]
+  angle:
+    canonical_si_unit: rad
+    preferred_display_unit: deg
+    accepted_units: [rad, deg]
+  power:
+    canonical_si_unit: W
+    preferred_display_unit: kW
+    accepted_units: [W, kW, MW]
+  concentration:
+    canonical_si_unit: kg/m^3
+    preferred_display_unit: source_dependent
+    accepted_units: [kg/m^3, mol/m^3, mass_fraction, mole_fraction, ppm]
+    notes: "Do not convert between mass, molar, and fraction definitions without composition and an explicit basis."
+  dimensionless:
+    canonical_si_unit: "1"
+    preferred_display_unit: "1"
+    accepted_units: ["1", percent]
+    notes: "Store percentages as reported and normalize to fractions only when the definition is confirmed."
+  ratio:
+    canonical_si_unit: "1"
+    preferred_display_unit: "1"
+    accepted_units: ["1", percent]
+    notes: "A ratio requires named numerator and denominator records plus a source-supported definition."
+  count:
+    canonical_si_unit: "1"
+    preferred_display_unit: "1"
+    accepted_units: ["1"]
+
+conversion_policy:
+  retain_original_precision: true
+  retain_reported_uncertainty: true
+  record_conversion_basis_in_notes: true
+  forbid_conversion_when_unit_unverified: true
+  forbid_conversion_across_definition_mismatch: true
+  pressure_basis_must_be_explicit: true
+  external_property_lookup: forbidden_in_current_phase
+  signed_offsets_require_reference_event: true
+  characteristic_scale_definition_required: true
+  flux_sign_convention_required_when_directional: true
+  ratio_operands_must_be_definition_compatible: true

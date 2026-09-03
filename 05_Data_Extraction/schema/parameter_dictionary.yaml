@@ -1,0 +1,407 @@
+parameter_schema:
+  version: "1.1"
+  status: pilot-validated-revision
+  previous_version: "1.0"
+  migration_source: Phase 6 Pilot
+  model: long_format
+  row_granularity: "one paper x one parameter x one context"
+  normalized_relational_extensions: true
+
+controlled_vocabularies:
+  value_status: [reported, derived, inferred, NR, NA, NV]
+  source_type: [text, table, figure, equation, supplementary, metadata, external_source]
+  extraction_status: [not_started, partial, complete, needs_review]
+  verification_status: [unverified, verified, issue]
+  qualitative_boolean: [yes, no, NR, NA, NV]
+  shock_geometry: [planar, cylindrical, spherical, divergent, curved_local, unknown]
+  study_type: [experimental, numerical, analytical, review, mixed, other, unknown]
+  reacting_state: [reacting, nonreacting, mixed, unknown]
+  droplet_population: [single_droplet, multidroplet, spray, none, mixed, unknown]
+  parameter_role: [experimental_control, boundary_condition, initial_condition, operating_condition, material_property, measured_input, model_input, calibrated_coefficient, measured_output, simulated_output, derived_metric, reported_correlation, classification, descriptive_state, unknown]
+  mach_context: [incident_shock, post_shock_freestream, local_jet, jet_exit, relative_gas_droplet, droplet_relative, detonation_front, transmitted_shock, reflected_shock, other, unknown]
+  reference_frame: [laboratory, shock_fixed, droplet_fixed, jet_axis, injector_fixed, wave_fixed, rotating_frame, other, unknown, NV]
+  mach_disk_state: [formation, growth, instantaneous, motion, maximum_excursion, minimum_excursion, oscillation, stabilization, stabilized, quasi_steady, time_averaged, reported_unspecified]
+  pressure_role: [storage_pressure, rail_pressure, injector_internal_pressure, nozzle_inlet_pressure, stagnation_pressure, total_pressure, static_pressure, ambient_pressure, back_pressure, chamber_pressure, other, unknown]
+  thermodynamic_pressure_type: [total, stagnation, static, reported_unspecified]
+  pressure_reference_type: [absolute, gauge, reported_unspecified]
+  ratio_time_basis: [instantaneous, initial, peak, storage_based, inlet_based, plateau, quasi_steady, time_averaged, time_resolved, reported_unspecified]
+  history_type: [pressure_history, NPR_history, Mach_disk_position_history, Mach_disk_diameter_history, velocity_history, temperature_history, mass_history, evaporation_history, heat_release_history, other]
+  data_availability: [explicit_tabulated, explicit_text_values, figure_only, qualitative_only, formula_based, not_available]
+  dimensionless_definition_status: [complete_reported, incomplete_reported, formula_only, not_verified]
+  event_status: [reported, relative_only, reference_only, NV]
+  interval_type: [shock_front_passage, pressure_pulse, shocked_state, post_shock_aerodynamic_exposure, expansion_wave_limited_loading, total_forcing, wave_residence, injection_duration, SOI_separation, ignition_delay, deformation_interval, breakup_interval, evaporation_interval, other_reported]
+  relation_type: [precedes, follows, promotes, suppresses, modifies, couples_with, concurrent_with, correlates_with, author_attributes_to, other]
+  support_type: [direct_observation, simulation_resolved, experimental_correlation, model_based, author_interpretation, project_inference]
+  locator_status: [complete, partial, unparsed]
+
+required_context_fields:
+  paper_id: {data_type: string, required: true, definition: "Locked canonical Paper ID."}
+  source_record_id: {data_type: string, required: true, definition: "Historical upstream record identifier."}
+  reading_tier: {data_type: enum, allowed: [tier1, tier2, tier3], required: true}
+  case_id: {data_type: string, required: false, definition: "Paper-local case identifier."}
+  condition_id: {data_type: string, required: false, definition: "Paper-local operating-condition identifier."}
+  time_or_stage: {data_type: string, required: false, definition: "Reported time, normalized time, or named physical stage."}
+  spatial_location: {data_type: string, required: false, definition: "Physical or measurement location and frame when relevant."}
+
+record_fields:
+  parameter_record_id: {data_type: string, required: true, immutable: true, format: "^PAR-[ABCD][0-9]{3}-[0-9]{4}$"}
+  context_id: {data_type: string, required: true, definition: "Stable paper-local case/condition context label."}
+  parameter_role: {data_type: enum, vocabulary: parameter_role, required: true}
+  parameter_context: {data_type: string, required: false, family_specific: true}
+  reference_frame: {data_type: enum, vocabulary: reference_frame, required_for: [Mach, velocity, acceleration]}
+  state_qualifier: {data_type: enum, vocabulary: mach_disk_state, required_for: [mach_disk_distance, mach_disk_diameter, mach_disk_position, mach_disk_motion]}
+  event_id: {data_type: foreign_key, target: events.csv, required: false}
+  interval_id: {data_type: foreign_key, target: intervals.csv, required: false}
+  history_id: {data_type: foreign_key, target: time_history_registry.csv, required: false}
+  ratio_id: {data_type: foreign_key, target: ratio_definitions.csv, required: false}
+  dimensionless_definition_id: {data_type: foreign_key, target: dimensionless_definitions.csv, required: false}
+  process_relation_id: {data_type: foreign_key, target: process_relations.csv, required: false}
+  source_locator_id: {data_type: foreign_key, target: source_locators.csv, required: true}
+  sign_convention: {data_type: string, required_when_direction_changes_meaning: true}
+  missing_reason: {data_type: string, required_when_value_status: [NR, NA, NV]}
+  schema_version: {data_type: string, required: true, allowed: ["1.1"]}
+
+parameter_groups:
+  bibliographic_context: {description: "Publication and record context; authority remains library_master."}
+  study_context: {description: "Study configuration and application context."}
+  injector_nozzle: {description: "Injector and nozzle geometry."}
+  injection_conditions: {description: "Supply, stagnation, and injection operating conditions."}
+  ambient_conditions: {description: "Ambient or back-pressure environment."}
+  jet_global: {description: "Global underexpanded-jet development."}
+  shock_structure: {description: "Shock cells, Mach disk, wave type, strength, and curvature."}
+  shock_loading: {description: "Forcing interval and characteristic loading."}
+  droplet_initial: {description: "Initial single-droplet state and liquid properties."}
+  spray_initial: {description: "Multi-droplet and spray initial state."}
+  dimensionless_numbers: {description: "Dimensionless groups with explicit definitions and reference scales."}
+  droplet_response: {description: "Deformation, breakup onset, and characteristic times."}
+  breakup_products: {description: "Fragments, ligaments, and post-breakup distributions."}
+  transport: {description: "Droplet motion, penetration, dispersion, and drag."}
+  phase_change: {description: "Evaporation, vaporization, and transcritical effects."}
+  mixing: {description: "Entrainment, composition, and mixing metrics."}
+  ignition_combustion: {description: "Ignition, flame, heat release, and pilot interaction."}
+  rde_detonation: {description: "RDE and detonation application parameters."}
+  interaction_geometry: {description: "Jet axes, relative angles, overlap, and interaction regions."}
+  characteristic_scales: {description: "Named physical length/time scales and their roles."}
+  process_context: {description: "Process coupling, chronology, applicability, and sign conventions."}
+  numerical_method: {description: "Numerical formulation, models, mesh, and time resolution."}
+  experimental_method: {description: "Facility and diagnostic methods."}
+  provenance: {description: "Mandatory source and verification metadata for every future value."}
+
+parameters:
+  title: {group: bibliographic_context, data_type: string, unit_dimension: none}
+  year: {group: bibliographic_context, data_type: integer, unit_dimension: none}
+  doi: {group: bibliographic_context, data_type: string, unit_dimension: none}
+
+  study_type: {group: study_context, data_type: enum, allowed: [experimental, numerical, analytical, review, mixed, other, unknown], unit_dimension: none}
+  application_context: {group: study_context, data_type: string, unit_dimension: none}
+  working_gas: {group: study_context, data_type: string, unit_dimension: none}
+  liquid_fuel: {group: study_context, data_type: string, unit_dimension: none}
+  geometry_type: {group: study_context, data_type: string, unit_dimension: none}
+  single_droplet_or_spray: {group: study_context, data_type: enum, allowed: [single_droplet, spray, mixed, none, unknown], unit_dimension: none}
+  single_or_multidroplet: {group: study_context, data_type: enum, allowed: [single_droplet, multidroplet, mixed, none, unknown], unit_dimension: none}
+  reacting_or_nonreacting: {group: study_context, data_type: enum, allowed: [reacting, nonreacting, mixed, unknown], unit_dimension: none}
+
+  nozzle_diameter: {group: injector_nozzle, data_type: number, unit_dimension: length, definition_required: true}
+  effective_nozzle_diameter: {group: injector_nozzle, data_type: number, unit_dimension: length, definition_required: true}
+  orifice_length: {group: injector_nozzle, data_type: number, unit_dimension: length}
+  L_over_D: {group: injector_nozzle, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  needle_lift_or_opening: {group: injector_nozzle, data_type: number_or_description, unit_dimension: length_or_dimensionless, definition_required: true}
+
+  injection_pressure: {group: injection_conditions, data_type: number, unit_dimension: pressure, definition_required: true}
+  stagnation_pressure: {group: injection_conditions, data_type: number, unit_dimension: pressure, definition_required: true}
+  injector_pressure: {group: injection_conditions, data_type: number, unit_dimension: pressure, definition_required: true}
+  injection_temperature: {group: injection_conditions, data_type: number, unit_dimension: temperature}
+  stagnation_temperature: {group: injection_conditions, data_type: number, unit_dimension: temperature}
+  mass_flow_rate: {group: injection_conditions, data_type: number, unit_dimension: mass_flow_rate}
+  injection_duration: {group: injection_conditions, data_type: number, unit_dimension: time, definition_required: true}
+
+  ambient_pressure: {group: ambient_conditions, data_type: number, unit_dimension: pressure, definition_required: true}
+  ambient_temperature: {group: ambient_conditions, data_type: number, unit_dimension: temperature}
+  ambient_density: {group: ambient_conditions, data_type: number, unit_dimension: density}
+  ambient_gas: {group: ambient_conditions, data_type: string, unit_dimension: none}
+  ambient_oxygen_fraction: {group: ambient_conditions, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  back_pressure: {group: ambient_conditions, data_type: number, unit_dimension: pressure, definition_required: true}
+
+  NPR: {group: jet_global, data_type: number, unit_dimension: dimensionless, definition_required: true, ratio_id_required: true, definition: "Nozzle pressure ratio; populate only when the paper definition and contextual ratio record are confirmed."}
+  NPR_reported: {group: jet_global, data_type: number, unit_dimension: dimensionless, definition_required: true, ratio_id_required: true}
+  NPR_definition: {group: jet_global, data_type: string, unit_dimension: none, required_with: [NPR, NPR_reported, NPR_derived]}
+  NPR_numerator: {group: jet_global, data_type: number_or_expression, unit_dimension: pressure, definition_required: true}
+  NPR_denominator: {group: jet_global, data_type: number_or_expression, unit_dimension: pressure, definition_required: true}
+  NPR_derived: {group: jet_global, data_type: number, unit_dimension: dimensionless, definition_required: true, value_status_required: derived}
+  jet_exit_velocity: {group: jet_global, data_type: number, unit_dimension: velocity, definition_required: true}
+  jet_centerline_velocity: {group: jet_global, data_type: number, unit_dimension: velocity, definition_required: true}
+  jet_Mach_number: {group: jet_global, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  jet_penetration: {group: jet_global, data_type: number, unit_dimension: length, definition_required: true}
+  jet_tip_velocity: {group: jet_global, data_type: number, unit_dimension: velocity, definition_required: true}
+  jet_spreading_angle: {group: jet_global, data_type: number, unit_dimension: angle, definition_required: true}
+  potential_core_length: {group: jet_global, data_type: number, unit_dimension: length, definition_required: true}
+  shock_cell_spacing: {group: jet_global, data_type: number, unit_dimension: length, definition_required: true}
+  number_of_visible_shock_cells: {group: jet_global, data_type: integer, unit_dimension: count, definition_required: true}
+
+  mach_disk_present: {group: shock_structure, data_type: enum, allowed: [yes, no, NR, NA, NV], unit_dimension: none}
+  mach_disk_distance: {group: shock_structure, data_type: number, unit_dimension: length, definition_required: true, state_qualifier_required: true, context_note: "Distinguish formation, growth, instantaneous, excursion, oscillation, stabilization, stabilized, quasi-steady, and time-averaged values."}
+  mach_disk_distance_over_D: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  mach_disk_diameter: {group: shock_structure, data_type: number, unit_dimension: length, definition_required: true, state_qualifier_required: true}
+  mach_disk_diameter_over_D: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  mach_disk_motion: {group: shock_structure, data_type: number_or_description, unit_dimension: velocity_or_qualitative, definition_required: true, state_qualifier_required: true}
+  mach_disk_formation_time: {group: shock_structure, data_type: number, unit_dimension: time, definition_required: true, state_qualifier_required: true, event_id_required: true}
+  wave_type: {group: shock_structure, data_type: string, unit_dimension: none, definition_required: true}
+  shock_type: {group: shock_structure, data_type: string, unit_dimension: none, definition_required: true}
+  shock_Mach_number: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true, parameter_context_required: true, reference_frame_required: true}
+  M_s: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true, allowed_context: incident_shock, parameter_context_required: true, reference_frame_required: true}
+  M_s_definition: {group: shock_structure, data_type: string, unit_dimension: none, required_with: [M_s]}
+  M_s_reference_frame: {group: shock_structure, data_type: string, unit_dimension: none, required_with: [M_s]}
+  incident_shock_Mach: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true, allowed_context: incident_shock, reference_frame_required: true}
+  transmitted_shock_Mach: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true, allowed_context: transmitted_shock, reference_frame_required: true}
+  reflected_shock_Mach: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true, allowed_context: reflected_shock, reference_frame_required: true}
+  pressure_ratio_across_shock: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  density_ratio_across_shock: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  temperature_ratio_across_shock: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  velocity_jump: {group: shock_structure, data_type: number, unit_dimension: velocity, definition_required: true}
+  post_shock_velocity: {group: shock_structure, data_type: number, unit_dimension: velocity, definition_required: true}
+  post_shock_density: {group: shock_structure, data_type: number, unit_dimension: density, definition_required: true}
+  post_shock_pressure: {group: shock_structure, data_type: number, unit_dimension: pressure, definition_required: true}
+  shock_curvature_reported: {group: shock_structure, data_type: number_or_description, unit_dimension: inverse_length_or_qualitative, definition_required: true}
+  shock_radius_of_curvature: {group: shock_structure, data_type: number, unit_dimension: length, definition_required: true}
+  shock_curvature: {group: shock_structure, data_type: number, unit_dimension: inverse_length, definition_required: true, rule: "Do not encode planar as zero unless a future approved convention requires it."}
+  shock_radius_over_D: {group: shock_structure, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  shock_geometry: {group: shock_structure, data_type: enum, allowed: [planar, cylindrical, spherical, divergent, curved_local, unknown], unit_dimension: none}
+
+  loading_duration: {group: shock_loading, data_type: number, unit_dimension: time, definition_required: true, interval_id_required: true}
+  loading_duration_definition: {group: shock_loading, data_type: string, unit_dimension: none, required_with: [loading_duration, normalized_loading_duration]}
+  loading_start: {group: shock_loading, data_type: number_or_event, unit_dimension: time_or_event, definition_required: true}
+  loading_end: {group: shock_loading, data_type: number_or_event, unit_dimension: time_or_event, definition_required: true}
+  loading_time_scale: {group: shock_loading, data_type: number, unit_dimension: time, definition_required: true}
+  normalized_loading_duration: {group: shock_loading, data_type: number, unit_dimension: dimensionless, definition_required: true}
+
+  droplet_diameter_initial: {group: droplet_initial, data_type: number, unit_dimension: length, definition_required: true}
+  droplet_radius_initial: {group: droplet_initial, data_type: number, unit_dimension: length, definition_required: true}
+  droplet_temperature_initial: {group: droplet_initial, data_type: number, unit_dimension: temperature}
+  droplet_velocity_initial: {group: droplet_initial, data_type: number, unit_dimension: velocity, definition_required: true}
+  liquid_density: {group: droplet_initial, data_type: number, unit_dimension: density, external_property_lookup: forbidden}
+  liquid_viscosity: {group: droplet_initial, data_type: number, unit_dimension: dynamic_viscosity, external_property_lookup: forbidden}
+  surface_tension: {group: droplet_initial, data_type: number, unit_dimension: surface_tension, external_property_lookup: forbidden}
+  liquid_specific_heat: {group: droplet_initial, data_type: number, unit_dimension: specific_heat, external_property_lookup: forbidden}
+  latent_heat: {group: droplet_initial, data_type: number, unit_dimension: latent_heat, external_property_lookup: forbidden}
+  fuel_species: {group: droplet_initial, data_type: string, unit_dimension: none}
+
+  S_over_D: {group: spray_initial, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  spacing: {group: spray_initial, data_type: number, unit_dimension: length, definition_required: true}
+  spacing_definition: {group: spray_initial, data_type: string, unit_dimension: none, required_with: [S_over_D, spacing], definition: "State what S and D mean, direction, gap convention, and arrangement."}
+  droplet_number: {group: spray_initial, data_type: integer, unit_dimension: count}
+  droplet_arrangement: {group: spray_initial, data_type: string, unit_dimension: none}
+  volume_fraction: {group: spray_initial, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  mass_loading: {group: spray_initial, data_type: number, unit_dimension: dimensionless_or_mass_per_volume, definition_required: true}
+  number_density: {group: spray_initial, data_type: number, unit_dimension: inverse_volume, definition_required: true}
+  polydispersity: {group: spray_initial, data_type: number_or_description, unit_dimension: dimensionless_or_qualitative, definition_required: true}
+  Sauter_mean_diameter: {group: spray_initial, data_type: number, unit_dimension: length, definition_required: true}
+  D10: {group: spray_initial, data_type: number, unit_dimension: length, definition_required: true}
+  D32: {group: spray_initial, data_type: number, unit_dimension: length, definition_required: true}
+
+  interaction_angle: {group: interaction_geometry, data_type: number, unit_dimension: angle, definition_required: true}
+  jet_axis_angle: {group: interaction_geometry, data_type: number, unit_dimension: angle, definition_required: true}
+  relative_injection_angle: {group: interaction_geometry, data_type: number, unit_dimension: angle, definition_required: true, sign_convention_required: true}
+  jet_overlap_description: {group: interaction_geometry, data_type: string, unit_dimension: qualitative, definition_required: true}
+  overlap_start_distance: {group: interaction_geometry, data_type: number, unit_dimension: length, definition_required: true}
+  interaction_geometry: {group: interaction_geometry, data_type: string, unit_dimension: qualitative, definition_required: true}
+  interaction_region: {group: interaction_geometry, data_type: string_or_length, unit_dimension: spatial_or_qualitative, definition_required: true}
+  relative_momentum_ratio: {group: interaction_geometry, data_type: number, unit_dimension: dimensionless, definition_required: true, derivation_requires_approved_formula: true}
+
+  We: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  We_reported: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  We_derived: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true, value_status_required: derived}
+  We_definition: {group: dimensionless_numbers, data_type: string, unit_dimension: none, required_with: [We, We_reported, We_derived]}
+  We_velocity_scale: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: velocity, definition_required: true}
+  We_length_scale: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: length, definition_required: true}
+  We_gas_density: {group: dimensionless_numbers, data_type: number, unit_dimension: density, definition_required: true}
+  We_surface_tension: {group: dimensionless_numbers, data_type: number, unit_dimension: surface_tension, definition_required: true}
+  Re: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  Re_reported: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  Re_derived: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true, value_status_required: derived}
+  Re_definition: {group: dimensionless_numbers, data_type: string, unit_dimension: none, required_with: [Re, Re_reported, Re_derived]}
+  Re_velocity_scale: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: velocity, definition_required: true}
+  Re_length_scale: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: length, definition_required: true}
+  Re_density: {group: dimensionless_numbers, data_type: number, unit_dimension: density, definition_required: true}
+  Re_viscosity: {group: dimensionless_numbers, data_type: number, unit_dimension: dynamic_viscosity, definition_required: true}
+  Oh: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  Oh_reported: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  Oh_derived: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true, value_status_required: derived}
+  Oh_definition: {group: dimensionless_numbers, data_type: string, unit_dimension: none, required_with: [Oh, Oh_reported, Oh_derived]}
+  Mach: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true, parameter_context_required: true, reference_frame_required: true}
+  density_ratio: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  viscosity_ratio: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  pressure_ratio: {group: dimensionless_numbers, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  reported_value: {group: dimensionless_numbers, data_type: number_or_text, unit_dimension: parameter_dependent}
+  derived_value: {group: dimensionless_numbers, data_type: number_or_text, unit_dimension: parameter_dependent}
+  definition: {group: dimensionless_numbers, data_type: string, unit_dimension: none}
+  reference_velocity: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: velocity}
+  reference_length: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: length}
+  reference_density: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: density}
+  reference_viscosity: {group: dimensionless_numbers, data_type: number_or_expression, unit_dimension: dynamic_viscosity}
+
+  aerodynamic_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  capillary_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  breakup_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  deformation_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  shock_transit_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  evaporation_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  deformation_mode: {group: droplet_response, data_type: string, unit_dimension: none}
+  breakup_regime: {group: droplet_response, data_type: string, unit_dimension: none, preserve_author_terminology: true}
+  breakup_onset_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  breakup_completion_time: {group: droplet_response, data_type: number, unit_dimension: time, definition_required: true}
+  maximum_deformation: {group: droplet_response, data_type: number, unit_dimension: length_or_dimensionless, definition_required: true}
+  flattening_ratio: {group: droplet_response, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  bag_breakup: {group: droplet_response, data_type: enum_or_description, unit_dimension: qualitative}
+  multimode_breakup: {group: droplet_response, data_type: enum_or_description, unit_dimension: qualitative}
+  shear_stripping: {group: droplet_response, data_type: enum_or_description, unit_dimension: qualitative}
+  catastrophic_breakup: {group: droplet_response, data_type: enum_or_description, unit_dimension: qualitative}
+  KH_indicator: {group: droplet_response, data_type: number_or_description, unit_dimension: parameter_dependent, definition_required: true}
+  RT_indicator: {group: droplet_response, data_type: number_or_description, unit_dimension: parameter_dependent, definition_required: true}
+
+  child_droplet_size: {group: breakup_products, data_type: number, unit_dimension: length, definition_required: true}
+  child_droplet_distribution: {group: breakup_products, data_type: string_or_distribution, unit_dimension: parameter_dependent, definition_required: true}
+  SMD_after_breakup: {group: breakup_products, data_type: number, unit_dimension: length, definition_required: true}
+  fragment_velocity: {group: breakup_products, data_type: number, unit_dimension: velocity, definition_required: true}
+  ligament_size: {group: breakup_products, data_type: number, unit_dimension: length, definition_required: true}
+  fragment_count: {group: breakup_products, data_type: integer, unit_dimension: count, definition_required: true}
+
+  droplet_acceleration: {group: transport, data_type: number, unit_dimension: acceleration, definition_required: true}
+  droplet_velocity: {group: transport, data_type: number, unit_dimension: velocity, definition_required: true}
+  relative_velocity: {group: transport, data_type: number, unit_dimension: velocity, definition_required: true}
+  slip_velocity: {group: transport, data_type: number, unit_dimension: velocity, definition_required: true}
+  penetration: {group: transport, data_type: number, unit_dimension: length, definition_required: true}
+  dispersion: {group: transport, data_type: number_or_description, unit_dimension: length_or_qualitative, definition_required: true}
+  trajectory: {group: transport, data_type: series_or_description, unit_dimension: length, definition_required: true}
+  drag_coefficient: {group: transport, data_type: number, unit_dimension: dimensionless, definition_required: true}
+
+  vaporization_present: {group: phase_change, data_type: enum, allowed: [yes, no, NR, NA, NV], unit_dimension: none}
+  evaporation_rate: {group: phase_change, data_type: number, unit_dimension: mass_per_time_or_length_squared_per_time, definition_required: true}
+  mass_loss_fraction: {group: phase_change, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  droplet_lifetime: {group: phase_change, data_type: number, unit_dimension: time, definition_required: true}
+  surface_temperature: {group: phase_change, data_type: number, unit_dimension: temperature, definition_required: true}
+  phase_change_model: {group: phase_change, data_type: string, unit_dimension: none}
+  transcritical_condition: {group: phase_change, data_type: enum_or_description, unit_dimension: qualitative, definition_required: true}
+  interface_mass_flux: {group: phase_change, data_type: number_or_description, unit_dimension: mass_flux_or_qualitative, definition_required: true, sign_convention_required: true}
+  mass_flux_sign_convention: {group: process_context, data_type: string, unit_dimension: none, required_with: [interface_mass_flux]}
+  forcing_history_type: {group: process_context, data_type: string, unit_dimension: none, history_id_required: true}
+  model_applicability_note: {group: process_context, data_type: string, unit_dimension: none}
+
+  mixture_fraction: {group: mixing, data_type: number_or_qualitative, unit_dimension: dimensionless, definition_required: true}
+  equivalence_ratio: {group: mixing, data_type: number_or_qualitative, unit_dimension: dimensionless, definition_required: true}
+  mixing_rate: {group: mixing, data_type: number_or_qualitative, unit_dimension: inverse_time_or_qualitative, definition_required: true}
+  mixing_time: {group: mixing, data_type: number_or_qualitative, unit_dimension: time, definition_required: true}
+  entrainment: {group: mixing, data_type: number_or_qualitative, unit_dimension: parameter_dependent, definition_required: true}
+  fuel_concentration: {group: mixing, data_type: number_or_qualitative, unit_dimension: concentration, definition_required: true}
+  flammability_region: {group: mixing, data_type: number_or_description, unit_dimension: spatial_or_qualitative, definition_required: true}
+
+  ignition_delay: {group: ignition_combustion, data_type: number, unit_dimension: time, definition_required: true}
+  ignition_location: {group: ignition_combustion, data_type: number_or_description, unit_dimension: length_or_spatial, definition_required: true}
+  lift_off_length: {group: ignition_combustion, data_type: number, unit_dimension: length, definition_required: true}
+  flame_penetration: {group: ignition_combustion, data_type: number, unit_dimension: length, definition_required: true}
+  heat_release_rate: {group: ignition_combustion, data_type: number_or_qualitative, unit_dimension: power_or_qualitative, definition_required: true}
+  combustion_phasing: {group: ignition_combustion, data_type: number_or_description, unit_dimension: angle_or_time, definition_required: true}
+  pilot_ignition_location: {group: ignition_combustion, data_type: number_or_description, unit_dimension: length_or_spatial, definition_required: true}
+  gas_jet_pilot_interaction: {group: ignition_combustion, data_type: string, unit_dimension: qualitative, definition_required: true}
+  combustion_mode: {group: ignition_combustion, data_type: string, unit_dimension: none}
+
+  detonation_wave_velocity: {group: rde_detonation, data_type: number, unit_dimension: velocity, definition_required: true}
+  detonation_wave_Mach: {group: rde_detonation, data_type: number, unit_dimension: dimensionless, definition_required: true}
+  wave_number: {group: rde_detonation, data_type: integer, unit_dimension: count, definition_required: true}
+  wave_height: {group: rde_detonation, data_type: number, unit_dimension: length, definition_required: true}
+  cell_or_wave_structure: {group: rde_detonation, data_type: string, unit_dimension: none}
+  droplet_detonation_interaction: {group: rde_detonation, data_type: string, unit_dimension: qualitative}
+  wave_droplet_feedback: {group: rde_detonation, data_type: string, unit_dimension: qualitative}
+  droplet_evaporation_effect: {group: rde_detonation, data_type: string_or_number, unit_dimension: qualitative_or_parameter_dependent}
+  propagation_stability: {group: rde_detonation, data_type: string_or_number, unit_dimension: qualitative_or_parameter_dependent, definition_required: true}
+  extinction_or_reinitiation: {group: rde_detonation, data_type: string, unit_dimension: qualitative}
+
+  evaporation_length: {group: characteristic_scales, data_type: number, unit_dimension: length, definition_required: true}
+  detonation_characteristic_length: {group: characteristic_scales, data_type: number, unit_dimension: length, definition_required: true}
+  reaction_zone_length: {group: characteristic_scales, data_type: number, unit_dimension: length, definition_required: true}
+  refill_zone_length: {group: characteristic_scales, data_type: number, unit_dimension: length, definition_required: true}
+  characteristic_response_length: {group: characteristic_scales, data_type: number, unit_dimension: length, definition_required: true}
+  other_reported_characteristic_scale: {group: characteristic_scales, data_type: number_or_description, unit_dimension: length_or_qualitative, definition_required: true}
+
+  solver_type: {group: numerical_method, data_type: string, unit_dimension: none}
+  compressible_formulation: {group: numerical_method, data_type: string, unit_dimension: none}
+  turbulence_model: {group: numerical_method, data_type: string, unit_dimension: none}
+  interface_method: {group: numerical_method, data_type: string, unit_dimension: none}
+  breakup_model: {group: numerical_method, data_type: string, unit_dimension: none}
+  evaporation_model: {group: numerical_method, data_type: string, unit_dimension: none}
+  combustion_model: {group: numerical_method, data_type: string, unit_dimension: none}
+  chemical_mechanism: {group: numerical_method, data_type: string, unit_dimension: none}
+  mesh_resolution: {group: numerical_method, data_type: number_or_description, unit_dimension: length_or_count, definition_required: true}
+  time_step: {group: numerical_method, data_type: number, unit_dimension: time, definition_required: true}
+  dimensionality: {group: numerical_method, data_type: enum_or_description, unit_dimension: none}
+
+  facility_type: {group: experimental_method, data_type: string, unit_dimension: none}
+  shock_tube: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  constant_volume_chamber: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  engine: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  RDE: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  schlieren: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  shadowgraphy: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  high_speed_imaging: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  PIV: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  PLIF: {group: experimental_method, data_type: yes_no_value_description, unit_dimension: mixed}
+  sampling_rate: {group: experimental_method, data_type: number, unit_dimension: frequency, definition_required: true}
+  spatial_resolution: {group: experimental_method, data_type: number_or_description, unit_dimension: length, definition_required: true}
+
+  source_location: {group: provenance, data_type: string, required: true, definition: "Confirmed page, section, figure, table, or equation locator only."}
+  source_type: {group: provenance, data_type: enum, allowed: [text, table, figure, equation, supplementary, metadata, external_source], required: true}
+  extraction_status: {group: provenance, data_type: enum, allowed: [not_started, partial, complete, needs_review], required: true}
+  value_status: {group: provenance, data_type: enum, allowed: [reported, derived, inferred, NR, NA, NV], required: true}
+  verification_status: {group: provenance, data_type: enum, allowed: [unverified, verified, issue], required: true}
+  notes: {group: provenance, data_type: string, required: true, definition: "Definitions, formulas, assumptions, uncertainty, conflicts, and extraction notes."}
+
+normalized_tables:
+  source_locators:
+    primary_key: source_locator_id
+    id_format: "^LOC-[ABCD][0-9]{3}-[0-9]{4}$"
+    preserve_raw_locator: true
+  ratio_definitions:
+    primary_key: ratio_id
+    id_format: "^RATIO-[ABCD][0-9]{3}-[0-9]{3}$"
+    contextual_NPR_required: true
+    separate_thermodynamic_and_reference_pressure_types: true
+  dimensionless_definitions:
+    primary_key: dimensionless_definition_id
+    id_format: "^DIM-[ABCD][0-9]{3}-[0-9]{3}$"
+    missing_components_use_NV_parameter_records: true
+  events:
+    primary_key: event_id
+    id_format: "^EVT-[ABCD][0-9]{3}-[0-9]{3}$"
+    signed_offsets_preserved: true
+  intervals:
+    primary_key: interval_id
+    id_format: "^INT-[ABCD][0-9]{3}-[0-9]{3}$"
+    typed_endpoints_required: true
+  time_history_registry:
+    primary_key: history_id
+    id_format: "^HIST-[ABCD][0-9]{3}-[0-9]{3}$"
+    figure_digitization: forbidden
+  process_relations:
+    primary_key: process_relation_id
+    id_format: "^PROC-[ABCD][0-9]{3}-[0-9]{3}$"
+    causal_language_requires_source_support: true
+  pilot_mechanism_relations:
+    primary_key: mechanism_relation_id
+    id_format: "^MECH-[ABCD][0-9]{3}-[0-9]{3}$"
+    scope: pilot_only
+
+policies:
+  preserve_reported_units: true
+  normalize_to_si_when_definition_confirmed: true
+  external_property_lookup: forbidden_in_current_phase
+  numeric_zero_as_missing: forbidden
+  unverified_source_locator: forbidden
+  compare_dimensionless_numbers_without_definition_check: forbidden
+  planar_curvature_numeric_zero_by_default: forbidden
+  author_breakup_terminology_must_be_preserved: true
+  stable_identifiers_must_not_be_regenerated_after_sort: true
+  source_locator_id_is_canonical_provenance_link: true
+  legacy_source_location_must_be_preserved: true
+  missing_reason_required_for_NR_NA_NV: true
+  inferred_numeric_value_as_reported: forbidden
+  migration_generated_derived_values: forbidden
+  orphan_foreign_keys: forbidden
