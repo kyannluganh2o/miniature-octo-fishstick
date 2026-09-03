@@ -1,0 +1,13 @@
+﻿paper_id,old_parameter_rows,new_parameter_rows,parameter_ids_unique,source_locators_linked,NPR_context_valid,Mach_context_valid,Mach_disk_state_valid,We_definition_links_valid,event_links_valid,loading_intervals_valid,parameter_roles_valid,process_relations_valid,missing_rationale_valid,migration_data_loss,needs_review,notes
+A016,18,23,yes,yes,NA,yes,NA,NA,NA,NA,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+A020,35,35,yes,yes,NA,yes,NA,NA,yes,NA,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+A022,20,29,yes,yes,NA,yes,NA,NA,yes,NA,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+B011,21,21,yes,yes,yes,NA,yes,NA,NA,NA,yes,NA,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+B013,8,8,yes,yes,yes,NA,yes,NA,yes,NA,yes,NA,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+B029,15,15,yes,yes,yes,NA,yes,NA,yes,NA,yes,NA,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+C014,50,82,yes,yes,NA,yes,NA,yes,NA,NA,yes,NA,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+C016,22,34,yes,yes,NA,yes,NA,yes,NA,NA,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+C031,22,25,yes,yes,NA,yes,NA,yes,NA,NA,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+D003,9,9,yes,yes,NA,yes,NA,NA,yes,yes,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+D009,29,37,yes,yes,NA,NA,NA,NA,NA,NA,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.
+D017,37,41,yes,yes,NA,NA,NA,yes,NA,NA,yes,yes,yes,0,no,Schema capability validated; any incomplete source components are explicitly encoded as NV.

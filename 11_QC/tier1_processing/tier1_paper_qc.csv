@@ -1,0 +1,32 @@
+paper_id,pdf_identity_ok,full_text_ok,page_mapping_ok,note_complete,case_structure_ok,parameter_provenance_ok,schema_1_1_compliance,reported_derived_inferred_ok,NR_NA_NV_ok,source_locator_fk_ok,relation_fk_ok,evidence_card_complete,blocking_schema_gap,review_status,notes
+A007,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 9.1 late-PDF QC PASS.
+A016,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+A020,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+A022,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+A026,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+A028,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,review_secondary_separated,Phase 7 batch and global QC pass.
+A029,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,review_secondary_separated,Phase 7 batch and global QC pass.
+A030,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,needs_bibliographic_review,A030 science complete; library title is noncanonical.
+B004,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,review_secondary_separated,Phase 7 batch and global QC pass.
+B009,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+B011,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+B013,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+B021,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 9.1 late-PDF QC PASS.
+B028,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+B029,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+C004,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no,blocked_missing_pdf,PDF absent; processing correctly not started.
+C007,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,review_secondary_separated,Phase 7 batch and global QC pass.
+C014,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+C016,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+C018,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+C019,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+C024,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+C025,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+C029,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 9.1 late-PDF QC PASS.
+C031,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+C035,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+D003,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+D009,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+D017,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,preserved_pass,no,preserved_phase6_1,Formal Phase 6.1 revalidation retained; no Pilot scientific data modified.
+D018,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 7 batch and global QC pass.
+D019,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,primary_study,Phase 9.1 late-PDF QC PASS.

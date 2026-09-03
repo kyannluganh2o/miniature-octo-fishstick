@@ -1,0 +1,8 @@
+batch_id,requested,eligible,processed,complete,partial,needs_review,failed,blocking_schema_gaps,foreign_key_errors,Tier1_data_changes,unexpected_files,status,notes
+T2-Batch-1,6,6,6,6,0,0,0,0,0,0,0,PASS,All batch members processed and passed final QC.
+T2-Batch-2,6,6,6,6,0,0,0,0,0,0,0,PASS,All batch members processed and passed final QC.
+T2-Batch-3,5,5,5,5,0,0,0,0,0,0,0,PASS,All batch members processed and passed final QC.
+T2-Batch-4,7,7,7,7,0,0,0,0,0,0,0,PASS,All batch members processed and passed final QC.
+T2-Batch-5,6,6,6,6,0,0,0,0,0,0,0,PASS,All batch members processed and passed final QC.
+T2-Batch-6,5,5,5,5,0,0,0,0,0,0,0,PASS,All batch members processed and passed final QC.
+T2-Batch-7,4,4,4,4,0,0,0,0,0,0,0,PASS,All batch members processed and passed final QC.

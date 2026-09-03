@@ -1,0 +1,32 @@
+paper_id,source_record_id,library,pilot_or_bulk,pdf_status,processing_status,reading_status,text_status,note_status,extraction_status,evidence_card_status,blocking_issue,notes
+A007,A-NG-07,A,bulk,downloaded,complete,complete,processed,complete,complete,partial,,Phase 9.1 late-PDF full-text backfill complete; candidate evidence pending consolidation.
+A016,A-NG-16,A,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,complete,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+A020,A-H2-03,A,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,complete,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+A022,A-H2-05,A,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,partial,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+A026,A-H2-09,A,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+A028,A-R-02,A,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+A029,A-R-03,A,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+A030,A-R-04,A,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete; canonical title corrected in Phase 7.1 with scientific processing unchanged."
+B004,B-T-04,B,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+B009,B-H2-04,B,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+B011,B-H2-06,B,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,complete,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+B013,B-H2-08,B,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,partial,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+B021,B-E-01,B,bulk,downloaded,complete,complete,processed,complete,complete,partial,,Phase 9.1 late-PDF full-text backfill complete; candidate evidence pending consolidation.
+B028,B-E-08,B,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+B029,B-E-09,B,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,partial,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+C004,C-F-04,C,bulk,missing,blocked_missing_pdf,blocked_missing_pdf,not_started,not_started,not_started,not_started,missing_pdf,Tier retained; no abstract-only substitution.
+C007,C-F-07,C,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+C014,C-SD-07,C,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,complete,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+C016,C-SD-09,C,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,complete,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+C018,C-SD-11,C,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+C019,C-SD-12,C,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+C024,C-ST-04,C,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+C025,C-ST-05,C,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+C029,C-PC-03,C,bulk,downloaded,complete,complete,processed,complete,complete,partial,,Phase 9.1 late-PDF full-text backfill complete; candidate evidence pending consolidation.
+C031,C-PC-05,C,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,partial,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+C035,C-MD-03,C,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+D003,D-IC-03,D,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,partial,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+D009,D-RDE-04,D,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,complete,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+D017,D-DW-02,D,pilot,downloaded,complete_pilot_preserved,complete,processed,complete,partial,partial,,Existing Phase 6/6.1 status preserved; not reprocessed.
+D018,D-DW-03,D,bulk,downloaded,complete,complete,processed,complete,complete,partial,,"Full text, note, Schema 1.1 extraction and candidate evidence card complete."
+D019,D-DW-04,D,bulk,downloaded,complete,complete,processed,complete,complete,partial,,Phase 9.1 late-PDF full-text backfill complete; candidate evidence pending consolidation.

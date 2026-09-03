@@ -1,0 +1,12 @@
+check,expected,observed,status,notes
+recovered_pdf_count,19,19,PASS,4 Tier 1 + 7 Tier 2 + 8 Tier 3.
+still_missing_pdf_count,1,1,PASS,C004 only.
+raw_pdf_modified_or_renamed,0,0,PASS,Hashes verified against machine-processing metadata; paths/sizes against regenerated inventory.
+preexisting_master_table_prefix_changed,0,0,PASS,Archived Phase9.1 prefix preserved exactly as parsed rows.
+source_locator_fk_failures,0,0,PASS,All normalized provenance links resolve.
+other_fk_failures,0,0,PASS,All relational extensions resolve.
+global_evidence_matrix_changes,0,0,PASS,Four protected global matrices match the Phase 9 baseline hashes.
+parameter_rows_added,measured,105,PASS,Incremental only.
+source_locators_added,measured,73,PASS,Incremental only.
+tier2_links_added,7,7,PASS,Candidate links only.
+tier3_links_added,7,7,PASS,D001 evaluated but not linked because no strong core anchor was warranted.

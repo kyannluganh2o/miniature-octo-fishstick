@@ -1,0 +1,39 @@
+paper_id,unique_contribution_class,retained_candidate_claims,core_links,new_parameter_records,new_process_relations,redundancy_level,retain_priority,reason,notes
+A001,contextual_support;boundary_condition,1,1,2,1,moderate,medium,pressure/load context,Phase 9.1 targeted assessment complete.
+A003,independent_corroboration;boundary_condition,1,1,0,1,moderate,medium,"The experimental parameter sweep reports coordinated combustion-response changes with injection interval, pilot pulse width, timing, and pressure.",Canonical record retained.
+A004,mostly_redundant;boundary_condition,0,0,0,0,high,archive_only,"The experiment reports timing- and pressure-dependent changes in peak pressure, heat release, combustion duration, NOx, CO, THC, and fuel consumption.",Canonical record retained.
+A006,contextual_support;boundary_condition,1,1,2,1,moderate,medium,premixing/emissions context,Phase 9.1 targeted assessment complete.
+A008,contextual_support;boundary_condition,1,1,2,1,moderate,medium,mixing-versus-chemistry context,Phase 9.1 targeted assessment complete.
+A010,independent_corroboration;boundary_condition,1,1,0,1,moderate,medium,Cell fields and species traces connect the pre-injection strategy to larger lean/high-OH regions and lower soot/CO formation.,Canonical record retained.
+A015,methodological_context;mostly_redundant,0,0,0,0,high,archive_only,Numerical comparisons across two combustion modes show a non-monotonic spray-angle response conditioned by chamber geometry and injection pressure.,Canonical record retained.
+A017,unique_support;boundary_condition,1,1,0,1,low,high,Five injector designs and a 200-300 bar pressure sweep resolve a beneficial-to-adverse dispersion transition.,Canonical record retained.
+A019,independent_corroboration;boundary_condition,1,1,0,1,low,high,"A timing and hydrogen-energy-fraction sweep links mixture preparation to heat-release shape, efficiency, and NOx tradeoffs.",Canonical record retained.
+A023,unique_support;boundary_condition,1,1,0,1,low,high,The experiment independently varies the timing and energy fraction of the two hydrogen injections at fixed total energy and combustion phasing.,Canonical record retained.
+A027,historical_context;definition_context,1,1,0,0,moderate,medium,A secondary synthesis maps the principal controllable factors and their reported combustion/emission tradeoffs.,Canonical record retained.
+B001,methodological_context;boundary_condition,1,1,0,0,moderate,medium,"Near-field gas-dynamic predictions are compared with measurements and correlations, then used to propose far-field initial conditions.",Canonical record retained.
+B006,contextual_support;boundary_condition,1,1,2,1,moderate,medium,transient hydrogen-jet scaling,Phase 9.1 targeted assessment complete.
+B010,independent_corroboration;boundary_condition,1,1,0,1,low,high,Matched-NPR simulations isolate gas-species-dependent density and instability effects after the Mach disk.,Canonical record retained.
+B014,unique_support;methodological_context,1,1,0,1,moderate,medium,"High-speed schlieren analysis separates a developing phase from a self-similar phase and reports stabilized asymmetry, penetration, and concentration metrics.",Canonical record retained.
+B015,boundary_condition;independent_corroboration,1,1,0,1,moderate,medium,Schlieren-derived jet metrics across pressure ratios 10-140 show geometry-specific penetration and entrainment scaling.,Canonical record retained.
+B018,contextual_support;boundary_condition,1,1,2,1,moderate,medium,transient methane-jet topology,Phase 9.1 targeted assessment complete.
+B020,unique_support;boundary_condition,1,1,0,1,low,high,"Impact-force, impulse, and mass-flow measurements identify two spatial regimes relevant to injector placement and ignition avoidance.",Canonical record retained.
+B022,unique_support;boundary_condition,1,1,0,1,low,high,"Triangular, star, elliptical, and rectangular sections are compared under a common numerical framework.",Canonical record retained.
+B025,independent_corroboration;methodological_context,1,1,0,1,moderate,medium,"Hydrogen cases are validated against measurements and decomposed to identify coherent mixing structures, with methane used as a comparison.",Canonical record retained.
+B026,methodological_context;mostly_redundant,0,0,0,0,high,archive_only,Pressure-based compressible URANS results are compared with experimental and LES data to define method capability and limits.,Canonical record retained.
+B027,unique_support;methodological_context,1,1,0,1,low,high,PIV/schlieren validation and flow-structure analysis separate shock-core similarity from species- and geometry-dependent turbulent mixing.,Canonical record retained.
+C003,historical_context;definition_context,1,1,0,0,moderate,medium,A secondary synthesis connects experimental and numerical observations to a consistent breakup framework.,Canonical record retained.
+C005,contextual_support;boundary_condition,1,1,2,1,moderate,medium,moderate-We breakup context,Phase 9.1 targeted assessment complete.
+C008,boundary_condition;independent_corroboration,1,1,0,1,low,high,Numerical reproduction of shock-tube experiments extends the incident-Mach range and tests early-stage scaling across the sonic transition.,Canonical record retained.
+C009,independent_corroboration;mechanism_support,1,1,0,1,low,high,Interface-resolved supersonic-flow cases vary Weber number while preserving Ohnesorge context.,Canonical record retained.
+C011,contextual_support;boundary_condition,1,1,2,1,moderate,medium,shock-imprinted internal flow,Phase 9.1 targeted assessment complete.
+C012,methodological_context;unique_support,1,1,0,0,low,medium,A long-distance microscope and short-pulse fluorescence backlight reduce coherence artifacts and improve spatial/temporal resolution of the breakup zone.,Canonical record retained.
+C013,unique_support;mechanism_support,1,1,0,1,low,high,Fourier decomposition identifies azimuthal modes that destabilize the sheet and repeated shedding events.,Canonical record retained.
+C021,methodological_context;mostly_redundant,0,0,0,0,high,archive_only,A sharp interface for the parent structure is coupled to subgrid treatment of dispersed fragments.,Canonical record retained.
+C027,boundary_condition;unique_support,1,1,0,1,low,high,The experiment compares its relative-Mach/pressure environment with earlier higher-pressure-rise studies to explain differing vaporization behavior.,Canonical record retained.
+C028,methodological_context;independent_corroboration,1,1,0,0,moderate,medium,Benchmark validation and 2D/3D shock-droplet simulations demonstrate a complementary numerical representation of first-order interface physics.,Canonical record retained.
+C032,boundary_condition;unique_support,1,1,0,1,low,high,Non-isothermal cases are compared with isothermal constant-property cases and with a more volatile hydrocarbon.,Canonical record retained.
+D001,contextual_support;boundary_condition,1,0,2,1,moderate,medium,engine spray-shock boundary,Phase 9.1 targeted assessment complete.
+D004,unique_support;boundary_condition,1,1,0,1,low,high,N2 and SF6 atmospheres and injection-angle comparisons separate radial-interface deformation from axial penetration.,Canonical record retained.
+D006,unique_support;additional_fuel_or_species;boundary_condition,1,1,0,1,low,high,The Eulerian-Lagrangian study classifies droplet trajectories by evaporation/residence time and wave-structure interaction under hydrogen addition.,Canonical record retained.
+D008,unique_support;boundary_condition,1,1,0,1,low,high,"Monodisperse and bidisperse n-heptane cases connect size distribution to refill-zone equivalence ratio, fuel fraction, wave speed, and extinction.",Canonical record retained.
+D012,unique_support;additional_fuel_or_species;boundary_condition,1,1,0,1,low,high,Droplet size and inlet conditions are varied in an Eulerian-Lagrangian model with simultaneous vapor and liquid ethanol injection.,Canonical record retained.

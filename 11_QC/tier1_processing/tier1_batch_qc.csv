@@ -1,0 +1,4 @@
+batch_id,requested,processed,complete,partial,needs_review,failed,blocking_schema_gaps,foreign_key_errors,data_loss_detected,unexpected_files,status,notes
+T1-Batch-1,5,5,5,0,0,0,0,0,0,0,PASS,Batch scientific records and provenance pass QC.
+T1-Batch-2,5,5,5,0,0,0,0,0,0,0,PASS,Batch scientific records and provenance pass QC.
+T1-Batch-3,4,4,3,0,1,0,0,0,0,0,PASS_WITH_BIBLIOGRAPHIC_REVIEW,A030 full-text science processing complete; noncanonical library title flagged.

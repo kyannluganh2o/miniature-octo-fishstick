@@ -1,0 +1,630 @@
+﻿migration_id,paper_id,old_record_type,old_record_id_or_locator,new_record_type,new_record_id,migration_action,confidence,needs_review,notes
+MIG-00001,B011,parameter_master_row,legacy-row-0001,parameter_record,PAR-B011-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00002,B011,parameter_master_row,legacy-row-0002,parameter_record,PAR-B011-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00003,B011,parameter_master_row,legacy-row-0003,parameter_record,PAR-B011-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, numerical setup"
+MIG-00004,B011,parameter_master_row,legacy-row-0004,parameter_record,PAR-B011-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, NPR definition"
+MIG-00005,B011,parameter_master_row,legacy-row-0005,parameter_record,PAR-B011-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00006,B011,parameter_master_row,legacy-row-0006,parameter_record,PAR-B011-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00007,B011,parameter_master_row,legacy-row-0007,parameter_record,PAR-B011-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, NPR definition"
+MIG-00008,B011,parameter_master_row,legacy-row-0008,parameter_record,PAR-B011-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00009,B011,parameter_master_row,legacy-row-0009,parameter_record,PAR-B011-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00010,B011,parameter_master_row,legacy-row-0010,parameter_record,PAR-B011-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, NPR definition"
+MIG-00011,B011,parameter_master_row,legacy-row-0011,parameter_record,PAR-B011-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00012,B011,parameter_master_row,legacy-row-0012,parameter_record,PAR-B011-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00013,B011,parameter_master_row,legacy-row-0013,parameter_record,PAR-B011-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, NPR definition"
+MIG-00014,B011,parameter_master_row,legacy-row-0014,parameter_record,PAR-B011-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00015,B011,parameter_master_row,legacy-row-0015,parameter_record,PAR-B011-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00016,B011,parameter_master_row,legacy-row-0016,parameter_record,PAR-B011-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, NPR definition"
+MIG-00017,B011,parameter_master_row,legacy-row-0017,parameter_record,PAR-B011-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00018,B011,parameter_master_row,legacy-row-0018,parameter_record,PAR-B011-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, case conditions"
+MIG-00019,B011,parameter_master_row,legacy-row-0019,parameter_record,PAR-B011-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, validation"
+MIG-00020,B011,parameter_master_row,legacy-row-0020,parameter_record,PAR-B011-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, validation"
+MIG-00021,B011,parameter_master_row,legacy-row-0021,parameter_record,PAR-B011-0021,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.16, results"
+MIG-00022,C014,parameter_master_row,legacy-row-0022,parameter_record,PAR-C014-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00023,C014,parameter_master_row,legacy-row-0023,parameter_record,PAR-C014-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00024,C014,parameter_master_row,legacy-row-0024,parameter_record,PAR-C014-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00025,C014,parameter_master_row,legacy-row-0025,parameter_record,PAR-C014-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00026,C014,parameter_master_row,legacy-row-0026,parameter_record,PAR-C014-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00027,C014,parameter_master_row,legacy-row-0027,parameter_record,PAR-C014-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00028,C014,parameter_master_row,legacy-row-0028,parameter_record,PAR-C014-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00029,C014,parameter_master_row,legacy-row-0029,parameter_record,PAR-C014-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00030,C014,parameter_master_row,legacy-row-0030,parameter_record,PAR-C014-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00031,C014,parameter_master_row,legacy-row-0031,parameter_record,PAR-C014-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00032,C014,parameter_master_row,legacy-row-0032,parameter_record,PAR-C014-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00033,C014,parameter_master_row,legacy-row-0033,parameter_record,PAR-C014-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00034,C014,parameter_master_row,legacy-row-0034,parameter_record,PAR-C014-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00035,C014,parameter_master_row,legacy-row-0035,parameter_record,PAR-C014-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00036,C014,parameter_master_row,legacy-row-0036,parameter_record,PAR-C014-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00037,C014,parameter_master_row,legacy-row-0037,parameter_record,PAR-C014-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00038,C014,parameter_master_row,legacy-row-0038,parameter_record,PAR-C014-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00039,C014,parameter_master_row,legacy-row-0039,parameter_record,PAR-C014-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00040,C014,parameter_master_row,legacy-row-0040,parameter_record,PAR-C014-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00041,C014,parameter_master_row,legacy-row-0041,parameter_record,PAR-C014-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00042,C014,parameter_master_row,legacy-row-0042,parameter_record,PAR-C014-0021,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00043,C014,parameter_master_row,legacy-row-0043,parameter_record,PAR-C014-0022,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00044,C014,parameter_master_row,legacy-row-0044,parameter_record,PAR-C014-0023,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00045,C014,parameter_master_row,legacy-row-0045,parameter_record,PAR-C014-0024,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00046,C014,parameter_master_row,legacy-row-0046,parameter_record,PAR-C014-0025,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00047,C014,parameter_master_row,legacy-row-0047,parameter_record,PAR-C014-0026,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00048,C014,parameter_master_row,legacy-row-0048,parameter_record,PAR-C014-0027,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00049,C014,parameter_master_row,legacy-row-0049,parameter_record,PAR-C014-0028,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00050,C014,parameter_master_row,legacy-row-0050,parameter_record,PAR-C014-0029,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00051,C014,parameter_master_row,legacy-row-0051,parameter_record,PAR-C014-0030,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00052,C014,parameter_master_row,legacy-row-0052,parameter_record,PAR-C014-0031,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00053,C014,parameter_master_row,legacy-row-0053,parameter_record,PAR-C014-0032,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00054,C014,parameter_master_row,legacy-row-0054,parameter_record,PAR-C014-0033,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00055,C014,parameter_master_row,legacy-row-0055,parameter_record,PAR-C014-0034,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00056,C014,parameter_master_row,legacy-row-0056,parameter_record,PAR-C014-0035,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00057,C014,parameter_master_row,legacy-row-0057,parameter_record,PAR-C014-0036,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00058,C014,parameter_master_row,legacy-row-0058,parameter_record,PAR-C014-0037,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00059,C014,parameter_master_row,legacy-row-0059,parameter_record,PAR-C014-0038,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00060,C014,parameter_master_row,legacy-row-0060,parameter_record,PAR-C014-0039,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00061,C014,parameter_master_row,legacy-row-0061,parameter_record,PAR-C014-0040,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00062,C014,parameter_master_row,legacy-row-0062,parameter_record,PAR-C014-0041,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00063,C014,parameter_master_row,legacy-row-0063,parameter_record,PAR-C014-0042,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00064,C014,parameter_master_row,legacy-row-0064,parameter_record,PAR-C014-0043,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00065,C014,parameter_master_row,legacy-row-0065,parameter_record,PAR-C014-0044,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00066,C014,parameter_master_row,legacy-row-0066,parameter_record,PAR-C014-0045,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00067,C014,parameter_master_row,legacy-row-0067,parameter_record,PAR-C014-0046,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00068,C014,parameter_master_row,legacy-row-0068,parameter_record,PAR-C014-0047,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00069,C014,parameter_master_row,legacy-row-0069,parameter_record,PAR-C014-0048,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00070,C014,parameter_master_row,legacy-row-0070,parameter_record,PAR-C014-0049,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00071,C014,parameter_master_row,legacy-row-0071,parameter_record,PAR-C014-0050,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00072,C016,parameter_master_row,legacy-row-0072,parameter_record,PAR-C016-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00073,C016,parameter_master_row,legacy-row-0073,parameter_record,PAR-C016-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00074,C016,parameter_master_row,legacy-row-0074,parameter_record,PAR-C016-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, definitions"
+MIG-00075,C016,parameter_master_row,legacy-row-0075,parameter_record,PAR-C016-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00076,C016,parameter_master_row,legacy-row-0076,parameter_record,PAR-C016-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00077,C016,parameter_master_row,legacy-row-0077,parameter_record,PAR-C016-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00078,C016,parameter_master_row,legacy-row-0078,parameter_record,PAR-C016-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6"
+MIG-00079,C016,parameter_master_row,legacy-row-0079,parameter_record,PAR-C016-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, definitions"
+MIG-00080,C016,parameter_master_row,legacy-row-0080,parameter_record,PAR-C016-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00081,C016,parameter_master_row,legacy-row-0081,parameter_record,PAR-C016-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00082,C016,parameter_master_row,legacy-row-0082,parameter_record,PAR-C016-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00083,C016,parameter_master_row,legacy-row-0083,parameter_record,PAR-C016-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6"
+MIG-00084,C016,parameter_master_row,legacy-row-0084,parameter_record,PAR-C016-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, definitions"
+MIG-00085,C016,parameter_master_row,legacy-row-0085,parameter_record,PAR-C016-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00086,C016,parameter_master_row,legacy-row-0086,parameter_record,PAR-C016-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00087,C016,parameter_master_row,legacy-row-0087,parameter_record,PAR-C016-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00088,C016,parameter_master_row,legacy-row-0088,parameter_record,PAR-C016-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6"
+MIG-00089,C016,parameter_master_row,legacy-row-0089,parameter_record,PAR-C016-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, definitions"
+MIG-00090,C016,parameter_master_row,legacy-row-0090,parameter_record,PAR-C016-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00091,C016,parameter_master_row,legacy-row-0091,parameter_record,PAR-C016-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00092,C016,parameter_master_row,legacy-row-0092,parameter_record,PAR-C016-0021,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6 labels"
+MIG-00093,C016,parameter_master_row,legacy-row-0093,parameter_record,PAR-C016-0022,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.13, Fig. 6"
+MIG-00094,D003,parameter_master_row,legacy-row-0094,parameter_record,PAR-D003-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00095,D003,parameter_master_row,legacy-row-0095,parameter_record,PAR-D003-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00096,D003,parameter_master_row,legacy-row-0096,parameter_record,PAR-D003-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 1"
+MIG-00097,D003,parameter_master_row,legacy-row-0097,parameter_record,PAR-D003-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 1"
+MIG-00098,D003,parameter_master_row,legacy-row-0098,parameter_record,PAR-D003-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, pressure analysis"
+MIG-00099,D003,parameter_master_row,legacy-row-0099,parameter_record,PAR-D003-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, response discussion"
+MIG-00100,D003,parameter_master_row,legacy-row-0100,parameter_record,PAR-D003-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, response discussion"
+MIG-00101,D003,parameter_master_row,legacy-row-0101,parameter_record,PAR-D003-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, response discussion"
+MIG-00102,D003,parameter_master_row,legacy-row-0102,parameter_record,PAR-D003-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, model assumptions"
+MIG-00103,B013,parameter_master_row,legacy-row-0103,parameter_record,PAR-B013-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00104,B013,parameter_master_row,legacy-row-0104,parameter_record,PAR-B013-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00105,B013,parameter_master_row,legacy-row-0105,parameter_record,PAR-B013-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00106,B013,parameter_master_row,legacy-row-0106,parameter_record,PAR-B013-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00107,B013,parameter_master_row,legacy-row-0107,parameter_record,PAR-B013-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, Table 1"
+MIG-00108,B013,parameter_master_row,legacy-row-0108,parameter_record,PAR-B013-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.14, Conclusions"
+MIG-00109,B013,parameter_master_row,legacy-row-0109,parameter_record,PAR-B013-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.11, transient results"
+MIG-00110,B013,parameter_master_row,legacy-row-0110,parameter_record,PAR-B013-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Figs. 17–18"
+MIG-00111,B029,parameter_master_row,legacy-row-0111,parameter_record,PAR-B029-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00112,B029,parameter_master_row,legacy-row-0112,parameter_record,PAR-B029-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00113,B029,parameter_master_row,legacy-row-0113,parameter_record,PAR-B029-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Fig. 1"
+MIG-00114,B029,parameter_master_row,legacy-row-0114,parameter_record,PAR-B029-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, method"
+MIG-00115,B029,parameter_master_row,legacy-row-0115,parameter_record,PAR-B029-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, definition"
+MIG-00116,B029,parameter_master_row,legacy-row-0116,parameter_record,PAR-B029-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, pressure trace"
+MIG-00117,B029,parameter_master_row,legacy-row-0117,parameter_record,PAR-B029-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, results"
+MIG-00118,B029,parameter_master_row,legacy-row-0118,parameter_record,PAR-B029-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, results"
+MIG-00119,B029,parameter_master_row,legacy-row-0119,parameter_record,PAR-B029-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, results"
+MIG-00120,B029,parameter_master_row,legacy-row-0120,parameter_record,PAR-B029-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, Table 3"
+MIG-00121,B029,parameter_master_row,legacy-row-0121,parameter_record,PAR-B029-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, results"
+MIG-00122,B029,parameter_master_row,legacy-row-0122,parameter_record,PAR-B029-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, Table 3"
+MIG-00123,B029,parameter_master_row,legacy-row-0123,parameter_record,PAR-B029-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, results"
+MIG-00124,B029,parameter_master_row,legacy-row-0124,parameter_record,PAR-B029-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, Table 3"
+MIG-00125,B029,parameter_master_row,legacy-row-0125,parameter_record,PAR-B029-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, results"
+MIG-00126,C031,parameter_master_row,legacy-row-0126,parameter_record,PAR-C031-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00127,C031,parameter_master_row,legacy-row-0127,parameter_record,PAR-C031-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00128,C031,parameter_master_row,legacy-row-0128,parameter_record,PAR-C031-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, Table II"
+MIG-00129,C031,parameter_master_row,legacy-row-0129,parameter_record,PAR-C031-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, baseline case"
+MIG-00130,C031,parameter_master_row,legacy-row-0130,parameter_record,PAR-C031-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, Table II"
+MIG-00131,C031,parameter_master_row,legacy-row-0131,parameter_record,PAR-C031-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, Table II"
+MIG-00132,C031,parameter_master_row,legacy-row-0132,parameter_record,PAR-C031-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, Table II"
+MIG-00133,C031,parameter_master_row,legacy-row-0133,parameter_record,PAR-C031-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, Table II"
+MIG-00134,C031,parameter_master_row,legacy-row-0134,parameter_record,PAR-C031-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, baseline"
+MIG-00135,C031,parameter_master_row,legacy-row-0135,parameter_record,PAR-C031-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, baseline"
+MIG-00136,C031,parameter_master_row,legacy-row-0136,parameter_record,PAR-C031-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, model coefficients"
+MIG-00137,C031,parameter_master_row,legacy-row-0137,parameter_record,PAR-C031-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, model coefficients"
+MIG-00138,C031,parameter_master_row,legacy-row-0138,parameter_record,PAR-C031-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00139,C031,parameter_master_row,legacy-row-0139,parameter_record,PAR-C031-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00140,C031,parameter_master_row,legacy-row-0140,parameter_record,PAR-C031-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00141,C031,parameter_master_row,legacy-row-0141,parameter_record,PAR-C031-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00142,C031,parameter_master_row,legacy-row-0142,parameter_record,PAR-C031-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00143,C031,parameter_master_row,legacy-row-0143,parameter_record,PAR-C031-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00144,C031,parameter_master_row,legacy-row-0144,parameter_record,PAR-C031-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.18, case definition"
+MIG-00145,C031,parameter_master_row,legacy-row-0145,parameter_record,PAR-C031-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00146,C031,parameter_master_row,legacy-row-0146,parameter_record,PAR-C031-0021,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.18, case definition"
+MIG-00147,C031,parameter_master_row,legacy-row-0147,parameter_record,PAR-C031-0022,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, case definition"
+MIG-00148,D017,parameter_master_row,legacy-row-0148,parameter_record,PAR-D017-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00149,D017,parameter_master_row,legacy-row-0149,parameter_record,PAR-D017-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00150,D017,parameter_master_row,legacy-row-0150,parameter_record,PAR-D017-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.5, methods"
+MIG-00151,D017,parameter_master_row,legacy-row-0151,parameter_record,PAR-D017-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, results"
+MIG-00152,D017,parameter_master_row,legacy-row-0152,parameter_record,PAR-D017-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 2"
+MIG-00153,D017,parameter_master_row,legacy-row-0153,parameter_record,PAR-D017-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 2"
+MIG-00154,D017,parameter_master_row,legacy-row-0154,parameter_record,PAR-D017-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 2"
+MIG-00155,D017,parameter_master_row,legacy-row-0155,parameter_record,PAR-D017-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.6, image processing"
+MIG-00156,D017,parameter_master_row,legacy-row-0156,parameter_record,PAR-D017-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00157,D017,parameter_master_row,legacy-row-0157,parameter_record,PAR-D017-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, model setup"
+MIG-00158,D017,parameter_master_row,legacy-row-0158,parameter_record,PAR-D017-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00159,D017,parameter_master_row,legacy-row-0159,parameter_record,PAR-D017-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00160,D017,parameter_master_row,legacy-row-0160,parameter_record,PAR-D017-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00161,D017,parameter_master_row,legacy-row-0161,parameter_record,PAR-D017-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, model setup"
+MIG-00162,D017,parameter_master_row,legacy-row-0162,parameter_record,PAR-D017-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00163,D017,parameter_master_row,legacy-row-0163,parameter_record,PAR-D017-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00164,D017,parameter_master_row,legacy-row-0164,parameter_record,PAR-D017-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00165,D017,parameter_master_row,legacy-row-0165,parameter_record,PAR-D017-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, model setup"
+MIG-00166,D017,parameter_master_row,legacy-row-0166,parameter_record,PAR-D017-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00167,D017,parameter_master_row,legacy-row-0167,parameter_record,PAR-D017-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00168,D017,parameter_master_row,legacy-row-0168,parameter_record,PAR-D017-0021,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00169,D017,parameter_master_row,legacy-row-0169,parameter_record,PAR-D017-0022,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, model setup"
+MIG-00170,D017,parameter_master_row,legacy-row-0170,parameter_record,PAR-D017-0023,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00171,D017,parameter_master_row,legacy-row-0171,parameter_record,PAR-D017-0024,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00172,D017,parameter_master_row,legacy-row-0172,parameter_record,PAR-D017-0025,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00173,D017,parameter_master_row,legacy-row-0173,parameter_record,PAR-D017-0026,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, model setup"
+MIG-00174,D017,parameter_master_row,legacy-row-0174,parameter_record,PAR-D017-0027,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00175,D017,parameter_master_row,legacy-row-0175,parameter_record,PAR-D017-0028,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00176,D017,parameter_master_row,legacy-row-0176,parameter_record,PAR-D017-0029,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00177,D017,parameter_master_row,legacy-row-0177,parameter_record,PAR-D017-0030,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, model setup"
+MIG-00178,D017,parameter_master_row,legacy-row-0178,parameter_record,PAR-D017-0031,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00179,D017,parameter_master_row,legacy-row-0179,parameter_record,PAR-D017-0032,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00180,D017,parameter_master_row,legacy-row-0180,parameter_record,PAR-D017-0033,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00181,D017,parameter_master_row,legacy-row-0181,parameter_record,PAR-D017-0034,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.8, model setup"
+MIG-00182,D017,parameter_master_row,legacy-row-0182,parameter_record,PAR-D017-0035,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00183,D017,parameter_master_row,legacy-row-0183,parameter_record,PAR-D017-0036,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00184,D017,parameter_master_row,legacy-row-0184,parameter_record,PAR-D017-0037,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 4"
+MIG-00185,A020,parameter_master_row,legacy-row-0185,parameter_record,PAR-A020-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00186,A020,parameter_master_row,legacy-row-0186,parameter_record,PAR-A020-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00187,A020,parameter_master_row,legacy-row-0187,parameter_record,PAR-A020-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.2, Table 1"
+MIG-00188,A020,parameter_master_row,legacy-row-0188,parameter_record,PAR-A020-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 2"
+MIG-00189,A020,parameter_master_row,legacy-row-0189,parameter_record,PAR-A020-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 2"
+MIG-00190,A020,parameter_master_row,legacy-row-0190,parameter_record,PAR-A020-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 2"
+MIG-00191,A020,parameter_master_row,legacy-row-0191,parameter_record,PAR-A020-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Injection settings"
+MIG-00192,A020,parameter_master_row,legacy-row-0192,parameter_record,PAR-A020-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, study configuration"
+MIG-00193,A020,parameter_master_row,legacy-row-0193,parameter_record,PAR-A020-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00194,A020,parameter_master_row,legacy-row-0194,parameter_record,PAR-A020-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00195,A020,parameter_master_row,legacy-row-0195,parameter_record,PAR-A020-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00196,A020,parameter_master_row,legacy-row-0196,parameter_record,PAR-A020-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00197,A020,parameter_master_row,legacy-row-0197,parameter_record,PAR-A020-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00198,A020,parameter_master_row,legacy-row-0198,parameter_record,PAR-A020-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00199,A020,parameter_master_row,legacy-row-0199,parameter_record,PAR-A020-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00200,A020,parameter_master_row,legacy-row-0200,parameter_record,PAR-A020-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00201,A020,parameter_master_row,legacy-row-0201,parameter_record,PAR-A020-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00202,A020,parameter_master_row,legacy-row-0202,parameter_record,PAR-A020-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00203,A020,parameter_master_row,legacy-row-0203,parameter_record,PAR-A020-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00204,A020,parameter_master_row,legacy-row-0204,parameter_record,PAR-A020-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00205,A020,parameter_master_row,legacy-row-0205,parameter_record,PAR-A020-0021,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00206,A020,parameter_master_row,legacy-row-0206,parameter_record,PAR-A020-0022,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00207,A020,parameter_master_row,legacy-row-0207,parameter_record,PAR-A020-0023,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00208,A020,parameter_master_row,legacy-row-0208,parameter_record,PAR-A020-0024,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00209,A020,parameter_master_row,legacy-row-0209,parameter_record,PAR-A020-0025,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00210,A020,parameter_master_row,legacy-row-0210,parameter_record,PAR-A020-0026,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00211,A020,parameter_master_row,legacy-row-0211,parameter_record,PAR-A020-0027,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00212,A020,parameter_master_row,legacy-row-0212,parameter_record,PAR-A020-0028,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00213,A020,parameter_master_row,legacy-row-0213,parameter_record,PAR-A020-0029,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00214,A020,parameter_master_row,legacy-row-0214,parameter_record,PAR-A020-0030,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00215,A020,parameter_master_row,legacy-row-0215,parameter_record,PAR-A020-0031,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00216,A020,parameter_master_row,legacy-row-0216,parameter_record,PAR-A020-0032,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00217,A020,parameter_master_row,legacy-row-0217,parameter_record,PAR-A020-0033,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00218,A020,parameter_master_row,legacy-row-0218,parameter_record,PAR-A020-0034,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 3"
+MIG-00219,A020,parameter_master_row,legacy-row-0219,parameter_record,PAR-A020-0035,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.7, definitions"
+MIG-00220,A022,parameter_master_row,legacy-row-0220,parameter_record,PAR-A022-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00221,A022,parameter_master_row,legacy-row-0221,parameter_record,PAR-A022-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00222,A022,parameter_master_row,legacy-row-0222,parameter_record,PAR-A022-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 2"
+MIG-00223,A022,parameter_master_row,legacy-row-0223,parameter_record,PAR-A022-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, Table 2"
+MIG-00224,A022,parameter_master_row,legacy-row-0224,parameter_record,PAR-A022-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, injection conditions"
+MIG-00225,A022,parameter_master_row,legacy-row-0225,parameter_record,PAR-A022-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Sec. 3.4"
+MIG-00226,A022,parameter_master_row,legacy-row-0226,parameter_record,PAR-A022-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, study configuration"
+MIG-00227,A022,parameter_master_row,legacy-row-0227,parameter_record,PAR-A022-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Fig. 2 and Table 2"
+MIG-00228,A022,parameter_master_row,legacy-row-0228,parameter_record,PAR-A022-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 1"
+MIG-00229,A022,parameter_master_row,legacy-row-0229,parameter_record,PAR-A022-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, injection conditions"
+MIG-00230,A022,parameter_master_row,legacy-row-0230,parameter_record,PAR-A022-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Fig. 2 and Table 2"
+MIG-00231,A022,parameter_master_row,legacy-row-0231,parameter_record,PAR-A022-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 1"
+MIG-00232,A022,parameter_master_row,legacy-row-0232,parameter_record,PAR-A022-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, injection conditions"
+MIG-00233,A022,parameter_master_row,legacy-row-0233,parameter_record,PAR-A022-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Fig. 2 and Table 2"
+MIG-00234,A022,parameter_master_row,legacy-row-0234,parameter_record,PAR-A022-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 1"
+MIG-00235,A022,parameter_master_row,legacy-row-0235,parameter_record,PAR-A022-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, injection conditions"
+MIG-00236,A022,parameter_master_row,legacy-row-0236,parameter_record,PAR-A022-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Fig. 2 and Table 2"
+MIG-00237,A022,parameter_master_row,legacy-row-0237,parameter_record,PAR-A022-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 1"
+MIG-00238,A022,parameter_master_row,legacy-row-0238,parameter_record,PAR-A022-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Fig. 2 and Table 2"
+MIG-00239,A022,parameter_master_row,legacy-row-0239,parameter_record,PAR-A022-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Table 1"
+MIG-00240,A016,parameter_master_row,legacy-row-0240,parameter_record,PAR-A016-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00241,A016,parameter_master_row,legacy-row-0241,parameter_record,PAR-A016-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00242,A016,parameter_master_row,legacy-row-0242,parameter_record,PAR-A016-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, CFD model"
+MIG-00243,A016,parameter_master_row,legacy-row-0243,parameter_record,PAR-A016-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, model"
+MIG-00244,A016,parameter_master_row,legacy-row-0244,parameter_record,PAR-A016-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.4, model"
+MIG-00245,A016,parameter_master_row,legacy-row-0245,parameter_record,PAR-A016-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, study configuration"
+MIG-00246,A016,parameter_master_row,legacy-row-0246,parameter_record,PAR-A016-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 5"
+MIG-00247,A016,parameter_master_row,legacy-row-0247,parameter_record,PAR-A016-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Figs. 15–17"
+MIG-00248,A016,parameter_master_row,legacy-row-0248,parameter_record,PAR-A016-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 5"
+MIG-00249,A016,parameter_master_row,legacy-row-0249,parameter_record,PAR-A016-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Figs. 15–17"
+MIG-00250,A016,parameter_master_row,legacy-row-0250,parameter_record,PAR-A016-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 5"
+MIG-00251,A016,parameter_master_row,legacy-row-0251,parameter_record,PAR-A016-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Figs. 15–17"
+MIG-00252,A016,parameter_master_row,legacy-row-0252,parameter_record,PAR-A016-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 5"
+MIG-00253,A016,parameter_master_row,legacy-row-0253,parameter_record,PAR-A016-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Figs. 15–17"
+MIG-00254,A016,parameter_master_row,legacy-row-0254,parameter_record,PAR-A016-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Table 5"
+MIG-00255,A016,parameter_master_row,legacy-row-0255,parameter_record,PAR-A016-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.9, Figs. 15–17"
+MIG-00256,A016,parameter_master_row,legacy-row-0256,parameter_record,PAR-A016-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Conclusions"
+MIG-00257,A016,parameter_master_row,legacy-row-0257,parameter_record,PAR-A016-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Conclusions"
+MIG-00258,D009,parameter_master_row,legacy-row-0258,parameter_record,PAR-D009-0001,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00259,D009,parameter_master_row,legacy-row-0259,parameter_record,PAR-D009-0002,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.1, Abstract"
+MIG-00260,D009,parameter_master_row,legacy-row-0260,parameter_record,PAR-D009-0003,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Eq. 6"
+MIG-00261,D009,parameter_master_row,legacy-row-0261,parameter_record,PAR-D009-0004,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.3, Eq. 10"
+MIG-00262,D009,parameter_master_row,legacy-row-0262,parameter_record,PAR-D009-0005,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.2, assumptions"
+MIG-00263,D009,parameter_master_row,legacy-row-0263,parameter_record,PAR-D009-0006,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00264,D009,parameter_master_row,legacy-row-0264,parameter_record,PAR-D009-0007,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00265,D009,parameter_master_row,legacy-row-0265,parameter_record,PAR-D009-0008,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Table 3"
+MIG-00266,D009,parameter_master_row,legacy-row-0266,parameter_record,PAR-D009-0009,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Tables 3–4"
+MIG-00267,D009,parameter_master_row,legacy-row-0267,parameter_record,PAR-D009-0010,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00268,D009,parameter_master_row,legacy-row-0268,parameter_record,PAR-D009-0011,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00269,D009,parameter_master_row,legacy-row-0269,parameter_record,PAR-D009-0012,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Table 3"
+MIG-00270,D009,parameter_master_row,legacy-row-0270,parameter_record,PAR-D009-0013,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Tables 3–4"
+MIG-00271,D009,parameter_master_row,legacy-row-0271,parameter_record,PAR-D009-0014,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00272,D009,parameter_master_row,legacy-row-0272,parameter_record,PAR-D009-0015,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00273,D009,parameter_master_row,legacy-row-0273,parameter_record,PAR-D009-0016,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Table 3"
+MIG-00274,D009,parameter_master_row,legacy-row-0274,parameter_record,PAR-D009-0017,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Tables 3–4"
+MIG-00275,D009,parameter_master_row,legacy-row-0275,parameter_record,PAR-D009-0018,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00276,D009,parameter_master_row,legacy-row-0276,parameter_record,PAR-D009-0019,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00277,D009,parameter_master_row,legacy-row-0277,parameter_record,PAR-D009-0020,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Table 3"
+MIG-00278,D009,parameter_master_row,legacy-row-0278,parameter_record,PAR-D009-0021,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00279,D009,parameter_master_row,legacy-row-0279,parameter_record,PAR-D009-0022,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00280,D009,parameter_master_row,legacy-row-0280,parameter_record,PAR-D009-0023,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Tables 3–4"
+MIG-00281,D009,parameter_master_row,legacy-row-0281,parameter_record,PAR-D009-0024,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00282,D009,parameter_master_row,legacy-row-0282,parameter_record,PAR-D009-0025,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00283,D009,parameter_master_row,legacy-row-0283,parameter_record,PAR-D009-0026,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Tables 3–4"
+MIG-00284,D009,parameter_master_row,legacy-row-0284,parameter_record,PAR-D009-0027,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00285,D009,parameter_master_row,legacy-row-0285,parameter_record,PAR-D009-0028,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.10, Table 2"
+MIG-00286,D009,parameter_master_row,legacy-row-0286,parameter_record,PAR-D009-0029,preserved_and_contextualized,high,no,"Legacy source locator preserved: PDF p.12, Tables 3–4"
+MIG-00287,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0051,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00288,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0052,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00289,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0053,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00290,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0054,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00291,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0055,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00292,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0056,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00293,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0057,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00294,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0058,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00295,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0059,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00296,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0060,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00297,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0061,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00298,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0062,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00299,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0063,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00300,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0064,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00301,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0065,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00302,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0066,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00303,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0067,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00304,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0068,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00305,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0069,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00306,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0070,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00307,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0071,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00308,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0072,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00309,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0073,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00310,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0074,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00311,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0075,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00312,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0076,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00313,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0077,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00314,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0078,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00315,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0079,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00316,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0080,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00317,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0081,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00318,C014,schema_gap_or_composite_record,"PDF p.5, Table 1",parameter_record,PAR-C014-0082,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00319,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0023,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00320,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0024,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00321,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0025,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00322,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0026,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00323,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0027,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00324,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0028,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00325,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0029,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00326,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0030,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00327,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0031,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00328,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0032,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00329,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0033,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00330,C016,schema_gap_or_composite_record,"PDF p.13, Fig. 6 labels",parameter_record,PAR-C016-0034,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00331,C031,schema_gap_or_composite_record,"PDF p.8, baseline",parameter_record,PAR-C031-0023,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00332,C031,schema_gap_or_composite_record,"PDF p.8, baseline",parameter_record,PAR-C031-0024,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00333,D017,schema_gap_or_composite_record,"PDF p.1, Abstract",parameter_record,PAR-D017-0038,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00334,D017,schema_gap_or_composite_record,"PDF p.1, Abstract",parameter_record,PAR-D017-0039,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00335,D017,schema_gap_or_composite_record,"PDF p.1, Abstract",parameter_record,PAR-D017-0040,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00336,D017,schema_gap_or_composite_record,"PDF p.1, Abstract",parameter_record,PAR-D017-0041,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00337,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0030,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00338,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0031,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00339,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0032,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00340,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0033,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00341,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0034,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00342,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0035,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00343,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0036,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00344,D009,schema_gap_or_composite_record,"PDF p.12, Table 3",parameter_record,PAR-D009-0037,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00345,A022,schema_gap_or_composite_record,"PDF p.3, Fig. 2 and Table 2",parameter_record,PAR-A022-0021,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00346,A022,schema_gap_or_composite_record,"PDF p.3, Fig. 2 and Table 2",parameter_record,PAR-A022-0022,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00347,A022,schema_gap_or_composite_record,"PDF p.3, Fig. 2 and Table 2",parameter_record,PAR-A022-0023,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00348,A022,schema_gap_or_composite_record,"PDF p.3, Fig. 2 and Table 2",parameter_record,PAR-A022-0024,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00349,A022,schema_gap_or_composite_record,"PDF p.3, Fig. 2 and Table 2",parameter_record,PAR-A022-0025,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00350,A016,schema_gap_or_composite_record,"PDF p.9, Table 5",parameter_record,PAR-A016-0019,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00351,A016,schema_gap_or_composite_record,"PDF p.9, Table 5",parameter_record,PAR-A016-0020,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00352,A016,schema_gap_or_composite_record,"PDF p.9, Table 5",parameter_record,PAR-A016-0021,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00353,A016,schema_gap_or_composite_record,"PDF p.9, Table 5",parameter_record,PAR-A016-0022,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00354,A016,schema_gap_or_composite_record,"PDF p.9, Table 5",parameter_record,PAR-A016-0023,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00355,A022,schema_gap_or_composite_record,"PDF p.4, injection conditions",parameter_record,PAR-A022-0026,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00356,A022,schema_gap_or_composite_record,"PDF p.4, injection conditions",parameter_record,PAR-A022-0027,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00357,A022,schema_gap_or_composite_record,"PDF p.4, injection conditions",parameter_record,PAR-A022-0028,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00358,A022,schema_gap_or_composite_record,"PDF p.12, Sec. 3.4",parameter_record,PAR-A022-0029,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00359,C031,schema_gap_or_composite_record,"PDF p.19, Fig. 16",parameter_record,PAR-C031-0025,created_atomic_or_missing_component_record,high,no,No numeric value was inferred; explicit source value or NV/NR only.
+MIG-00360,B011,source_location,"PDF p.1, Abstract",source_locator,LOC-B011-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00361,B011,source_location,"PDF p.6, numerical setup",source_locator,LOC-B011-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00362,B011,source_location,"PDF p.3, NPR definition",source_locator,LOC-B011-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00363,B011,source_location,"PDF p.6, case conditions",source_locator,LOC-B011-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00364,B011,source_location,"PDF p.7, validation",source_locator,LOC-B011-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00365,B011,source_location,"PDF p.16, results",source_locator,LOC-B011-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00366,C014,source_location,"PDF p.1, Abstract",source_locator,LOC-C014-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00367,C014,source_location,"PDF p.5, Table 1",source_locator,LOC-C014-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00368,C016,source_location,"PDF p.1, Abstract",source_locator,LOC-C016-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00369,C016,source_location,"PDF p.8, definitions",source_locator,LOC-C016-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00370,C016,source_location,"PDF p.13, Fig. 6 labels",source_locator,LOC-C016-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00371,C016,source_location,"PDF p.13, Fig. 6",source_locator,LOC-C016-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00372,D003,source_location,"PDF p.1, Abstract",source_locator,LOC-D003-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00373,D003,source_location,"PDF p.3, Table 1",source_locator,LOC-D003-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00374,D003,source_location,"PDF p.5, pressure analysis",source_locator,LOC-D003-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00375,D003,source_location,"PDF p.9, response discussion",source_locator,LOC-D003-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00376,D003,source_location,"PDF p.6, model assumptions",source_locator,LOC-D003-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00377,B013,source_location,"PDF p.1, Abstract",source_locator,LOC-B013-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00378,B013,source_location,"PDF p.5, Table 1",source_locator,LOC-B013-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00379,B013,source_location,"PDF p.14, Conclusions",source_locator,LOC-B013-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00380,B013,source_location,"PDF p.11, transient results",source_locator,LOC-B013-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00381,B013,source_location,"PDF p.12, Figs. 17–18",source_locator,LOC-B013-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00382,B029,source_location,"PDF p.1, Abstract",source_locator,LOC-B029-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00383,B029,source_location,"PDF p.3, Fig. 1",source_locator,LOC-B029-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00384,B029,source_location,"PDF p.3, method",source_locator,LOC-B029-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00385,B029,source_location,"PDF p.3, definition",source_locator,LOC-B029-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00386,B029,source_location,"PDF p.5, pressure trace",source_locator,LOC-B029-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00387,B029,source_location,"PDF p.9, results",source_locator,LOC-B029-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00388,B029,source_location,"PDF p.7, Table 3",source_locator,LOC-B029-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00389,C031,source_location,"PDF p.1, Abstract",source_locator,LOC-C031-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00390,C031,source_location,"PDF p.8, Table II",source_locator,LOC-C031-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00391,C031,source_location,"PDF p.8, baseline case",source_locator,LOC-C031-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00392,C031,source_location,"PDF p.8, baseline",source_locator,LOC-C031-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00393,C031,source_location,"PDF p.6, model coefficients",source_locator,LOC-C031-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00394,C031,source_location,"PDF p.8, case definition",source_locator,LOC-C031-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00395,C031,source_location,"PDF p.18, case definition",source_locator,LOC-C031-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00396,D017,source_location,"PDF p.1, Abstract",source_locator,LOC-D017-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00397,D017,source_location,"PDF p.5, methods",source_locator,LOC-D017-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00398,D017,source_location,"PDF p.6, results",source_locator,LOC-D017-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00399,D017,source_location,"PDF p.4, Table 2",source_locator,LOC-D017-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00400,D017,source_location,"PDF p.6, image processing",source_locator,LOC-D017-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00401,D017,source_location,"PDF p.8, model setup",source_locator,LOC-D017-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00402,D017,source_location,"PDF p.9, Table 4",source_locator,LOC-D017-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00403,A020,source_location,"PDF p.1, Abstract",source_locator,LOC-A020-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00404,A020,source_location,"PDF p.2, Table 1",source_locator,LOC-A020-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00405,A020,source_location,"PDF p.3, Table 2",source_locator,LOC-A020-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00406,A020,source_location,"PDF p.4, Injection settings",source_locator,LOC-A020-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00407,A020,source_location,"PDF p.1, study configuration",source_locator,LOC-A020-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00408,A020,source_location,"PDF p.4, Table 3",source_locator,LOC-A020-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00409,A020,source_location,"PDF p.7, definitions",source_locator,LOC-A020-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00410,A022,source_location,"PDF p.1, Abstract",source_locator,LOC-A022-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00411,A022,source_location,"PDF p.4, Table 2",source_locator,LOC-A022-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00412,A022,source_location,"PDF p.4, injection conditions",source_locator,LOC-A022-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00413,A022,source_location,"PDF p.12, Sec. 3.4",source_locator,LOC-A022-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00414,A022,source_location,"PDF p.1, study configuration",source_locator,LOC-A022-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00415,A022,source_location,"PDF p.3, Fig. 2 and Table 2",source_locator,LOC-A022-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00416,A022,source_location,"PDF p.3, Table 1",source_locator,LOC-A022-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00417,A016,source_location,"PDF p.1, Abstract",source_locator,LOC-A016-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00418,A016,source_location,"PDF p.4, CFD model",source_locator,LOC-A016-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00419,A016,source_location,"PDF p.3, model",source_locator,LOC-A016-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00420,A016,source_location,"PDF p.4, model",source_locator,LOC-A016-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00421,A016,source_location,"PDF p.1, study configuration",source_locator,LOC-A016-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00422,A016,source_location,"PDF p.9, Table 5",source_locator,LOC-A016-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00423,A016,source_location,"PDF p.9, Figs. 15–17",source_locator,LOC-A016-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00424,A016,source_location,"PDF p.12, Conclusions",source_locator,LOC-A016-0008,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00425,D009,source_location,"PDF p.1, Abstract",source_locator,LOC-D009-0001,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00426,D009,source_location,"PDF p.3, Eq. 6",source_locator,LOC-D009-0002,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00427,D009,source_location,"PDF p.3, Eq. 10",source_locator,LOC-D009-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00428,D009,source_location,"PDF p.2, assumptions",source_locator,LOC-D009-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00429,D009,source_location,"PDF p.10, Table 2",source_locator,LOC-D009-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00430,D009,source_location,"PDF p.12, Table 3",source_locator,LOC-D009-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00431,D009,source_location,"PDF p.12, Tables 3–4",source_locator,LOC-D009-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00432,A016,source_location,"PDF p.12, Conclusion item 1",source_locator,LOC-A016-0009,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00433,A016,source_location,"PDF p.12, Conclusion item 2",source_locator,LOC-A016-0010,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00434,A020,source_location,"PDF p.16, Conclusions",source_locator,LOC-A020-0008,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00435,A020,source_location,"PDF p.16, Conclusion item 4",source_locator,LOC-A020-0009,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00436,A022,source_location,"PDF p.14, Conclusion item 3",source_locator,LOC-A022-0008,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00437,B011,source_location,"PDF p.21, Conclusions",source_locator,LOC-B011-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00438,B013,source_location,"PDF p.12, Figs. 17–18 and discussion",source_locator,LOC-B013-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00439,B029,source_location,"PDF p.9, Figs. 8–12 and discussion",source_locator,LOC-B029-0008,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00440,B029,source_location,"PDF p.7, Table 3 and pressure histories",source_locator,LOC-B029-0009,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00441,C014,source_location,"PDF p.15, Sec. 4 Conclusions",source_locator,LOC-C014-0003,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00442,C014,source_location,"PDF p.5, Table 1 and Eqs. 1–3",source_locator,LOC-C014-0004,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00443,C016,source_location,"PDF p.29, Conclusions",source_locator,LOC-C016-0005,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00444,C031,source_location,"PDF p.20, Conclusions",source_locator,LOC-C031-0008,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00445,C031,source_location,"PDF p.19, Fig. 16",source_locator,LOC-C031-0009,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00446,D003,source_location,"PDF p.10, Conclusions",source_locator,LOC-D003-0006,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00447,D003,source_location,"PDF p.9, Figs. 12–13 and discussion",source_locator,LOC-D003-0007,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00448,D009,source_location,"PDF p.3, Eqs. 6–10",source_locator,LOC-D009-0008,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00449,D009,source_location,"PDF p.12, Table 3 and quench discussion",source_locator,LOC-D009-0009,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00450,D017,source_location,"PDF p.10, Conclusions",source_locator,LOC-D017-0008,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00451,D017,source_location,PDF pp.9–10,source_locator,LOC-D017-0009,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00452,C031,source_location,PDF pp.9–20,source_locator,LOC-C031-0010,structured_without_guessing,high,no,raw_locator retained verbatim.
+MIG-00453,B011,pilot_derived_structure,LOC-B011-0003,ratio_definition,RATIO-B011-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00454,B011,pilot_derived_structure,LOC-B011-0003,ratio_definition,RATIO-B011-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00455,B011,pilot_derived_structure,LOC-B011-0003,ratio_definition,RATIO-B011-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00456,B011,pilot_derived_structure,LOC-B011-0003,ratio_definition,RATIO-B011-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00457,B011,pilot_derived_structure,LOC-B011-0003,ratio_definition,RATIO-B011-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00458,B013,pilot_derived_structure,LOC-B013-0003,ratio_definition,RATIO-B013-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00459,B029,pilot_derived_structure,LOC-B029-0004,ratio_definition,RATIO-B029-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00460,D009,pilot_derived_structure,LOC-D009-0006,ratio_definition,RATIO-D009-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00461,D009,pilot_derived_structure,LOC-D009-0006,ratio_definition,RATIO-D009-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00462,D009,pilot_derived_structure,LOC-D009-0006,ratio_definition,RATIO-D009-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00463,D009,pilot_derived_structure,LOC-D009-0006,ratio_definition,RATIO-D009-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00464,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00465,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00466,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00467,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00468,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00469,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-006,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00470,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-007,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00471,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-008,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00472,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-009,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00473,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-010,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00474,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-011,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00475,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-012,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00476,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-013,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00477,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-014,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00478,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-015,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00479,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-016,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00480,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-017,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00481,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-018,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00482,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-019,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00483,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-020,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00484,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-021,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00485,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-022,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00486,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-023,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00487,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-024,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00488,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-025,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00489,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-026,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00490,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-027,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00491,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-028,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00492,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-029,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00493,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-030,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00494,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-031,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00495,C014,pilot_derived_structure,LOC-C014-0002,dimensionless_definition,DIM-C014-032,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00496,C016,pilot_derived_structure,LOC-C016-0002,dimensionless_definition,DIM-C016-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00497,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00498,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00499,C016,pilot_derived_structure,LOC-C016-0002,dimensionless_definition,DIM-C016-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00500,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00501,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-006,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00502,C016,pilot_derived_structure,LOC-C016-0002,dimensionless_definition,DIM-C016-007,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00503,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-008,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00504,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-009,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00505,C016,pilot_derived_structure,LOC-C016-0002,dimensionless_definition,DIM-C016-010,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00506,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-011,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00507,C016,pilot_derived_structure,LOC-C016-0003,dimensionless_definition,DIM-C016-012,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00508,D003,pilot_derived_structure,LOC-D003-0003,dimensionless_definition,DIM-D003-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00509,C031,pilot_derived_structure,LOC-C031-0004,dimensionless_definition,DIM-C031-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00510,C031,pilot_derived_structure,LOC-C031-0004,dimensionless_definition,DIM-C031-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00511,C031,pilot_derived_structure,LOC-C031-0006,dimensionless_definition,DIM-C031-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00512,C031,pilot_derived_structure,LOC-C031-0006,dimensionless_definition,DIM-C031-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00513,C031,pilot_derived_structure,LOC-C031-0006,dimensionless_definition,DIM-C031-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00514,C031,pilot_derived_structure,LOC-C031-0007,dimensionless_definition,DIM-C031-006,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00515,C031,pilot_derived_structure,LOC-C031-0007,dimensionless_definition,DIM-C031-007,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00516,D017,pilot_derived_structure,LOC-D017-0001,dimensionless_definition,DIM-D017-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00517,A020,pilot_derived_structure,LOC-A020-0005,dimensionless_definition,DIM-A020-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00518,A022,pilot_derived_structure,LOC-A022-0005,dimensionless_definition,DIM-A022-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00519,A016,pilot_derived_structure,LOC-A016-0005,dimensionless_definition,DIM-A016-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00520,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00521,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00522,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00523,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00524,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00525,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-006,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00526,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-007,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00527,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-008,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00528,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-009,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00529,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-010,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00530,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-011,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00531,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-012,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00532,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-013,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00533,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-014,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00534,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-015,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00535,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-016,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00536,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-017,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00537,A020,pilot_derived_structure,LOC-A020-0006,event,EVT-A020-018,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00538,A022,pilot_derived_structure,LOC-A022-0003,event,EVT-A022-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00539,A022,pilot_derived_structure,LOC-A022-0003,event,EVT-A022-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00540,B013,pilot_derived_structure,LOC-B013-0006,event,EVT-B013-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00541,B013,pilot_derived_structure,LOC-B013-0004,event,EVT-B013-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00542,B013,pilot_derived_structure,LOC-B013-0006,event,EVT-B013-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00543,B029,pilot_derived_structure,LOC-B029-0007,event,EVT-B029-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00544,B029,pilot_derived_structure,LOC-B029-0006,event,EVT-B029-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00545,B029,pilot_derived_structure,LOC-B029-0007,event,EVT-B029-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00546,B029,pilot_derived_structure,LOC-B029-0006,event,EVT-B029-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00547,B029,pilot_derived_structure,LOC-B029-0007,event,EVT-B029-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00548,B029,pilot_derived_structure,LOC-B029-0006,event,EVT-B029-006,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00549,D003,pilot_derived_structure,LOC-D003-0004,event,EVT-D003-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00550,D003,pilot_derived_structure,LOC-D003-0004,event,EVT-D003-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00551,D003,pilot_derived_structure,LOC-D003-0004,event,EVT-D003-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00552,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00553,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00554,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00555,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00556,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00557,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-006,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00558,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-007,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00559,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-008,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00560,A020,pilot_derived_structure,LOC-A020-0006,interval,INT-A020-009,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00561,A022,pilot_derived_structure,LOC-A022-0003,interval,INT-A022-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00562,D003,pilot_derived_structure,LOC-D003-0004,interval,INT-D003-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00563,D003,pilot_derived_structure,LOC-D003-0004,interval,INT-D003-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00564,D003,pilot_derived_structure,LOC-D003-0004,interval,INT-D003-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00565,D003,pilot_derived_structure,LOC-D003-0004,interval,INT-D003-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00566,B013,pilot_derived_structure,LOC-B013-0006,time_history,HIST-B013-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00567,B029,pilot_derived_structure,LOC-B029-0007,time_history,HIST-B029-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00568,B029,pilot_derived_structure,LOC-B029-0004,time_history,HIST-B029-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00569,B029,pilot_derived_structure,LOC-B029-0008,time_history,HIST-B029-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00570,B029,pilot_derived_structure,LOC-B029-0007,time_history,HIST-B029-004,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00571,B029,pilot_derived_structure,LOC-B029-0004,time_history,HIST-B029-005,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00572,B029,pilot_derived_structure,LOC-B029-0008,time_history,HIST-B029-006,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00573,B029,pilot_derived_structure,LOC-B029-0007,time_history,HIST-B029-007,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00574,B029,pilot_derived_structure,LOC-B029-0004,time_history,HIST-B029-008,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00575,B029,pilot_derived_structure,LOC-B029-0008,time_history,HIST-B029-009,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00576,C031,pilot_derived_structure,LOC-C031-0009,time_history,HIST-C031-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00577,D017,pilot_derived_structure,LOC-D017-0009,time_history,HIST-D017-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00578,C016,pilot_derived_structure,LOC-C016-0005,process_relation,PROC-C016-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00579,C016,pilot_derived_structure,LOC-C016-0005,process_relation,PROC-C016-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00580,C016,pilot_derived_structure,LOC-C016-0005,process_relation,PROC-C016-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00581,C031,pilot_derived_structure,LOC-C031-0008,process_relation,PROC-C031-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00582,C031,pilot_derived_structure,LOC-C031-0008,process_relation,PROC-C031-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00583,C031,pilot_derived_structure,LOC-C031-0010,process_relation,PROC-C031-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00584,D017,pilot_derived_structure,LOC-D017-0007,process_relation,PROC-D017-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00585,D017,pilot_derived_structure,LOC-D017-0009,process_relation,PROC-D017-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00586,A016,pilot_derived_structure,LOC-A016-0009,process_relation,PROC-A016-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00587,A016,pilot_derived_structure,LOC-A016-0009,process_relation,PROC-A016-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00588,A016,pilot_derived_structure,LOC-A016-0010,process_relation,PROC-A016-003,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00589,A020,pilot_derived_structure,LOC-A020-0008,process_relation,PROC-A020-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00590,A022,pilot_derived_structure,LOC-A022-0008,process_relation,PROC-A022-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00591,D003,pilot_derived_structure,LOC-D003-0006,process_relation,PROC-D003-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00592,D009,pilot_derived_structure,LOC-D009-0009,process_relation,PROC-D009-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00593,D009,pilot_derived_structure,LOC-D009-0009,process_relation,PROC-D009-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00594,A016,pilot_derived_structure,LOC-A016-0009,mechanism_relation,MECH-A016-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00595,A016,pilot_derived_structure,LOC-A016-0010,mechanism_relation,MECH-A016-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00596,A020,pilot_derived_structure,LOC-A020-0008,mechanism_relation,MECH-A020-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00597,A020,pilot_derived_structure,LOC-A020-0009,mechanism_relation,MECH-A020-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00598,A022,pilot_derived_structure,LOC-A022-0008,mechanism_relation,MECH-A022-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00599,A022,pilot_derived_structure,LOC-A022-0004,mechanism_relation,MECH-A022-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00600,B011,pilot_derived_structure,LOC-B011-0007,mechanism_relation,MECH-B011-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00601,B011,pilot_derived_structure,LOC-B011-0007,mechanism_relation,MECH-B011-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00602,B013,pilot_derived_structure,LOC-B013-0006,mechanism_relation,MECH-B013-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00603,B013,pilot_derived_structure,LOC-B013-0002,mechanism_relation,MECH-B013-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00604,B029,pilot_derived_structure,LOC-B029-0008,mechanism_relation,MECH-B029-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00605,B029,pilot_derived_structure,LOC-B029-0009,mechanism_relation,MECH-B029-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00606,C014,pilot_derived_structure,LOC-C014-0003,mechanism_relation,MECH-C014-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00607,C014,pilot_derived_structure,LOC-C014-0004,mechanism_relation,MECH-C014-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00608,C016,pilot_derived_structure,LOC-C016-0005,mechanism_relation,MECH-C016-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00609,C016,pilot_derived_structure,LOC-C016-0004,mechanism_relation,MECH-C016-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00610,C031,pilot_derived_structure,LOC-C031-0008,mechanism_relation,MECH-C031-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00611,C031,pilot_derived_structure,LOC-C031-0009,mechanism_relation,MECH-C031-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00612,D003,pilot_derived_structure,LOC-D003-0006,mechanism_relation,MECH-D003-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00613,D003,pilot_derived_structure,LOC-D003-0007,mechanism_relation,MECH-D003-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00614,D009,pilot_derived_structure,LOC-D009-0008,mechanism_relation,MECH-D009-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00615,D009,pilot_derived_structure,LOC-D009-0009,mechanism_relation,MECH-D009-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00616,D017,pilot_derived_structure,LOC-D017-0007,mechanism_relation,MECH-D017-001,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00617,D017,pilot_derived_structure,LOC-D017-0008,mechanism_relation,MECH-D017-002,normalized_relation_created,high,no,Based on existing Phase 6 extracted data or candidate evidence.
+MIG-00618,A016,per_paper_json_v1_0,A016.json,per_paper_json_v1_1,A016.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00619,A020,per_paper_json_v1_0,A020.json,per_paper_json_v1_1,A020.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00620,A022,per_paper_json_v1_0,A022.json,per_paper_json_v1_1,A022.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00621,B011,per_paper_json_v1_0,B011.json,per_paper_json_v1_1,B011.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00622,B013,per_paper_json_v1_0,B013.json,per_paper_json_v1_1,B013.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00623,B029,per_paper_json_v1_0,B029.json,per_paper_json_v1_1,B029.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00624,C014,per_paper_json_v1_0,C014.json,per_paper_json_v1_1,C014.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00625,C016,per_paper_json_v1_0,C016.json,per_paper_json_v1_1,C016.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00626,C031,per_paper_json_v1_0,C031.json,per_paper_json_v1_1,C031.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00627,D003,per_paper_json_v1_0,D003.json,per_paper_json_v1_1,D003.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00628,D009,per_paper_json_v1_0,D009.json,per_paper_json_v1_1,D009.json,additive_schema_migration,high,no,All original top-level keys retained.
+MIG-00629,D017,per_paper_json_v1_0,D017.json,per_paper_json_v1_1,D017.json,additive_schema_migration,high,no,All original top-level keys retained.

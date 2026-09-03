@@ -1,0 +1,6 @@
+batch_id,requested,eligible,processed,complete,needs_review,failed,retained_claims,mostly_redundant,no_unique_review_relevance,blocking_schema_gaps,foreign_key_errors,core_data_changes,unexpected_files,status,notes
+T3-Batch-A,8,8,8,8,0,0,6,2,0,0,0,0,0,PASS,Per-batch machine processing and post-build QC passed.
+T3-Batch-B,9,9,9,9,0,0,8,1,0,0,0,0,0,PASS,Per-batch machine processing and post-build QC passed.
+T3-Batch-C1,5,5,5,5,0,0,5,0,0,0,0,0,0,PASS,Per-batch machine processing and post-build QC passed.
+T3-Batch-C2,4,4,4,4,0,0,3,1,0,0,0,0,0,PASS,Per-batch machine processing and post-build QC passed.
+T3-Batch-D,4,4,4,4,0,0,4,0,0,0,0,0,0,PASS,Per-batch machine processing and post-build QC passed.

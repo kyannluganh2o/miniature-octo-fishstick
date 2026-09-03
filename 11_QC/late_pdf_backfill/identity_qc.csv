@@ -1,0 +1,20 @@
+paper_id,source_record_id_match,title_match,first_author_match,year_match,doi_match,machine_identity_coverage,visual_front_matter_check,identity_status,notes
+A007,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+B021,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+C029,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+D019,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+A002,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+A005,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+A009,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+A011,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+A012,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+B008,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+C036,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+A001,yes,yes,yes,yes,yes,1.0,yes,PASS,A001 DOI extractor suffix artifact excluded; canonical DOI verified visually.
+A006,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+A008,yes,yes,yes,yes,yes,0.9091,yes,PASS,Machine coverage gap resolved by visual first-page verification.
+B006,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+B018,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+C005,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+C011,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.
+D001,yes,yes,yes,yes,yes,1.0,yes,PASS,Local PDF identity verified.

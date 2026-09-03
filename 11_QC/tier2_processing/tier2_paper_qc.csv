@@ -1,0 +1,47 @@
+paper_id,pdf_identity_ok,full_text_ok,page_mapping_ok,note_complete,chapter_role_identified,case_structure_ok,chapter_core_parameters_accounted,parameter_provenance_ok,schema_1_1_compliance,reported_derived_inferred_ok,NR_NA_NV_ok,source_locator_fk_ok,relation_fk_ok,evidence_card_complete,tier1_link_checked,blocking_schema_gap,review_status,notes
+A002,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Phase 9.1 late-PDF chapter-core QC PASS; evidence remains candidate.
+A005,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Phase 9.1 late-PDF chapter-core QC PASS; evidence remains candidate.
+A009,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Phase 9.1 late-PDF chapter-core QC PASS; evidence remains candidate.
+A011,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Phase 9.1 late-PDF chapter-core QC PASS; evidence remains candidate.
+A012,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Phase 9.1 late-PDF chapter-core QC PASS; evidence remains candidate.
+A013,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+A014,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+A018,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+A021,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+A024,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+A025,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B002,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B003,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B005,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B007,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B008,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Phase 9.1 late-PDF chapter-core QC PASS; evidence remains candidate.
+B012,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B016,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B017,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B019,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B023,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B024,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+B030,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C001,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C002,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C006,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C010,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C015,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C017,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C020,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C022,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C023,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C026,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C030,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C033,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C034,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+C036,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Phase 9.1 late-PDF chapter-core QC PASS; evidence remains candidate.
+D002,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D005,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D007,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D010,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D011,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D013,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D014,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D015,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
+D016,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,pass,Chapter-core candidate evidence; final evidence verification remains pending.
