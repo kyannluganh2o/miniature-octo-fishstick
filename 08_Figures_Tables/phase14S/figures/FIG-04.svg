@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-04 | Distinct breakup structures under compressible loading</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Panels are mechanism examples, not a universal regime progression</text>
+<image href="../source_panels/SP04-03_C013_Fig15.png" x="109" y="150" width="382" height="820" preserveAspectRatio="xMidYMid meet"/>
+<rect x="40" y="150" width="520" height="820" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="40" y="930" width="520" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="52" y="954" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(c) C013 · Fig. 15</text>
+<text x="548" y="952" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">recurrent ligament shedding</text>
+<image href="../source_panels/SP04-01_C016_Fig6.png" x="610" y="178" width="550" height="283" preserveAspectRatio="xMidYMid meet"/>
+<rect x="610" y="150" width="550" height="340" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="610" y="450" width="550" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="622" y="474" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(a) C016 · Fig. 6(d)</text>
+<text x="1148" y="472" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">acceleration-dominated RTP</text>
+<image href="../source_panels/SP04-02_C016_Fig6.png" x="1210" y="178" width="550" height="283" preserveAspectRatio="xMidYMid meet"/>
+<rect x="1210" y="150" width="550" height="340" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="1210" y="450" width="550" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="1222" y="474" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(b) C016 · Fig. 6(b)</text>
+<text x="1748" y="472" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">shear-dominated SIE</text>
+<text x="885" y="536" font-family="Arial" font-size="21" font-weight="700" fill="#17324D" text-anchor="middle">Piercing / bag response</text>
+<text x="1485" y="536" font-family="Arial" font-size="21" font-weight="700" fill="#17324D" text-anchor="middle">Entrainment / fine mist</text>
+<image href="../source_panels/SP04-04_D018_Fig15.png" x="610" y="692" width="1150" height="155" preserveAspectRatio="xMidYMid meet"/>
+<rect x="610" y="620" width="1150" height="300" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="610" y="880" width="1150" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="622" y="904" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(d) D018 · Fig. 15</text>
+<text x="1748" y="902" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">KHI -&gt; coupled KHI-RTI</text>
+<text x="300" y="1015" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">First shedding ≠ breakup completion</text>
+<text x="1185" y="976" font-family="Arial" font-size="21" font-weight="700" fill="#B33A3A" text-anchor="middle">Reacting strong-wave analogue only</text>
+</svg>

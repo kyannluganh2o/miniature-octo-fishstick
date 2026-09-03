@@ -1,0 +1,10 @@
+﻿Source / case,Loading,Mach,We,Re / Oh,d0 / liquid,Loading duration,Response,Boundary
+[[CITE:C016]] C01,Incident shock + post-shock airflow,M_s=1.12,219; post-shock airflow definition,"Re=13,000; Oh=NR",2.5 mm water,NR,SIE,Source taxonomy; no universal threshold
+[[CITE:C016]] C02,Incident shock + post-shock airflow,M_s=1.30,1600; same definition,"Re=40,000; Oh=NR",2.9 mm water,NR,SIE,Mach and We vary together
+[[CITE:C016]] C03,Incident shock + post-shock airflow,M_s=1.12,44; same definition,Re=2500; Oh=NR,0.5 mm water,NR,RTP,Diameter and Re vary with We
+[[CITE:C016]] C04,Incident shock + post-shock airflow,M_s=1.45,795; same definition,"Re=12,000; Oh=NR",0.5 mm water,NR,RTP,Mach and We vary together
+[[CITE:C025]] M2,Analytic post-shock gas load,M_s=2,822; post-shock rho_g |u_rel|^2 d0/sigma,NR,100 µm water,NR,Deformation and atomized-mass statistics,Numerical case; source-defined response
+[[CITE:C025]] M3,Analytic post-shock gas load,M_s=3,3760; same definition,NR,100 µm water,NR,Piercing and atomized-mass transfer,Two-case numerical comparison
+[[CITE:C014]] C01-C08,Uniform post-shock freestream,M_infinity=0.30-1.19,1050-1160; post-shock rho_g |u_g|^2 d0/sigma,"Re=2600-24,000; Oh=0.002-0.044",NR; water or ethylene glycol,NR,"Peripheral mist, multiple bags, leeward ligaments",Matched-We morphology remains Mach- and material-dependent
+[[CITE:D018]] water / RP-3,Reacting detonation products,Front Mach about 6.03-7.07,3.10×10^4-5.67×10^5; averaged post-detonation state,Oh=0.0039-0.0223,0.25-1.27 mm water / RP-3,Reacting-wave history,Complete-breakup t*=10.06 water; 7.90 RP-3,Reacting strong-wave analogue
+[[CITE:D019]] reacting / inert pair,Matched-leading-Mach detonation and inert shock,Incident Mach 4.8,5.42×10^4 detonation; 3.18×10^5 inert,Re=4.80×10^4 / 2.00×10^5; Oh=NR,4.8 mm water,O(10^-4 s) deformation scale,Distinct deformation and cavitation histories,Equal leading Mach does not imply equal post-wave load

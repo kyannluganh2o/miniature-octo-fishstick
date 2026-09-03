@@ -1,0 +1,9 @@
+﻿table_id,section_id,cross_row_pattern,supporting_rows,manuscript_paragraph,scientific_conclusion,boundary,status
+TAB-01,S02,"Definitions differ across pressure, Mach, dimensionless, timing, and length scales",all rows,S02-P2,Numerical comparison requires common physical roles and frames,No inferred definitions,integrated
+TAB-02,S06,Within-study NPR trend vs topology contrast vs event alignment,B009; B021; B029,S06-P3,Studies cannot share one nominal-pressure coordinate,Cross-paper pooling prohibited,integrated
+TAB-03,S10,We co-variation; Mach-frame mismatch; endpoint mismatch,C016; C025; C014; D018; D019,S10-P5,"Response is state-conditioned, not We-only",Strong-wave rows are analogues,integrated
+TAB-04,S16,Pair geometry and cloud population use non-convertible descriptors,C016; C035; C036; C033/C034,S16-P3,Different collective mechanisms require different coordinates,Dense HPDI transfer unresolved,integrated
+TAB-05,S19,Five phase-change influence patterns,C026; C027; C031; C032; C024/D017,S19-P5,No universal sign of phase-change influence,Optical loss and model results remain qualified,integrated
+TAB-06,S21,Three application control classes,A007/A009/A011/A013/A020/A022/A026; A001/A002; A005,S21-P7,No single Delta-SOI or mixing coordinate organizes HPDI ignition,Fuel order and platform retained,integrated
+TAB-07,S28,Local transfer variables vs device-specific scales,D009; D014; D017; D018; D019,S28-P4,Survival couples product-generation physics to residence scale,No validated HPDI mapping,integrated
+TAB-08,S30,Three primary and two supporting research-priority tiers,rows 1-6,S30-P2-S30-P4,Measurements and models must resolve each interface in order,Causal closure remains absent,integrated

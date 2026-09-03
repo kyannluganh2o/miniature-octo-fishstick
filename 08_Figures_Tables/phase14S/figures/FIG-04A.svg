@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-04A | Internal-wave refraction changes with thermodynamic state</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">C029 Fig. 9: direct comparison of diverging and converging refracted-wave histories</text>
+<image href="../source_panels/SP04A-01_C029_Fig9.png" x="364" y="145" width="571" height="830" preserveAspectRatio="xMidYMid meet"/>
+<rect x="90" y="145" width="1120" height="830" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="90" y="935" width="1120" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="102" y="959" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(a-f) C029 · Fig. 9</text>
+<text x="1198" y="957" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">n &lt; 1 diverging | n &gt; 1 converging</text>
+<rect x="1270" y="220" width="440" height="250" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1490.0" y="260" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Diverging branch</text>
+<text x="1490.0" y="288" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">500 K; n = 0.78</text>
+<text x="1490.0" y="314" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">refracted shock advances</text>
+<text x="1490.0" y="340" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">internal reflections follow</text>
+<rect x="1270" y="560" width="440" height="250" rx="16" fill="#F9E8D8" stroke="#D96C2F" stroke-width="3"/>
+<text x="1490.0" y="600" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Converging branch</text>
+<text x="1490.0" y="628" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">650 K; n = 1.8</text>
+<text x="1490.0" y="654" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">refracted shock lags</text>
+<text x="1490.0" y="680" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">focus emits a transmitted wave</text>
+<text x="1490" y="925" font-family="Arial" font-size="20" font-weight="700" fill="#B33A3A" text-anchor="middle">2-D transcritical calculation; not a breakup-regime map</text>
+</svg>

@@ -1,0 +1,26 @@
+﻿figure_id,panel_id,source_panel,manuscript_section,manuscript_paragraph,observation_described,mechanistic_interpretation,citation_ids,status
+FIG-02,a,SP02-01,S06,S05-P2,Axial-Mach evolution and Mach-disk formation,State- and configuration-specific evidence used in the cross-panel synthesis,B009,integrated
+FIG-02,b,SP02-02,S06,S05-P2,Steady/unsteady Mach-disk comparison,State- and configuration-specific evidence used in the cross-panel synthesis,B021,integrated
+FIG-02,c,SP02-03,S06,S05-P2,Velocity-contour and shock-cell evolution during injector build-up,State- and configuration-specific evidence used in the cross-panel synthesis,B029,integrated
+FIG-04,a,SP04-01,S10,S12-P2,Acceleration-dominated RTP morphology,State- and configuration-specific evidence used in the cross-panel synthesis,C016,integrated
+FIG-04,b,SP04-02,S10,S12-P2,Shear-induced entrainment morphology,State- and configuration-specific evidence used in the cross-panel synthesis,C016,integrated
+FIG-04,c,SP04-03,S10,S12-P2,Recurrent ligament formation and shedding,State- and configuration-specific evidence used in the cross-panel synthesis,C013,integrated
+FIG-04,d,SP04-04,S10,S12-P2,KHI-dominant to coupled KHI-RTI fragmentation,State- and configuration-specific evidence used in the cross-panel synthesis,D018,integrated
+FIG-04A,a-f,SP04A-01,S11,S11-P3,Diverging and converging refracted-wave histories,State- and configuration-specific evidence used in the cross-panel synthesis,C029,integrated
+FIG-05,a,SP05-01,S14,S14-P4,Tandem-droplet wake shielding and differential deformation,State- and configuration-specific evidence used in the cross-panel synthesis,C035,integrated
+FIG-05,b,SP05-02,S14,S14-P4,Parallel-droplet channel opening and closure,State- and configuration-specific evidence used in the cross-panel synthesis,C036,integrated
+FIG-05,c,SP05-03,S14,S14-P4,Shock propagation and pressure attenuation through a droplet cloud,State- and configuration-specific evidence used in the cross-panel synthesis,C033,integrated
+FIG-06,a,SP06-01,S18,S19-P4,Fragment-cloud formation and optical disappearance,State- and configuration-specific evidence used in the cross-panel synthesis,C024,integrated
+FIG-06,b,SP06-02,S18,S19-P4,Size- and loading-dependent early droplet evolution,State- and configuration-specific evidence used in the cross-panel synthesis,C026,integrated
+FIG-06,c,SP06-03,S18,S19-P4,"No-phase-change, evaporation, and condensation morphologies",State- and configuration-specific evidence used in the cross-panel synthesis,C031,integrated
+FIG-06,d,SP06-04,S18,S19-P4,Heating-dependent deformation and breakup,State- and configuration-specific evidence used in the cross-panel synthesis,C032,integrated
+FIG-07,a,SP07-01,S22,S21-P5,Hydrogen-pilot jet intersection geometry,State- and configuration-specific evidence used in the cross-panel synthesis,A022,integrated
+FIG-07,b,SP07-02,S22,S21-P5,Timing-conditioned diesel-pilot and early hydrogen flame development,State- and configuration-specific evidence used in the cross-panel synthesis,A026,integrated
+FIG-07,c,SP07-03,S22,S21-P5,Spatial-temporal natural-gas ignition-delay map,State- and configuration-specific evidence used in the cross-panel synthesis,A007,integrated
+FIG-08,a,SP08-01,S26,S28-P2,Water/RP-3 detonation-driven breakup comparison,State- and configuration-specific evidence used in the cross-panel synthesis,D018,integrated
+FIG-08,b,SP08-02,S26,S28-P2,Reacting detonation versus inert-shock wave configurations,State- and configuration-specific evidence used in the cross-panel synthesis,D019,integrated
+FIG-08,c,SP08-03,S26,S28-P2,Wave-relative droplet position and thermal/evaporation history,State- and configuration-specific evidence used in the cross-panel synthesis,D014,integrated
+FIG-08,d,SP08-04,S26,S28-P2,Reacting/inert post-wave pressure-field divergence,State- and configuration-specific evidence used in the cross-panel synthesis,D019,integrated
+FIG-01,whole,author synthesis,S03,S03-P1,Physical chain and open interfaces,Cross-scale synthesis within frozen evidence boundary,see caption,integrated
+FIG-03,whole,author synthesis,S08,S08-P2,Trajectory sampling and paired clocks,Cross-scale synthesis within frozen evidence boundary,see caption,integrated
+FIG-09,whole,author synthesis,S29,S29-P1,"Aligned clocks, states, and missing interfaces",Cross-scale synthesis within frozen evidence boundary,see caption,integrated

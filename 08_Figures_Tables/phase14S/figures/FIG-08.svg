@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-08 | Strong-wave comparison domain</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Direct detonation/RDE observations identify transferable local variables and non-transferable device scales</text>
+<image href="../source_panels/SP08-01_D018_Fig5.png" x="35" y="222" width="540" height="235" preserveAspectRatio="xMidYMid meet"/>
+<rect x="35" y="145" width="540" height="390" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="35" y="495" width="540" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="47" y="519" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(a) D018 · Fig. 5</text>
+<text x="563" y="517" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">liquid-dependent breakup</text>
+<image href="../source_panels/SP08-02_D019_Fig8.png" x="669" y="145" width="402" height="390" preserveAspectRatio="xMidYMid meet"/>
+<rect x="600" y="145" width="540" height="390" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="600" y="495" width="540" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="612" y="519" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(b) D019 · Fig. 8</text>
+<text x="1128" y="517" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">matched leading Mach</text>
+<image href="../source_panels/SP08-03_D014_Fig16.png" x="35" y="594" width="540" height="322" preserveAspectRatio="xMidYMid meet"/>
+<rect x="35" y="560" width="540" height="390" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="35" y="910" width="540" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="47" y="934" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(c) D014 · Fig. 16</text>
+<text x="563" y="932" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">wave-relative thermal history</text>
+<image href="../source_panels/SP08-04_D019_Fig12.png" x="658" y="560" width="423" height="390" preserveAspectRatio="xMidYMid meet"/>
+<rect x="600" y="560" width="540" height="390" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="600" y="910" width="540" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="612" y="934" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(d) D019 · Fig. 12</text>
+<text x="1128" y="932" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">later field divergence</text>
+<rect x="1200" y="190" width="540" height="310" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1470.0" y="230" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Shared local variables</text>
+<text x="1470.0" y="258" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">post-wave p; rho_g; u_rel</text>
+<text x="1470.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">d0; fragment state; residence</text>
+<rect x="1200" y="570" width="540" height="310" rx="16" fill="#F9E8D8" stroke="#D96C2F" stroke-width="3"/>
+<text x="1470.0" y="610" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Domain-specific scales</text>
+<text x="1470.0" y="638" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">reaction zone; RDE refill/front</text>
+<text x="1470.0" y="664" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">thermochemistry; device geometry; HPDI</text>
+<text x="1470.0" y="690" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">ignition chronology</text>
+<text x="1450" y="1000" font-family="Arial" font-size="20" font-weight="700" fill="#B33A3A" text-anchor="middle">Strong-wave comparison only - no direct HPDI transfer closure.</text>
+</svg>

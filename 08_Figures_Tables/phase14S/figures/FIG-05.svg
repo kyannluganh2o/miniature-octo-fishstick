@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-05 | Configuration-dependent collective mechanisms</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Comparison of isolated, ordered-pair, and cloud responses; columns are not a temporal sequence</text>
+<text x="180" y="175" font-family="Arial" font-size="25" font-weight="700" fill="#17324D" text-anchor="middle">Isolated droplet</text>
+<text x="515" y="175" font-family="Arial" font-size="25" font-weight="700" fill="#17324D" text-anchor="middle">Tandem pair</text>
+<text x="850" y="175" font-family="Arial" font-size="25" font-weight="700" fill="#17324D" text-anchor="middle">Parallel pair</text>
+<text x="1185" y="175" font-family="Arial" font-size="25" font-weight="700" fill="#17324D" text-anchor="middle">Droplet cloud</text>
+<rect x="30" y="200" width="300" height="600" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="180.0" y="240" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">(a) Canonical local</text>
+<text x="180.0" y="266" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">response</text>
+<text x="180.0" y="294" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">author schematic</text>
+<text x="180.0" y="320" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">incident shock +</text>
+<text x="180.0" y="346" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">post-wave flow</text>
+<text x="180.0" y="372" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">no shielding</text>
+<text x="180.0" y="398" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">no population feedback</text>
+<image href="../source_panels/SP05-01_C035_Fig5.png" x="365" y="315" width="300" height="370" preserveAspectRatio="xMidYMid meet"/>
+<rect x="365" y="200" width="300" height="600" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="365" y="760" width="300" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="377" y="784" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(b) C035 · Fig. 5</text>
+<text x="653" y="782" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">wake shielding</text>
+<image href="../source_panels/SP05-02_C036_Fig2.png" x="700" y="380" width="300" height="239" preserveAspectRatio="xMidYMid meet"/>
+<rect x="700" y="200" width="300" height="600" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="700" y="760" width="300" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="712" y="784" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(c) C036 · Fig. 2</text>
+<text x="988" y="782" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">squeeze / closure</text>
+<image href="../source_panels/SP05-03_C033_Fig2.png" x="1035" y="310" width="300" height="379" preserveAspectRatio="xMidYMid meet"/>
+<rect x="1035" y="200" width="300" height="600" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="1035" y="760" width="300" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="1047" y="784" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">(d) C033 · Fig. 2</text>
+<text x="1323" y="782" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">cloud attenuation</text>
+<rect x="1450" y="250" width="300" height="500" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1600.0" y="286" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Dense polydisperse</text>
+<text x="1600.0" y="308" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">reacting HPDI spray</text>
+<text x="1600.0" y="335" font-family="Arial" font-size="19" font-weight="400" fill="#16202A" text-anchor="middle">joint size, spacing,</text>
+<text x="1600.0" y="360" font-family="Arial" font-size="19" font-weight="400" fill="#16202A" text-anchor="middle">velocity, temperature,</text>
+<text x="1600.0" y="385" font-family="Arial" font-size="19" font-weight="400" fill="#16202A" text-anchor="middle">vapor, and reaction</text>
+<text x="1600.0" y="410" font-family="Arial" font-size="19" font-weight="400" fill="#16202A" text-anchor="middle">statistics</text>
+<polyline points="1340,500 1450,500" fill="none" stroke="#B33A3A" stroke-width="5" stroke-dasharray="12,10"/>
+<polygon points="1450,500 1436.3596076470478,508.36299566289057 1436.3596076470478,491.63700433710943" fill="#B33A3A"/>
+<text x="1378" y="460" font-family="Arial" font-size="20" font-weight="700" fill="#B33A3A" text-anchor="middle">open transfer</text>
+<text x="180" y="882" font-family="Arial" font-size="22" font-weight="400" fill="#16202A" text-anchor="middle">single-body load</text>
+<text x="515" y="882" font-family="Arial" font-size="22" font-weight="400" fill="#16202A" text-anchor="middle">wake shielding</text>
+<text x="850" y="882" font-family="Arial" font-size="22" font-weight="400" fill="#16202A" text-anchor="middle">channel closure</text>
+<text x="1185" y="882" font-family="Arial" font-size="22" font-weight="400" fill="#16202A" text-anchor="middle">wave attenuation</text>
+<text x="1600" y="882" font-family="Arial" font-size="22" font-weight="700" fill="#B33A3A" text-anchor="middle">Direct dense-HPDI validation absent</text>
+</svg>

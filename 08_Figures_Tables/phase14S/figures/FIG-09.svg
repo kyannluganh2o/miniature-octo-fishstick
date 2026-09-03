@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-09 | Aligned clocks, state transfer, and missing interfaces</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Columns follow physical stages; rows show what must be synchronized</text>
+<text x="35" y="227" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="start">Stage</text>
+<text x="35" y="392" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="start">Clock</text>
+<text x="35" y="562" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="start">State</text>
+<rect x="120" y="160" width="250" height="115" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="245.0" y="198" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="middle">Wave / load</text>
+<rect x="120" y="330" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="3"/>
+<text x="245.0" y="369" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">tau_load</text>
+<rect x="120" y="500" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2A7F79" stroke-width="3"/>
+<text x="245.0" y="536" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">p, rho_g, u_rel</text>
+<polyline points="370,218 394,218" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="394,218 380.35960764704794,226.36299566289054 380.35960764704794,209.63700433710946" fill="#65717D"/>
+<rect x="398" y="160" width="250" height="115" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="523.0" y="198" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="middle">Liquid response</text>
+<rect x="398" y="330" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="3"/>
+<text x="523.0" y="369" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">tau_response</text>
+<rect x="398" y="500" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2A7F79" stroke-width="3"/>
+<text x="523.0" y="536" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">shape / instability</text>
+<polyline points="648,218 672,218" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="672,218 658.3596076470479,226.36299566289054 658.3596076470479,209.63700433710946" fill="#65717D"/>
+<rect x="676" y="160" width="250" height="115" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="801.0" y="198" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="middle">Fragments</text>
+<rect x="676" y="330" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="3"/>
+<text x="801.0" y="369" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">tau_breakup</text>
+<rect x="676" y="500" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2A7F79" stroke-width="3"/>
+<text x="801.0" y="536" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">d_f, v_f, T_f</text>
+<polyline points="926,218 950,218" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="950,218 936.3596076470479,226.36299566289054 936.3596076470479,209.63700433710946" fill="#65717D"/>
+<rect x="954" y="160" width="250" height="115" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1079.0" y="198" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="middle">Vapor transport</text>
+<rect x="954" y="330" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1079.0" y="369" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">tau_evap</text>
+<rect x="954" y="500" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2A7F79" stroke-width="3"/>
+<text x="1079.0" y="536" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">vapor / species</text>
+<polyline points="1204,218 1228,218" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="1228,218 1214.3596076470478,226.36299566289054 1214.3596076470478,209.63700433710946" fill="#65717D"/>
+<rect x="1232" y="160" width="250" height="115" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1357.0" y="198" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="middle">Mixture</text>
+<rect x="1232" y="330" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1357.0" y="369" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">tau_mix</text>
+<rect x="1232" y="500" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2A7F79" stroke-width="3"/>
+<text x="1357.0" y="536" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">phi, T, O2</text>
+<polyline points="1482,218 1506,218" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="1506,218 1492.3596076470478,226.36299566289054 1492.3596076470478,209.63700433710946" fill="#65717D"/>
+<rect x="1510" y="160" width="250" height="115" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1635.0" y="198" font-family="Arial" font-size="22" font-weight="700" fill="#17324D" text-anchor="middle">Ignition</text>
+<rect x="1510" y="330" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1635.0" y="369" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">tau_ign</text>
+<rect x="1510" y="500" width="250" height="115" rx="16" fill="#FFFFFF" stroke="#2A7F79" stroke-width="3"/>
+<text x="1635.0" y="536" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">radicals / heat</text>
+<text x="1635.0" y="558" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">release</text>
+<text x="35" y="772" font-family="Arial" font-size="22" font-weight="700" fill="#B33A3A" text-anchor="start">Missing</text>
+<rect x="120" y="710" width="420" height="170" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="330.0" y="747" font-family="Arial" font-size="21" font-weight="700" fill="#17324D" text-anchor="middle">trajectory-resolved load</text>
+<text x="330.0" y="773" font-family="Arial" font-size="18" font-weight="400" fill="#16202A" text-anchor="middle">synchronized evidence absent</text>
+<rect x="568" y="710" width="390" height="170" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="763.0" y="747" font-family="Arial" font-size="21" font-weight="700" fill="#17324D" text-anchor="middle">dense collective response</text>
+<text x="763.0" y="773" font-family="Arial" font-size="18" font-weight="400" fill="#16202A" text-anchor="middle">synchronized evidence absent</text>
+<rect x="986" y="710" width="390" height="170" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1181.0" y="747" font-family="Arial" font-size="21" font-weight="700" fill="#17324D" text-anchor="middle">fragment → mixture</text>
+<text x="1181.0" y="773" font-family="Arial" font-size="18" font-weight="400" fill="#16202A" text-anchor="middle">synchronized evidence absent</text>
+<rect x="1404" y="710" width="390" height="170" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1599.0" y="747" font-family="Arial" font-size="21" font-weight="700" fill="#17324D" text-anchor="middle">mixture → ignition</text>
+<text x="1599.0" y="773" font-family="Arial" font-size="18" font-weight="400" fill="#16202A" text-anchor="middle">synchronized evidence absent</text>
+<text x="900" y="1005" font-family="Arial" font-size="25" font-weight="700" fill="#B33A3A" text-anchor="middle">No row is a universal scalar; each interface carries a state and a clock.</text>
+</svg>
