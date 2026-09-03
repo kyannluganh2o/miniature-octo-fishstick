@@ -1,0 +1,44 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 5,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "4. Results",
+    "pdf_page_start": 6,
+    "pdf_page_end": 7,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "results: 𝑊𝑑 = 1.135 mm, 1.377 mm, 3.173 mm, for 𝑁 𝑃 𝑅 = 8.5, 10, 30,",
+    "pdf_page_start": 8,
+    "pdf_page_end": 8,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "5. Conclusions",
+    "pdf_page_start": 9,
+    "pdf_page_end": 9,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Appendix A. Supplementary data",
+    "pdf_page_start": 10,
+    "pdf_page_end": 10,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "References",
+    "pdf_page_start": 10,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  }
+]
