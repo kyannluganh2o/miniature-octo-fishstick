@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-03 | Eulerian field to Lagrangian droplet loading</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Visible wave topology is not the load sampled by a moving pilot droplet</text>
+<rect x="70" y="180" width="490" height="290" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="315.0" y="220" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Eulerian gas field</text>
+<text x="315.0" y="248" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">p(x,t)   rho_g(x,t)   u_g(x,t)</text>
+<text x="315.0" y="274" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">shocks; expansions; vortices</text>
+<rect x="670" y="180" width="460" height="290" rx="16" fill="#F9E8D8" stroke="#D96C2F" stroke-width="3"/>
+<text x="900.0" y="220" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Droplet trajectory</text>
+<text x="900.0" y="248" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">x_d(t)   u_d(t)</text>
+<text x="900.0" y="274" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">position and velocity through the</text>
+<text x="900.0" y="300" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">evolving field</text>
+<rect x="1240" y="180" width="490" height="290" rx="16" fill="#EEF6ED" stroke="#2A7F79" stroke-width="3"/>
+<text x="1485.0" y="220" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Sampled loading</text>
+<text x="1485.0" y="248" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">p[x_d(t),t]</text>
+<text x="1485.0" y="274" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">rho_g[x_d(t),t]</text>
+<text x="1485.0" y="300" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">u_rel(t) = u_g[x_d(t),t] - u_d(t)</text>
+<polyline points="560,325 670,325" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="670,325 656.3596076470479,333.36299566289057 656.3596076470479,316.63700433710943" fill="#17324D"/>
+<polyline points="1130,325 1240,325" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="1240,325 1226.3596076470478,333.36299566289057 1226.3596076470478,316.63700433710943" fill="#17324D"/>
+<rect x="250" y="630" width="390" height="220" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="445.0" y="670" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Loading clock</text>
+<text x="445.0" y="698" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">tau_load</text>
+<text x="445.0" y="724" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">direction; amplitude; duration</text>
+<rect x="705" y="630" width="390" height="220" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="900.0" y="670" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Response clock</text>
+<text x="900.0" y="698" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">tau_response</text>
+<text x="900.0" y="724" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">deformation; instability; breakup</text>
+<rect x="1160" y="630" width="390" height="220" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1355.0" y="670" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Organizing ratio</text>
+<text x="1355.0" y="698" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">tau_load / tau_response</text>
+<text x="1355.0" y="724" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">hypothesis only</text>
+<polyline points="640,740 705,740" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="705,740 691.3596076470479,748.3629956628905 691.3596076470479,731.6370043371095" fill="#17324D"/>
+<polyline points="1095,740 1160,740" fill="none" stroke="#B33A3A" stroke-width="4" stroke-dasharray="12,10"/>
+<polygon points="1160,740 1146.3596076470478,748.3629956628905 1146.3596076470478,731.6370043371095" fill="#B33A3A"/>
+<text x="900" y="990" font-family="Arial" font-size="30" font-weight="700" fill="#B33A3A" text-anchor="middle">Actual HPDI pilot-droplet histories remain unresolved.</text>
+</svg>

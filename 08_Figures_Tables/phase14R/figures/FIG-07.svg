@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-07 | Relative injection chronology and ignition response</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Signed timing and geometry are direct controls; wave-mediated fragment effects remain hypothetical</text>
+<text x="120" y="184" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="start">Pilot SOI</text>
+<text x="120" y="259" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="start">Main-fuel SOI</text>
+<polyline points="300,175 800,175" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="800,175 786.3596076470479,183.36299566289054 786.3596076470479,166.63700433710946" fill="#17324D"/>
+<polyline points="300,250 800,250" fill="none" stroke="#D96C2F" stroke-width="4"/>
+<polygon points="800,250 786.3596076470479,258.36299566289057 786.3596076470479,241.63700433710946" fill="#D96C2F"/>
+<polyline points="550,145 550,275" fill="none" stroke="#65717D" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="550" y="307" font-family="Arial" font-size="22" font-weight="700" fill="#16202A" text-anchor="middle">signed Delta SOI</text>
+<rect x="890" y="145" width="350" height="160" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1065.0" y="185" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Geometry + chronology</text>
+<text x="1065.0" y="213" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">fuel order; actual event; jet</text>
+<text x="1065.0" y="239" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">intersection</text>
+<polyline points="800,212 890,212" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="890,212 876.3596076470479,220.36299566289054 876.3596076470479,203.63700433710946" fill="#17324D"/>
+<rect x="1320" y="145" width="390" height="160" rx="16" fill="#F9E8D8" stroke="#D96C2F" stroke-width="3"/>
+<text x="1515.0" y="185" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Interaction state</text>
+<text x="1515.0" y="213" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">pilot products; mixture; ignition</text>
+<text x="1515.0" y="239" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">kernel</text>
+<polyline points="1240,225 1320,225" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="1320,225 1306.3596076470478,233.36299566289054 1306.3596076470478,216.63700433710946" fill="#17324D"/>
+<image href="../source_panels/SP07-01_A022_Fig2.png" x="163" y="385" width="293" height="510" preserveAspectRatio="xMidYMid meet"/>
+<rect x="40" y="385" width="540" height="510" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="40" y="855" width="540" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="52" y="879" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">A022 · Fig. 2</text>
+<text x="568" y="877" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">jet geometry</text>
+<image href="../source_panels/SP07-02_A026_Fig10.png" x="630" y="403" width="540" height="474" preserveAspectRatio="xMidYMid meet"/>
+<rect x="630" y="385" width="540" height="510" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="630" y="855" width="540" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="642" y="879" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">A026 · Fig. 10</text>
+<text x="1158" y="877" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">timing / flame</text>
+<image href="../source_panels/SP07-03_A007_Fig10.png" x="1293" y="385" width="393" height="510" preserveAspectRatio="xMidYMid meet"/>
+<rect x="1220" y="385" width="540" height="510" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="1220" y="855" width="540" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="1232" y="879" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">A007 · Fig. 10</text>
+<text x="1748" y="877" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">ignition-delay map</text>
+<rect x="80" y="955" width="760" height="85" rx="14" fill="#EEF6ED" stroke="#2A7F79" stroke-width="3"/>
+<text x="460" y="999" font-family="Arial" font-size="22" font-weight="700" fill="#2A7F79" text-anchor="middle">Direct pathway: timing + geometry -&gt; interaction / mixture / ignition</text>
+<rect x="960" y="955" width="760" height="85" rx="14" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1340" y="999" font-family="Arial" font-size="22" font-weight="700" fill="#B33A3A" text-anchor="middle">Hypothesized pathway: wave -&gt; fragments -&gt; mixture -&gt; ignition</text>
+</svg>

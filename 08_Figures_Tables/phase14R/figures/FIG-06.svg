@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-06 | Fragmentation and phase-change competition</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Source observations above; conditional physical branches below</text>
+<image href="../source_panels/SP06-01_C024_Fig7.png" x="30" y="279" width="405" height="232" preserveAspectRatio="xMidYMid meet"/>
+<rect x="30" y="145" width="405" height="500" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="30" y="605" width="405" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="42" y="629" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">C024 · Fig. 7</text>
+<text x="423" y="627" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">fragment cloud</text>
+<image href="../source_panels/SP06-04_C026_Fig2.png" x="526" y="145" width="283" height="500" preserveAspectRatio="xMidYMid meet"/>
+<rect x="465" y="145" width="405" height="500" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="465" y="605" width="405" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="477" y="629" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">C026 · Fig. 2</text>
+<text x="858" y="627" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">size / loading</text>
+<image href="../source_panels/SP06-02_C031_Fig7.png" x="900" y="225" width="405" height="340" preserveAspectRatio="xMidYMid meet"/>
+<rect x="900" y="145" width="405" height="500" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="900" y="605" width="405" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="912" y="629" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">C031 · Fig. 7</text>
+<text x="1293" y="627" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">phase-change branch</text>
+<image href="../source_panels/SP06-03_C032_Figs3_4.png" x="1335" y="159" width="405" height="472" preserveAspectRatio="xMidYMid meet"/>
+<rect x="1335" y="145" width="405" height="500" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="1335" y="605" width="405" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="1347" y="629" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">C032 · Figs. 3-4</text>
+<text x="1728" y="627" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">thermal-property branch</text>
+<rect x="120" y="730" width="600" height="200" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="420.0" y="770" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Branch A | vapor layer / blowing</text>
+<text x="420.0" y="798" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">reduced interfacial shear -&gt; suppressed KH growth</text>
+<rect x="790" y="730" width="600" height="200" rx="16" fill="#F9E8D8" stroke="#D96C2F" stroke-width="3"/>
+<text x="1090.0" y="770" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Branch B | heating / liquid properties</text>
+<text x="1090.0" y="798" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">reduced surface tension -&gt; promoted deformation</text>
+<rect x="1450" y="715" width="310" height="235" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1605.0" y="750" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="middle">Conditional downstream state</text>
+<text x="1605.0" y="776" font-family="Arial" font-size="18" font-weight="400" fill="#16202A" text-anchor="middle">fragment distribution -&gt;</text>
+<text x="1605.0" y="800" font-family="Arial" font-size="18" font-weight="400" fill="#16202A" text-anchor="middle">transport -&gt; evaporation -&gt;</text>
+<text x="1605.0" y="824" font-family="Arial" font-size="18" font-weight="400" fill="#16202A" text-anchor="middle">vapor redistribution</text>
+<polyline points="720,830 790,830" fill="none" stroke="#65717D" stroke-width="3" stroke-dasharray="12,10"/>
+<polygon points="790,830 776.3596076470479,838.3629956628905 776.3596076470479,821.6370043371095" fill="#65717D"/>
+<polyline points="1390,830 1460,830" fill="none" stroke="#B33A3A" stroke-width="4" stroke-dasharray="12,10"/>
+<polygon points="1460,830 1446.3596076470478,838.3629956628905 1446.3596076470478,821.6370043371095" fill="#B33A3A"/>
+<text x="900" y="1013" font-family="Arial" font-size="23" font-weight="700" fill="#B33A3A" text-anchor="middle">Breakup does not imply faster evaporation or improved mixing without the intervening state and residence scales.</text>
+</svg>

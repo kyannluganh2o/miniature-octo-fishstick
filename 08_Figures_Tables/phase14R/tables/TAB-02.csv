@@ -1,0 +1,5 @@
+﻿Study,Gas / nozzle,Pressure definition,NPR / pressure range,Ambient state,Transient stage,Mach-disk / topology metric,Comparison scope
+[[CITE:B009]] H2 series,H2; converging exit D=1.5 mm,Nozzle total / ambient static,"NPR 8.5, 10, 30, 70",98.37 kPa; 296 K,Semi-steady after transient overshoot,"x_MD/D = 1.85, 2.06, 3.77, 5.81; derived from reported x_MD and D",Within-study NPR trend
+[[CITE:B009]] CH4 case,CH4; same D=1.5 mm nozzle,Same total/static roles,NPR 8.5,98.37 kPa; 296 K,Semi-steady,x_MD/D = 1.90; derived,Gas-species contrast within one setup
+[[CITE:B021]] steady/unsteady case,H2; convergent exit D=1 mm,Plenum total / chamber static,NPR 12.7 representative comparison,Case-specific chamber state,Steady and unsteady,Mach-disk position and H2 radial profiles,Instantaneous vs steady topology
+[[CITE:B029]] pressure-build cases,H2 injector; internal restriction and volume case-specific,Injector-internal p_inj(t); measurement location retained,Time-dependent histories,Transient test state,Opening to stabilization,"Pressure, penetration, velocity, and Mach-contour evolution",Event alignment across pressure-build histories

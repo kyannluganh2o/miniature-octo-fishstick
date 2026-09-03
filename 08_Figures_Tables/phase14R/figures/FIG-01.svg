@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-01 | Injector-to-ignition physical map</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Transient forcing, liquid response, transport, and open couplings</text>
+<rect x="35" y="300" width="205" height="190" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="137.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Injector dynamics</text>
+<text x="137.5" y="364" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">needle motion;</text>
+<text x="137.5" y="390" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">p_inj(t)</text>
+<polyline points="240,395.0 249,395.0" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="249,395.0 235.3596076470479,403.36299566289057 235.3596076470479,386.63700433710943" fill="#17324D"/>
+<rect x="254" y="300" width="205" height="190" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="356.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Transient wave</text>
+<text x="356.5" y="358" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">field</text>
+<text x="356.5" y="386" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">shocks;</text>
+<text x="356.5" y="412" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">expansion;</text>
+<text x="356.5" y="438" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">vortices</text>
+<polyline points="459,395.0 468,395.0" fill="none" stroke="#B33A3A" stroke-width="4" stroke-dasharray="12,10"/>
+<polygon points="468,395.0 454.35960764704794,403.36299566289057 454.35960764704794,386.63700433710943" fill="#B33A3A"/>
+<rect x="473" y="300" width="205" height="190" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="575.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Local droplet</text>
+<text x="575.5" y="358" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">loading</text>
+<text x="575.5" y="386" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">p[x_d,t];</text>
+<text x="575.5" y="412" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">rho_g[x_d,t];</text>
+<text x="575.5" y="438" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">u_rel</text>
+<polyline points="678,395.0 687,395.0" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="687,395.0 673.3596076470479,403.36299566289057 673.3596076470479,386.63700433710943" fill="#17324D"/>
+<rect x="692" y="300" width="205" height="190" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="794.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Liquid response</text>
+<text x="794.5" y="364" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">deformation;</text>
+<text x="794.5" y="390" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">instability</text>
+<polyline points="897,395.0 906,395.0" fill="none" stroke="#B33A3A" stroke-width="4" stroke-dasharray="12,10"/>
+<polygon points="906,395.0 892.3596076470479,403.36299566289057 892.3596076470479,386.63700433710943" fill="#B33A3A"/>
+<rect x="911" y="300" width="205" height="190" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1013.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Fragment</text>
+<text x="1013.5" y="358" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">population</text>
+<text x="1013.5" y="386" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">size; velocity;</text>
+<text x="1013.5" y="412" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">temperature</text>
+<polyline points="1116,395.0 1125,395.0" fill="none" stroke="#17324D" stroke-width="4"/>
+<polygon points="1125,395.0 1111.3596076470478,403.36299566289057 1111.3596076470478,386.63700433710943" fill="#17324D"/>
+<rect x="1130" y="300" width="205" height="190" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1232.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Transport / phase</text>
+<text x="1232.5" y="358" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">change</text>
+<text x="1232.5" y="386" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">residence;</text>
+<text x="1232.5" y="412" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">vaporization</text>
+<polyline points="1335,395.0 1344,395.0" fill="none" stroke="#B33A3A" stroke-width="4" stroke-dasharray="12,10"/>
+<polygon points="1344,395.0 1330.3596076470478,403.36299566289057 1330.3596076470478,386.63700433710943" fill="#B33A3A"/>
+<rect x="1349" y="300" width="205" height="190" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1451.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Mixture</text>
+<text x="1451.5" y="364" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">vapor and</text>
+<text x="1451.5" y="390" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">pilot-product</text>
+<text x="1451.5" y="416" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">field</text>
+<polyline points="1554,395.0 1563,395.0" fill="none" stroke="#B33A3A" stroke-width="4" stroke-dasharray="12,10"/>
+<polygon points="1563,395.0 1549.3596076470478,403.36299566289057 1549.3596076470478,386.63700433710943" fill="#B33A3A"/>
+<rect x="1568" y="300" width="205" height="190" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1670.5" y="336" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">Ignition</text>
+<text x="1670.5" y="364" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">kernel; heat</text>
+<text x="1670.5" y="390" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">release</text>
+<rect x="190" y="670" width="1420" height="170" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="900.0" y="710" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Four unresolved couplings</text>
+<text x="900.0" y="738" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">actual pilot Lagrangian load  |  canonical-to-dense-spray transfer  |  fragment-to-mixture contribution  |</text>
+<text x="900.0" y="764" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">mixture-to-ignition response</text>
+<text x="900" y="944" font-family="Arial" font-size="24" font-weight="700" fill="#B33A3A" text-anchor="middle">Open arrows indicate measurement needs, not established causal closure.</text>
+</svg>

@@ -1,0 +1,10 @@
+﻿Parameter,Physical role,Required definition,Common ambiguity,Comparison rule
+NPR,Underexpansion and momentum-flux control,Upstream/downstream pressures; locations; total/static; absolute basis; time,Rail/chamber vs plenum/ambient; nominal vs instantaneous,"Match pressure roles, gas, nozzle, ambient state, and transient stage"
+Mach number,Compressibility and wave strength,Object; frame; sound-speed state; location; time,M_s vs post-wave M vs M_rel vs detonation-front Mach,"Separate incident, post-wave, droplet-relative, and front values"
+Weber number,Aerodynamic stress relative to surface tension,rho_g; relative velocity; length; sigma; thermodynamic state,Pre/post-wave density; parent/fragment diameter; velocity frame,"Compare only definition-complete, state-matched values"
+Reynolds number,Inertial transport relative to viscous transport,rho; velocity; length; viscosity; phase; state; frame,Gas vs liquid viscosity; freestream vs post-wave state,Use as a companion condition to the loading history
+Ohnesorge number,Liquid viscous resistance to capillary-inertial response,"Liquid viscosity, density, sigma, length, and temperature",Parent vs fragment scale; temperature-dependent properties,Match liquid state and characteristic length
+Loading duration,Exposure to pressure and slip forcing,"Start/end events; front passage, post-wave residence, or full forcing",Shock transit vs compressed-gas residence,Retain event definitions; avoid universal pooling
+Breakup time,Response clock,"Onset, first shedding, rupture, or completion; normalization",Onset vs completion; dimensional vs normalized time,Compare the same event and normalization
+Signed ΔSOI,Pilot/main chronology,Target event minus reference event; fuel order; event type; unit,Opposite sign; electronic vs hydraulic vs actual SOI,"State named events, sign convention, speed, and operating point"
+L_E/L_D,Liquid-survival distance relative to a device scale,Evaporation endpoint and denominator length,"Front height vs cell, induction, or refill scale",Use within the reported strong-wave domain

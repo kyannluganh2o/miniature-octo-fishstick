@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-09 | Competing clocks and unresolved transported quantities</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Cross-scale organization without assuming a universal timescale ratio</text>
+<rect x="55" y="220" width="190" height="150" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="150.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_inject</text>
+<text x="150.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">injector</text>
+<polyline points="245,295 267,295" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="267,295 253.3596076470479,303.36299566289057 253.3596076470479,286.63700433710943" fill="#65717D"/>
+<rect x="271" y="220" width="190" height="150" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="366.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_wave</text>
+<text x="366.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">wave</text>
+<polyline points="461,295 483,295" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="483,295 469.35960764704794,303.36299566289057 469.35960764704794,286.63700433710943" fill="#65717D"/>
+<rect x="487" y="220" width="190" height="150" rx="16" fill="#DDEFF6" stroke="#2F6B9A" stroke-width="3"/>
+<text x="582.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_load</text>
+<text x="582.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">droplet load</text>
+<polyline points="677,295 699,295" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="699,295 685.3596076470479,303.36299566289057 685.3596076470479,286.63700433710943" fill="#65717D"/>
+<rect x="703" y="220" width="190" height="150" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="798.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_response</text>
+<text x="798.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">liquid response</text>
+<polyline points="893,295 915,295" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="915,295 901.3596076470479,303.36299566289057 901.3596076470479,286.63700433710943" fill="#65717D"/>
+<rect x="919" y="220" width="190" height="150" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1014.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_breakup</text>
+<text x="1014.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">fragmentation</text>
+<polyline points="1109,295 1131,295" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="1131,295 1117.3596076470478,303.36299566289057 1117.3596076470478,286.63700433710943" fill="#65717D"/>
+<rect x="1135" y="220" width="190" height="150" rx="16" fill="#F9E8D8" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1230.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_evap</text>
+<text x="1230.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">phase change</text>
+<polyline points="1325,295 1347,295" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="1347,295 1333.3596076470478,303.36299566289057 1333.3596076470478,286.63700433710943" fill="#65717D"/>
+<rect x="1351" y="220" width="190" height="150" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1446.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_mix</text>
+<text x="1446.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">transport</text>
+<polyline points="1541,295 1563,295" fill="none" stroke="#65717D" stroke-width="3"/>
+<polygon points="1563,295 1549.3596076470478,303.36299566289057 1549.3596076470478,286.63700433710943" fill="#65717D"/>
+<rect x="1567" y="220" width="190" height="150" rx="16" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="3"/>
+<text x="1662.0" y="256" font-family="Arial" font-size="20" font-weight="700" fill="#17324D" text-anchor="middle">tau_ign</text>
+<text x="1662.0" y="284" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">chemistry</text>
+<text x="900" y="498" font-family="Arial" font-size="28" font-weight="700" fill="#17324D" text-anchor="middle">Transported variables</text>
+<rect x="90" y="520" width="300" height="100" rx="12" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="2"/>
+<text x="240" y="571" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">pressure / density history</text>
+<rect x="430" y="520" width="300" height="100" rx="12" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="2"/>
+<text x="580" y="571" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">relative velocity</text>
+<rect x="770" y="520" width="300" height="100" rx="12" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="2"/>
+<text x="920" y="571" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">fragment size / velocity</text>
+<rect x="1110" y="520" width="300" height="100" rx="12" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="2"/>
+<text x="1260" y="571" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">temperature / vapor</text>
+<rect x="1450" y="520" width="300" height="100" rx="12" fill="#F5F7F9" stroke="#2F6B9A" stroke-width="2"/>
+<text x="1600" y="571" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">mixture / radicals</text>
+<rect x="90" y="750" width="360" height="190" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="270.0" y="790" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Unresolved quantity 1</text>
+<text x="270.0" y="818" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">actual pilot-droplet load</text>
+<text x="270.0" y="844" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">history</text>
+<rect x="510" y="750" width="360" height="190" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="690.0" y="790" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Unresolved quantity 2</text>
+<text x="690.0" y="818" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">dense-spray collective response</text>
+<rect x="930" y="750" width="360" height="190" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1110.0" y="790" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Unresolved quantity 3</text>
+<text x="1110.0" y="818" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">fragment-to-mixture</text>
+<text x="1110.0" y="844" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">contribution</text>
+<rect x="1350" y="750" width="360" height="190" rx="16" fill="#FFF8F0" stroke="#B33A3A" stroke-width="3" stroke-dasharray="12,10"/>
+<text x="1530.0" y="790" font-family="Arial" font-size="24" font-weight="700" fill="#17324D" text-anchor="middle">Unresolved quantity 4</text>
+<text x="1530.0" y="818" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">mixture-to-ignition response</text>
+</svg>

@@ -1,0 +1,6 @@
+﻿Configuration,Source,Spacing / population descriptor,Loading,Collective mechanism,Response,Dense-spray implication
+Isolated droplet,[[CITE:C016]],NA,Incident shock + post-shock airflow,Single-body response,"SIE / RTP under case-specific M_s, We, Re, d0","No shielding, attenuation, vaporization, or reaction"
+Tandem pair,[[CITE:C035]],Streamwise S/D=1.2-10.5,Post-shock gas; We=13-180,Wake shielding; altered trailing-droplet slip,Spacing-dependent differential deformation,Ordered pair; orientation-specific
+Parallel pair,[[CITE:C036]],Transverse L/D<0.1 to >2,Post-wave gas; We O(10)-O(100),Squeeze flow; channel opening / closure,"Bag, trailing, shuttlecock, open, and closed modes",Pair-scale phase boundaries
+Dilute cloud,[[CITE:C033]] [[CITE:C034]],"Cloud height, volume fraction, number density",Shock transmission through water-droplet cloud,Wave attenuation; fragmentation feedback,Pressure attenuation and broadened transmitted load,Cloud descriptor not convertible to pair spacing
+Dense polydisperse reacting HPDI spray,Direct dense-HPDI validation absent,"Joint size, spacing, volume fraction, velocity, temperature, vapor",Transient two-way gas-liquid coupling,"Combined shielding, channel flow, attenuation, phase change",Unresolved population response,Direct measurement and validation required

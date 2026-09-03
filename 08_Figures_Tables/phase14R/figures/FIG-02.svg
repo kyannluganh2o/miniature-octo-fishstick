@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-02 | Transient injector and underexpanded-wave evolution</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Event-aligned literature observations and a compact chronology</text>
+<image href="../source_panels/SP02-01_B009_Fig8.png" x="81" y="150" width="487" height="650" preserveAspectRatio="xMidYMid meet"/>
+<rect x="45" y="150" width="560" height="650" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="45" y="760" width="560" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="57" y="784" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">B009 · Fig. 8</text>
+<text x="593" y="782" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">Mach-disk development</text>
+<image href="../source_panels/SP02-02_B021_Figs18_19.png" x="771" y="150" width="258" height="650" preserveAspectRatio="xMidYMid meet"/>
+<rect x="620" y="150" width="560" height="650" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="620" y="760" width="560" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="632" y="784" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">B021 · Figs. 18-19</text>
+<text x="1168" y="782" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">steady / unsteady</text>
+<image href="../source_panels/SP02-03_B029_Figs9_11.png" x="1328" y="150" width="293" height="650" preserveAspectRatio="xMidYMid meet"/>
+<rect x="1195" y="150" width="560" height="650" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="1195" y="760" width="560" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="1207" y="784" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">B029 · Figs. 9-11</text>
+<text x="1743" y="782" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">pressure / jet response</text>
+<polyline points="100,900 1730,900" fill="none" stroke="#17324D" stroke-width="5"/>
+<polygon points="1730,900 1716.3596076470478,908.3629956628905 1716.3596076470478,891.6370043371095" fill="#17324D"/>
+<circle cx="100" cy="900" r="8" fill="#D96C2F"/>
+<text x="100" y="948" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">opening</text>
+<circle cx="355" cy="900" r="8" fill="#D96C2F"/>
+<text x="355" y="948" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">pressure build-up</text>
+<circle cx="610" cy="900" r="8" fill="#D96C2F"/>
+<text x="610" y="948" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">choking</text>
+<circle cx="865" cy="900" r="8" fill="#D96C2F"/>
+<text x="865" y="948" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">shock cells</text>
+<circle cx="1120" cy="900" r="8" fill="#D96C2F"/>
+<text x="1120" y="948" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">Mach disk</text>
+<circle cx="1375" cy="900" r="8" fill="#D96C2F"/>
+<text x="1375" y="948" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">overshoot</text>
+<circle cx="1630" cy="900" r="8" fill="#D96C2F"/>
+<text x="1630" y="948" font-family="Arial" font-size="20" font-weight="400" fill="#16202A" text-anchor="middle">semi-steady</text>
+</svg>

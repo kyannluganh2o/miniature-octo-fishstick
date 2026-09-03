@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="92" rx="0" fill="#17324D" stroke="none" stroke-width="2"/>
+<text x="55" y="60" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">FIG-04 | Compressible droplet morphology and breakup</text>
+<text x="55" y="122" font-family="Arial" font-size="22" font-weight="400" fill="#65717D" text-anchor="start">Direct observations reveal distinct acceleration-, shear-, and capillary-mediated structures</text>
+<image href="../source_panels/SP04-01_C012_Fig3.png" x="92" y="150" width="316" height="690" preserveAspectRatio="xMidYMid meet"/>
+<rect x="40" y="150" width="420" height="690" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="40" y="800" width="420" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="52" y="824" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">C012 · Fig. 3</text>
+<text x="448" y="822" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">sheet / rim / mist</text>
+<image href="../source_panels/SP04-02_C013_Fig15.png" x="538" y="150" width="293" height="690" preserveAspectRatio="xMidYMid meet"/>
+<rect x="475" y="150" width="420" height="690" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="475" y="800" width="420" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="487" y="824" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">C013 · Fig. 15</text>
+<text x="883" y="822" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">recurrent ligaments</text>
+<image href="../source_panels/SP04-03_C016_Fig6.png" x="910" y="270" width="420" height="449" preserveAspectRatio="xMidYMid meet"/>
+<rect x="910" y="150" width="420" height="690" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="910" y="800" width="420" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="922" y="824" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">C016 · Fig. 6</text>
+<text x="1318" y="822" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">SIE / RTP</text>
+<image href="../source_panels/SP04-04_D018_Fig15.png" x="1345" y="424" width="415" height="141" preserveAspectRatio="xMidYMid meet"/>
+<rect x="1345" y="150" width="415" height="690" rx="0" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+<rect x="1345" y="800" width="415" height="40" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="1357" y="824" font-family="Arial" font-size="19" font-weight="700" fill="#17324D" text-anchor="start">D018 · Fig. 15</text>
+<text x="1748" y="822" font-family="Arial" font-size="17" font-weight="400" fill="#65717D" text-anchor="end">strong-wave analogue</text>
+<text x="250" y="918" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">Acceleration-driven</text>
+<text x="250" y="951" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">RT-type piercing</text>
+<text x="700" y="918" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">Shear-driven</text>
+<text x="700" y="951" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">KH waves / stripping</text>
+<text x="1150" y="918" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">Capillary response</text>
+<text x="1150" y="951" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">sheet, rim, ligaments</text>
+<text x="1570" y="918" font-family="Arial" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">Fragment production</text>
+<text x="1570" y="951" font-family="Arial" font-size="21" font-weight="400" fill="#16202A" text-anchor="middle">daughter droplets / mist</text>
+</svg>
