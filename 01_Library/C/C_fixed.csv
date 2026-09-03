@@ -1,0 +1,37 @@
+source_record_id,paper_id,title,authors,year,journal,doi,doi_status,relevance_grade,relevance_score,relevance_reason,must_read,reading_tier,reading_priority,chapter_primary,chapter_secondary,chapter_role,topic_tags,parameter_groups,final_decision,exclusion_reason,verification_flags,notes
+C-F-01,C001,Aerobreakup in disturbed subsonic and supersonic flow fields,"T. G. THEOFANOUS, G. J. LI, T. N. DINH and C.-H. CHANG",2007,Journal of Fluid Mechanics,10.1017/S0022112007008853,verified,,,,,tier2,,,,,,,keep,,,
+C-F-02,C002,On the physics of aerobreakup,T . G. Theofanous and G. J. Li a/H20850,2008,,10.1063/1.2907989/H20852,verified,,,,,tier2,,,,,,,keep,,,
+C-F-03,C003,REVIEW ARTICLE Secondary atomization,D. R. Guildenbecher Æ C. Lo´pez-Rivera Æ,2009,,10.1007/s00348-008-0593-2,verified,,,,,tier3,,,,,,,keep,,,
+C-F-04,C004,Aerobreakup of Newtonian and Viscoelastic Liquids,,,,10.1146/annurev-fluid-122109-160638,unverified,,,,,tier1,,,,,,,keep,,pdf_missing,User-supplied DOI/title retained as unverified metadata.
+C-F-05,C005,Secondary breakup of a drop at moderate Weber numbers,,,,10.1098/rspa.2014.0930,unverified,,,,,tier3,,,,,,,keep,,pdf_missing,User-supplied DOI/title retained as unverified metadata.
+C-F-06,C006,On aerodynamic droplet breakup,"Isaac M. Jackiw1 and Nasser Ashgriz1,†",2021,,10.1017/jfm.2021.7,verified,,,,,tier2,,,,,,,keep,,,
+C-F-07,C007,Annual Review of Fluid Mechanics Secondary Atomization of Droplets at Extreme Conditions,Saini Jatin Rao and Saptarshi Basu,2026,,10.1146/annurev-fluid-112823-,verified,,,,,tier1,,,,,,,keep,,,
+C-SD-01,C008,Numerical simulations of the early stages of high-speed droplet breakup,J. C. Meng,2015,,10.1007/s00193-014-0546-z,verified,,,,,tier3,,,,,,,keep,,,
+C-SD-02,C009,Simulation of drop deformation and breakup in supersonic flow,F. Xiao,2017,,10.1016/j.proci.2016.09.016,verified,,,,,tier3,,,,,,,keep,,,
+C-SD-03,C010,Numerical simulation of the aerobreakup of a water droplet,"Jomela C. Meng1,† and Tim Colonius1",2018,,10.1017/jfm.2017.804,verified,,,,,tier2,,,,,,,keep,,,
+C-SD-04,C011,Numerical Study on Liquid Droplet Internal Flow Under Shock Impact,,,,10.2514/1.J057134,unverified,,,,,tier3,,,,,,,keep,,pdf_missing,User-supplied DOI/title retained as unverified metadata.
+C-SD-05,C012,High-magnification shadowgraphy for the study of drop breakup in a high-speed gas flow,"L. Biasiori-Poulanges, H. El-Rabii",2019,,10.1364/OL.44.005884,verified,,,,,tier3,,,,,,,keep,,,
+C-SD-06,C013,904 A20-1 On the formation and recurrent shedding of ligaments in droplet aerobreakup,"Benedikt Dorschner1,†, Luc Biasiori-Poulanges2, Kevin Schmidmayer1,",2020,,10.1017/jfm.2020.699,verified,,,,,tier3,,,,,,,keep,,,
+C-SD-07,C014,Effect of Mach number on droplet aerobreakup in shear stripping regime,Zhaoguang Wang,2020,,10.1007/s00348-020-03026-1,verified,,,,,tier1,,,,,,,keep,,,
+C-SD-08,C015,On the interaction of water droplet with a shock wave: Experiment and numerical simulation,Sergey V. Poplavski,2020,International Journal of Multiphase Flow,10.1016/j.ijmultiphaseflow.2020.103273,verified,,,,,tier2,,,,,,,keep,,,
+C-SD-09,C016,Shock induced aerobreakup of a droplet,"Shubham Sharma1, Awanish Pratap Singh1,S .S r i n i v a sR a o1, Aloke Kumar1",2021,,10.1017/jfm.2021.860,verified,,,,,tier1,,,,,,,keep,,,
+C-SD-10,C017,Shock-induced cavitation and wavefront analysis inside a water droplet,Luc Biasiori-Poulanges,2021,,10.1063/5.0063827,verified,,,,,tier2,,,,,,,keep,,,
+C-SD-11,C018,Exploration of shock–droplet interaction based on high-ﬁdelity simulation and improved theoretical model,"Tianheng Xiong1, Changxiao Shao1,† and Kun Luo2",2024,,10.1017/jfm.2024.472,verified,,,,,tier1,,,,,,,keep,,,
+C-SD-12,C019,Email address for correspondence: meredith.xs@163.com; wbing@tsinghua.edu.cn. Investigation on the dynamic characteristics of a droplet subjected to a divergent shock wave,"Haotian Chen (陈浩天)1, Xin Jin (靳鑫)1, Wei Wang (王威)2, Sheng Xu (徐胜)1* and Bing Wang (王兵)1*",2025,,,missing,,,,,tier1,,,,,,,keep,,,
+C-SD-13,C020,Droplet breakup by multimodal nonlinear Rayleigh Taylor instability,Calvin J. Young,2026,International Journal of Multiphase Flow,10.1016/j.ijmultiphaseflow.2025.105490,verified,,,,,tier2,,,,,,,keep,,,
+C-ST-01,C021,Droplet aerobreakup under the shear-induced entrainment regime using a multiscale two-fluid approach,Georgia Nykteri,2021,,10.1103/PhysRevFluids.6.084304,verified,,,,,tier3,,,,,,,keep,,,
+C-ST-02,C022,Secondary droplet size distribution upon breakup of a sub-milimeter droplet in high speed cross flow,Jianling Li,2022,International Journal of Multiphase Flow,10.1016/j.ijmultiphaseflow.2021.103943,verified,,,,,tier2,,,,,,,keep,,,
+C-ST-03,C023,Numerical investigations on the deformation and breakup of an n-decane droplet induced by a shock wave,Wanli Zhu (朱万里),2022,,10.1063/5.0093291,verified,,,,,tier2,,,,,,,keep,,,
+C-ST-04,C024,Experiments on the breakup and evaporation of small droplets at high Weber number,Vasco Duke-Walker,2023,International Journal of Multiphase Flow,10.1016/j.ijmultiphaseflow.2023.104389,verified,,,,,tier1,,,,,,,keep,,,
+C-ST-05,C025,Timescales and Statistics of Shock-induced Droplet Breakup,"Michael Ullman, 1 Ral Bielawski, 2 and Venkat Raman 1",2025,,,missing,,,,,tier1,,,,,,,keep,,,
+C-ST-06,C026,Deformation and acceleration of small droplets at high-speed conditions,,2025,International Journal of Multiphase Flow,10.1016/j.ijmultiphaseflow.2025.105372,verified,,,,,tier2,,,,,,,keep,,author_not_verified,
+C-PC-01,C027,RESEARCH ARTICLE | JULY 20 2012 Breakup and vaporization of droplets under locally supersonic conditions,YoungJun Kim; James C. Hermanson,2012,,10.1063/1.4733459,verified,,,,,tier3,,,,,,,keep,,,
+C-PC-02,C028,Journal of Computational Physics A sharp-interface method for the simulation of shock-induced vaporization of droplets,"Pratik Das, H.S. Udaykumar∗",2020,,10.1016/j.jcp.2019.109005,verified,,,,,tier3,,,,,,,keep,,,
+C-PC-03,C029,Numerical study of the transcritical shock-droplet interaction,,,,10.1103/PhysRevFluids.6.113601,unverified,,,,,tier1,,,,,,,keep,,pdf_missing,User-supplied DOI/title retained as unverified metadata.
+C-PC-04,C030,Impact of vaporization on drop aerobreakup,"B. Boyd1,†,S .B e c k e r1 and Y . Ling2,†",2024,,10.1017/jfm.2024.1035,verified,,,,,tier2,,,,,,,keep,,,
+C-PC-05,C031,Three-dimensional numerical simulations of phase change effects on shock-droplet interactions,Jiaxi Song (宋家喜),2025,,10.1063/5.0255860,verified,,,,,tier1,,,,,,,keep,,,
+C-PC-06,C032,Full Length Article Aerodynamic breakup of an n-decane droplet in a high temperature gas environment,"George Strotos a,b,⇑, Ilias Malgarinos a, Nikos Nikolopoulos a,c, Manolis Gavaises a",2016,,10.1016/j.fuel.2016.08.014,verified,,,,,tier3,,,,,,,keep,,,
+C-MD-01,C033,RESEARCH ARTICLE | NOVEMBER 07 2011 Experimental investigation of the propagation of a planar shock wave through a two-phase gas-liquid medium,A. Chauvin; G. Jourdan; E. Daniel; L. Houas; R. Tosello,2011,,10.1063/1.3657083,verified,,,,,tier2,,,,,,,keep,,,
+C-MD-02,C034,Shock waves in sprays: numerical study of secondary atomization and experimental comparison,A. Chauvin,2016,,10.1007/s00193-015-0593-0,verified,,,,,tier2,,,,,,,keep,,,
+C-MD-03,C035,RESEARCH ARTICLE | JANUARY 29 2021 Experimental investigation of shock-induced tandem droplet breakup,Zhaoguang Wang (王召光) ,2021,,10.1063/5.0039098,verified,,,,,tier1,,,,,,,keep,,,
+C-MD-04,C036,Shock-induced aerobreakup of parallel-arranged droplets,,,,10.1103/5398-z2gf,unverified,,,,,tier2,,,,,,,keep,,pdf_missing,User-supplied DOI/title retained as unverified metadata.

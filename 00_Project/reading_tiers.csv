@@ -1,0 +1,116 @@
+paper_id,source_record_id,library,reading_tier,pdf_status,reading_status,notes
+A001,A-NG-01,A,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+A002,A-NG-02,A,tier2,downloaded,complete,Phase 9.1 late-PDF tier2 processing complete; candidate evidence awaits global consolidation.
+A003,A-NG-03,A,tier3,downloaded,complete,
+A004,A-NG-04,A,tier3,downloaded,complete,
+A005,A-NG-05,A,tier2,downloaded,complete,Phase 9.1 late-PDF tier2 processing complete; candidate evidence awaits global consolidation.
+A006,A-NG-06,A,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+A007,A-NG-07,A,tier1,downloaded,complete,Phase 9.1 late-PDF tier1 processing complete; candidate evidence awaits global consolidation.
+A008,A-NG-08,A,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+A009,A-NG-09,A,tier2,downloaded,complete,Phase 9.1 late-PDF tier2 processing complete; candidate evidence awaits global consolidation.
+A010,A-NG-10,A,tier3,downloaded,complete,
+A011,A-NG-11,A,tier2,downloaded,complete,Phase 9.1 late-PDF tier2 processing complete; candidate evidence awaits global consolidation.
+A012,A-NG-12,A,tier2,downloaded,complete,Phase 9.1 late-PDF tier2 processing complete; candidate evidence awaits global consolidation.
+A013,A-NG-13,A,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+A014,A-NG-14,A,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+A015,A-NG-15,A,tier3,downloaded,complete,
+A016,A-NG-16,A,tier1,downloaded,complete,
+A017,A-NG-17,A,tier3,downloaded,complete,
+A018,A-H2-01,A,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+A019,A-H2-02,A,tier3,downloaded,complete,
+A020,A-H2-03,A,tier1,downloaded,complete,
+A021,A-H2-04,A,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+A022,A-H2-05,A,tier1,downloaded,complete,
+A023,A-H2-06,A,tier3,downloaded,complete,
+A024,A-H2-07,A,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+A025,A-H2-08,A,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+A026,A-H2-09,A,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+A027,A-R-01,A,tier3,downloaded,complete,
+A028,A-R-02,A,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+A029,A-R-03,A,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+A030,A-R-04,A,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete. Canonical title corrected in Phase 7.1; scientific processing unchanged.
+B001,B-T-01,B,tier3,downloaded,complete,
+B002,B-T-02,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B003,B-T-03,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B004,B-T-04,B,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+B005,B-T-05,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B006,B-H2-01,B,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+B007,B-H2-02,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B008,B-H2-03,B,tier2,downloaded,complete,Phase 9.1 late-PDF tier2 processing complete; candidate evidence awaits global consolidation.
+B009,B-H2-04,B,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+B010,B-H2-05,B,tier3,downloaded,complete,
+B011,B-H2-06,B,tier1,downloaded,complete,
+B012,B-H2-07,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B013,B-H2-08,B,tier1,downloaded,complete,
+B014,B-H2-09,B,tier3,downloaded,complete,
+B015,B-H2-10,B,tier3,downloaded,complete,
+B016,B-NG-01,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B017,B-NG-02,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B018,B-NG-03,B,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+B019,B-NG-04,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B020,B-NG-05,B,tier3,downloaded,complete,
+B021,B-E-01,B,tier1,downloaded,complete,Phase 9.1 late-PDF tier1 processing complete; candidate evidence awaits global consolidation.
+B022,B-E-02,B,tier3,downloaded,complete,
+B023,B-E-03,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B024,B-E-04,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+B025,B-E-05,B,tier3,downloaded,complete,
+B026,B-E-06,B,tier3,downloaded,complete,
+B027,B-E-07,B,tier3,downloaded,complete,
+B028,B-E-08,B,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+B029,B-E-09,B,tier1,downloaded,complete,
+B030,B-E-10,B,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C001,C-F-01,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C002,C-F-02,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C003,C-F-03,C,tier3,downloaded,complete,
+C004,C-F-04,C,tier1,missing,blocked_missing_pdf,
+C005,C-F-05,C,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+C006,C-F-06,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C007,C-F-07,C,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+C008,C-SD-01,C,tier3,downloaded,complete,
+C009,C-SD-02,C,tier3,downloaded,complete,
+C010,C-SD-03,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C011,C-SD-04,C,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+C012,C-SD-05,C,tier3,downloaded,complete,
+C013,C-SD-06,C,tier3,downloaded,complete,
+C014,C-SD-07,C,tier1,downloaded,complete,
+C015,C-SD-08,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C016,C-SD-09,C,tier1,downloaded,complete,
+C017,C-SD-10,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C018,C-SD-11,C,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+C019,C-SD-12,C,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+C020,C-SD-13,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C021,C-ST-01,C,tier3,downloaded,complete,
+C022,C-ST-02,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C023,C-ST-03,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C024,C-ST-04,C,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+C025,C-ST-05,C,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+C026,C-ST-06,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C027,C-PC-01,C,tier3,downloaded,complete,
+C028,C-PC-02,C,tier3,downloaded,complete,
+C029,C-PC-03,C,tier1,downloaded,complete,Phase 9.1 late-PDF tier1 processing complete; candidate evidence awaits global consolidation.
+C030,C-PC-04,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C031,C-PC-05,C,tier1,downloaded,complete,
+C032,C-PC-06,C,tier3,downloaded,complete,
+C033,C-MD-01,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C034,C-MD-02,C,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+C035,C-MD-03,C,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+C036,C-MD-04,C,tier2,downloaded,complete,Phase 9.1 late-PDF tier2 processing complete; candidate evidence awaits global consolidation.
+D001,D-IC-01,D,tier3,downloaded,complete,Phase 9.1 late-PDF tier3 processing complete; candidate evidence awaits global consolidation.
+D002,D-IC-02,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D003,D-IC-03,D,tier1,downloaded,complete,
+D004,D-IC-04,D,tier3,downloaded,complete,
+D005,D-IC-05,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D006,D-RDE-01,D,tier3,downloaded,complete,
+D007,D-RDE-02,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D008,D-RDE-03,D,tier3,downloaded,complete,
+D009,D-RDE-04,D,tier1,downloaded,complete,
+D010,D-RDE-05,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D011,D-RDE-06,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D012,D-RDE-07,D,tier3,downloaded,complete,
+D013,D-RDE-08,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D014,D-RDE-09,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D015,D-RDE-10,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D016,D-DW-01,D,tier2,downloaded,complete,Phase 8 Tier 2 chapter-core processing complete; candidate evidence pending consolidation.
+D017,D-DW-02,D,tier1,downloaded,complete,
+D018,D-DW-03,D,tier1,downloaded,complete,Phase 7 Tier 1 bulk full-text processing complete.
+D019,D-DW-04,D,tier1,downloaded,complete,Phase 9.1 late-PDF tier1 processing complete; candidate evidence awaits global consolidation.
