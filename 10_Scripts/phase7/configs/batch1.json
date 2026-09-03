@@ -1,0 +1,3862 @@
+{
+  "batch_id": "T1-Batch-1",
+  "papers": [
+    {
+      "paper_id": "B004",
+      "source_record_id": "B-T-04",
+      "library": "B",
+      "pdf_relpath": "02_PDF_Raw/B/B-T-04_2015_Franquet_FreeUnderexpanded_Jets_Review.pdf",
+      "tier1_role": "Review-level framework for free axisymmetric underexpanded-jet structure, Mach-disk scaling, far-field similarity, and unresolved quantitative gaps.",
+      "study_context": "Review and meta-comparison of mainly experimental studies of free axisymmetric underexpanded jets into a quiescent medium.",
+      "cases": [
+        {
+          "case_id": "B004-REV",
+          "description": "Review-level synthesis; no primary experimental case is claimed."
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "printed_page": "25",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review scope."
+        },
+        {
+          "key": "ratios",
+          "pdf_page": "3",
+          "printed_page": "27",
+          "section": "2. Forewords",
+          "equation": "1-4",
+          "raw_locator": "PDF p.3, Eqs. (1)-(4)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Definitions of total and exit pressure ratios."
+        },
+        {
+          "key": "regimes",
+          "pdf_page": "5",
+          "printed_page": "29",
+          "section": "3.2 Near field zone",
+          "figure": "5-7",
+          "raw_locator": "PDF p.5, Section 3.2, Figs. 5-7",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Moderate, high, and very high underexpansion taxonomy."
+        },
+        {
+          "key": "mdpos",
+          "pdf_page": "7",
+          "printed_page": "31",
+          "section": "4.1.1 Position",
+          "equation": "5-8",
+          "figure": "8-9",
+          "raw_locator": "PDF p.7, Section 4.1.1, Eqs. (5)-(8)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review meta-fit for Mach-disk position."
+        },
+        {
+          "key": "mddiam",
+          "pdf_page": "9",
+          "printed_page": "33",
+          "section": "4.1.2 Diameter",
+          "equation": "9-12",
+          "figure": "10-11",
+          "raw_locator": "PDF p.9, Section 4.1.2, Eqs. (9)-(12)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review synthesis emphasizes correlation uncertainty."
+        },
+        {
+          "key": "mdsummary",
+          "pdf_page": "11",
+          "printed_page": "35",
+          "section": "4.1.4 Conclusion",
+          "raw_locator": "PDF p.11, Section 4.1.4",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Mach-disk knowledge assessment."
+        },
+        {
+          "key": "farfield",
+          "pdf_page": "22",
+          "printed_page": "46",
+          "section": "5.3 Conclusion",
+          "raw_locator": "PDF p.22, Section 5.3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Far-field similarity and notional-nozzle assessment."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "24",
+          "printed_page": "48",
+          "section": "8. Conclusion",
+          "raw_locator": "PDF p.24, Section 8",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review-level consensus and gaps."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "review",
+          "value_status": "reported",
+          "definition": "Review of axisymmetric free underexpanded jets in a quiescent medium.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Review-secondary record; not primary experimental evidence."
+        },
+        {
+          "key": "scope",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "application_context",
+          "reported_value": "near-field shock structure and far-field similarity of free underexpanded jets",
+          "value_status": "reported",
+          "definition": "Scope declared by review authors.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Review framework."
+        },
+        {
+          "key": "eta0",
+          "locator": "ratios",
+          "parameter_group": "jet_global",
+          "parameter_name": "NPR_definition",
+          "reported_value": "eta_0 = P_0/P_infinity",
+          "value_status": "reported",
+          "definition": "Total/stagnation pressure divided by ambient pressure.",
+          "source_type": "equation",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Definition only; no paper-specific primary value."
+        },
+        {
+          "key": "etae",
+          "locator": "ratios",
+          "parameter_group": "jet_global",
+          "parameter_name": "NPR_definition",
+          "reported_value": "eta_e = P_e/P_infinity",
+          "value_status": "reported",
+          "definition": "Nozzle-exit static pressure divided by ambient pressure.",
+          "source_type": "equation",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Definition only; not interchangeable with eta_0."
+        },
+        {
+          "key": "regime_taxonomy",
+          "locator": "regimes",
+          "parameter_group": "shock_structure",
+          "parameter_name": "wave_type",
+          "reported_value": "moderately underexpanded: diamond/X cells; highly underexpanded: barrel shock with Mach disk; very highly underexpanded: first-cell-dominated unique barrel",
+          "value_status": "reported",
+          "definition": "Review taxonomy depends on whether reflection is regular or singular and on pressure-ratio definition.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Threshold ranges are secondary synthesis and definition-dependent."
+        },
+        {
+          "key": "md_position_fit",
+          "locator": "mdpos",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "L_MD/D_e = 0.645497*sqrt(eta_0) for a convergent nozzle; alternative exit-ratio form includes M_e, gamma, and eta_e",
+          "value_status": "reported",
+          "definition": "Review-retained correlation for Mach-disk position.",
+          "source_type": "equation",
+          "parameter_role": "reported_correlation",
+          "parameter_context": "review_secondary",
+          "state_qualifier": "quasi_steady",
+          "notes": "Review meta-analysis; do not treat as a new primary experiment."
+        },
+        {
+          "key": "md_diameter_fit",
+          "locator": "mddiam",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "Mach-disk diameter requires pressure-range- and nozzle-geometry-dependent correlations",
+          "value_status": "reported",
+          "definition": "No single correlation is retained across nozzle types and pressure ratios.",
+          "source_type": "text",
+          "parameter_role": "reported_correlation",
+          "parameter_context": "review_secondary",
+          "state_qualifier": "quasi_steady",
+          "notes": "Review explicitly reports unresolved scatter and missing gamma/nozzle-angle effects."
+        },
+        {
+          "key": "potential_core_unknown",
+          "locator": "conclusion",
+          "parameter_group": "jet_global",
+          "parameter_name": "potential_core_length",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "definition": "Reliable universal quantitative expression for total potential-core length.",
+          "source_type": "text",
+          "parameter_role": "unknown",
+          "parameter_context": "review_secondary",
+          "missing_reason": "The review concludes that available evidence is insufficient for a reliable quantitative expression.",
+          "notes": "Source-level review limitation, not a Schema gap."
+        },
+        {
+          "key": "farfield_similarity",
+          "locator": "farfield",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "far-field variables show hyperbolic decay and can be represented using an equivalent/notional nozzle",
+          "value_status": "reported",
+          "definition": "Review-level synthesis of far-field behavior.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Choice of notional-nozzle model and decay constants remains unsettled."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "pr_md",
+          "case_id": "B004-REV",
+          "condition_id": "B004-REV",
+          "source_process": "pressure_ratio_increase",
+          "relation_type": "correlates_with",
+          "target_process": "Mach_disk_position_increase",
+          "support_type": "author_interpretation",
+          "locator": "mdpos",
+          "verification_status": "verified",
+          "notes": "Review-level evidence synthesis; not a single primary case."
+        },
+        {
+          "key": "near_far",
+          "case_id": "B004-REV",
+          "condition_id": "B004-REV",
+          "source_process": "near_field_underexpansion",
+          "relation_type": "precedes",
+          "target_process": "far_field_self_similarity",
+          "support_type": "author_interpretation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review framework preserves near/transition/far-field distinction."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-B004-C01",
+          "claim": "The review finds Mach-disk position substantially better constrained than Mach-disk diameter, curvature, appearance threshold, cell wavelength, or potential-core length.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "Cross-study comparison retains a position correlation but identifies large scatter and missing controls for other quantities.",
+          "locator": "conclusion",
+          "support_type": "author_interpretation",
+          "limitations": "Secondary synthesis of heterogeneous sources and definitions; not primary data.",
+          "parameters": [
+            "md_position_fit",
+            "md_diameter_fit",
+            "potential_core_unknown"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "pr_md"
+            ]
+          ],
+          "potential_chapter_role": "Underexpanded-jet framework and uncertainty map."
+        },
+        {
+          "claim_id": "T1-B004-C02",
+          "claim": "In the far field, underexpanded jets exhibit hyperbolic decay and can be approximated by an equivalent jet, but the best notional-nozzle model and universal decay constants remain unresolved.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "Section 5.3 separates a robust qualitative behavior from uncertain quantitative normalization.",
+          "locator": "farfield",
+          "support_type": "author_interpretation",
+          "limitations": "Primarily sonic-exit studies; limited coverage of supersonic-exit Mach-number effects.",
+          "parameters": [
+            "farfield_similarity"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "near_far"
+            ]
+          ],
+          "potential_chapter_role": "Far-field scaling and model-selection limitations."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "B004-REV",
+          "source_node": "pressure_ratio",
+          "relation_type": "correlates_with",
+          "target_node": "Mach_disk_position",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-B004-C01",
+          "locator": "mdpos",
+          "verification_status": "verified",
+          "notes": "Review-secondary synthesis."
+        },
+        {
+          "case_id": "B004-REV",
+          "source_node": "near_field_shock_pattern",
+          "relation_type": "precedes",
+          "target_node": "far_field_self_similarity",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-B004-C02",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Conceptual zone framework."
+        }
+      ],
+      "note_sections": [
+        "- Title: Free underexpanded jets in a quiescent medium: A review\n- Paper ID / source record: B004 / B-T-04\n- Original PDF: `02_PDF_Raw/B/B-T-04_2015_Franquet_FreeUnderexpanded_Jets_Review.pdf`",
+        "Review-level underexpanded-jet framework and confidence audit.",
+        "Which geometric, shock-structure, and similarity relations for axisymmetric free underexpanded jets are reliable, and where does the literature remain quantitatively uncertain?",
+        "Review centered on experimental literature, with theoretical/numerical context and thermodynamic-model discussion.",
+        "Axisymmetric free jets into quiescent media; convergent and convergent-divergent nozzles are distinguished.",
+        "Pressure definitions are explicit: eta_0=P_0/P_infinity and eta_e=P_e/P_infinity; they are not interchangeable.",
+        "Near field contains core and mixing layer; regular reflection yields diamond cells, singular reflection yields a Mach disk/barrel shock, and extreme underexpansion can become first-cell dominated.",
+        "NA: no liquid droplet or spray case is investigated.",
+        "Pressure-ratio and Mach-number definitions are treated contextually; correlations depend on total versus exit pressure ratio, exit Mach number, gamma, and nozzle geometry.",
+        "Steady/quasi-steady spatial structure is reviewed; transient Mach-disk oscillation and hysteresis are noted but not normalized into one duration.",
+        "Mach-disk position collapses more consistently than diameter. Far-field profiles show self-similar hyperbolic decay when suitable equivalent-jet scaling is used.",
+        "The review retains L_MD/D_e=0.645497 sqrt(eta_0) for convergent nozzles and reports substantially larger uncertainty for diameter and other characteristic lengths.",
+        "Increasing pressure ratio is consistently associated with downstream Mach-disk displacement, while nozzle angle, gamma, and exit Mach effects on other quantities are not uniformly resolved.",
+        "Pressure-driven expansion -> shock/reflection pattern -> mixing-layer growth -> transition -> far-field self-similarity.",
+        "No reacting or ignition calculation; relevance is through gas-jet mixing and dilution physics.",
+        "Pressure-ratio definitions: PDF p.3; Mach-disk position: p.7; diameter: p.9; Mach-disk confidence summary: p.11; far-field conclusion: p.22; overall conclusion: p.24.",
+        "All numerical expressions are review-secondary correlations or reviewed ranges. They are not classified as primary experimental values.",
+        "Heterogeneous nozzle geometries, fluids, pressure definitions, and limited high-pressure data produce scatter. Curvature, cell disappearance, characteristic lengths, entrainment onset, and mixing-layer transition remain weakly constrained.",
+        "- T1-B004-C01: Mach-disk position is better constrained than other near-field quantities.\n- T1-B004-C02: Far-field decay is robust but equivalent-nozzle normalization remains model-dependent.",
+        "Direct comparison with B009/B011/B028 requires matching pressure definition, nozzle geometry, and transient versus quasi-steady state.",
+        "None. Review limitations are representable with secondary-synthesis notes and NV; Schema 1.1 is unchanged.",
+        "Provides the canonical underexpanded-jet vocabulary and a map of robust versus unresolved scaling relations.",
+        "- [x] PDF identity and readability confirmed\n- [x] Full text and page map created\n- [x] Review-secondary evidence separated from primary evidence\n- [x] Definitions and limitations localized\n- [x] Evidence card created\n- Reading status: **complete**; extraction status: **complete**; final human verification: pending"
+      ],
+      "key_results": [
+        "Mach-disk position is comparatively well described; diameter, curvature, appearance conditions, cell wavelength, and potential-core length remain uncertain.",
+        "Far-field hyperbolic decay is supported, while notional-nozzle model selection and decay constants remain unsettled."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Pressure-driven expansion establishes near-field shock cells; mixing and transition lead to far-field self-similarity.",
+          "support_type": "author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Only the canonical local PDF was used.",
+        "Review-secondary numerical content was not misclassified as primary evidence.",
+        "No figure digitization."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "B009",
+      "source_record_id": "B-H2-04",
+      "library": "B",
+      "pdf_relpath": "02_PDF_Raw/B/B-H2-04_2014_Hamzehloo_LES_Underexpanded_Hydrogen_MethaneJets.pdf",
+      "tier1_role": "Primary LES evidence for case-specific NPR effects, transient Mach-disk growth, gas-property sensitivity, mixing, and penetration.",
+      "study_context": "Large-eddy simulations of underexpanded hydrogen and methane jets from a 1.5 mm converging nozzle into quiescent air.",
+      "cases": [
+        {
+          "case_id": "B009-H2-NPR8.5",
+          "gas": "hydrogen",
+          "NPR": 8.5
+        },
+        {
+          "case_id": "B009-H2-NPR10",
+          "gas": "hydrogen",
+          "NPR": 10
+        },
+        {
+          "case_id": "B009-H2-NPR30",
+          "gas": "hydrogen",
+          "NPR": 30
+        },
+        {
+          "case_id": "B009-H2-NPR70",
+          "gas": "hydrogen",
+          "NPR": 70
+        },
+        {
+          "case_id": "B009-CH4-NPR8.5",
+          "gas": "methane",
+          "NPR": 8.5
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "printed_page": "21275",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Cases and principal findings."
+        },
+        {
+          "key": "nprdef",
+          "pdf_page": "2",
+          "printed_page": "21276",
+          "section": "Under-expanded jets - Definition",
+          "raw_locator": "PDF p.2, NPR definition",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "NPR=P0/P_infinity."
+        },
+        {
+          "key": "setup",
+          "pdf_page": "5",
+          "printed_page": "21279",
+          "section": "Simulation setup",
+          "figure": "2",
+          "raw_locator": "PDF p.5, Simulation setup",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Nozzle and ambient conditions."
+        },
+        {
+          "key": "mesh",
+          "pdf_page": "6",
+          "printed_page": "21280",
+          "section": "Simulation setup",
+          "table": "1",
+          "raw_locator": "PDF p.6, grid description and Table 1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Grid and transport settings."
+        },
+        {
+          "key": "transient",
+          "pdf_page": "9",
+          "printed_page": "21283",
+          "section": "Transient in-nozzle flow and jet development",
+          "figure": "5-8",
+          "raw_locator": "PDF p.9, transient development, Figs. 5-8",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Microsecond timing visually verified on rendered PDF page."
+        },
+        {
+          "key": "table3",
+          "pdf_page": "12",
+          "printed_page": "21286",
+          "section": "Near-nozzle shock structure",
+          "table": "3",
+          "raw_locator": "PDF p.12, Table 3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Case-specific quasi-steady shock metrics."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "19",
+          "printed_page": "21293",
+          "section": "Summary and conclusions",
+          "raw_locator": "PDF p.19, Summary and conclusions",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Primary findings and limits."
+        }
+      ],
+      "events": [
+        {
+          "key": "start",
+          "case_id": "B009-H2-NPR10",
+          "condition_id": "B009-H2-NPR10",
+          "event_type": "other",
+          "event_label": "simulation start",
+          "event_domain": "jet",
+          "reported_time": "0",
+          "reported_time_unit": "us",
+          "normalized_time": "0",
+          "normalized_time_unit": "s",
+          "signed_offset": "0",
+          "offset_unit": "us",
+          "event_status": "reference_only",
+          "locator": "transient",
+          "verification_status": "verified",
+          "notes": "Reference event for early jet development."
+        },
+        {
+          "key": "mdform",
+          "case_id": "B009-H2-NPR10",
+          "condition_id": "B009-H2-NPR10",
+          "event_type": "Mach_disk_formation",
+          "event_label": "first small normal shock identified as Mach-disk appearance",
+          "event_domain": "shock_structure",
+          "reported_time": "13",
+          "reported_time_unit": "us",
+          "normalized_time": "1.3e-5",
+          "normalized_time_unit": "s",
+          "reference_event": "start",
+          "signed_offset": "13",
+          "offset_unit": "us",
+          "event_status": "reported",
+          "locator": "transient",
+          "verification_status": "verified",
+          "notes": "Approximately 21 t0; unit confirmed as microseconds from rendered page."
+        },
+        {
+          "key": "mdsteady",
+          "case_id": "B009-H2-NPR10",
+          "condition_id": "B009-H2-NPR10",
+          "event_type": "Mach_disk_stabilization",
+          "event_label": "shock structure reaches semi-steady condition",
+          "event_domain": "shock_structure",
+          "reported_time": "49.6",
+          "reported_time_unit": "us",
+          "normalized_time": "4.96e-5",
+          "normalized_time_unit": "s",
+          "reference_event": "start",
+          "signed_offset": "49.6",
+          "offset_unit": "us",
+          "event_status": "reported",
+          "locator": "transient",
+          "verification_status": "verified",
+          "notes": "Approximately 80 t0."
+        }
+      ],
+      "histories": [
+        {
+          "key": "mdhist",
+          "case_id": "B009-H2-NPR10",
+          "condition_id": "B009-H2-NPR10",
+          "variable_name": "Mach disk dimensions",
+          "variable_role": "simulated_output",
+          "parameter_context": "Mach_disk_growth",
+          "reference_event": "start",
+          "history_type": "Mach_disk_position_history",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "49.6",
+          "time_unit": "us",
+          "locator": "transient",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Figure-only history; no digitization."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "numerical",
+          "value_status": "reported",
+          "definition": "LES of underexpanded gas jets.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "underexpanded_jet",
+          "notes": "Primary numerical study."
+        },
+        {
+          "key": "nozzle",
+          "locator": "setup",
+          "parameter_group": "injector_nozzle",
+          "parameter_name": "nozzle_diameter",
+          "reported_value": "1.5",
+          "reported_unit": "mm",
+          "normalized_value": "0.0015",
+          "normalized_unit": "m",
+          "value_status": "reported",
+          "definition": "Converging-nozzle exit diameter.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "nozzle_exit",
+          "notes": "Common to all five cases."
+        },
+        {
+          "key": "pamb",
+          "locator": "setup",
+          "parameter_group": "ambient_conditions",
+          "parameter_name": "ambient_pressure",
+          "reported_value": "98.37",
+          "reported_unit": "kPa",
+          "normalized_value": "98370",
+          "normalized_unit": "Pa",
+          "value_status": "reported",
+          "definition": "Low-pressure chamber static pressure.",
+          "source_type": "text",
+          "parameter_role": "boundary_condition",
+          "parameter_context": "ambient_static",
+          "notes": "Common to all cases."
+        },
+        {
+          "key": "tamb",
+          "locator": "setup",
+          "parameter_group": "ambient_conditions",
+          "parameter_name": "ambient_temperature",
+          "reported_value": "296",
+          "reported_unit": "K",
+          "normalized_value": "296",
+          "normalized_unit": "K",
+          "value_status": "reported",
+          "definition": "Low-pressure chamber temperature.",
+          "source_type": "text",
+          "parameter_role": "boundary_condition",
+          "parameter_context": "ambient",
+          "notes": "Common to all cases."
+        },
+        {
+          "key": "t0",
+          "locator": "setup",
+          "parameter_group": "injection_conditions",
+          "parameter_name": "stagnation_temperature",
+          "reported_value": "295.4",
+          "reported_unit": "K",
+          "normalized_value": "295.4",
+          "normalized_unit": "K",
+          "value_status": "reported",
+          "definition": "High-pressure tank temperature.",
+          "source_type": "text",
+          "parameter_role": "boundary_condition",
+          "parameter_context": "storage_stagnation",
+          "notes": "Common to all cases."
+        },
+        {
+          "key": "mesh",
+          "locator": "mesh",
+          "parameter_group": "numerical_method",
+          "parameter_name": "mesh_resolution",
+          "reported_value": "0.03",
+          "reported_unit": "mm",
+          "normalized_value": "3e-5",
+          "normalized_unit": "m",
+          "value_status": "reported",
+          "definition": "Near-nozzle and in-nozzle refined cell size, approximately D/50.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "near_nozzle",
+          "notes": "Approximately 13.5 million cells total."
+        },
+        {
+          "key": "gas_{suffix}",
+          "for_each": [
+            {
+              "suffix": "h285",
+              "case_id": "B009-H2-NPR8.5",
+              "gas": "hydrogen"
+            },
+            {
+              "suffix": "h210",
+              "case_id": "B009-H2-NPR10",
+              "gas": "hydrogen"
+            },
+            {
+              "suffix": "h230",
+              "case_id": "B009-H2-NPR30",
+              "gas": "hydrogen"
+            },
+            {
+              "suffix": "h270",
+              "case_id": "B009-H2-NPR70",
+              "gas": "hydrogen"
+            },
+            {
+              "suffix": "ch485",
+              "case_id": "B009-CH4-NPR8.5",
+              "gas": "methane"
+            }
+          ],
+          "locator": "abs",
+          "condition_id": "{case_id}",
+          "parameter_group": "study_context",
+          "parameter_name": "working_gas",
+          "reported_value": "{gas}",
+          "value_status": "reported",
+          "definition": "Injected gas for case.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "injected_gas",
+          "notes": "Case-specific."
+        },
+        {
+          "key": "npr_{suffix}",
+          "for_each": [
+            {
+              "suffix": "h285",
+              "case_id": "B009-H2-NPR8.5",
+              "npr": "8.5",
+              "ratio_key": "npr_h285"
+            },
+            {
+              "suffix": "h210",
+              "case_id": "B009-H2-NPR10",
+              "npr": "10",
+              "ratio_key": "npr_h210"
+            },
+            {
+              "suffix": "h230",
+              "case_id": "B009-H2-NPR30",
+              "npr": "30",
+              "ratio_key": "npr_h230"
+            },
+            {
+              "suffix": "h270",
+              "case_id": "B009-H2-NPR70",
+              "npr": "70",
+              "ratio_key": "npr_h270"
+            },
+            {
+              "suffix": "ch485",
+              "case_id": "B009-CH4-NPR8.5",
+              "npr": "8.5",
+              "ratio_key": "npr_ch485"
+            }
+          ],
+          "locator": "abs",
+          "condition_id": "{case_id}",
+          "parameter_group": "jet_global",
+          "parameter_name": "NPR_reported",
+          "reported_value": "{npr}",
+          "reported_unit": "1",
+          "normalized_value": "{npr}",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "P0/P_infinity: nozzle total pressure to ambient static pressure.",
+          "source_type": "text",
+          "parameter_role": "experimental_control",
+          "parameter_context": "storage_to_ambient",
+          "ratio": "{ratio_key}",
+          "notes": "Case-defining NPR."
+        },
+        {
+          "key": "mdh_{suffix}",
+          "for_each": [
+            {
+              "suffix": "h285",
+              "case_id": "B009-H2-NPR8.5",
+              "v": "2.78"
+            },
+            {
+              "suffix": "h210",
+              "case_id": "B009-H2-NPR10",
+              "v": "3.09"
+            },
+            {
+              "suffix": "h230",
+              "case_id": "B009-H2-NPR30",
+              "v": "5.65"
+            },
+            {
+              "suffix": "h270",
+              "case_id": "B009-H2-NPR70",
+              "v": "8.72"
+            },
+            {
+              "suffix": "ch485",
+              "case_id": "B009-CH4-NPR8.5",
+              "v": "2.85"
+            }
+          ],
+          "locator": "table3",
+          "condition_id": "{case_id}",
+          "parameter_group": "shock_structure",
+          "parameter_name": "mach_disk_distance",
+          "reported_value": "{v}",
+          "reported_unit": "mm",
+          "value_status": "reported",
+          "definition": "Axial Mach-disk height from nozzle exit at semi-steady condition.",
+          "source_type": "table",
+          "parameter_role": "simulated_output",
+          "parameter_context": "local_jet",
+          "reference_frame": "injector_fixed",
+          "state_qualifier": "quasi_steady",
+          "notes": "Table 3."
+        },
+        {
+          "key": "mdw_{suffix}",
+          "for_each": [
+            {
+              "suffix": "h285",
+              "case_id": "B009-H2-NPR8.5",
+              "v": "1.091",
+              "status": "reported",
+              "reason": ""
+            },
+            {
+              "suffix": "h210",
+              "case_id": "B009-H2-NPR10",
+              "v": "1.34",
+              "status": "reported",
+              "reason": ""
+            },
+            {
+              "suffix": "h230",
+              "case_id": "B009-H2-NPR30",
+              "v": "3.37",
+              "status": "reported",
+              "reason": ""
+            },
+            {
+              "suffix": "h270",
+              "case_id": "B009-H2-NPR70",
+              "v": "NA",
+              "status": "NA",
+              "reason": "Table 3 reports no downstream cell and no measurable Mach-disk width for this extreme case."
+            },
+            {
+              "suffix": "ch485",
+              "case_id": "B009-CH4-NPR8.5",
+              "v": "1.218",
+              "status": "reported",
+              "reason": ""
+            }
+          ],
+          "locator": "table3",
+          "condition_id": "{case_id}",
+          "parameter_group": "shock_structure",
+          "parameter_name": "mach_disk_diameter",
+          "reported_value": "{v}",
+          "reported_unit": "mm",
+          "value_status": "{status}",
+          "definition": "Transverse Mach-disk width at semi-steady condition.",
+          "source_type": "table",
+          "parameter_role": "simulated_output",
+          "parameter_context": "local_jet",
+          "reference_frame": "injector_fixed",
+          "state_qualifier": "quasi_steady",
+          "missing_reason": "{reason}",
+          "notes": "Table 3."
+        },
+        {
+          "key": "angle_{suffix}",
+          "for_each": [
+            {
+              "suffix": "h285",
+              "case_id": "B009-H2-NPR8.5",
+              "v": "28.5"
+            },
+            {
+              "suffix": "h210",
+              "case_id": "B009-H2-NPR10",
+              "v": "28.0"
+            },
+            {
+              "suffix": "h230",
+              "case_id": "B009-H2-NPR30",
+              "v": "28.0"
+            },
+            {
+              "suffix": "ch485",
+              "case_id": "B009-CH4-NPR8.5",
+              "v": "28.5"
+            }
+          ],
+          "locator": "table3",
+          "condition_id": "{case_id}",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "reflected-shock angle {v} deg",
+          "reported_unit": "deg",
+          "value_status": "reported",
+          "definition": "Reflected shock angle at triple point; the schema has no dedicated reflected-shock-angle parameter.",
+          "source_type": "table",
+          "parameter_role": "simulated_output",
+          "parameter_context": "reflected_shock",
+          "reference_frame": "jet_axis",
+          "notes": "Stored as a definition-valued shock-structure record rather than misclassifying the angle as curvature."
+        },
+        {
+          "key": "exitmach",
+          "locator": "conclusion",
+          "parameter_group": "jet_global",
+          "parameter_name": "jet_Mach_number",
+          "reported_value": "1.1",
+          "reported_unit": "1",
+          "normalized_value": "1.1",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "Approximate nozzle-exit Mach number at semi-steady conditions.",
+          "source_type": "text",
+          "parameter_role": "simulated_output",
+          "parameter_context": "jet_exit",
+          "reference_frame": "injector_fixed",
+          "dimensionless": "dim_exitmach",
+          "notes": "Across studied jets."
+        },
+        {
+          "key": "maxmach",
+          "locator": "conclusion",
+          "parameter_group": "jet_global",
+          "parameter_name": "jet_Mach_number",
+          "reported_value": "1.3",
+          "reported_unit": "1",
+          "normalized_value": "1.3",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "Approximate maximum in-nozzle Mach number at 0.2D upstream.",
+          "source_type": "text",
+          "parameter_role": "simulated_output",
+          "parameter_context": "local_jet",
+          "reference_frame": "injector_fixed",
+          "dimensionless": "dim_maxmach",
+          "spatial_location": "0.2D upstream of nozzle exit",
+          "notes": "Across studied jets at semi-steady condition."
+        }
+      ],
+      "ratios": [
+        {
+          "key": "npr_{suffix}",
+          "for_each": [
+            {
+              "suffix": "h285",
+              "case_id": "B009-H2-NPR8.5",
+              "v": "8.5"
+            },
+            {
+              "suffix": "h210",
+              "case_id": "B009-H2-NPR10",
+              "v": "10"
+            },
+            {
+              "suffix": "h230",
+              "case_id": "B009-H2-NPR30",
+              "v": "30"
+            },
+            {
+              "suffix": "h270",
+              "case_id": "B009-H2-NPR70",
+              "v": "70"
+            },
+            {
+              "suffix": "ch485",
+              "case_id": "B009-CH4-NPR8.5",
+              "v": "8.5"
+            }
+          ],
+          "condition_id": "{case_id}",
+          "ratio_name": "nozzle_pressure_ratio",
+          "ratio_symbol": "NPR",
+          "reported_ratio_value": "{v}",
+          "normalized_ratio_value": "{v}",
+          "value_status": "reported",
+          "numerator_name": "P0",
+          "numerator_role": "stagnation_pressure",
+          "numerator_type": "total",
+          "numerator_location": "high-pressure tank/nozzle supply",
+          "numerator_time_basis": "initial",
+          "denominator_name": "P_infinity",
+          "denominator_role": "ambient_pressure",
+          "denominator_type": "static",
+          "denominator_location": "low-pressure chamber",
+          "denominator_time_basis": "initial",
+          "ratio_definition": "P0/P_infinity",
+          "locator": "nprdef",
+          "verification_status": "verified",
+          "notes": "Both pressures treated as absolute source pressures.",
+          "numerator_thermodynamic_pressure_type": "total",
+          "numerator_pressure_reference_type": "absolute",
+          "denominator_thermodynamic_pressure_type": "static",
+          "denominator_pressure_reference_type": "absolute"
+        }
+      ],
+      "dimensionless_definitions": [
+        {
+          "key": "dim_exitmach",
+          "parameter": "exitmach",
+          "dimensionless_name": "Mach",
+          "symbol": "Ma",
+          "formula_reported": "local flow velocity / local speed of sound",
+          "definition_status": "complete_reported",
+          "parameter_context": "jet_exit",
+          "reference_frame": "injector_fixed",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Jet-exit context."
+        },
+        {
+          "key": "dim_maxmach",
+          "parameter": "maxmach",
+          "dimensionless_name": "Mach",
+          "symbol": "Ma",
+          "formula_reported": "local flow velocity / local speed of sound",
+          "definition_status": "complete_reported",
+          "parameter_context": "local_jet",
+          "reference_frame": "injector_fixed",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "In-nozzle maximum context."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "npr_md",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "NPR_increase",
+          "relation_type": "correlates_with",
+          "target_process": "Mach_disk_dimension_increase",
+          "support_type": "simulation_resolved",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Width sensitivity exceeded height sensitivity in the reported sweep."
+        },
+        {
+          "key": "gas_md",
+          "case_id": "B009-H2-NPR8.5;B009-CH4-NPR8.5",
+          "condition_id": "matched_NPR8.5",
+          "source_process": "gas_specific_heat_ratio_difference",
+          "relation_type": "correlates_with",
+          "target_process": "Mach_disk_geometry_difference",
+          "support_type": "model_based",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Methane disk larger than hydrogen at matched NPR."
+        },
+        {
+          "key": "h2_mix",
+          "case_id": "B009-H2-NPR8.5",
+          "condition_id": "B009-H2-NPR8.5",
+          "source_process": "nozzle_exit_turbulence_and_Gortler_vortices",
+          "relation_type": "author_attributes_to",
+          "target_process": "pre_Mach_disk_hydrogen_air_mixing",
+          "support_type": "author_interpretation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Causal wording retained as author attribution."
+        },
+        {
+          "key": "npr_pen",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "NPR_increase",
+          "relation_type": "correlates_with",
+          "target_process": "non_monotonic_hydrogen_penetration",
+          "support_type": "simulation_resolved",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Higher NPR did not necessarily increase penetration."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-B009-C01",
+          "claim": "Mach-disk height and width increase strongly with NPR, but the transient values overshoot their semi-steady values and therefore state qualification is essential.",
+          "evidence_type": "simulation_resolved",
+          "evidence_summary": "Table 3 gives case-specific semi-steady dimensions; Fig. 7 documents early overshoot and formation/stabilization chronology.",
+          "locator": "conclusion",
+          "support_type": "simulation_resolved",
+          "limitations": "LES, one nozzle geometry, ambient conditions below many engine conditions.",
+          "parameters": [
+            "mdh_h210",
+            "mdw_h210",
+            "mdh_h230",
+            "mdw_h230"
+          ],
+          "relations_events": [
+            [
+              "event",
+              "mdform"
+            ],
+            [
+              "event",
+              "mdsteady"
+            ],
+            [
+              "history",
+              "mdhist"
+            ],
+            [
+              "process",
+              "npr_md"
+            ]
+          ],
+          "potential_chapter_role": "Transient versus quasi-steady Mach-disk scaling."
+        },
+        {
+          "claim_id": "T1-B009-C02",
+          "claim": "At matched NPR=8.5, hydrogen and methane differ in Mach-disk geometry and pre-disk mixing; the authors attribute hydrogen pre-disk mixing to stronger nozzle-exit turbulence and Gortler vortices.",
+          "evidence_type": "simulation_resolved",
+          "evidence_summary": "Matched-gas cases quantify disk geometry and show mixing-location differences.",
+          "locator": "conclusion",
+          "support_type": "author_interpretation",
+          "limitations": "Attribution is model-based and gas-property effects are coupled.",
+          "parameters": [
+            "mdh_h285",
+            "mdh_ch485",
+            "mdw_h285",
+            "mdw_ch485"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "gas_md"
+            ],
+            [
+              "process",
+              "h2_mix"
+            ]
+          ],
+          "potential_chapter_role": "Gas-property control of shock/mixing structure."
+        },
+        {
+          "claim_id": "T1-B009-C03",
+          "claim": "Increasing NPR did not monotonically increase hydrogen jet penetration in this geometry.",
+          "evidence_type": "simulation_resolved",
+          "evidence_summary": "After the initial transient, NPR 70 approached NPR 8.5 penetration and NPR 30 was about 8% lower.",
+          "locator": "conclusion",
+          "support_type": "simulation_resolved",
+          "limitations": "The proposed optimum near NPR 100 is explicitly tentative and geometry-specific.",
+          "parameters": [
+            "npr_h285",
+            "npr_h230",
+            "npr_h270"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "npr_pen"
+            ]
+          ],
+          "potential_chapter_role": "Limits of pressure-only jet-penetration scaling."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "NPR",
+          "relation_type": "correlates_with",
+          "target_node": "Mach_disk_dimensions",
+          "support_type": "simulation_resolved",
+          "candidate_claim_id": "T1-B009-C01",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Case-specific sweep."
+        },
+        {
+          "case_id": "B009-H2-NPR8.5",
+          "source_node": "Gortler_vortices",
+          "relation_type": "author_attributes_to",
+          "target_node": "pre_disk_mixing",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-B009-C02",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Author attribution, not promoted to direct causality."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "NPR",
+          "relation_type": "correlates_with",
+          "target_node": "non_monotonic_penetration",
+          "support_type": "simulation_resolved",
+          "candidate_claim_id": "T1-B009-C03",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Geometry-specific."
+        }
+      ],
+      "note_sections": [
+        "- Title: Large eddy simulation of highly turbulent under-expanded hydrogen and methane jets for gaseous-fuelled internal combustion engines\n- Paper ID / source record: B009 / B-H2-04\n- Original PDF: `02_PDF_Raw/B/B-H2-04_2014_Hamzehloo_LES_Underexpanded_Hydrogen_MethaneJets.pdf`",
+        "Primary case-specific LES test of NPR, gas species, Mach-disk transience, mixing, and penetration.",
+        "How do NPR and gas species change the shock structure and mixing of small-nozzle underexpanded gaseous jets?",
+        "Compressible LES of five gas/NPR cases in STAR-CCM+ with validation against literature measurements and simulations.",
+        "Converging nozzle D=1.5 mm; refined near field to about 6.7D and computational domain covering 20D downstream.",
+        "Hydrogen NPR=8.5,10,30,70 and methane NPR=8.5; ambient 98.37 kPa and 296 K; storage gas 295.4 K.",
+        "Prandtl-Meyer fans, barrel shock, Mach disk, reflected shock, triple points, slip lines, and bow shock are resolved. Mach-disk dimensions are tabulated by case.",
+        "NA: gaseous jets only; no liquid droplets.",
+        "NPR is explicitly P0/P_infinity. Jet-exit and local in-nozzle Mach numbers are stored separately with injector-fixed context.",
+        "For H2 NPR=10, first Mach-disk appearance occurs about 13 us after start and semi-steady structure near 49.6 us; figure-only histories are registered without digitization.",
+        "Mach-disk size grows with NPR and overshoots during early transience. Hydrogen mixes before the disk whereas methane does not at matched NPR; main mixing is downstream near jet boundaries.",
+        "Table 3: H2 Mach-disk height/width = 2.78/1.091, 3.09/1.34, 5.65/3.37 mm for NPR 8.5/10/30; H2 NPR70 height 8.72 mm and no downstream cell width; CH4 NPR8.5 = 2.85/1.218 mm.",
+        "Authors link gas-specific-heat ratio to shock geometry and attribute H2 pre-disk mixing to stronger turbulence/Gortler vortices.",
+        "NPR/gas properties -> transient shock geometry -> shear/turbulence distribution -> mixing location -> penetration and mixture richness.",
+        "Nonreacting study; engine relevance is mixture preparation. Higher NPR enriches local mixture but does not guarantee greater penetration.",
+        "NPR definition p.2; setup p.5; grid p.6; transient chronology p.9; Table 3 p.12; conclusions p.19.",
+        "All numeric rows are source-reported simulation outputs/inputs. No figure digitization and no project-derived numeric values.",
+        "One nozzle, ideal-gas LES, quiescent ambient, limited penetration distance; proposed optimum near NPR100 is tentative.",
+        "T1-B009-C01 to C03 cover transient state, gas comparison, and nonmonotonic penetration.",
+        "Compare B011/B029 for ambient-pressure and pressure-history effects and B004 for steady correlation scope.",
+        "None. Source limitations use NA/NV and typed histories/events.",
+        "Core evidence linking NPR definition and Mach-disk state to mixing and penetration.",
+        "- [x] Identity/readability/full text/page map\n- [x] Five cases preserved\n- [x] NPR ratios, Mach contexts, events and history registered\n- [x] Reported/derived/inferred separated\n- [x] Evidence card created\n- Reading status: **complete**; extraction status: **complete**; final human verification: pending"
+      ],
+      "key_results": [
+        "Mach-disk width is more NPR-sensitive than height and transient dimensions overshoot semi-steady values.",
+        "Hydrogen/methane differ in pre-disk mixing and shock dimensions at matched NPR.",
+        "Hydrogen penetration is nonmonotonic with NPR in the studied geometry."
+      ],
+      "mechanisms": [
+        {
+          "summary": "NPR and gas properties set shock geometry; shear/turbulence then sets mixing location and jet development.",
+          "support_type": "simulation_resolved_and_author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Canonical PDF only.",
+        "Microsecond units on p.9 visually verified.",
+        "No curve digitization."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "B028",
+      "source_record_id": "B-E-08",
+      "library": "B",
+      "pdf_relpath": "02_PDF_Raw/B/B-E-08_2025_Xie_HydrogenJet_DualScale_Shock_SprayEvolution.pdf",
+      "tier1_role": "Primary mixed experimental/numerical evidence linking near-field hydrogen shock-vortex dynamics to far-field jet evolution across NPR, nozzle diameter, and ambient temperature.",
+      "study_context": "CVCC schlieren experiments plus CONVERGE LES/RANS dual-scale simulations of underexpanded hydrogen jets.",
+      "cases": [
+        {
+          "case_id": "B028-NPR5",
+          "Pinj_bar": 20,
+          "Pamb_bar": 4,
+          "NPR": 5
+        },
+        {
+          "case_id": "B028-NPR10",
+          "Pinj_bar": 50,
+          "Pamb_bar": 5,
+          "NPR": 10
+        },
+        {
+          "case_id": "B028-NPR15",
+          "Pinj_bar": 90,
+          "Pamb_bar": 6,
+          "NPR": 15
+        },
+        {
+          "case_id": "B028-NPR20",
+          "Pinj_bar": 60,
+          "Pamb_bar": 3,
+          "NPR": 20
+        },
+        {
+          "case_id": "B028-NPR40",
+          "Pinj_bar": 80,
+          "Pamb_bar": 2,
+          "NPR": 40
+        },
+        {
+          "case_id": "B028-NPR100",
+          "Pinj_bar": 100,
+          "Pamb_bar": 1,
+          "NPR": 100
+        },
+        {
+          "case_id": "B028-NHD",
+          "values_mm": [
+            0.75,
+            1,
+            1.25,
+            1.5,
+            2
+          ],
+          "NPR": 10,
+          "AT_K": 300
+        },
+        {
+          "case_id": "B028-AT",
+          "values_K": [
+            300,
+            400,
+            500,
+            600,
+            700,
+            800
+          ],
+          "NPR": 10,
+          "NHD_mm": 1
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "printed_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Scope and major factor ranking."
+        },
+        {
+          "key": "exp",
+          "pdf_page": "2",
+          "printed_page": "2",
+          "section": "2.1 CVCC platform",
+          "raw_locator": "PDF p.2, Section 2.1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Diagnostics and tested ranges."
+        },
+        {
+          "key": "cfd",
+          "pdf_page": "4",
+          "printed_page": "4",
+          "section": "2.2 CFD modelling",
+          "figure": "3",
+          "raw_locator": "PDF p.4, Section 2.2",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Dual near-/far-field numerical strategy."
+        },
+        {
+          "key": "table1",
+          "pdf_page": "6",
+          "printed_page": "6",
+          "section": "3.1 Impact of NPR",
+          "table": "1",
+          "raw_locator": "PDF p.6, Table 1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Six NPR cases with explicit pressure pairs."
+        },
+        {
+          "key": "table2",
+          "pdf_page": "7",
+          "printed_page": "7",
+          "section": "3.1 Impact of NPR",
+          "table": "2",
+          "raw_locator": "PDF p.7, Table 2",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Nozzle-hole-diameter sweep."
+        },
+        {
+          "key": "fit",
+          "pdf_page": "8",
+          "printed_page": "8",
+          "section": "3.1 Impact of NPR",
+          "figure": "10",
+          "raw_locator": "PDF p.8, Fig. 10",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "20 us Mach-disk power-law fits."
+        },
+        {
+          "key": "macro",
+          "pdf_page": "10",
+          "printed_page": "10",
+          "section": "3.1 Impact of NPR",
+          "figure": "12",
+          "raw_locator": "PDF p.10, Fig. 12 and accompanying text",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Far-field penetration and projected area statements."
+        },
+        {
+          "key": "table3",
+          "pdf_page": "16",
+          "printed_page": "16",
+          "section": "3.3 Impact of AT",
+          "table": "3",
+          "raw_locator": "PDF p.16, Table 3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Ambient-temperature sweep."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "21",
+          "printed_page": "21",
+          "section": "4. Conclusion",
+          "raw_locator": "PDF p.21, Section 4 Conclusion",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Factor-specific synthesis and limitations."
+        }
+      ],
+      "events": [
+        {
+          "key": "md_weak",
+          "case_id": "B028-NPR5",
+          "condition_id": "B028-NPR5",
+          "event_type": "Mach_disk_formation",
+          "event_label": "weak Mach disk becomes visible",
+          "event_domain": "shock_structure",
+          "reported_time": "16-20",
+          "reported_time_unit": "us",
+          "event_status": "reported",
+          "locator": "table2",
+          "verification_status": "verified",
+          "notes": "At 12 us no clearly defined normal shock; weak disk forms by 16-20 us."
+        }
+      ],
+      "histories": [
+        {
+          "key": "penhist",
+          "case_id": "ALL",
+          "condition_id": "NPR_sweep",
+          "variable_name": "jet penetration",
+          "variable_role": "measured_and_simulated_output",
+          "parameter_context": "far_field_jet",
+          "history_type": "other",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "1.0",
+          "time_unit": "ms",
+          "locator": "macro",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Figure-only curves; no digitization."
+        },
+        {
+          "key": "areahist",
+          "case_id": "ALL",
+          "condition_id": "NPR_sweep",
+          "variable_name": "projected spray area",
+          "variable_role": "measured_and_simulated_output",
+          "parameter_context": "far_field_jet",
+          "history_type": "other",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "1.0",
+          "time_unit": "ms",
+          "locator": "macro",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Explicit textual values retained in note/evidence; curve not digitized."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "mixed",
+          "value_status": "reported",
+          "definition": "CVCC experiment plus near-field LES and far-field RANS.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "hydrogen_direct_injection",
+          "notes": "Primary mixed-method study."
+        },
+        {
+          "key": "gas",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "working_gas",
+          "reported_value": "hydrogen",
+          "value_status": "reported",
+          "definition": "Injected gas.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "injected_gas",
+          "notes": "All cases."
+        },
+        {
+          "key": "facility",
+          "locator": "exp",
+          "parameter_group": "experimental_method",
+          "parameter_name": "facility_type",
+          "reported_value": "constant-volume combustion vessel",
+          "value_status": "reported",
+          "definition": "Optically accessible CVCC.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "experimental_facility",
+          "notes": "Schlieren visualization."
+        },
+        {
+          "key": "schlieren",
+          "locator": "exp",
+          "parameter_group": "experimental_method",
+          "parameter_name": "schlieren",
+          "reported_value": "yes",
+          "value_status": "reported",
+          "definition": "Z-type schlieren system.",
+          "source_type": "text",
+          "parameter_role": "measured_input",
+          "parameter_context": "diagnostic",
+          "notes": "High-speed imaging."
+        },
+        {
+          "key": "sampling",
+          "locator": "exp",
+          "parameter_group": "experimental_method",
+          "parameter_name": "sampling_rate",
+          "reported_value": "10000",
+          "reported_unit": "Hz",
+          "normalized_value": "10000",
+          "normalized_unit": "Hz",
+          "value_status": "reported",
+          "definition": "Schlieren image acquisition frequency.",
+          "source_type": "text",
+          "parameter_role": "experimental_control",
+          "parameter_context": "diagnostic",
+          "notes": "Exposure 10 us."
+        },
+        {
+          "key": "npr_{suffix}",
+          "for_each": [
+            {
+              "suffix": "5",
+              "case_id": "B028-NPR5",
+              "npr": "5",
+              "pinj": "20",
+              "pamb": "4",
+              "ratio_key": "npr5"
+            },
+            {
+              "suffix": "10",
+              "case_id": "B028-NPR10",
+              "npr": "10",
+              "pinj": "50",
+              "pamb": "5",
+              "ratio_key": "npr10"
+            },
+            {
+              "suffix": "15",
+              "case_id": "B028-NPR15",
+              "npr": "15",
+              "pinj": "90",
+              "pamb": "6",
+              "ratio_key": "npr15"
+            },
+            {
+              "suffix": "20",
+              "case_id": "B028-NPR20",
+              "npr": "20",
+              "pinj": "60",
+              "pamb": "3",
+              "ratio_key": "npr20"
+            },
+            {
+              "suffix": "40",
+              "case_id": "B028-NPR40",
+              "npr": "40",
+              "pinj": "80",
+              "pamb": "2",
+              "ratio_key": "npr40"
+            },
+            {
+              "suffix": "100",
+              "case_id": "B028-NPR100",
+              "npr": "100",
+              "pinj": "100",
+              "pamb": "1",
+              "ratio_key": "npr100"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "{case_id}",
+          "parameter_group": "jet_global",
+          "parameter_name": "NPR_reported",
+          "reported_value": "{npr}",
+          "reported_unit": "1",
+          "normalized_value": "{npr}",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "Reported injection-pressure/ambient-pressure ratio.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "injection_to_ambient",
+          "ratio": "{ratio_key}",
+          "notes": "Pressure pair {pinj}/{pamb} bar."
+        },
+        {
+          "key": "pinj_{suffix}",
+          "for_each": [
+            {
+              "suffix": "5",
+              "case_id": "B028-NPR5",
+              "v": "20"
+            },
+            {
+              "suffix": "10",
+              "case_id": "B028-NPR10",
+              "v": "50"
+            },
+            {
+              "suffix": "15",
+              "case_id": "B028-NPR15",
+              "v": "90"
+            },
+            {
+              "suffix": "20",
+              "case_id": "B028-NPR20",
+              "v": "60"
+            },
+            {
+              "suffix": "40",
+              "case_id": "B028-NPR40",
+              "v": "80"
+            },
+            {
+              "suffix": "100",
+              "case_id": "B028-NPR100",
+              "v": "100"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "{case_id}",
+          "parameter_group": "injection_conditions",
+          "parameter_name": "injection_pressure",
+          "reported_value": "{v}",
+          "reported_unit": "bar",
+          "value_status": "reported",
+          "definition": "Table 1 injection pressure; pressure reference type not separately stated in table.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "injection_supply",
+          "notes": "Stored as reported; no gauge/absolute assumption for standalone pressure."
+        },
+        {
+          "key": "pamb_{suffix}",
+          "for_each": [
+            {
+              "suffix": "5",
+              "case_id": "B028-NPR5",
+              "v": "4"
+            },
+            {
+              "suffix": "10",
+              "case_id": "B028-NPR10",
+              "v": "5"
+            },
+            {
+              "suffix": "15",
+              "case_id": "B028-NPR15",
+              "v": "6"
+            },
+            {
+              "suffix": "20",
+              "case_id": "B028-NPR20",
+              "v": "3"
+            },
+            {
+              "suffix": "40",
+              "case_id": "B028-NPR40",
+              "v": "2"
+            },
+            {
+              "suffix": "100",
+              "case_id": "B028-NPR100",
+              "v": "1"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "{case_id}",
+          "parameter_group": "ambient_conditions",
+          "parameter_name": "ambient_pressure",
+          "reported_value": "{v}",
+          "reported_unit": "bar",
+          "value_status": "reported",
+          "definition": "Table 1 ambient pressure; pressure reference type not separately stated in table.",
+          "source_type": "table",
+          "parameter_role": "boundary_condition",
+          "parameter_context": "ambient",
+          "notes": "Stored as reported."
+        },
+        {
+          "key": "nozzle_{suffix}",
+          "for_each": [
+            {
+              "suffix": "075",
+              "case_id": "B028-NHD",
+              "v": "0.75"
+            },
+            {
+              "suffix": "100",
+              "case_id": "B028-NHD",
+              "v": "1.0"
+            },
+            {
+              "suffix": "125",
+              "case_id": "B028-NHD",
+              "v": "1.25"
+            },
+            {
+              "suffix": "150",
+              "case_id": "B028-NHD",
+              "v": "1.5"
+            },
+            {
+              "suffix": "200",
+              "case_id": "B028-NHD",
+              "v": "2.0"
+            }
+          ],
+          "locator": "table2",
+          "condition_id": "NPR10_AT300",
+          "parameter_group": "injector_nozzle",
+          "parameter_name": "nozzle_diameter",
+          "reported_value": "{v}",
+          "reported_unit": "mm",
+          "value_status": "reported",
+          "definition": "Nozzle-hole-diameter sweep at 50/5 bar and 300 K.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "nozzle_exit",
+          "notes": "Case-specific NHD sweep."
+        },
+        {
+          "key": "at_{suffix}",
+          "for_each": [
+            {
+              "suffix": "300",
+              "case_id": "B028-AT",
+              "v": "300"
+            },
+            {
+              "suffix": "400",
+              "case_id": "B028-AT",
+              "v": "400"
+            },
+            {
+              "suffix": "500",
+              "case_id": "B028-AT",
+              "v": "500"
+            },
+            {
+              "suffix": "600",
+              "case_id": "B028-AT",
+              "v": "600"
+            },
+            {
+              "suffix": "700",
+              "case_id": "B028-AT",
+              "v": "700"
+            },
+            {
+              "suffix": "800",
+              "case_id": "B028-AT",
+              "v": "800"
+            }
+          ],
+          "locator": "table3",
+          "condition_id": "NPR10_NHD1mm",
+          "parameter_group": "ambient_conditions",
+          "parameter_name": "ambient_temperature",
+          "reported_value": "{v}",
+          "reported_unit": "K",
+          "normalized_value": "{v}",
+          "normalized_unit": "K",
+          "value_status": "reported",
+          "definition": "Ambient-temperature sweep at 50/5 bar and 1 mm nozzle.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "ambient",
+          "notes": "Case-specific AT sweep."
+        },
+        {
+          "key": "mdfitloc",
+          "locator": "fit",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "L_m/D = 0.6361*NPR^0.5076",
+          "value_status": "reported",
+          "definition": "Paper-specific fit for Mach-disk location at 20 us; R2=0.9993.",
+          "source_type": "figure",
+          "parameter_role": "reported_correlation",
+          "parameter_context": "local_jet",
+          "state_qualifier": "instantaneous",
+          "time_or_stage": "20 us",
+          "notes": "Primary study correlation, not derived by project."
+        },
+        {
+          "key": "mdfitdiam",
+          "locator": "fit",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "D_m/D = 0.2631*NPR^0.6126",
+          "value_status": "reported",
+          "definition": "Paper-specific fit for Mach-disk diameter at 20 us; R2=0.9962.",
+          "source_type": "figure",
+          "parameter_role": "reported_correlation",
+          "parameter_context": "local_jet",
+          "state_qualifier": "instantaneous",
+          "time_or_stage": "20 us",
+          "notes": "Primary study correlation."
+        },
+        {
+          "key": "radial100",
+          "locator": "macro",
+          "case_id": "B028-NPR100",
+          "condition_id": "B028-NPR100",
+          "time_or_stage": "1.0 ms",
+          "parameter_group": "transport",
+          "parameter_name": "dispersion",
+          "reported_value": ">40",
+          "reported_unit": "mm",
+          "value_status": "reported",
+          "definition": "Radial penetration distance at 1.0 ms.",
+          "source_type": "text",
+          "parameter_role": "measured_output",
+          "parameter_context": "far_field_radial",
+          "notes": "Explicit textual lower bound; no plot digitization."
+        }
+      ],
+      "ratios": [
+        {
+          "key": "npr{suffix}",
+          "for_each": [
+            {
+              "suffix": "5",
+              "case_id": "B028-NPR5",
+              "v": "5",
+              "pinj": "20",
+              "pamb": "4"
+            },
+            {
+              "suffix": "10",
+              "case_id": "B028-NPR10",
+              "v": "10",
+              "pinj": "50",
+              "pamb": "5"
+            },
+            {
+              "suffix": "15",
+              "case_id": "B028-NPR15",
+              "v": "15",
+              "pinj": "90",
+              "pamb": "6"
+            },
+            {
+              "suffix": "20",
+              "case_id": "B028-NPR20",
+              "v": "20",
+              "pinj": "60",
+              "pamb": "3"
+            },
+            {
+              "suffix": "40",
+              "case_id": "B028-NPR40",
+              "v": "40",
+              "pinj": "80",
+              "pamb": "2"
+            },
+            {
+              "suffix": "100",
+              "case_id": "B028-NPR100",
+              "v": "100",
+              "pinj": "100",
+              "pamb": "1"
+            }
+          ],
+          "condition_id": "{case_id}",
+          "ratio_name": "nozzle_pressure_ratio",
+          "ratio_symbol": "NPR",
+          "reported_ratio_value": "{v}",
+          "normalized_ratio_value": "{v}",
+          "value_status": "reported",
+          "numerator_name": "injection pressure ({pinj} bar)",
+          "numerator_role": "other",
+          "numerator_type": "reported_unspecified",
+          "numerator_location": "injector supply",
+          "numerator_time_basis": "initial",
+          "denominator_name": "ambient pressure ({pamb} bar)",
+          "denominator_role": "ambient_pressure",
+          "denominator_type": "reported_unspecified",
+          "denominator_location": "CVCC",
+          "denominator_time_basis": "initial",
+          "ratio_definition": "reported injection pressure / ambient pressure",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Source calls the numerator injection pressure; mapped to controlled role 'other'. Standalone pressure reference type is not explicitly specified; no assumption made.",
+          "numerator_thermodynamic_pressure_type": "reported_unspecified",
+          "numerator_pressure_reference_type": "reported_unspecified",
+          "denominator_thermodynamic_pressure_type": "reported_unspecified",
+          "denominator_pressure_reference_type": "reported_unspecified"
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "npr",
+          "case_id": "ALL",
+          "condition_id": "NPR_sweep",
+          "source_process": "NPR_increase",
+          "relation_type": "promotes",
+          "target_process": "shock_strength_momentum_and_entrainment",
+          "support_type": "simulation_resolved",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Primary factor in this study; engine impingement caveat retained."
+        },
+        {
+          "key": "nhd",
+          "case_id": "B028-NHD",
+          "condition_id": "NPR10_AT300",
+          "source_process": "nozzle_hole_diameter_increase",
+          "relation_type": "promotes",
+          "target_process": "shear_layer_growth_and_dispersion",
+          "support_type": "experimental_correlation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Saturation tendency at larger diameters."
+        },
+        {
+          "key": "at",
+          "case_id": "B028-AT",
+          "condition_id": "NPR10_NHD1mm",
+          "source_process": "ambient_temperature_increase",
+          "relation_type": "promotes",
+          "target_process": "boundary_instability_and_lateral_expansion",
+          "support_type": "experimental_correlation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Secondary effect relative to NPR/NHD."
+        },
+        {
+          "key": "shockmix",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "shock_vortex_interactions",
+          "relation_type": "couples_with",
+          "target_process": "far_field_dispersion",
+          "support_type": "model_based",
+          "locator": "abs",
+          "verification_status": "verified",
+          "notes": "Dual-scale framework."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-B028-C01",
+          "claim": "NPR is the dominant tested control of hydrogen-jet momentum, shock structure, penetration, and entrainment across the dual-scale framework.",
+          "evidence_type": "mixed_experimental_numerical",
+          "evidence_summary": "Six case-specific pressure pairs span NPR 5-100; high NPR produces stronger internal shocks, larger penetration, and broader mixing.",
+          "locator": "conclusion",
+          "support_type": "simulation_resolved",
+          "limitations": "Axisymmetric/nonreacting models and late-stage 3D limitations.",
+          "parameters": [
+            "npr_5",
+            "npr_100",
+            "mdfitloc",
+            "mdfitdiam",
+            "radial100"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "npr"
+            ],
+            [
+              "process",
+              "shockmix"
+            ],
+            [
+              "history",
+              "penhist"
+            ]
+          ],
+          "potential_chapter_role": "Near-field to far-field coupling under NPR control."
+        },
+        {
+          "claim_id": "T1-B028-C02",
+          "claim": "Nozzle-hole diameter controls shear-layer growth and dispersion scale, with nonlinear saturation at larger diameters.",
+          "evidence_type": "mixed_experimental_numerical",
+          "evidence_summary": "Five nozzle diameters are compared at fixed NPR=10 and 300 K.",
+          "locator": "conclusion",
+          "support_type": "experimental_correlation",
+          "limitations": "One fixed pressure ratio and temperature for the diameter sweep.",
+          "parameters": [
+            "nozzle_075",
+            "nozzle_200"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "nhd"
+            ]
+          ],
+          "potential_chapter_role": "Injector-geometry influence on mixing."
+        },
+        {
+          "claim_id": "T1-B028-C03",
+          "claim": "Ambient temperature modifies boundary instability and lateral expansion but has a weaker effect on jet momentum than NPR or nozzle diameter.",
+          "evidence_type": "mixed_experimental_numerical",
+          "evidence_summary": "300-800 K sweep at fixed NPR=10 and D=1 mm.",
+          "locator": "conclusion",
+          "support_type": "experimental_correlation",
+          "limitations": "Nonreacting hydrogen; source uses an external property database within its own model, not the project extraction.",
+          "parameters": [
+            "at_300",
+            "at_800"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "at"
+            ]
+          ],
+          "potential_chapter_role": "Thermodynamic modulation of underexpanded-jet mixing."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "NPR",
+          "relation_type": "promotes",
+          "target_node": "shock_strength_and_entrainment",
+          "support_type": "simulation_resolved",
+          "candidate_claim_id": "T1-B028-C01",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Primary factor ranking."
+        },
+        {
+          "case_id": "B028-NHD",
+          "source_node": "nozzle_hole_diameter",
+          "relation_type": "promotes",
+          "target_node": "shear_layer_growth",
+          "support_type": "experimental_correlation",
+          "candidate_claim_id": "T1-B028-C02",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Nonlinear saturation noted."
+        },
+        {
+          "case_id": "B028-AT",
+          "source_node": "ambient_temperature",
+          "relation_type": "promotes",
+          "target_node": "lateral_expansion",
+          "support_type": "experimental_correlation",
+          "candidate_claim_id": "T1-B028-C03",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Secondary effect."
+        }
+      ],
+      "note_sections": [
+        "- Title: Investigation of hydrogen jet formation for direct injection engines: a dual-scale framework from shock reflection to spray evolution\n- Paper ID / source record: B028 / B-E-08\n- Original PDF: `02_PDF_Raw/B/B-E-08_2025_Xie_HydrogenJet_DualScale_Shock_SprayEvolution.pdf`",
+        "Modern mixed-method bridge from near-field compressible shocks to far-field hydrogen-jet evolution.",
+        "How do NPR, nozzle-hole diameter, and ambient temperature jointly control near-field shock/vortex structures and far-field hydrogen-jet dispersion?",
+        "CVCC schlieren experiments plus high-resolution near-field LES and far-field RANS in CONVERGE.",
+        "NPR sweep at D=1 mm, 300 K; diameter sweep 0.75-2 mm at 50/5 bar; temperature sweep 300-800 K at 50/5 bar and D=1 mm.",
+        "Six explicit injection/ambient pressure pairs yield NPR 5,10,15,20,40,100. Pressure reference type is not independently stated and remains reported-unspecified.",
+        "Low NPR evolves from diamond pattern to weak disk; high NPR creates a full barrel-shock/Mach-disk system, bow shock, strong shear shocks, and secondary vortices.",
+        "NA: gaseous hydrogen jet; no liquid spray droplets despite use of spray terminology for macroscopic jet contours.",
+        "NPR is stored as a contextual ratio. High-NPR near-field regions reach reported Ma>2.5, but no scalar Mach record is created from figure-only fields.",
+        "Near-field evolution is assessed at 8-20 us; far-field histories extend to 1 ms and remain figure-only except explicit text values.",
+        "NPR dominates momentum/shock structure; diameter controls shear-layer scale; temperature is secondary and mainly changes boundary instability/lateral expansion.",
+        "At NPR100 radial penetration exceeds 40 mm at 1 ms. Paper-specific 20 us fits are Lm/D=0.6361 NPR^0.5076 and Dm/D=0.2631 NPR^0.6126.",
+        "Authors link intensified shock/vortex interactions to entrainment and far-field spreading, with distinct roles for NPR, diameter, and ambient temperature.",
+        "NPR/nozzle/temperature -> near-field shock and shear organization -> secondary vortices/entrainment -> penetration and dispersion.",
+        "Nonreacting mixture-formation study; combustion implications are prospective.",
+        "CVCC p.2; CFD p.4; Table 1 p.6; Table 2 p.7; fits Fig.10 p.8; macro metrics p.10; Table 3 p.16; conclusion p.21.",
+        "Primary inputs/outputs and source-reported fits are reported. No project-derived values or curve digitization.",
+        "Small-scale turbulence may be under-resolved; no chemistry; axisymmetry may affect late development; data availability is confidential.",
+        "T1-B028-C01 to C03 retain the factor-specific evidence hierarchy.",
+        "Compare B009/B011 for gas-property and ambient-pressure effects; compare B004 correlations while preserving instantaneous 20 us state.",
+        "Non-blocking candidate: projected spray area lacks a dedicated Schema 1.1 parameter name; exact values and history meaning are preserved in note/evidence without altering Schema.",
+        "Links compressible near-field structure to engine-relevant far-field hydrogen distribution.",
+        "- [x] Identity/readability/full text/page map\n- [x] NPR, NHD, and AT case structures preserved\n- [x] Ratio definitions and figure-only histories registered\n- [x] Review/primary evidence distinction not applicable\n- [x] Evidence card created\n- Reading status: **complete**; extraction status: **complete**; final human verification: pending"
+      ],
+      "key_results": [
+        "NPR is dominant; NHD controls shear/dispersion scale; AT is secondary.",
+        "Paper-specific instantaneous Mach-disk fits are reported at 20 us.",
+        "High NPR enhances axial and radial spreading but raises impingement concerns."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Near-field shock-vortex coupling organizes entrainment and far-field hydrogen dispersion.",
+          "support_type": "model_based_and_experimental_correlation"
+        }
+      ],
+      "schema_gap_candidates": [
+        {
+          "parameter_or_structure": "projected_spray_area",
+          "severity": "non_blocking",
+          "blocking": "no",
+          "issue": "No dedicated parameter name in Schema 1.1; exact explicit values are retained in note/evidence and a qualitative history registry.",
+          "status": "proposed"
+        }
+      ],
+      "extraction_notes": [
+        "Canonical PDF only.",
+        "No external properties were added by the project.",
+        "Figure-only histories were not digitized."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "C007",
+      "source_record_id": "C-F-07",
+      "library": "C",
+      "pdf_relpath": "02_PDF_Raw/C/C-F-07_2026_Rao_SecondaryAtomization_ExtremeConditions_Review.pdf",
+      "tier1_role": "Review-secondary framework for multiscale droplet breakup, We-Oh-Re-Ma context, nonuniform/unsteady loading, compressibility, and ligament-mediated cascades.",
+      "study_context": "Review of secondary atomization of isolated droplets under high-speed, shock, blast, compressible, and other nonideal flow conditions.",
+      "cases": [
+        {
+          "case_id": "C007-REV",
+          "description": "Review synthesis only; cited primary-paper values are not treated as project primary data."
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "printed_page": "83",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Scope and high-level cascade statement."
+        },
+        {
+          "key": "dims",
+          "pdf_page": "2",
+          "printed_page": "84",
+          "section": "1. Introduction",
+          "equation": "1",
+          "raw_locator": "PDF p.2, Eq. (1)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Definitions of We, Oh, Re and Ma."
+        },
+        {
+          "key": "regimes",
+          "pdf_page": "4",
+          "printed_page": "86",
+          "section": "1.1 Modes of Breakup",
+          "raw_locator": "PDF p.4, Section 1.1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review taxonomy and reviewed thresholds."
+        },
+        {
+          "key": "shock",
+          "pdf_page": "17",
+          "printed_page": "99",
+          "section": "4.2 Unsteady Effects: Shocks and Blasts",
+          "figure": "8",
+          "raw_locator": "PDF p.17, Section 4.2 and Fig. 8",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Typed forcing histories and timescale compatibility."
+        },
+        {
+          "key": "compress",
+          "pdf_page": "18",
+          "printed_page": "100",
+          "section": "5. Breakup in Compressible Flow Fields",
+          "raw_locator": "PDF pp.18-20, Section 5",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Compressibility mechanism and morphology."
+        },
+        {
+          "key": "summary",
+          "pdf_page": "23",
+          "printed_page": "105",
+          "section": "Summary Points and Future Issues",
+          "raw_locator": "PDF p.23, Summary Points",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review synthesis and gaps."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "review",
+          "value_status": "reported",
+          "definition": "Review of secondary atomization at extreme conditions.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "No cited primary values are reclassified."
+        },
+        {
+          "key": "wedef",
+          "locator": "dims",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_definition",
+          "reported_value": "We = rho_a*u_a^2*d_0/sigma",
+          "value_status": "reported",
+          "definition": "Gas density and velocity, initial droplet diameter, and surface tension.",
+          "source_type": "equation",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Definition only."
+        },
+        {
+          "key": "ohdef",
+          "locator": "dims",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Oh_definition",
+          "reported_value": "Oh = mu_l/sqrt(rho_l*sigma*d_0)",
+          "value_status": "reported",
+          "definition": "Liquid viscosity, density, surface tension, and initial diameter.",
+          "source_type": "equation",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Definition only."
+        },
+        {
+          "key": "redef",
+          "locator": "dims",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Re_definition",
+          "reported_value": "Re = rho_a*u_a*d_0/mu_a",
+          "value_status": "reported",
+          "definition": "Gas density/velocity/viscosity and initial diameter.",
+          "source_type": "equation",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Definition only."
+        },
+        {
+          "key": "madef",
+          "locator": "dims",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "Ma = u_a/c_0",
+          "value_status": "reported",
+          "definition": "Gas velocity divided by gas speed of sound.",
+          "source_type": "equation",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "reference_frame": "droplet_fixed",
+          "notes": "Definition only."
+        },
+        {
+          "key": "regimetax",
+          "locator": "regimes",
+          "parameter_group": "droplet_response",
+          "parameter_name": "breakup_regime",
+          "reported_value": "vibrational, bag, multimode, stripping/SIE, catastrophic; thresholds depend on low-Oh and low-Ma assumptions",
+          "value_status": "reported",
+          "definition": "Review taxonomy; static We-Oh maps are inadequate when Re, Ma, and transient scales matter.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Reviewed thresholds are secondary synthesis and not project primary data."
+        },
+        {
+          "key": "loadingdef",
+          "locator": "shock",
+          "parameter_group": "shock_loading",
+          "parameter_name": "loading_duration_definition",
+          "reported_value": "ideal-shock jump, blast-pressure decay, and delayed compressible starting-jet exposure are distinct forcing histories",
+          "value_status": "reported",
+          "definition": "Breakup response depends on compatibility between forcing and droplet/wave response times.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "No generic duration is created."
+        },
+        {
+          "key": "compressstate",
+          "locator": "compress",
+          "parameter_group": "droplet_response",
+          "parameter_name": "deformation_mode",
+          "reported_value": "supersonic compressibility favors streamwise-elongated sheets/ligaments and restricted transverse spread",
+          "value_status": "reported",
+          "definition": "Review-level morphology synthesis.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Secondary synthesis."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "compat",
+          "case_id": "C007-REV",
+          "condition_id": "C007-REV",
+          "source_process": "forcing_length_and_time_scale_compatibility",
+          "relation_type": "modifies",
+          "target_process": "global_or_local_droplet_deformation",
+          "support_type": "author_interpretation",
+          "locator": "summary",
+          "verification_status": "verified",
+          "notes": "Review framework for nonuniform/unsteady flows."
+        },
+        {
+          "key": "comp",
+          "case_id": "C007-REV",
+          "condition_id": "C007-REV",
+          "source_process": "supersonic_compressibility",
+          "relation_type": "suppresses",
+          "target_process": "breakup_intensity_and_transverse_spread",
+          "support_type": "author_interpretation",
+          "locator": "compress",
+          "verification_status": "verified",
+          "notes": "Review synthesis; subsonic and supersonic effects are distinguished."
+        },
+        {
+          "key": "cascade",
+          "case_id": "C007-REV",
+          "condition_id": "C007-REV",
+          "source_process": "KHI_RTI_wave_cascade",
+          "relation_type": "precedes",
+          "target_process": "ligament_mediated_fragmentation",
+          "support_type": "author_interpretation",
+          "locator": "summary",
+          "verification_status": "verified",
+          "notes": "Nonlinear multiscale mechanism."
+        },
+        {
+          "key": "shockbulk",
+          "case_id": "C007-REV",
+          "condition_id": "C007-REV",
+          "source_process": "ideal_shock_impulse",
+          "relation_type": "precedes",
+          "target_process": "post_shock_aerodynamic_exposure",
+          "support_type": "author_interpretation",
+          "locator": "shock",
+          "verification_status": "verified",
+          "notes": "Review states the very short shock impulse alone barely deforms the interface; induced flow governs aerobreakup."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-C007-C01",
+          "claim": "Nonuniform or unsteady forcing alters breakup only when its length or time scales are compatible with global droplet deformation or local wave scales.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "The review uses scale compatibility to unify shear, wake, turbulence, shock, and blast cases.",
+          "locator": "summary",
+          "support_type": "author_interpretation",
+          "limitations": "Conceptual synthesis; quantitative closure remains an open issue.",
+          "parameters": [
+            "loadingdef"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "compat"
+            ],
+            [
+              "process",
+              "shockbulk"
+            ]
+          ],
+          "potential_chapter_role": "Typed loading histories and response-scale framework."
+        },
+        {
+          "claim_id": "T1-C007-C02",
+          "claim": "At supersonic Mach numbers, compressibility can suppress breakup intensity and transverse spread while promoting streamwise elongation.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "Section 5 distinguishes subsonic destabilization from supersonic stabilization and connects it to KHI/RTI damping and bow-shock-modified loading.",
+          "locator": "compress",
+          "support_type": "author_interpretation",
+          "limitations": "Secondary synthesis; behavior also depends on We, thermodynamics, and morphology.",
+          "parameters": [
+            "madef",
+            "compressstate"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "comp"
+            ]
+          ],
+          "potential_chapter_role": "Compressibility correction to breakup-regime interpretation."
+        },
+        {
+          "claim_id": "T1-C007-C03",
+          "claim": "Extreme aerobreakup is organized as a recurrent multiscale wave cascade that terminates through ligament-mediated fragmentation.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "KHI/RTI initiate progressively local deformations and Rayleigh-Plateau breakup terminates ligaments.",
+          "locator": "summary",
+          "support_type": "author_interpretation",
+          "limitations": "Nonlinear theory and high-resolution validation remain incomplete.",
+          "parameters": [
+            "regimetax"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "cascade"
+            ]
+          ],
+          "potential_chapter_role": "Mechanistic hierarchy of secondary atomization."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "C007-REV",
+          "source_node": "forcing_scale_compatibility",
+          "relation_type": "modifies",
+          "target_node": "droplet_response",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-C007-C01",
+          "locator": "summary",
+          "verification_status": "verified",
+          "notes": "Review synthesis."
+        },
+        {
+          "case_id": "C007-REV",
+          "source_node": "supersonic_compressibility",
+          "relation_type": "suppresses",
+          "target_node": "breakup_intensity",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-C007-C02",
+          "locator": "compress",
+          "verification_status": "verified",
+          "notes": "Secondary evidence."
+        },
+        {
+          "case_id": "C007-REV",
+          "source_node": "wave_cascade",
+          "relation_type": "precedes",
+          "target_node": "ligament_fragmentation",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-C007-C03",
+          "locator": "summary",
+          "verification_status": "verified",
+          "notes": "Review mechanism."
+        }
+      ],
+      "note_sections": [
+        "- Title: Secondary Atomization of Droplets at Extreme Conditions\n- Paper ID / source record: C007 / C-F-07\n- Original PDF: `02_PDF_Raw/C/C-F-07_2026_Rao_SecondaryAtomization_ExtremeConditions_Review.pdf`",
+        "Review-level framework for breakup modes, multiscale wave cascades, nonideal forcing, and compressibility.",
+        "How should secondary atomization be understood when the external flow is high-speed, compressible, nonuniform, or unsteady?",
+        "Review of isolated-droplet aerobreakup and secondary atomization, emphasizing extreme conditions.",
+        "Configurations include uniform high-speed flow, shear/wake/turbulence, shock/blast loading, and supersonic bow-shock flow around droplets.",
+        "No single operating-condition table; cited primary cases are not re-entered as primary data.",
+        "Shock impulse, blast decay, and delayed compressible starting-jet exposure are explicitly distinguished.",
+        "Isolated-droplet regimes and multiscale interface topologies; liquid properties enter Oh and wave growth.",
+        "Review defines We=rho_a u_a^2 d0/sigma, Oh=mu_l/sqrt(rho_l sigma d0), Re=rho_a u_a d0/mu_a, and Ma=u_a/c0.",
+        "Forcing time scale must be compared with droplet/global or local-wave response time; no generic loading duration is used.",
+        "Static We-Oh regime maps lose transient and compressible information. Wave cascades connect global flattening to local sheets, ligaments, and droplets.",
+        "Reviewed mode thresholds are retained only as secondary taxonomy, not primary numerical evidence.",
+        "KHI/RTI initiate deformations; RPI terminates ligaments. Supersonic compressibility damps wave growth and transverse breakup while enhancing streamwise elongation.",
+        "External forcing -> compatible global/local deformation -> recurrent wave cascade -> ligament-mediated daughter droplets.",
+        "Phase change and reaction are identified as coupled future issues rather than established generic effects.",
+        "Dimensionless definitions p.2; regimes p.4; shock/blast taxonomy pp.17-18; compressibility pp.18-20; summary p.23.",
+        "All ranges and thresholds are review-secondary. No cited primary number is misclassified as project primary evidence.",
+        "Nonlinear closure, internal liquid redistribution, compressible interfacial dynamics, and high-resolution measurements remain incomplete.",
+        "T1-C007-C01 to C03 cover scale compatibility, compressibility, and wave-cascade mechanism.",
+        "Compare C018/C019/C024/C025 and Pilot C014/C016 while matching Ma, We definition, and loading history.",
+        "None. Review classifications and limitations fit Schema 1.1 without migration.",
+        "Provides terminology and causal-strength guardrails for later shock-droplet synthesis.",
+        "- [x] Identity/readability/full text/page map\n- [x] Review-secondary evidence separated\n- [x] We/Re/Oh/Ma definitions preserved\n- [x] Loading histories remain typed\n- [x] Evidence card created\n- Reading status: **complete**; extraction status: **complete**; final human verification: pending"
+      ],
+      "key_results": [
+        "Extreme aerobreakup is framed as a nonlinear wave cascade ending in ligament breakup.",
+        "Scale compatibility determines whether nonuniform/unsteady forcing modifies response.",
+        "Supersonic compressibility can suppress breakup intensity and transverse spread."
+      ],
+      "mechanisms": [
+        {
+          "summary": "KHI/RTI wave cascade -> sheets/ligaments -> RPI-mediated daughter droplets, modulated by forcing scale and compressibility.",
+          "support_type": "author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Canonical PDF only.",
+        "Review-secondary numerical content not classified as primary.",
+        "No figure digitization."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "C018",
+      "source_record_id": "C-SD-11",
+      "library": "C",
+      "pdf_relpath": "02_PDF_Raw/C/C-SD-11_2024_Xiong_ShockDroplet_HighFidelitySimulation_TheoreticalModel.pdf",
+      "tier1_role": "Primary high-fidelity evidence for early shock-droplet internal-wave structure, gas-liquid wave-speed-ratio cases, NPP/focus distinction, and four-factor pressure evolution.",
+      "study_context": "Two-dimensional high-order compressible multiphase simulation of planar shock interaction with cylindrical water and n-hexane droplets plus an improved ray-tracing model.",
+      "cases": [
+        {
+          "case_id": "C018-M1.75",
+          "Ms": 1.75,
+          "pp": 3.406,
+          "rr": 2.279,
+          "nhex": 0.55,
+          "nwater": 0.413
+        },
+        {
+          "case_id": "C018-M2.4",
+          "Ms": 2.4,
+          "pp": 6.553,
+          "rr": 3.212,
+          "nhex": 0.755,
+          "nwater": 0.567
+        },
+        {
+          "case_id": "C018-M3.0",
+          "Ms": 3.0,
+          "pp": 10.333,
+          "rr": 3.857,
+          "nhex": 0.943,
+          "nwater": 0.708
+        },
+        {
+          "case_id": "C018-M3.6",
+          "Ms": 3.6,
+          "pp": 14.953,
+          "rr": 4.33,
+          "nhex": 1.131,
+          "nwater": 0.85
+        },
+        {
+          "case_id": "C018-M4.2",
+          "Ms": 4.2,
+          "pp": 20.413,
+          "rr": 4.675,
+          "nhex": 1.32,
+          "nwater": 0.991
+        },
+        {
+          "case_id": "C018-M4.8",
+          "Ms": 4.8,
+          "pp": 26.713,
+          "rr": 4.93,
+          "nhex": 1.509,
+          "nwater": 1.133
+        },
+        {
+          "case_id": "C018-M5.4",
+          "Ms": 5.4,
+          "pp": 33.853,
+          "rr": 5.122,
+          "nhex": 1.698,
+          "nwater": 1.273
+        },
+        {
+          "case_id": "C018-M6.0",
+          "Ms": 6.0,
+          "pp": 41.833,
+          "rr": 5.268,
+          "nhex": 1.886,
+          "nwater": 1.416
+        },
+        {
+          "case_id": "C018-M6.6",
+          "Ms": 6.6,
+          "pp": 50.653,
+          "rr": 5.382,
+          "nhex": 2.075,
+          "nwater": 1.558
+        },
+        {
+          "case_id": "C018-M7.2",
+          "Ms": 7.2,
+          "pp": 60.313,
+          "rr": 5.472,
+          "nhex": 2.264,
+          "nwater": 1.7
+        },
+        {
+          "case_id": "C018-M7.8",
+          "Ms": 7.8,
+          "pp": 70.813,
+          "rr": 5.544,
+          "nhex": 2.452,
+          "nwater": 1.841
+        },
+        {
+          "case_id": "C018-M8.4",
+          "Ms": 8.4,
+          "pp": 82.153,
+          "rr": 5.603,
+          "nhex": 2.641,
+          "nwater": "NA"
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "printed_page": "A46-1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Scope and central conclusion."
+        },
+        {
+          "key": "config",
+          "pdf_page": "4",
+          "printed_page": "A46-4",
+          "section": "2.1 Problem description",
+          "figure": "1",
+          "raw_locator": "PDF p.4, Section 2.1 and Fig. 1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Geometry, boundaries and wave-speed ratio definition."
+        },
+        {
+          "key": "table1",
+          "pdf_page": "5",
+          "printed_page": "A46-5",
+          "section": "2.1 Problem description",
+          "table": "1",
+          "equation": "2.1-2.2",
+          "raw_locator": "PDF p.5, Table 1 and Eqs. (2.1)-(2.2)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Complete case matrix and Re/We definitions."
+        },
+        {
+          "key": "table2",
+          "pdf_page": "6",
+          "printed_page": "A46-6",
+          "section": "2.2 Numerical method",
+          "table": "2",
+          "raw_locator": "PDF p.6, Table 2",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Fluid densities and SGEOS properties."
+        },
+        {
+          "key": "npphist",
+          "pdf_page": "9",
+          "printed_page": "A46-9",
+          "section": "3.1 Time history of the NPP point",
+          "figure": "3",
+          "raw_locator": "PDF p.9, Section 3.1 and Fig. 3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "NPP timing near t*=1.25."
+        },
+        {
+          "key": "trend",
+          "pdf_page": "13",
+          "printed_page": "A46-13",
+          "section": "3. NPP location comparison",
+          "figure": "5",
+          "raw_locator": "PDF p.13, Fig. 5 and accompanying text",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Low/high n trend distinction."
+        },
+        {
+          "key": "model",
+          "pdf_page": "20",
+          "printed_page": "A46-20",
+          "section": "4. Improved theoretical model",
+          "figure": "9-10",
+          "raw_locator": "PDF pp.20-22, improved model comparison",
+          "locator_status": "partial",
+          "verification_status": "verified",
+          "notes": "Mach-stem role in high wave-speed-ratio cases."
+        },
+        {
+          "key": "factors",
+          "pdf_page": "23",
+          "printed_page": "A46-23",
+          "section": "5.2 Factors of pressure variation",
+          "figure": "14-16",
+          "raw_locator": "PDF pp.23-28, Sections 5.2-5.3",
+          "locator_status": "partial",
+          "verification_status": "verified",
+          "notes": "Four-factor pressure history."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "28",
+          "printed_page": "A46-28",
+          "section": "6. Conclusion",
+          "raw_locator": "PDF pp.28-29, Section 6 Conclusion",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "NPP/focus distinction and limitations."
+        }
+      ],
+      "events": [
+        {
+          "key": "arrival",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "shock_arrival",
+          "event_label": "incident shock contacts upstream droplet interface",
+          "event_domain": "shock_droplet",
+          "reported_time": "0",
+          "reported_time_unit": "t*",
+          "event_status": "reference_only",
+          "locator": "config",
+          "verification_status": "verified",
+          "notes": "Reference for nondimensional chronology."
+        },
+        {
+          "key": "npp",
+          "case_id": "ALL",
+          "condition_id": "shock_Mach_sweep",
+          "event_type": "other",
+          "event_label": "negative peak pressure occurrence",
+          "event_domain": "internal_droplet",
+          "reported_time": "approximately 1.25",
+          "reported_time_unit": "t*=c_l t/D0",
+          "reference_event": "arrival",
+          "event_status": "reported",
+          "locator": "npphist",
+          "verification_status": "verified",
+          "notes": "NPP occurs slightly earlier at higher shock Mach number."
+        }
+      ],
+      "histories": [
+        {
+          "key": "npppressure",
+          "case_id": "ALL",
+          "condition_id": "shock_Mach_sweep",
+          "variable_name": "minimum internal pressure",
+          "variable_role": "simulated_output",
+          "parameter_context": "negative_peak_pressure",
+          "reference_event": "arrival",
+          "history_type": "pressure_history",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "",
+          "time_unit": "t*",
+          "locator": "npphist",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Figure-only; no digitization."
+        },
+        {
+          "key": "npplocation",
+          "case_id": "ALL",
+          "condition_id": "shock_Mach_and_liquid_sweep",
+          "variable_name": "NPP location versus gas-liquid wave-speed ratio",
+          "variable_role": "simulated_output",
+          "parameter_context": "internal_droplet",
+          "reference_event": "arrival",
+          "history_type": "other",
+          "data_availability": "figure_only",
+          "start_time": "",
+          "end_time": "",
+          "time_unit": "",
+          "locator": "trend",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Parameter-sweep curve, not a time series; registry preserves figure-only availability."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "numerical",
+          "value_status": "reported",
+          "definition": "High-fidelity compressible multiphase simulation plus theoretical model.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "early_shock_droplet",
+          "notes": "Primary study."
+        },
+        {
+          "key": "geom",
+          "locator": "config",
+          "parameter_group": "study_context",
+          "parameter_name": "geometry_type",
+          "reported_value": "two-dimensional cylindrical droplet with planar incident shock",
+          "value_status": "reported",
+          "definition": "Upper half-domain with symmetry boundary.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "shock_droplet_geometry",
+          "notes": "Not a spherical 3D droplet."
+        },
+        {
+          "key": "shockgeom",
+          "locator": "config",
+          "parameter_group": "shock_structure",
+          "parameter_name": "shock_geometry",
+          "reported_value": "planar",
+          "value_status": "reported",
+          "definition": "Incident shock geometry before droplet interaction.",
+          "source_type": "figure",
+          "parameter_role": "model_input",
+          "parameter_context": "incident_shock",
+          "reference_frame": "laboratory",
+          "notes": "Categorical geometry; no numeric zero curvature."
+        },
+        {
+          "key": "mesh",
+          "locator": "config",
+          "parameter_group": "numerical_method",
+          "parameter_name": "mesh_resolution",
+          "reported_value": "800 cells per D0",
+          "reported_unit": "count",
+          "value_status": "reported",
+          "definition": "Production resolution; grid convergence discussed in Appendix A.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "droplet_diameter_resolution",
+          "notes": "Some validation uses 1600 cells/D0."
+        },
+        {
+          "key": "rhohex",
+          "locator": "table2",
+          "case_id": "C018-nhexane",
+          "condition_id": "NTP",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "liquid_density",
+          "reported_value": "657",
+          "reported_unit": "kg/m^3",
+          "normalized_value": "657",
+          "normalized_unit": "kg/m^3",
+          "value_status": "reported",
+          "definition": "n-hexane density at normal temperature and pressure.",
+          "source_type": "table",
+          "parameter_role": "model_input",
+          "parameter_context": "n_hexane",
+          "notes": "Table 2."
+        },
+        {
+          "key": "rhowater",
+          "locator": "table2",
+          "case_id": "C018-water",
+          "condition_id": "NTP",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "liquid_density",
+          "reported_value": "1000",
+          "reported_unit": "kg/m^3",
+          "normalized_value": "1000",
+          "normalized_unit": "kg/m^3",
+          "value_status": "reported",
+          "definition": "Water density at normal temperature and pressure.",
+          "source_type": "table",
+          "parameter_role": "model_input",
+          "parameter_context": "water",
+          "notes": "Table 2."
+        },
+        {
+          "key": "we",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_reported",
+          "reported_value": "9.42e3-4.10e6",
+          "reported_unit": "1",
+          "value_status": "reported",
+          "definition": "rho_post*u_post^2*D0/sigma; range across cases.",
+          "source_type": "text",
+          "parameter_role": "operating_condition",
+          "parameter_context": "post_shock_aerodynamic",
+          "reference_frame": "droplet_fixed",
+          "dimensionless": "dim_we",
+          "notes": "Range reported by authors."
+        },
+        {
+          "key": "re",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Re_reported",
+          "reported_value": "2.01e3-1.19e5",
+          "reported_unit": "1",
+          "value_status": "reported",
+          "definition": "rho_post*u_post*D0/mu; range across cases.",
+          "source_type": "text",
+          "parameter_role": "operating_condition",
+          "parameter_context": "post_shock_aerodynamic",
+          "reference_frame": "droplet_fixed",
+          "dimensionless": "dim_re",
+          "notes": "Range reported by authors."
+        },
+        {
+          "key": "ucomp",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_velocity_scale",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "definition": "Post-shock air velocity u_post used in We/Re.",
+          "source_type": "equation",
+          "parameter_role": "operating_condition",
+          "parameter_context": "post_shock_freestream",
+          "reference_frame": "droplet_fixed",
+          "missing_reason": "No single standalone numeric u_post applies to the reported aggregate We/Re ranges.",
+          "notes": "Formula component retained without external derivation."
+        },
+        {
+          "key": "rhocomp",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_gas_density",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "definition": "Post-shock air density rho_post used in We/Re.",
+          "source_type": "equation",
+          "parameter_role": "operating_condition",
+          "parameter_context": "post_shock_freestream",
+          "missing_reason": "No single standalone numeric rho_post applies to the aggregate reported ranges.",
+          "notes": "Component definition preserved."
+        },
+        {
+          "key": "dcomp",
+          "locator": "table1",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "droplet_diameter_initial",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "definition": "D0 used as reference length in We/Re.",
+          "source_type": "equation",
+          "parameter_role": "model_input",
+          "parameter_context": "initial_droplet",
+          "missing_reason": "A standalone physical D0 value is not reported in the normalized formulation used for the case sweep.",
+          "notes": "No value inferred."
+        },
+        {
+          "key": "sigcomp",
+          "locator": "table1",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "surface_tension",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "definition": "Surface tension sigma used in We.",
+          "source_type": "equation",
+          "parameter_role": "model_input",
+          "parameter_context": "liquid_specific",
+          "missing_reason": "No single standalone sigma is reported for the aggregate water/n-hexane case range at this locator.",
+          "notes": "No external property lookup."
+        },
+        {
+          "key": "mucomp",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Re_viscosity",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "definition": "Post-shock air dynamic viscosity mu used in Re.",
+          "source_type": "equation",
+          "parameter_role": "model_input",
+          "parameter_context": "post_shock_freestream",
+          "missing_reason": "No single standalone numeric viscosity applies to the aggregate range.",
+          "notes": "No external property lookup."
+        },
+        {
+          "key": "ms_{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "case_id": "C018-M1.75",
+              "v": "1.75",
+              "dim": "dim_ms175"
+            },
+            {
+              "suffix": "240",
+              "case_id": "C018-M2.4",
+              "v": "2.4",
+              "dim": "dim_ms240"
+            },
+            {
+              "suffix": "300",
+              "case_id": "C018-M3.0",
+              "v": "3.0",
+              "dim": "dim_ms300"
+            },
+            {
+              "suffix": "360",
+              "case_id": "C018-M3.6",
+              "v": "3.6",
+              "dim": "dim_ms360"
+            },
+            {
+              "suffix": "420",
+              "case_id": "C018-M4.2",
+              "v": "4.2",
+              "dim": "dim_ms420"
+            },
+            {
+              "suffix": "480",
+              "case_id": "C018-M4.8",
+              "v": "4.8",
+              "dim": "dim_ms480"
+            },
+            {
+              "suffix": "540",
+              "case_id": "C018-M5.4",
+              "v": "5.4",
+              "dim": "dim_ms540"
+            },
+            {
+              "suffix": "600",
+              "case_id": "C018-M6.0",
+              "v": "6.0",
+              "dim": "dim_ms600"
+            },
+            {
+              "suffix": "660",
+              "case_id": "C018-M6.6",
+              "v": "6.6",
+              "dim": "dim_ms660"
+            },
+            {
+              "suffix": "720",
+              "case_id": "C018-M7.2",
+              "v": "7.2",
+              "dim": "dim_ms720"
+            },
+            {
+              "suffix": "780",
+              "case_id": "C018-M7.8",
+              "v": "7.8",
+              "dim": "dim_ms780"
+            },
+            {
+              "suffix": "840",
+              "case_id": "C018-M8.4",
+              "v": "8.4",
+              "dim": "dim_ms840"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "{case_id}",
+          "parameter_group": "shock_structure",
+          "parameter_name": "incident_shock_Mach",
+          "reported_value": "{v}",
+          "reported_unit": "1",
+          "normalized_value": "{v}",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "Incident shock propagation Mach number in pre-shock air.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "incident_shock",
+          "reference_frame": "laboratory",
+          "dimensionless": "{dim}",
+          "notes": "Table 1 case identifier."
+        },
+        {
+          "key": "pp_{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "case_id": "C018-M1.75",
+              "v": "3.406"
+            },
+            {
+              "suffix": "240",
+              "case_id": "C018-M2.4",
+              "v": "6.553"
+            },
+            {
+              "suffix": "300",
+              "case_id": "C018-M3.0",
+              "v": "10.333"
+            },
+            {
+              "suffix": "360",
+              "case_id": "C018-M3.6",
+              "v": "14.953"
+            },
+            {
+              "suffix": "420",
+              "case_id": "C018-M4.2",
+              "v": "20.413"
+            },
+            {
+              "suffix": "480",
+              "case_id": "C018-M4.8",
+              "v": "26.713"
+            },
+            {
+              "suffix": "540",
+              "case_id": "C018-M5.4",
+              "v": "33.853"
+            },
+            {
+              "suffix": "600",
+              "case_id": "C018-M6.0",
+              "v": "41.833"
+            },
+            {
+              "suffix": "660",
+              "case_id": "C018-M6.6",
+              "v": "50.653"
+            },
+            {
+              "suffix": "720",
+              "case_id": "C018-M7.2",
+              "v": "60.313"
+            },
+            {
+              "suffix": "780",
+              "case_id": "C018-M7.8",
+              "v": "70.813"
+            },
+            {
+              "suffix": "840",
+              "case_id": "C018-M8.4",
+              "v": "82.153"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "{case_id}",
+          "parameter_group": "shock_structure",
+          "parameter_name": "pressure_ratio_across_shock",
+          "reported_value": "{v}",
+          "reported_unit": "1",
+          "normalized_value": "{v}",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "p_post/p_pre for air.",
+          "source_type": "table",
+          "parameter_role": "operating_condition",
+          "parameter_context": "incident_shock",
+          "notes": "Table 1."
+        },
+        {
+          "key": "rr_{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "case_id": "C018-M1.75",
+              "v": "2.279"
+            },
+            {
+              "suffix": "240",
+              "case_id": "C018-M2.4",
+              "v": "3.212"
+            },
+            {
+              "suffix": "300",
+              "case_id": "C018-M3.0",
+              "v": "3.857"
+            },
+            {
+              "suffix": "360",
+              "case_id": "C018-M3.6",
+              "v": "4.330"
+            },
+            {
+              "suffix": "420",
+              "case_id": "C018-M4.2",
+              "v": "4.675"
+            },
+            {
+              "suffix": "480",
+              "case_id": "C018-M4.8",
+              "v": "4.930"
+            },
+            {
+              "suffix": "540",
+              "case_id": "C018-M5.4",
+              "v": "5.122"
+            },
+            {
+              "suffix": "600",
+              "case_id": "C018-M6.0",
+              "v": "5.268"
+            },
+            {
+              "suffix": "660",
+              "case_id": "C018-M6.6",
+              "v": "5.382"
+            },
+            {
+              "suffix": "720",
+              "case_id": "C018-M7.2",
+              "v": "5.472"
+            },
+            {
+              "suffix": "780",
+              "case_id": "C018-M7.8",
+              "v": "5.544"
+            },
+            {
+              "suffix": "840",
+              "case_id": "C018-M8.4",
+              "v": "5.603"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "{case_id}",
+          "parameter_group": "shock_structure",
+          "parameter_name": "density_ratio_across_shock",
+          "reported_value": "{v}",
+          "reported_unit": "1",
+          "normalized_value": "{v}",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "rho_post/rho_pre for air.",
+          "source_type": "table",
+          "parameter_role": "operating_condition",
+          "parameter_context": "incident_shock",
+          "notes": "Table 1."
+        },
+        {
+          "key": "nhex_{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "case_id": "C018-M1.75",
+              "v": "0.550",
+              "ratio_key": "nhex175"
+            },
+            {
+              "suffix": "240",
+              "case_id": "C018-M2.4",
+              "v": "0.755",
+              "ratio_key": "nhex240"
+            },
+            {
+              "suffix": "300",
+              "case_id": "C018-M3.0",
+              "v": "0.943",
+              "ratio_key": "nhex300"
+            },
+            {
+              "suffix": "360",
+              "case_id": "C018-M3.6",
+              "v": "1.131",
+              "ratio_key": "nhex360"
+            },
+            {
+              "suffix": "420",
+              "case_id": "C018-M4.2",
+              "v": "1.320",
+              "ratio_key": "nhex420"
+            },
+            {
+              "suffix": "480",
+              "case_id": "C018-M4.8",
+              "v": "1.509",
+              "ratio_key": "nhex480"
+            },
+            {
+              "suffix": "540",
+              "case_id": "C018-M5.4",
+              "v": "1.698",
+              "ratio_key": "nhex540"
+            },
+            {
+              "suffix": "600",
+              "case_id": "C018-M6.0",
+              "v": "1.886",
+              "ratio_key": "nhex600"
+            },
+            {
+              "suffix": "660",
+              "case_id": "C018-M6.6",
+              "v": "2.075",
+              "ratio_key": "nhex660"
+            },
+            {
+              "suffix": "720",
+              "case_id": "C018-M7.2",
+              "v": "2.264",
+              "ratio_key": "nhex720"
+            },
+            {
+              "suffix": "780",
+              "case_id": "C018-M7.8",
+              "v": "2.452",
+              "ratio_key": "nhex780"
+            },
+            {
+              "suffix": "840",
+              "case_id": "C018-M8.4",
+              "v": "2.641",
+              "ratio_key": "nhex840"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "n_hexane",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "reported_value",
+          "reported_value": "{v}",
+          "reported_unit": "1",
+          "normalized_value": "{v}",
+          "normalized_unit": "1",
+          "value_status": "reported",
+          "definition": "Gas-liquid shock-wave velocity ratio n=u_g/u_l for n-hexane.",
+          "source_type": "table",
+          "parameter_role": "operating_condition",
+          "parameter_context": "gas_liquid_wave_velocity_ratio_n_hexane",
+          "ratio": "{ratio_key}",
+          "notes": "Named ratio retained through ratio_definitions."
+        },
+        {
+          "key": "nwater_{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "case_id": "C018-M1.75",
+              "v": "0.413",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater175"
+            },
+            {
+              "suffix": "240",
+              "case_id": "C018-M2.4",
+              "v": "0.567",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater240"
+            },
+            {
+              "suffix": "300",
+              "case_id": "C018-M3.0",
+              "v": "0.708",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater300"
+            },
+            {
+              "suffix": "360",
+              "case_id": "C018-M3.6",
+              "v": "0.850",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater360"
+            },
+            {
+              "suffix": "420",
+              "case_id": "C018-M4.2",
+              "v": "0.991",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater420"
+            },
+            {
+              "suffix": "480",
+              "case_id": "C018-M4.8",
+              "v": "1.133",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater480"
+            },
+            {
+              "suffix": "540",
+              "case_id": "C018-M5.4",
+              "v": "1.273",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater540"
+            },
+            {
+              "suffix": "600",
+              "case_id": "C018-M6.0",
+              "v": "1.416",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater600"
+            },
+            {
+              "suffix": "660",
+              "case_id": "C018-M6.6",
+              "v": "1.558",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater660"
+            },
+            {
+              "suffix": "720",
+              "case_id": "C018-M7.2",
+              "v": "1.700",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater720"
+            },
+            {
+              "suffix": "780",
+              "case_id": "C018-M7.8",
+              "v": "1.841",
+              "status": "reported",
+              "reason": "",
+              "ratio_key": "nwater780"
+            },
+            {
+              "suffix": "840",
+              "case_id": "C018-M8.4",
+              "v": "NA",
+              "status": "NA",
+              "reason": "Table 1 contains a dash; the water case is not provided at Ms=8.4.",
+              "ratio_key": "nwater840"
+            }
+          ],
+          "locator": "table1",
+          "condition_id": "water",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "reported_value",
+          "reported_value": "{v}",
+          "reported_unit": "1",
+          "normalized_value": "{v}",
+          "normalized_unit": "1",
+          "value_status": "{status}",
+          "definition": "Gas-liquid shock-wave velocity ratio n=u_g/u_l for water.",
+          "source_type": "table",
+          "parameter_role": "operating_condition",
+          "parameter_context": "gas_liquid_wave_velocity_ratio_water",
+          "ratio": "{ratio_key}",
+          "missing_reason": "{reason}",
+          "notes": "Named ratio retained through ratio_definitions."
+        }
+      ],
+      "ratios": [
+        {
+          "key": "nhex{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "case_id": "C018-M1.75",
+              "v": "0.550"
+            },
+            {
+              "suffix": "240",
+              "case_id": "C018-M2.4",
+              "v": "0.755"
+            },
+            {
+              "suffix": "300",
+              "case_id": "C018-M3.0",
+              "v": "0.943"
+            },
+            {
+              "suffix": "360",
+              "case_id": "C018-M3.6",
+              "v": "1.131"
+            },
+            {
+              "suffix": "420",
+              "case_id": "C018-M4.2",
+              "v": "1.320"
+            },
+            {
+              "suffix": "480",
+              "case_id": "C018-M4.8",
+              "v": "1.509"
+            },
+            {
+              "suffix": "540",
+              "case_id": "C018-M5.4",
+              "v": "1.698"
+            },
+            {
+              "suffix": "600",
+              "case_id": "C018-M6.0",
+              "v": "1.886"
+            },
+            {
+              "suffix": "660",
+              "case_id": "C018-M6.6",
+              "v": "2.075"
+            },
+            {
+              "suffix": "720",
+              "case_id": "C018-M7.2",
+              "v": "2.264"
+            },
+            {
+              "suffix": "780",
+              "case_id": "C018-M7.8",
+              "v": "2.452"
+            },
+            {
+              "suffix": "840",
+              "case_id": "C018-M8.4",
+              "v": "2.641"
+            }
+          ],
+          "condition_id": "n_hexane",
+          "ratio_name": "gas_liquid_wave_velocity_ratio",
+          "ratio_symbol": "n",
+          "reported_ratio_value": "{v}",
+          "normalized_ratio_value": "{v}",
+          "value_status": "reported",
+          "numerator_name": "gas shock-wave velocity u_g",
+          "numerator_role": "other",
+          "numerator_type": "wave_velocity",
+          "numerator_location": "gas phase",
+          "numerator_time_basis": "initial",
+          "denominator_name": "liquid transmitted-wave velocity u_l",
+          "denominator_role": "other",
+          "denominator_type": "wave_velocity",
+          "denominator_location": "n-hexane droplet",
+          "denominator_time_basis": "initial",
+          "ratio_definition": "n=u_g/u_l",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "n>1 high and n<1 low wave-speed-ratio classification."
+        },
+        {
+          "key": "nwater{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "case_id": "C018-M1.75",
+              "v": "0.413",
+              "status": "reported"
+            },
+            {
+              "suffix": "240",
+              "case_id": "C018-M2.4",
+              "v": "0.567",
+              "status": "reported"
+            },
+            {
+              "suffix": "300",
+              "case_id": "C018-M3.0",
+              "v": "0.708",
+              "status": "reported"
+            },
+            {
+              "suffix": "360",
+              "case_id": "C018-M3.6",
+              "v": "0.850",
+              "status": "reported"
+            },
+            {
+              "suffix": "420",
+              "case_id": "C018-M4.2",
+              "v": "0.991",
+              "status": "reported"
+            },
+            {
+              "suffix": "480",
+              "case_id": "C018-M4.8",
+              "v": "1.133",
+              "status": "reported"
+            },
+            {
+              "suffix": "540",
+              "case_id": "C018-M5.4",
+              "v": "1.273",
+              "status": "reported"
+            },
+            {
+              "suffix": "600",
+              "case_id": "C018-M6.0",
+              "v": "1.416",
+              "status": "reported"
+            },
+            {
+              "suffix": "660",
+              "case_id": "C018-M6.6",
+              "v": "1.558",
+              "status": "reported"
+            },
+            {
+              "suffix": "720",
+              "case_id": "C018-M7.2",
+              "v": "1.700",
+              "status": "reported"
+            },
+            {
+              "suffix": "780",
+              "case_id": "C018-M7.8",
+              "v": "1.841",
+              "status": "reported"
+            },
+            {
+              "suffix": "840",
+              "case_id": "C018-M8.4",
+              "v": "NA",
+              "status": "NA"
+            }
+          ],
+          "condition_id": "water",
+          "ratio_name": "gas_liquid_wave_velocity_ratio",
+          "ratio_symbol": "n",
+          "reported_ratio_value": "{v}",
+          "normalized_ratio_value": "{v}",
+          "value_status": "{status}",
+          "numerator_name": "gas shock-wave velocity u_g",
+          "numerator_role": "other",
+          "numerator_type": "wave_velocity",
+          "numerator_location": "gas phase",
+          "numerator_time_basis": "initial",
+          "denominator_name": "liquid transmitted-wave velocity u_l",
+          "denominator_role": "other",
+          "denominator_type": "wave_velocity",
+          "denominator_location": "water droplet",
+          "denominator_time_basis": "initial",
+          "ratio_definition": "n=u_g/u_l",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Ms=8.4 water value absent in Table 1."
+        }
+      ],
+      "dimensionless_definitions": [
+        {
+          "key": "dim_we",
+          "parameter": "we",
+          "dimensionless_name": "We",
+          "symbol": "We",
+          "formula_reported": "rho_post*u_post^2*D0/sigma",
+          "definition_status": "complete_reported",
+          "reference_velocity": "ucomp",
+          "reference_density": "rhocomp",
+          "reference_length": "dcomp",
+          "reference_surface_tension": "sigcomp",
+          "parameter_context": "post_shock_aerodynamic",
+          "reference_frame": "droplet_fixed",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Component meanings linked; standalone numeric components remain source-limited NV."
+        },
+        {
+          "key": "dim_re",
+          "parameter": "re",
+          "dimensionless_name": "Re",
+          "symbol": "Re",
+          "formula_reported": "rho_post*u_post*D0/mu",
+          "definition_status": "complete_reported",
+          "reference_velocity": "ucomp",
+          "reference_density": "rhocomp",
+          "reference_length": "dcomp",
+          "reference_viscosity": "mucomp",
+          "parameter_context": "post_shock_aerodynamic",
+          "reference_frame": "droplet_fixed",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Component meanings linked."
+        },
+        {
+          "key": "dim_ms{suffix}",
+          "for_each": [
+            {
+              "suffix": "175",
+              "param": "ms_175"
+            },
+            {
+              "suffix": "240",
+              "param": "ms_240"
+            },
+            {
+              "suffix": "300",
+              "param": "ms_300"
+            },
+            {
+              "suffix": "360",
+              "param": "ms_360"
+            },
+            {
+              "suffix": "420",
+              "param": "ms_420"
+            },
+            {
+              "suffix": "480",
+              "param": "ms_480"
+            },
+            {
+              "suffix": "540",
+              "param": "ms_540"
+            },
+            {
+              "suffix": "600",
+              "param": "ms_600"
+            },
+            {
+              "suffix": "660",
+              "param": "ms_660"
+            },
+            {
+              "suffix": "720",
+              "param": "ms_720"
+            },
+            {
+              "suffix": "780",
+              "param": "ms_780"
+            },
+            {
+              "suffix": "840",
+              "param": "ms_840"
+            }
+          ],
+          "parameter": "{param}",
+          "dimensionless_name": "Mach",
+          "symbol": "M_s",
+          "formula_reported": "incident shock speed / pre-shock air speed of sound",
+          "definition_status": "complete_reported",
+          "parameter_context": "incident_shock",
+          "reference_frame": "laboratory",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Incident shock propagation Mach; not local jet or detonation Mach."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "low",
+          "case_id": "ALL",
+          "condition_id": "n_less_than_1",
+          "source_process": "reflected_expansion_wave_convergence",
+          "relation_type": "correlates_with",
+          "target_process": "negative_peak_pressure_location",
+          "support_type": "simulation_resolved",
+          "locator": "trend",
+          "verification_status": "verified",
+          "notes": "Alignment holds primarily at low gas-liquid wave-speed ratio."
+        },
+        {
+          "key": "machstem",
+          "case_id": "ALL",
+          "condition_id": "high_n",
+          "source_process": "Mach_stem_boundary_motion",
+          "relation_type": "modifies",
+          "target_process": "internal_transmitted_wave_envelope_and_focus",
+          "support_type": "model_based",
+          "locator": "model",
+          "verification_status": "verified",
+          "notes": "Improved theoretical model."
+        },
+        {
+          "key": "four",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "shock_relaxation_fluctuation_and_expansion_effects",
+          "relation_type": "couples_with",
+          "target_process": "total_internal_pressure_drop_and_NPP",
+          "support_type": "simulation_resolved",
+          "locator": "factors",
+          "verification_status": "verified",
+          "notes": "Expansion-wave focusing is only one contribution."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-C018-C01",
+          "claim": "Focus-point and negative-peak-pressure locations align at low gas-liquid wave-speed ratio but diverge at high ratio.",
+          "evidence_type": "simulation_resolved",
+          "evidence_summary": "Complete Ms/liquid case matrix shows NPP location becoming approximately constant at high n while the theoretical focus continues its decreasing trend.",
+          "locator": "conclusion",
+          "support_type": "simulation_resolved",
+          "limitations": "Five-equation model has no phase transition, so cavitation itself is not resolved.",
+          "parameters": [
+            "ms_240",
+            "nwater_240",
+            "ms_480",
+            "nhex_480"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "low"
+            ],
+            [
+              "history",
+              "npplocation"
+            ]
+          ],
+          "potential_chapter_role": "Internal-wave mechanism and cavitation-location caution."
+        },
+        {
+          "claim_id": "T1-C018-C02",
+          "claim": "Including Mach-stem motion improves the theoretical internal-wave envelope for high wave-speed-ratio cases.",
+          "evidence_type": "model_based",
+          "evidence_summary": "Ray-tracing model switches the disturbance initiator from incident shock to Mach stem where appropriate.",
+          "locator": "model",
+          "support_type": "model_based",
+          "limitations": "Two-dimensional cylindrical geometry and fitted Mach-stem trajectory.",
+          "parameters": [
+            "ms_480",
+            "nhex_480"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "machstem"
+            ]
+          ],
+          "potential_chapter_role": "High-ratio correction to internal-wave models."
+        },
+        {
+          "claim_id": "T1-C018-C03",
+          "claim": "The negative peak pressure results from the combined shock, relaxation, fluctuation, and expansion-wave effects rather than expansion-wave focusing alone.",
+          "evidence_type": "simulation_resolved",
+          "evidence_summary": "Pressure histories and wave-count comparison show the focus maximizes the expansion-wave contribution, while NPP has the largest total pressure drop.",
+          "locator": "conclusion",
+          "support_type": "simulation_resolved",
+          "limitations": "No cavitation phase transition; pressure-factor decomposition requires further validation.",
+          "parameters": [
+            "we",
+            "re"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "four"
+            ],
+            [
+              "event",
+              "npp"
+            ],
+            [
+              "history",
+              "npppressure"
+            ]
+          ],
+          "potential_chapter_role": "Multi-contribution pressure mechanism in early shock-droplet interaction."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "reflected_expansion_focus",
+          "relation_type": "correlates_with",
+          "target_node": "NPP_location_at_low_n",
+          "support_type": "simulation_resolved",
+          "candidate_claim_id": "T1-C018-C01",
+          "locator": "trend",
+          "verification_status": "verified",
+          "notes": "Correlation is not universal at high n."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "Mach_stem_motion",
+          "relation_type": "modifies",
+          "target_node": "internal_wave_focus",
+          "support_type": "model_based",
+          "candidate_claim_id": "T1-C018-C02",
+          "locator": "model",
+          "verification_status": "verified",
+          "notes": "Improved model relation."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "four_pressure_effects",
+          "relation_type": "couples_with",
+          "target_node": "negative_peak_pressure",
+          "support_type": "simulation_resolved",
+          "candidate_claim_id": "T1-C018-C03",
+          "locator": "factors",
+          "verification_status": "verified",
+          "notes": "No single-factor causality claim."
+        }
+      ],
+      "note_sections": [
+        "- Title: Exploration of shock-droplet interaction based on high-fidelity simulation and improved theoretical model\n- Paper ID / source record: C018 / C-SD-11\n- Original PDF: `02_PDF_Raw/C/C-SD-11_2024_Xiong_ShockDroplet_HighFidelitySimulation_TheoreticalModel.pdf`",
+        "High-fidelity primary test of early internal-wave and pressure mechanisms across low/high gas-liquid wave-speed ratios.",
+        "Does reflected-expansion-wave focusing identify the NPP/cavitation site across liquid properties and shock strengths, and how must the theory change at high wave-speed ratio?",
+        "2D high-order compressible multiphase simulation with MFC plus improved ray-tracing model; cylindrical water/n-hexane droplets.",
+        "Planar incident shock, half-domain 14D0 x 6D0, 800 cells/D0, reflective symmetry boundary.",
+        "Pre-shock air and droplet start at atmospheric pressure. Ms spans 1.75-8.4; Table 1 preserves ppost/ppre, rhopost/rhopre, and n for both liquids.",
+        "Incident, transmitted, reflected, expansion waves and Mach stem form an internal wave envelope whose topology changes with n.",
+        "Water and n-hexane droplets; densities 1000 and 657 kg/m3 at NTP. No phase-transition model.",
+        "Ms is incident shock Mach in laboratory frame. We=rho_post u_post^2 D0/sigma and Re=rho_post u_post D0/mu; ranges and source-limited components are linked.",
+        "NPP history is figure-only; characteristic nondimensional occurrence is near t*=1.25, slightly earlier at higher Ms.",
+        "At low n the NPP and focus positions align; at high n the NPP tends toward a constant while theoretical focus shifts. Mach stem must be included.",
+        "Table 1 contains 12 Ms cases, pressure/density jump ratios, and liquid-specific n values; all are retained case-by-case.",
+        "Internal pressure evolution contains shock, relaxation, fluctuation, and expansion-wave contributions. Expansion focusing alone does not determine total NPP.",
+        "Incident/Mach-stem forcing -> transmitted/reflected wave envelope -> expansion contribution plus relaxation/fluctuation -> total NPP -> potential cavitation site.",
+        "No ignition/combustion; relevance is early pressure mechanism and possible cavitation/breakup consequences.",
+        "Configuration p.4; Table 1 and We/Re p.5; Table 2 p.6; NPP history p.9; NPP/focus trend p.13; improved model pp.20-22; factors pp.23-28; conclusion pp.28-29.",
+        "All case values are reported. No external property completion, project derivation, or figure digitization.",
+        "2D cylindrical geometry; no phase transition; cavitation location is inferred from NPP rather than directly resolved; model uses fitted Mach-stem trajectory.",
+        "T1-C018-C01 to C03 separate correlation, model correction, and multi-factor pressure mechanism.",
+        "Compare C016/C031 and later C019; do not equate focus point with NPP or cavitation site without wave-speed-ratio context.",
+        "None. The named wave-speed ratio is represented with generic parameter plus ratio_definitions; no Schema change.",
+        "Provides rigorous early-stage mechanism constraints for shock-droplet pressure histories.",
+        "- [x] Identity/readability/full text/page map\n- [x] Twelve Ms cases preserved\n- [x] Mach/We/Re definitions and named ratios linked\n- [x] Events/histories/process relations registered\n- [x] Evidence card created\n- Reading status: **complete**; extraction status: **complete**; final human verification: pending"
+      ],
+      "key_results": [
+        "NPP and focus align at low n but diverge at high n.",
+        "Mach-stem information extends the theoretical model to high n.",
+        "Four pressure contributions determine total NPP."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Mach-stem/incident-wave forcing modifies the internal wave envelope; shock, relaxation, fluctuation, and expansion effects jointly set NPP.",
+          "support_type": "simulation_resolved_and_model_based"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Canonical PDF only.",
+        "Complete Table 1 case matrix preserved.",
+        "No phase-change inference and no curve digitization."
+      ],
+      "extraction_status": "complete"
+    }
+  ]
+}

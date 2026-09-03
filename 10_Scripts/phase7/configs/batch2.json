@@ -1,0 +1,3223 @@
+{
+  "batch_id": "T1-Batch-2",
+  "papers": [
+    {
+      "paper_id": "C019",
+      "source_record_id": "C-SD-12",
+      "library": "C",
+      "pdf_relpath": "02_PDF_Raw/C/C-SD-12_2025_Chen_Droplet_DivergentShockWave_Dynamics.pdf.pdf",
+      "tier1_role": "Primary numerical evidence on curvature-controlled wave loading, deformation, and instability inception for a droplet struck by a cylindrical divergent shock.",
+      "study_context": "High-resolution two-dimensional compressible two-phase simulations of a cylindrical water droplet under divergent and planar shocks.",
+      "cases": [
+        {
+          "case_id": "C019-M24-W4",
+          "description": "Ma0=2.4, R0/RD=4"
+        },
+        {
+          "case_id": "C019-M24-W6",
+          "description": "Ma0=2.4, R0/RD=6 main case"
+        },
+        {
+          "case_id": "C019-M24-W8",
+          "description": "Ma0=2.4, R0/RD=8"
+        },
+        {
+          "case_id": "C019-M24-PLANAR",
+          "description": "Ma0=2.4 planar comparison"
+        },
+        {
+          "case_id": "C019-M32-W4",
+          "description": "Ma0=3.2, R0/RD=4"
+        },
+        {
+          "case_id": "C019-M32-W6",
+          "description": "Ma0=3.2, R0/RD=6"
+        },
+        {
+          "case_id": "C019-M32-W8",
+          "description": "Ma0=3.2, R0/RD=8"
+        },
+        {
+          "case_id": "C019-M32-PLANAR",
+          "description": "Ma0=3.2 planar comparison"
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Study scope and principal curvature findings."
+        },
+        {
+          "key": "setup",
+          "pdf_page": "3",
+          "section": "2. Physical model",
+          "figure": "1",
+          "raw_locator": "PDF p.3, Section 2, Fig. 1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Droplet diameter, ambient state, Ma0 and omega definitions."
+        },
+        {
+          "key": "method",
+          "pdf_page": "6",
+          "section": "3.3 Numerical verification and validation",
+          "equation": "2.5",
+          "raw_locator": "PDF p.6, Section 3.3, Eq. (2.5)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Time normalization, shock-contact origin and mesh."
+        },
+        {
+          "key": "limits",
+          "pdf_page": "8",
+          "section": "3.3 Numerical verification and validation",
+          "figure": "4",
+          "raw_locator": "PDF p.8, capillary/viscous limitation discussion",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Two-dimensionality and omitted surface tension/viscosity."
+        },
+        {
+          "key": "main",
+          "pdf_page": "9",
+          "section": "4.1 Shock-droplet interaction dynamics",
+          "figure": "5",
+          "raw_locator": "PDF p.9, Section 4.1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Main Ma0=2.4, omega=6 case and early wave sequence."
+        },
+        {
+          "key": "kh",
+          "pdf_page": "16",
+          "section": "4.3 Analysis of the starting point of K-H instability",
+          "equation": "4.4-4.6",
+          "figure": "11",
+          "raw_locator": "PDF p.16, Section 4.3, Eqs. (4.4)-(4.6), Fig. 11",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Tangential/normal components and K-H inception."
+        },
+        {
+          "key": "table1",
+          "pdf_page": "18",
+          "section": "4.3 Analysis of the starting point of K-H instability",
+          "table": "1",
+          "raw_locator": "PDF p.18, Table 1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Critical, fixed, and diffraction angles."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "22",
+          "section": "Conclusion",
+          "raw_locator": "PDF pp.22-23, Conclusion",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Curvature effects, mechanisms and limitations."
+        }
+      ],
+      "events": [
+        {
+          "key": "contact",
+          "case_id": "C019-M24-W6",
+          "condition_id": "C019-M24-W6",
+          "event_type": "shock_arrival",
+          "event_label": "incident divergent shock first touches windward surface",
+          "event_domain": "wave_droplet",
+          "reported_time": "0",
+          "reported_time_unit": "t",
+          "normalized_time": "0",
+          "normalized_time_unit": "t*",
+          "signed_offset": "0",
+          "offset_unit": "t*",
+          "event_status": "reference_only",
+          "locator": "method",
+          "verification_status": "verified",
+          "notes": "Definition of t0 and origin of t*."
+        },
+        {
+          "key": "fixed_rest",
+          "case_id": "C019-M24-W6",
+          "condition_id": "C019-M24-W6",
+          "event_type": "other",
+          "event_label": "windward fixed point becomes relatively immobile and K-H starts nearby",
+          "event_domain": "droplet_response",
+          "reported_time": "0.15",
+          "reported_time_unit": "t*",
+          "normalized_time": "0.15",
+          "normalized_time_unit": "t*",
+          "reference_event": "contact",
+          "signed_offset": "0.15",
+          "offset_unit": "t*",
+          "event_status": "reported",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Approximate nondimensional time stated in text."
+        }
+      ],
+      "histories": [
+        {
+          "key": "deform_hist",
+          "case_id": "C019-M24-W6",
+          "condition_id": "C019-M24-W6",
+          "variable_name": "droplet deformation and global dynamics",
+          "variable_role": "simulated_output",
+          "parameter_context": "divergent_shock_droplet",
+          "reference_event": "contact",
+          "history_type": "other",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "0.80",
+          "time_unit": "t*",
+          "locator": "conclusion",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Only explicit labels and textual trends retained; no figure digitization."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "numerical",
+          "value_status": "reported",
+          "definition": "Two-dimensional high-resolution compressible multiphase simulation.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "shock_droplet",
+          "notes": "Primary numerical study."
+        },
+        {
+          "key": "d0",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "droplet_diameter_initial",
+          "reported_value": "4.8",
+          "reported_unit": "mm",
+          "value_status": "reported",
+          "definition": "Initial cylindrical water-droplet diameter.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "shock_droplet",
+          "notes": "Cylindrical droplet in 2-D."
+        },
+        {
+          "key": "temp",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "ambient_conditions",
+          "parameter_name": "ambient_temperature",
+          "reported_value": "300",
+          "reported_unit": "K",
+          "value_status": "reported",
+          "definition": "Initial equilibrium temperature of droplet and unshocked gas.",
+          "source_type": "text",
+          "parameter_role": "initial_condition",
+          "parameter_context": "pre_shock",
+          "notes": "Reported initial state."
+        },
+        {
+          "key": "press",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "ambient_conditions",
+          "parameter_name": "ambient_pressure",
+          "reported_value": "101325",
+          "reported_unit": "Pa",
+          "value_status": "reported",
+          "definition": "Initial equilibrium pressure of droplet and unshocked gas.",
+          "source_type": "text",
+          "parameter_role": "initial_condition",
+          "parameter_context": "pre_shock",
+          "notes": "Pressure reference type not explicitly stated."
+        },
+        {
+          "key": "mesh",
+          "locator": "method",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "numerical_method",
+          "parameter_name": "mesh_resolution",
+          "reported_value": "800 grids per droplet diameter",
+          "value_status": "reported",
+          "definition": "Uniform Cartesian resolution used for production simulations.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "numerical_resolution",
+          "notes": "2-D diffuse-interface calculation."
+        },
+        {
+          "key": "ms_{suffix}",
+          "locator": "table1",
+          "parameter_group": "shock_structure",
+          "parameter_name": "incident_shock_Mach",
+          "reported_value": "{ma}",
+          "value_status": "reported",
+          "definition": "Incident shock Mach Ma0 at first contact.",
+          "source_type": "table",
+          "parameter_role": "model_input",
+          "parameter_context": "incident_shock",
+          "reference_frame": "laboratory",
+          "for_each": [
+            {
+              "suffix": "24w4",
+              "case_id": "C019-M24-W4",
+              "condition_id": "C019-M24-W4",
+              "ma": "2.4"
+            },
+            {
+              "suffix": "24w6",
+              "case_id": "C019-M24-W6",
+              "condition_id": "C019-M24-W6",
+              "ma": "2.4"
+            },
+            {
+              "suffix": "24w8",
+              "case_id": "C019-M24-W8",
+              "condition_id": "C019-M24-W8",
+              "ma": "2.4"
+            },
+            {
+              "suffix": "24p",
+              "case_id": "C019-M24-PLANAR",
+              "condition_id": "C019-M24-PLANAR",
+              "ma": "2.4"
+            },
+            {
+              "suffix": "32w4",
+              "case_id": "C019-M32-W4",
+              "condition_id": "C019-M32-W4",
+              "ma": "3.2"
+            },
+            {
+              "suffix": "32w6",
+              "case_id": "C019-M32-W6",
+              "condition_id": "C019-M32-W6",
+              "ma": "3.2"
+            },
+            {
+              "suffix": "32w8",
+              "case_id": "C019-M32-W8",
+              "condition_id": "C019-M32-W8",
+              "ma": "3.2"
+            },
+            {
+              "suffix": "32p",
+              "case_id": "C019-M32-PLANAR",
+              "condition_id": "C019-M32-PLANAR",
+              "ma": "3.2"
+            }
+          ]
+        },
+        {
+          "key": "omega_{suffix}",
+          "locator": "table1",
+          "parameter_group": "shock_structure",
+          "parameter_name": "shock_radius_over_D",
+          "reported_value": "{omega}",
+          "value_status": "reported",
+          "definition": "omega=R0/RD, shock curvature radius divided by droplet radius.",
+          "source_type": "table",
+          "parameter_role": "model_input",
+          "parameter_context": "incident_shock",
+          "reference_frame": "droplet_fixed",
+          "for_each": [
+            {
+              "suffix": "24w4",
+              "case_id": "C019-M24-W4",
+              "condition_id": "C019-M24-W4",
+              "omega": "4"
+            },
+            {
+              "suffix": "24w6",
+              "case_id": "C019-M24-W6",
+              "condition_id": "C019-M24-W6",
+              "omega": "6"
+            },
+            {
+              "suffix": "24w8",
+              "case_id": "C019-M24-W8",
+              "condition_id": "C019-M24-W8",
+              "omega": "8"
+            },
+            {
+              "suffix": "32w4",
+              "case_id": "C019-M32-W4",
+              "condition_id": "C019-M32-W4",
+              "omega": "4"
+            },
+            {
+              "suffix": "32w6",
+              "case_id": "C019-M32-W6",
+              "condition_id": "C019-M32-W6",
+              "omega": "6"
+            },
+            {
+              "suffix": "32w8",
+              "case_id": "C019-M32-W8",
+              "condition_id": "C019-M32-W8",
+              "omega": "8"
+            }
+          ]
+        },
+        {
+          "key": "planar_{suffix}",
+          "locator": "table1",
+          "parameter_group": "shock_structure",
+          "parameter_name": "shock_geometry",
+          "reported_value": "planar",
+          "value_status": "reported",
+          "definition": "Planar-shock comparison; no numeric curvature encoded.",
+          "source_type": "table",
+          "parameter_role": "classification",
+          "parameter_context": "incident_shock",
+          "for_each": [
+            {
+              "suffix": "24",
+              "case_id": "C019-M24-PLANAR",
+              "condition_id": "C019-M24-PLANAR"
+            },
+            {
+              "suffix": "32",
+              "case_id": "C019-M32-PLANAR",
+              "condition_id": "C019-M32-PLANAR"
+            }
+          ]
+        },
+        {
+          "key": "fixed_angle_{suffix}",
+          "locator": "table1",
+          "parameter_group": "droplet_response",
+          "parameter_name": "KH_indicator",
+          "reported_value": "{angle}",
+          "reported_unit": "deg",
+          "value_status": "reported",
+          "definition": "Finally resting windward fixed-point angle theta_f, coincident with K-H inception site.",
+          "source_type": "table",
+          "parameter_role": "simulated_output",
+          "parameter_context": "windward_surface",
+          "reference_frame": "droplet_fixed",
+          "for_each": [
+            {
+              "suffix": "24w4",
+              "case_id": "C019-M24-W4",
+              "condition_id": "C019-M24-W4",
+              "angle": "43.71"
+            },
+            {
+              "suffix": "24w6",
+              "case_id": "C019-M24-W6",
+              "condition_id": "C019-M24-W6",
+              "angle": "48.46"
+            },
+            {
+              "suffix": "24w8",
+              "case_id": "C019-M24-W8",
+              "condition_id": "C019-M24-W8",
+              "angle": "50.36"
+            },
+            {
+              "suffix": "24p",
+              "case_id": "C019-M24-PLANAR",
+              "condition_id": "C019-M24-PLANAR",
+              "angle": "52.24"
+            },
+            {
+              "suffix": "32w4",
+              "case_id": "C019-M32-W4",
+              "condition_id": "C019-M32-W4",
+              "angle": "43.24"
+            },
+            {
+              "suffix": "32w6",
+              "case_id": "C019-M32-W6",
+              "condition_id": "C019-M32-W6",
+              "angle": "49.32"
+            },
+            {
+              "suffix": "32w8",
+              "case_id": "C019-M32-W8",
+              "condition_id": "C019-M32-W8",
+              "angle": "49.81"
+            },
+            {
+              "suffix": "32p",
+              "case_id": "C019-M32-PLANAR",
+              "condition_id": "C019-M32-PLANAR",
+              "angle": "50.37"
+            }
+          ]
+        }
+      ],
+      "dimensionless_definitions": [],
+      "process_relations": [
+        {
+          "key": "curvature_shear",
+          "case_id": "C019-M24-W6",
+          "condition_id": "C019-M24-W6",
+          "source_process": "divergent_shock_curvature",
+          "relation_type": "modifies",
+          "target_process": "surface_normal_and_tangential_loading",
+          "support_type": "simulation_resolved",
+          "locator": "kh",
+          "verification_status": "verified",
+          "notes": "Divergent geometry weakens normal impingement and strengthens tangential loading relative to planar case."
+        },
+        {
+          "key": "internal_external",
+          "case_id": "C019-M24-W6",
+          "condition_id": "C019-M24-W6",
+          "source_process": "combined_external_and_internal_wave_impingement",
+          "relation_type": "promotes",
+          "target_process": "windward_fixed_point_and_KH_inception",
+          "support_type": "model_based",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Authors' theoretical analysis connects fixed-point inception to transmitted-shock contact."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-C019-C01",
+          "claim": "For the modeled divergent shock, curvature shifts ligament formation upstream and sustains greater spanwise extension relative to the planar comparison.",
+          "evidence_type": "primary_numerical",
+          "evidence_summary": "Full-field comparisons resolve altered normal and tangential loading and associated ligament morphology.",
+          "locator": "conclusion",
+          "support_type": "simulation_resolved",
+          "limitations": "Two-dimensional cylindrical droplet; viscosity, capillarity and phase transition omitted.",
+          "parameters": [
+            "omega_24w6",
+            "ms_24w6"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "curvature_shear"
+            ]
+          ],
+          "potential_chapter_role": "Curved-shock loading and deformation."
+        },
+        {
+          "claim_id": "T1-C019-C02",
+          "claim": "The windward K-H inception site nearly coincides with a migrating fixed point created by combined external and internal wave loading.",
+          "evidence_type": "numerical_plus_model",
+          "evidence_summary": "Table 1 and the theoretical construction connect the critical transmitted-shock contact point to the final fixed point and K-H onset.",
+          "locator": "table1",
+          "support_type": "model_based",
+          "limitations": "Mechanism is developed for the simplified two-dimensional configuration.",
+          "parameters": [
+            "fixed_angle_24w6"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "internal_external"
+            ],
+            [
+              "event",
+              "fixed_rest"
+            ]
+          ],
+          "potential_chapter_role": "Instability inception mechanism."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "C019-M24-W6",
+          "source_node": "shock_curvature",
+          "relation_type": "modifies",
+          "target_node": "droplet_surface_loading_and_ligament_deformation",
+          "support_type": "simulation_resolved",
+          "candidate_claim_id": "T1-C019-C01",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Primary numerical evidence."
+        },
+        {
+          "case_id": "C019-M24-W6",
+          "source_node": "external_internal_wave_impingement",
+          "relation_type": "promotes",
+          "target_node": "fixed_point_and_KH_inception",
+          "support_type": "model_based",
+          "candidate_claim_id": "T1-C019-C02",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Author theoretical interpretation."
+        }
+      ],
+      "note_sections": [
+        "C019 / C-SD-12. Title and authors verified on PDF p.1; canonical raw PDF unchanged.",
+        "Primary numerical curvature-response evidence.",
+        "How does divergent-shock curvature alter droplet deformation, K-H inception and global dynamics?",
+        "Two-dimensional compressible two-phase simulations of a cylindrical water droplet; divergent and planar shocks compared.",
+        "D0=4.8 mm; Ma0=2.4 and 3.2; omega=R0/RD=4, 6, 8 and planar limit.",
+        "Droplet and unshocked gas initially 300 K and 101325 Pa.",
+        "Incident/reflected/transmitted waves, Mach reflection, internal rarefaction/compression reflections, and diffraction are resolved.",
+        "Single cylindrical water droplet; capillary and viscous forces omitted.",
+        "Ma0 and omega are explicitly contextualized; validation discussion gives We and Re only for a separate check, not merged into main cases.",
+        "t*=t ug/(RD sqrt(rho_l/rho_g)); t0 is first windward contact; wave establishment is approximately t*<=0.10.",
+        "Divergent curvature moves ligaments toward the front, strengthens spanwise extension, slows streamwise response and weakens fragmentation relative to planar loading.",
+        "Table 1 preserves theta_f for eight Ma0/curvature cases; the main case rests near theta_f=48.46 degrees at t* about 0.15.",
+        "Authors attribute K-H inception to the fixed point formed by combined external and internal impingement and later exposed mainly to shear.",
+        "Divergent shock -> altered tangential/normal loading -> fixed-point migration/K-H inception -> ligament deformation and fragmentation.",
+        "NA: nonreacting calculation without mixing, ignition or combustion.",
+        "Key sources: Fig.1; Eq.2.5; Figs.5, 9, 11; Eqs.4.4-4.8; Table 1; Conclusion.",
+        "All numeric records are reported. No derived or inferred numeric records and no figure digitization.",
+        "Two-dimensional cylindrical geometry; no viscosity, surface tension, phase change, or three-dimensional curvature tensor effects.",
+        "T1-C019-C01 and T1-C019-C02.",
+        "Provides a geometry-sensitive comparison hook against planar-shock studies; no cross-paper conclusion is asserted.",
+        "No blocking gap. Three-dimensional curvature remains a source/model limitation, not a Schema gap.",
+        "Shock geometry, instability inception and droplet-response mainline.",
+        "Full text read; cases, locators, parameters, events, history, mechanisms and evidence checked."
+      ],
+      "key_results": [
+        "Curvature principally changes equatorial ligament behavior rather than centerline compression.",
+        "The final fixed-point/K-H angle shifts with curvature radius while shock intensity mainly changes the critical contact angle."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Curvature redistributes surface-normal and tangential loading; coupled internal/external waves establish the fixed point where K-H develops.",
+          "support_type": "model_based"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Canonical PDF only.",
+        "No digitization.",
+        "Planar curvature was not encoded as numeric zero."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "C024",
+      "source_record_id": "C-ST-04",
+      "library": "C",
+      "pdf_relpath": "02_PDF_Raw/C/C-ST-04_2023_DukeWalker_SmallDroplet_BreakupEvaporation_HighWeber.pdf",
+      "tier1_role": "Primary experiment and model comparison for simultaneous breakup and evaporation of micrometre acetone droplets at high Weber number.",
+      "study_context": "Shock-tube droplet curtain experiment with PDPA, shadowgraphy, Mie scattering and PLIF, plus a simplified child-droplet-cloud model.",
+      "cases": [
+        {
+          "case_id": "C024-D10",
+          "description": "D10 parent-size statistic, 14.16 um"
+        },
+        {
+          "case_id": "C024-D32",
+          "description": "D32 parent-size statistic, 37.3 um"
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Scope and principal model conclusion."
+        },
+        {
+          "key": "defs",
+          "pdf_page": "2",
+          "section": "2. Background",
+          "equation": "We, Re, Oh definitions",
+          "raw_locator": "PDF p.2, dimensionless definitions",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Definitions and reference variables."
+        },
+        {
+          "key": "table1",
+          "pdf_page": "5",
+          "section": "3.2 Initial conditions",
+          "table": "1",
+          "raw_locator": "PDF p.5, Table 1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "D10/D32, Oh, We and Re."
+        },
+        {
+          "key": "table3",
+          "pdf_page": "6",
+          "section": "3.3 Experimental diagnostics",
+          "table": "3",
+          "raw_locator": "PDF p.6, Table 3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Shock Mach and post-shock conditions."
+        },
+        {
+          "key": "sequence",
+          "pdf_page": "7",
+          "section": "4.1 Qualitative description",
+          "figure": "7-8",
+          "raw_locator": "PDF p.7, Section 4.1, Figs. 7-8",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Breakup, cloud growth and evaporation intervals."
+        },
+        {
+          "key": "model",
+          "pdf_page": "10",
+          "section": "5.4 Breakup models",
+          "figure": "15-16",
+          "raw_locator": "PDF p.10, Section 5.4",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Characteristic time and breakup models."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "13",
+          "section": "6. Conclusion",
+          "raw_locator": "PDF p.13, Conclusion",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Quantitative ranges and model assessment."
+        }
+      ],
+      "events": [
+        {
+          "key": "shock",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "shock_arrival",
+          "event_label": "shock reaches droplet curtain",
+          "event_domain": "wave_droplet",
+          "reported_time": "0",
+          "reported_time_unit": "us",
+          "normalized_time": "0",
+          "normalized_time_unit": "us",
+          "signed_offset": "0",
+          "offset_unit": "us",
+          "event_status": "reference_only",
+          "locator": "sequence",
+          "verification_status": "verified",
+          "notes": "Experimental time origin."
+        },
+        {
+          "key": "cloud_growth",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "other",
+          "event_label": "child-droplet cloud growth begins",
+          "event_domain": "breakup",
+          "reported_time": "8.4",
+          "reported_time_unit": "us",
+          "normalized_time": "8.4",
+          "normalized_time_unit": "us",
+          "reference_event": "shock",
+          "signed_offset": "8.4",
+          "offset_unit": "us",
+          "event_status": "reported",
+          "locator": "sequence",
+          "verification_status": "verified",
+          "notes": "Boundary stated in qualitative sequence."
+        },
+        {
+          "key": "evap_stage",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "evaporation",
+          "event_label": "late evaporation-dominated stage begins",
+          "event_domain": "phase_change",
+          "reported_time": "98",
+          "reported_time_unit": "us",
+          "normalized_time": "98",
+          "normalized_time_unit": "us",
+          "reference_event": "shock",
+          "signed_offset": "98",
+          "offset_unit": "us",
+          "event_status": "reported",
+          "locator": "sequence",
+          "verification_status": "verified",
+          "notes": "Boundary stated in qualitative sequence."
+        }
+      ],
+      "intervals": [
+        {
+          "key": "breakup_interval",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "interval_type": "breakup_interval",
+          "start_event": "shock",
+          "end_event": "cloud_growth",
+          "reported_duration": "0.4-8.4",
+          "reported_unit": "us",
+          "value_status": "reported",
+          "definition": "Textual interval assigned to parent-droplet breakup.",
+          "locator": "sequence",
+          "verification_status": "verified",
+          "notes": "Range preserved exactly; no single duration derived."
+        },
+        {
+          "key": "growth_interval",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "interval_type": "other_reported",
+          "start_event": "cloud_growth",
+          "end_event": "evap_stage",
+          "reported_duration": "8.4-98",
+          "reported_unit": "us",
+          "value_status": "reported",
+          "definition": "Child-droplet-cloud growth interval.",
+          "locator": "sequence",
+          "verification_status": "verified",
+          "notes": "Typed as other reported rather than conflated with breakup."
+        }
+      ],
+      "histories": [
+        {
+          "key": "cloud_hist",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "variable_name": "child droplet cloud dimensions and scattered-light intensity",
+          "variable_role": "measured_output",
+          "parameter_context": "post_breakup_cloud",
+          "reference_event": "shock",
+          "history_type": "evaporation_history",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "300",
+          "time_unit": "us",
+          "locator": "sequence",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "No plotted points digitized."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "mixed",
+          "value_status": "reported",
+          "definition": "Shock-tube experiment plus simplified CDC modeling.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "shock_droplet_curtain",
+          "notes": "Primary experimental study with modeling."
+        },
+        {
+          "key": "mach",
+          "locator": "table3",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "shock_structure",
+          "parameter_name": "incident_shock_Mach",
+          "reported_value": "2.09",
+          "reported_uncertainty": "0.01",
+          "value_status": "reported",
+          "definition": "Incident shock Mach number.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "incident_shock",
+          "reference_frame": "laboratory",
+          "notes": "Mean plus reported uncertainty."
+        },
+        {
+          "key": "u",
+          "locator": "table3",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "shock_structure",
+          "parameter_name": "post_shock_velocity",
+          "reported_value": "461.3",
+          "reported_unit": "m/s",
+          "reported_uncertainty": "4.6",
+          "value_status": "reported",
+          "definition": "Post-shock gas velocity.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "post_shock_freestream",
+          "reference_frame": "laboratory",
+          "notes": "Table 3."
+        },
+        {
+          "key": "rho_nv",
+          "locator": "defs",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "reference_density",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "missing_reason": "Formula names the gas density but a numeric reference density was not verified in the primary condition table.",
+          "definition": "Gas density used in We/Re.",
+          "source_type": "equation",
+          "parameter_role": "unknown",
+          "parameter_context": "post_shock_freestream",
+          "notes": "Explicit missing component; no external property lookup."
+        },
+        {
+          "key": "sigma_nv",
+          "locator": "defs",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "surface_tension",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "missing_reason": "Numeric acetone surface tension used for the reported We was not independently verified in the extracted source location.",
+          "definition": "Surface tension in We and Oh.",
+          "source_type": "equation",
+          "parameter_role": "material_property",
+          "parameter_context": "acetone_droplet",
+          "notes": "No external completion."
+        },
+        {
+          "key": "mu_nv",
+          "locator": "defs",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "liquid_viscosity",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "missing_reason": "Numeric liquid viscosity was not verified in the primary condition table.",
+          "definition": "Liquid viscosity in Oh.",
+          "source_type": "equation",
+          "parameter_role": "material_property",
+          "parameter_context": "acetone_droplet",
+          "notes": "No external completion."
+        },
+        {
+          "key": "d_{suffix}",
+          "locator": "table1",
+          "parameter_group": "spray_initial",
+          "parameter_name": "{pname}",
+          "reported_value": "{d}",
+          "reported_unit": "um",
+          "value_status": "reported",
+          "definition": "Parent-droplet size statistic used as modeled initial condition.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "droplet_curtain",
+          "for_each": [
+            {
+              "suffix": "d10",
+              "case_id": "C024-D10",
+              "condition_id": "C024-D10",
+              "pname": "D10",
+              "d": "14.16"
+            },
+            {
+              "suffix": "d32",
+              "case_id": "C024-D32",
+              "condition_id": "C024-D32",
+              "pname": "D32",
+              "d": "37.3"
+            }
+          ]
+        },
+        {
+          "key": "we_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_reported",
+          "reported_value": "{v}",
+          "reported_uncertainty": "{unc}",
+          "value_status": "reported",
+          "definition": "We=rho_g v^2 d_p/sigma.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "post_shock_freestream",
+          "dimensionless": "we_dim_{suffix}",
+          "for_each": [
+            {
+              "suffix": "d10",
+              "case_id": "C024-D10",
+              "condition_id": "C024-D10",
+              "v": "662",
+              "unc": "19"
+            },
+            {
+              "suffix": "d32",
+              "case_id": "C024-D32",
+              "condition_id": "C024-D32",
+              "v": "1743",
+              "unc": "49"
+            }
+          ]
+        },
+        {
+          "key": "re_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Re_reported",
+          "reported_value": "{v}",
+          "reported_uncertainty": "{unc}",
+          "value_status": "reported",
+          "definition": "Post-shock gas Reynolds number using parent diameter.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "post_shock_freestream",
+          "for_each": [
+            {
+              "suffix": "d10",
+              "case_id": "C024-D10",
+              "condition_id": "C024-D10",
+              "v": "1647",
+              "unc": "21"
+            },
+            {
+              "suffix": "d32",
+              "case_id": "C024-D32",
+              "condition_id": "C024-D32",
+              "v": "4338",
+              "unc": "56"
+            }
+          ]
+        },
+        {
+          "key": "oh_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Oh_reported",
+          "reported_value": "{v}",
+          "value_status": "reported",
+          "definition": "Oh=mu_l/sqrt(rho_l sigma d_p).",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "acetone_droplet",
+          "for_each": [
+            {
+              "suffix": "d10",
+              "case_id": "C024-D10",
+              "condition_id": "C024-D10",
+              "v": "0.02"
+            },
+            {
+              "suffix": "d32",
+              "case_id": "C024-D32",
+              "condition_id": "C024-D32",
+              "v": "0.01"
+            }
+          ]
+        },
+        {
+          "key": "evap",
+          "locator": "sequence",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_response",
+          "parameter_name": "evaporation_time",
+          "reported_value": "250-300",
+          "reported_unit": "us",
+          "value_status": "reported",
+          "definition": "Observed interval in which the last discernible clouds disappear.",
+          "source_type": "text",
+          "parameter_role": "measured_output",
+          "parameter_context": "child_droplet_cloud",
+          "history": "cloud_hist",
+          "notes": "Survival/evaporation interval, not a digitized point."
+        }
+      ],
+      "dimensionless_definitions": [
+        {
+          "key": "we_dim_{suffix}",
+          "parameter": "we_{suffix}",
+          "dimensionless_name": "Weber number",
+          "symbol": "We",
+          "formula_reported": "rho_g v^2 d_p / sigma",
+          "definition_status": "complete_reported",
+          "reference_velocity": "u",
+          "reference_density": "rho_nv",
+          "reference_length": "d_{suffix}",
+          "reference_surface_tension": "sigma_nv",
+          "parameter_context": "post_shock_freestream",
+          "reference_frame": "laboratory",
+          "locator": "defs",
+          "verification_status": "verified",
+          "notes": "Numeric density and surface tension components remain NV; formula is explicit.",
+          "for_each": [
+            {
+              "suffix": "d10"
+            },
+            {
+              "suffix": "d32"
+            }
+          ]
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "size_survival",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "larger_parent_droplet_size",
+          "relation_type": "correlates_with",
+          "target_process": "longer_child_cloud_survival",
+          "support_type": "direct_observation",
+          "locator": "sequence",
+          "verification_status": "verified",
+          "notes": "Textual experimental trend."
+        },
+        {
+          "key": "rt_model",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "rapid_small_droplet_acceleration",
+          "relation_type": "promotes",
+          "target_process": "Rayleigh_Taylor_dominated_breakup",
+          "support_type": "model_based",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "CDC/KHRT interpretation; empirical models fit observations better."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-C024-C01",
+          "claim": "At M about 2.09, 14.16-37.3 um acetone parent droplets experience breakup, cloud growth, and evaporation on overlapping microsecond scales.",
+          "evidence_type": "primary_experimental",
+          "evidence_summary": "Table 1 fixes We/Re by size statistic, while the image sequence separates breakup, cloud growth and late evaporation intervals.",
+          "locator": "sequence",
+          "support_type": "direct_observation",
+          "limitations": "Droplet curtain is dilute but polydisperse; deformation of individual parent droplets was below optical resolution.",
+          "parameters": [
+            "d_d10",
+            "d_d32",
+            "we_d10",
+            "we_d32",
+            "evap"
+          ],
+          "relations_events": [
+            [
+              "event",
+              "shock"
+            ],
+            [
+              "event",
+              "cloud_growth"
+            ],
+            [
+              "event",
+              "evap_stage"
+            ]
+          ],
+          "potential_chapter_role": "Small-droplet breakup/evaporation timescale overlap."
+        },
+        {
+          "claim_id": "T1-C024-C02",
+          "claim": "The simplified CDC comparison favors empirical breakup models over KHRT for cloud length and evaporation time under these conditions.",
+          "evidence_type": "experiment_model_comparison",
+          "evidence_summary": "Wert49 most closely matches the measured cloud trajectory and disappearance time; KHRT predicts rapid small KH droplets and the shortest clouds.",
+          "locator": "conclusion",
+          "support_type": "model_based",
+          "limitations": "Model discrepancies may reflect parent-drag underprediction or unrepresented larger child droplets.",
+          "parameters": [
+            "evap"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "rt_model"
+            ]
+          ],
+          "potential_chapter_role": "Breakup-model applicability."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "parent_droplet_size",
+          "relation_type": "correlates_with",
+          "target_node": "cloud_survival_time",
+          "support_type": "direct_observation",
+          "candidate_claim_id": "T1-C024-C01",
+          "locator": "sequence",
+          "verification_status": "verified",
+          "notes": "Primary experiment."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "rapid_acceleration",
+          "relation_type": "promotes",
+          "target_node": "RT_growth_and_breakup",
+          "support_type": "model_based",
+          "candidate_claim_id": "T1-C024-C02",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Author model interpretation."
+        }
+      ],
+      "note_sections": [
+        "C024 / C-ST-04. Identity verified from canonical PDF.",
+        "Primary small-droplet breakup/evaporation experiment with model testing.",
+        "How do micrometre droplets break, disperse and evaporate after a strong shock, and which simplified breakup model reproduces the cloud?",
+        "Shock-tube acetone droplet curtain; PDPA, shadowgraphy, Mie/PLIF; CDC model.",
+        "Incident M=2.09+/-0.01; post-shock velocity 461.3+/-4.6 m/s.",
+        "Initial dry air about 1 atm/293 K; acetone droplets in nitrogen/acetone vapor at 1 atm/293 K.",
+        "Planar incident shock crosses a dilute droplet curtain.",
+        "D10=14.16 um and D32=37.3 um; initial droplet interactions negligible at less than 0.01% liquid volume.",
+        "We=662+/-19 and 1743+/-49; Re=1647+/-21 and 4338+/-56; Oh=0.02 and 0.01.",
+        "Breakup 0.4-8.4 us, cloud growth 8.4-98 us, evaporation-dominated stage 98-253 us; last clouds 250-300 us.",
+        "Small droplets equilibrate quickly; size-dependent lag stretches the cloud and evaporation removes the dispersed children.",
+        "Explicit conditions and times are stored; curves remain figure-only.",
+        "Authors connect cloud length to breakup duration, parent drag and child-size distribution; KHRT points to strong RT growth.",
+        "Shock -> deformation/breakup -> size-dependent child lag/cloud growth -> evaporation.",
+        "Nonreacting acetone; vapor saturation is included in the simplified evaporation model.",
+        "Tables 1 and 3; Figs.7-8; Sections 5.2-5.4; Conclusion.",
+        "Reported records only; no curve digitization and no derived values.",
+        "Individual deformation unresolved; simplified 1-D gas and cloud modeling; polydisperse curtain.",
+        "T1-C024-C01 and T1-C024-C02.",
+        "Links breakup models to high-We small-droplet experiments; definitions remain source-specific.",
+        "No Schema gap; unverified physical-property components are NV.",
+        "Breakup/evaporation coupling and model validity.",
+        "Full text, cases, dimensionless links, events, intervals, history, mechanisms and evidence checked."
+      ],
+      "key_results": [
+        "Breakup, cloud growth and evaporation overlap on sub-300-us scales.",
+        "Empirical Wert49/Hsiang variants match observed cloud behavior better than KHRT."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Breakup creates a child-size distribution whose velocity lag controls cloud growth while evaporation progressively removes droplets.",
+          "support_type": "author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "No external property completion.",
+        "No figure digitization."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "C025",
+      "source_record_id": "C-ST-05",
+      "library": "C",
+      "pdf_relpath": "02_PDF_Raw/C/C-ST-05_2025_Ullman_ShockInduced_DropletBreakup_TimescalesStatistics.pdf",
+      "tier1_role": "Primary three-dimensional numerical evidence for shock-Mach effects on breakup timescales, secondary-droplet size statistics, and atomized-mass transfer.",
+      "study_context": "Three-dimensional adaptive VOF simulations of Mach 2 and Mach 3 shocks interacting with a 100 um water droplet.",
+      "cases": [
+        {
+          "case_id": "C025-M2",
+          "description": "Ms=2, We=822"
+        },
+        {
+          "case_id": "C025-M3",
+          "description": "Ms=3, We=3760"
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Scope and statistics."
+        },
+        {
+          "key": "setup",
+          "pdf_page": "3",
+          "section": "III. Case Configurations",
+          "figure": "1",
+          "equation": "13",
+          "raw_locator": "PDF p.3, Section III, Fig.1, Eq. (13)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Initial state, mesh, cases and Ranger-Nicholls time."
+        },
+        {
+          "key": "morph",
+          "pdf_page": "5",
+          "section": "IV. Results - displacement and deformation",
+          "figure": "4-6",
+          "raw_locator": "PDF p.5, Figs.4-6",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Self-similar spreading and piercing."
+        },
+        {
+          "key": "stats",
+          "pdf_page": "6",
+          "section": "IV. Results - droplet size distributions",
+          "figure": "7-8",
+          "raw_locator": "PDF p.6, Figs.7-8",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Bimodal size PDFs."
+        },
+        {
+          "key": "times",
+          "pdf_page": "7",
+          "section": "IV. Results - droplet breakup times",
+          "figure": "9-11",
+          "raw_locator": "PDF pp.7-8, Figs.9-11",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Induction, atomized mass and definition caveat."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "8",
+          "section": "V. Conclusions",
+          "raw_locator": "PDF p.8, Conclusions",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Quantitative summary."
+        }
+      ],
+      "events": [
+        {
+          "key": "impact_{suffix}",
+          "event_type": "shock_arrival",
+          "event_label": "shock-droplet reference interaction",
+          "event_domain": "wave_droplet",
+          "reported_time": "0",
+          "reported_time_unit": "tau",
+          "normalized_time": "0",
+          "normalized_time_unit": "tau",
+          "signed_offset": "0",
+          "offset_unit": "tau",
+          "event_status": "reference_only",
+          "locator": "setup",
+          "verification_status": "verified",
+          "notes": "Reference origin for nondimensional history.",
+          "for_each": [
+            {
+              "suffix": "m2",
+              "case_id": "C025-M2",
+              "condition_id": "C025-M2"
+            },
+            {
+              "suffix": "m3",
+              "case_id": "C025-M3",
+              "condition_id": "C025-M3"
+            }
+          ]
+        },
+        {
+          "key": "pierce_{suffix}",
+          "event_type": "breakup_onset",
+          "event_label": "windward piercing becomes prominent",
+          "event_domain": "droplet_response",
+          "reported_time": "1",
+          "reported_time_unit": "tau",
+          "normalized_time": "1",
+          "normalized_time_unit": "tau",
+          "reference_event": "impact_{suffix}",
+          "signed_offset": "1",
+          "offset_unit": "tau",
+          "event_status": "reported",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Approximate text value.",
+          "for_each": [
+            {
+              "suffix": "m2",
+              "case_id": "C025-M2",
+              "condition_id": "C025-M2"
+            },
+            {
+              "suffix": "m3",
+              "case_id": "C025-M3",
+              "condition_id": "C025-M3"
+            }
+          ]
+        }
+      ],
+      "histories": [
+        {
+          "key": "stats_{suffix}",
+          "variable_name": "secondary droplet size and mass distributions",
+          "variable_role": "simulated_output",
+          "parameter_context": "secondary_atomization",
+          "reference_event": "impact_{suffix}",
+          "history_type": "mass_history",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "{end}",
+          "time_unit": "tau",
+          "locator": "times",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Only explicit textual percentages and distribution peaks retained.",
+          "for_each": [
+            {
+              "suffix": "m2",
+              "case_id": "C025-M2",
+              "condition_id": "C025-M2",
+              "end": "2"
+            },
+            {
+              "suffix": "m3",
+              "case_id": "C025-M3",
+              "condition_id": "C025-M3",
+              "end": "2.25"
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "numerical",
+          "value_status": "reported",
+          "definition": "Three-dimensional adaptive VOF simulation.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "shock_droplet",
+          "notes": "Primary numerical evidence."
+        },
+        {
+          "key": "d0",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "droplet_diameter_initial",
+          "reported_value": "100",
+          "reported_unit": "um",
+          "value_status": "reported",
+          "definition": "Initial water-droplet diameter.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "shock_droplet",
+          "notes": "Same in both cases."
+        },
+        {
+          "key": "u_nv",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "reference_velocity",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "missing_reason": "Analytic post-shock relative speed is defined but no numeric value is tabulated in the source location.",
+          "definition": "Ur in tau and We.",
+          "source_type": "equation",
+          "parameter_role": "model_input",
+          "parameter_context": "post_shock_freestream",
+          "reference_frame": "droplet_fixed",
+          "notes": "No calculation generated."
+        },
+        {
+          "key": "rho_nv",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "reference_density",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "missing_reason": "Analytic post-shock gas density is defined but no numeric value is tabulated in the source location.",
+          "definition": "rho_g in tau and We.",
+          "source_type": "equation",
+          "parameter_role": "model_input",
+          "parameter_context": "post_shock_freestream",
+          "notes": "No calculation generated."
+        },
+        {
+          "key": "sigma_nv",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "surface_tension",
+          "reported_value": "NV",
+          "value_status": "NV",
+          "missing_reason": "The numerical surface-tension value is not explicitly reported in the verified setup passage.",
+          "definition": "Water surface tension used in We.",
+          "source_type": "equation",
+          "parameter_role": "model_input",
+          "parameter_context": "water_droplet",
+          "notes": "No external lookup."
+        },
+        {
+          "key": "ms_{suffix}",
+          "locator": "conclusion",
+          "parameter_group": "shock_structure",
+          "parameter_name": "M_s",
+          "reported_value": "{ms}",
+          "value_status": "reported",
+          "definition": "Incident shock Mach number.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "incident_shock",
+          "reference_frame": "laboratory",
+          "for_each": [
+            {
+              "suffix": "m2",
+              "case_id": "C025-M2",
+              "condition_id": "C025-M2",
+              "ms": "2"
+            },
+            {
+              "suffix": "m3",
+              "case_id": "C025-M3",
+              "condition_id": "C025-M3",
+              "ms": "3"
+            }
+          ]
+        },
+        {
+          "key": "we_{suffix}",
+          "locator": "conclusion",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_reported",
+          "reported_value": "{we}",
+          "value_status": "reported",
+          "definition": "We based on analytic post-shock gas state and initial diameter.",
+          "source_type": "text",
+          "parameter_role": "model_input",
+          "parameter_context": "post_shock_freestream",
+          "dimensionless": "we_dim_{suffix}",
+          "for_each": [
+            {
+              "suffix": "m2",
+              "case_id": "C025-M2",
+              "condition_id": "C025-M2",
+              "we": "822"
+            },
+            {
+              "suffix": "m3",
+              "case_id": "C025-M3",
+              "condition_id": "C025-M3",
+              "we": "3760"
+            }
+          ]
+        },
+        {
+          "key": "pdf",
+          "locator": "stats",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "breakup_products",
+          "parameter_name": "child_droplet_distribution",
+          "reported_value": "bimodal log-normal at tau=2, peaks d/d0 approximately 0.004 and 0.01",
+          "value_status": "reported",
+          "definition": "Number-weighted PDFs of contiguous-liquid-region Sauter mean diameters.",
+          "source_type": "text",
+          "parameter_role": "simulated_output",
+          "parameter_context": "secondary_droplets",
+          "history": "stats_m2",
+          "notes": "Explicit textual peak values, not figure digitization."
+        },
+        {
+          "key": "atom_{suffix}",
+          "locator": "conclusion",
+          "parameter_group": "phase_change",
+          "parameter_name": "mass_loss_fraction",
+          "reported_value": "{v}",
+          "reported_unit": "%",
+          "value_status": "reported",
+          "definition": "Fraction of initial liquid mass transferred into droplets below 5 um at stated tau; no evaporation modeled.",
+          "source_type": "text",
+          "parameter_role": "simulated_output",
+          "parameter_context": "atomization_degree",
+          "history": "stats_{suffix}",
+          "for_each": [
+            {
+              "suffix": "m2",
+              "case_id": "C025-M2",
+              "condition_id": "C025-M2",
+              "v": "61"
+            },
+            {
+              "suffix": "m3",
+              "case_id": "C025-M3",
+              "condition_id": "C025-M3",
+              "v": "71"
+            }
+          ]
+        }
+      ],
+      "dimensionless_definitions": [
+        {
+          "key": "we_dim_{suffix}",
+          "parameter": "we_{suffix}",
+          "dimensionless_name": "Weber number",
+          "symbol": "We",
+          "formula_reported": "post-shock rho_g Ur^2 d0 / sigma",
+          "definition_status": "incomplete_reported",
+          "reference_velocity": "u_nv",
+          "reference_density": "rho_nv",
+          "reference_length": "d0",
+          "reference_surface_tension": "sigma_nv",
+          "parameter_context": "post_shock_freestream",
+          "reference_frame": "droplet_fixed",
+          "locator": "setup",
+          "verification_status": "verified",
+          "notes": "Reference roles are explicit; numeric components remain NV.",
+          "for_each": [
+            {
+              "suffix": "m2"
+            },
+            {
+              "suffix": "m3"
+            }
+          ]
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "piercing",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "windward_surface_piercing",
+          "relation_type": "promotes",
+          "target_process": "rapid_mass_transfer_to_secondary_droplets",
+          "support_type": "simulation_resolved",
+          "locator": "times",
+          "verification_status": "verified",
+          "notes": "Substantial mass transfer follows piercing after the induction interval."
+        },
+        {
+          "key": "mode",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "instability_mode_difference",
+          "relation_type": "correlates_with",
+          "target_process": "Mach_dependent_atomization_fraction",
+          "support_type": "author_interpretation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Authors state additional cases are required to establish a general trend."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-C025-C01",
+          "claim": "Mach 2 and 3 cases show similar nondimensional deformation timing but different piercing morphology and subsequent atomized-mass transfer.",
+          "evidence_type": "primary_numerical",
+          "evidence_summary": "Surface instabilities appear by tau about 0.275, ligaments shed near 0.38, piercing occurs after tau about 1, and substantial mass transfer follows.",
+          "locator": "conclusion",
+          "support_type": "simulation_resolved",
+          "limitations": "Only two shock strengths and one initial diameter; thermomechanical equilibration is quasi-instantaneous.",
+          "parameters": [
+            "ms_m2",
+            "ms_m3",
+            "we_m2",
+            "we_m3",
+            "atom_m2",
+            "atom_m3"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "piercing"
+            ]
+          ],
+          "potential_chapter_role": "Breakup chronology and Mach-sensitive morphology."
+        },
+        {
+          "claim_id": "T1-C025-C02",
+          "claim": "At tau=2, secondary-droplet Sauter-mean-diameter PDFs are bimodal log-normal with peaks near d/d0=0.004 and 0.01.",
+          "evidence_type": "primary_numerical",
+          "evidence_summary": "Connected-component statistics resolve small and medium secondary-droplet modes.",
+          "locator": "stats",
+          "support_type": "simulation_resolved",
+          "limitations": "Grid resolution truncates the smallest sizes and simulations end before possible late unimodal evolution.",
+          "parameters": [
+            "pdf"
+          ],
+          "relations_events": [
+            [
+              "history",
+              "stats_m2"
+            ],
+            [
+              "history",
+              "stats_m3"
+            ]
+          ],
+          "potential_chapter_role": "Secondary-droplet statistics."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "windward_piercing",
+          "relation_type": "promotes",
+          "target_node": "secondary_atomization_mass_transfer",
+          "support_type": "simulation_resolved",
+          "candidate_claim_id": "T1-C025-C01",
+          "locator": "times",
+          "verification_status": "verified",
+          "notes": "Primary numerical evidence."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "secondary_breakup_cascade",
+          "relation_type": "promotes",
+          "target_node": "bimodal_size_distribution",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-C025-C02",
+          "locator": "stats",
+          "verification_status": "verified",
+          "notes": "Distribution interpretation."
+        }
+      ],
+      "note_sections": [
+        "C025 / C-ST-05. Identity verified on canonical PDF.",
+        "Primary 3-D numerical breakup-timescale and statistics evidence.",
+        "How do shock Mach number and instability morphology affect atomization timing and secondary-droplet statistics?",
+        "Adaptive three-dimensional VOF simulations for Ms=2 and 3.",
+        "100 um water droplet; ambient air 1 atm and 300 K; finest cell 0.781 um.",
+        "Post-shock inflow supplied analytically for each Ms; droplet initialized at 300 K plus Laplace pressure.",
+        "Uniform planar shock followed by analytic post-shock inflow.",
+        "Single 100 um water droplet.",
+        "Reported We=822 and 3760; tau uses post-shock Ur and rho_g.",
+        "Shock transit tau~0.01; instabilities ~0.275; ligament shedding ~0.38; piercing ~1; primary largely atomized ~2.",
+        "Both cases deform similarly in tau but piercing modes differ and affect later atomization.",
+        "At tau=2, atomized mass below 5 um is 61% for Ms2 and 71% for Ms3; bimodal peaks near 0.004 and 0.01 d0.",
+        "Authors connect windward piercing/ligament fracture to the end of the induction interval and rapid mass transfer.",
+        "Shock -> flattening/instabilities -> ligaments -> piercing -> secondary breakup cascade.",
+        "No phase change; relevance is availability of small droplets for detonation systems.",
+        "Eq.13; Figs.2-11; Conclusions.",
+        "Reported values only; no figure digitization or generated post-shock values.",
+        "Two cases, one diameter; smallest sizes grid-limited; run ends before long-time convergence; equilibrium model may accelerate breakup.",
+        "T1-C025-C01 and T1-C025-C02.",
+        "Breakup definition differs from optical disappearance criteria in experiments.",
+        "No Schema gap; missing numeric reference components encoded NV.",
+        "Breakup timescale, size statistics and detonation-fueling implications.",
+        "Full text, cases, definitions, events, histories, mechanisms and evidence checked."
+      ],
+      "key_results": [
+        "Piercing terminates a tau~0.7 induction period and accelerates mass transfer.",
+        "Both cases yield bimodal secondary-droplet distributions at tau=2."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Surface instability and windward piercing trigger ligament fracture and the secondary-atomization cascade.",
+          "support_type": "simulation_resolved"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "No phase change.",
+        "No figure digitization."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "C035",
+      "source_record_id": "C-MD-03",
+      "library": "C",
+      "pdf_relpath": "02_PDF_Raw/C/C-MD-03_2021_Wang_ShockInduced_TandemDroplet_Breakup.pdf",
+      "tier1_role": "Primary experiment on separation- and Weber-dependent shielding, deformation and breakup of two tandem droplets.",
+      "study_context": "Planar-shock-tube shadowgraph experiments with two approximately 2 mm water droplets at seven normalized spacings and four Weber numbers.",
+      "cases": [
+        {
+          "case_id": "C035-W13",
+          "description": "We=13 bag"
+        },
+        {
+          "case_id": "C035-W24",
+          "description": "We=24 bag-and-stamen"
+        },
+        {
+          "case_id": "C035-W70",
+          "description": "We=70 multibag"
+        },
+        {
+          "case_id": "C035-W180",
+          "description": "We=180 shear stripping"
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "defs",
+          "pdf_page": "2",
+          "section": "I. Introduction",
+          "equation": "1-2",
+          "raw_locator": "PDF p.2, Eqs. (1)-(2)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "We and Oh definitions."
+        },
+        {
+          "key": "setup",
+          "pdf_page": "4",
+          "section": "II. Experimental setup",
+          "figure": "1-3",
+          "raw_locator": "PDF pp.3-4, Section II, Figs.1-3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Wave timing, steady window and diagnostics."
+        },
+        {
+          "key": "table1",
+          "pdf_page": "4",
+          "section": "II. Experimental setup",
+          "table": "I",
+          "equation": "3-4",
+          "raw_locator": "PDF p.4, Table I, Eqs. (3)-(4)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Flow cases, morphology, Re and time normalization."
+        },
+        {
+          "key": "map",
+          "pdf_page": "5",
+          "section": "III. Results and discussion",
+          "figure": "4",
+          "raw_locator": "PDF p.5, Fig.4",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Interaction-mode map and critical spacing."
+        },
+        {
+          "key": "table2",
+          "pdf_page": "10",
+          "section": "III.E Quantitative analyses",
+          "table": "II",
+          "equation": "5-6",
+          "raw_locator": "PDF p.10, Table II, Eqs. (5)-(6)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Lead-droplet early-stage metrics."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "11",
+          "section": "IV. Summary and conclusion",
+          "raw_locator": "PDF pp.11-12, Summary and conclusion",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Shielding effects and critical spacing."
+        }
+      ],
+      "events": [
+        {
+          "key": "impact",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "shock_arrival",
+          "event_label": "incident shock impacts lead-droplet frontal surface",
+          "event_domain": "wave_droplet",
+          "reported_time": "0",
+          "reported_time_unit": "ms",
+          "normalized_time": "0",
+          "normalized_time_unit": "T",
+          "signed_offset": "0",
+          "offset_unit": "T",
+          "event_status": "reference_only",
+          "locator": "table1",
+          "verification_status": "verified",
+          "notes": "Lead-droplet time origin; trailing offset below 0.06 ms."
+        }
+      ],
+      "intervals": [
+        {
+          "key": "steady",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "interval_type": "shocked_state",
+          "start_event": "impact",
+          "reported_duration": "4.5",
+          "reported_unit": "ms",
+          "value_status": "reported",
+          "definition": "Approximately steady post-shock test-point flow before expansion-wave arrival.",
+          "locator": "setup",
+          "verification_status": "verified",
+          "notes": "Low-We bag rupture can extend beyond this interval."
+        }
+      ],
+      "histories": [
+        {
+          "key": "shape",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "variable_name": "tandem droplet morphology and early-stage metrics versus spacing",
+          "variable_role": "measured_output",
+          "parameter_context": "tandem_breakup",
+          "reference_event": "impact",
+          "history_type": "other",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "NR",
+          "time_unit": "T",
+          "locator": "conclusion",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Seven S values; no figure digitization."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "setup",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "experimental",
+          "value_status": "reported",
+          "definition": "Shock-tube tandem-droplet shadowgraph experiment.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "tandem_droplet",
+          "notes": "Primary experiment."
+        },
+        {
+          "key": "d0",
+          "locator": "table1",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "droplet_diameter_initial",
+          "reported_value": "approximately 2",
+          "reported_unit": "mm",
+          "value_status": "reported",
+          "definition": "Equivalent initial diameter of each water droplet.",
+          "source_type": "text",
+          "parameter_role": "measured_input",
+          "parameter_context": "tandem_droplet",
+          "notes": "Approximate source value."
+        },
+        {
+          "key": "spacing",
+          "locator": "table1",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "spray_initial",
+          "parameter_name": "S_over_D",
+          "reported_value": "1.2-10.5; seven values per flow condition",
+          "value_status": "reported",
+          "definition": "S=s/d0, on-center streamwise separation normalized by initial diameter.",
+          "source_type": "text",
+          "parameter_role": "experimental_control",
+          "parameter_context": "tandem_streamwise",
+          "reference_frame": "laboratory",
+          "notes": "Exact per-case values are figure/matrix based and not digitized."
+        },
+        {
+          "key": "we_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_reported",
+          "reported_value": "{we}",
+          "reported_uncertainty": "{unc}",
+          "value_status": "reported",
+          "definition": "We=rho_g ug^2 d0/sigma using simulated post-shock gas density and velocity.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "post_shock_freestream",
+          "for_each": [
+            {
+              "suffix": "13",
+              "case_id": "C035-W13",
+              "condition_id": "C035-W13",
+              "we": "13",
+              "unc": "1.3"
+            },
+            {
+              "suffix": "24",
+              "case_id": "C035-W24",
+              "condition_id": "C035-W24",
+              "we": "24",
+              "unc": "2.2"
+            },
+            {
+              "suffix": "70",
+              "case_id": "C035-W70",
+              "condition_id": "C035-W70",
+              "we": "70",
+              "unc": "3.0"
+            },
+            {
+              "suffix": "180",
+              "case_id": "C035-W180",
+              "condition_id": "C035-W180",
+              "we": "180",
+              "unc": "10"
+            }
+          ]
+        },
+        {
+          "key": "re_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Re_reported",
+          "reported_value": "{re}",
+          "value_status": "reported",
+          "definition": "Re_infinity=rho_g ug d0/mu_g.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "post_shock_freestream",
+          "for_each": [
+            {
+              "suffix": "13",
+              "case_id": "C035-W13",
+              "condition_id": "C035-W13",
+              "re": "2500"
+            },
+            {
+              "suffix": "24",
+              "case_id": "C035-W24",
+              "condition_id": "C035-W24",
+              "re": "3400"
+            },
+            {
+              "suffix": "70",
+              "case_id": "C035-W70",
+              "condition_id": "C035-W70",
+              "re": "6100"
+            },
+            {
+              "suffix": "180",
+              "case_id": "C035-W180",
+              "condition_id": "C035-W180",
+              "re": "10000"
+            }
+          ]
+        },
+        {
+          "key": "oh_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Oh_reported",
+          "reported_value": "{oh}",
+          "value_status": "reported",
+          "definition": "Oh=mu_d/sqrt(rho_d d0 sigma).",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "water_droplet",
+          "for_each": [
+            {
+              "suffix": "13",
+              "case_id": "C035-W13",
+              "condition_id": "C035-W13",
+              "oh": "0.0024"
+            },
+            {
+              "suffix": "24",
+              "case_id": "C035-W24",
+              "condition_id": "C035-W24",
+              "oh": "0.0024"
+            },
+            {
+              "suffix": "70",
+              "case_id": "C035-W70",
+              "condition_id": "C035-W70",
+              "oh": "0.0023"
+            },
+            {
+              "suffix": "180",
+              "case_id": "C035-W180",
+              "condition_id": "C035-W180",
+              "oh": "0.0024"
+            }
+          ]
+        },
+        {
+          "key": "regime_{suffix}",
+          "locator": "table1",
+          "parameter_group": "droplet_response",
+          "parameter_name": "breakup_regime",
+          "reported_value": "{regime}",
+          "value_status": "reported",
+          "definition": "Lead/isolated-droplet morphology for the flow condition.",
+          "source_type": "table",
+          "parameter_role": "classification",
+          "parameter_context": "lead_droplet",
+          "for_each": [
+            {
+              "suffix": "13",
+              "case_id": "C035-W13",
+              "condition_id": "C035-W13",
+              "regime": "bag breakup"
+            },
+            {
+              "suffix": "24",
+              "case_id": "C035-W24",
+              "condition_id": "C035-W24",
+              "regime": "bag and stamen"
+            },
+            {
+              "suffix": "70",
+              "case_id": "C035-W70",
+              "condition_id": "C035-W70",
+              "regime": "multibag breakup"
+            },
+            {
+              "suffix": "180",
+              "case_id": "C035-W180",
+              "condition_id": "C035-W180",
+              "regime": "shear stripping"
+            }
+          ]
+        },
+        {
+          "key": "tini_{suffix}",
+          "locator": "table2",
+          "parameter_group": "droplet_response",
+          "parameter_name": "deformation_time",
+          "reported_value": "{v}",
+          "reported_uncertainty": "{unc}",
+          "reported_unit": "T",
+          "value_status": "reported",
+          "definition": "Lead-droplet nondimensional time of minimum streamwise diameter/initial-deformation end.",
+          "source_type": "table",
+          "parameter_role": "measured_output",
+          "parameter_context": "lead_droplet",
+          "for_each": [
+            {
+              "suffix": "13",
+              "case_id": "C035-W13",
+              "condition_id": "C035-W13",
+              "v": "1.19",
+              "unc": "1.2%"
+            },
+            {
+              "suffix": "24",
+              "case_id": "C035-W24",
+              "condition_id": "C035-W24",
+              "v": "1.08",
+              "unc": "1.7%"
+            },
+            {
+              "suffix": "70",
+              "case_id": "C035-W70",
+              "condition_id": "C035-W70",
+              "v": "0.83",
+              "unc": "2.3%"
+            },
+            {
+              "suffix": "180",
+              "case_id": "C035-W180",
+              "condition_id": "C035-W180",
+              "v": "0.71",
+              "unc": "2.4%"
+            }
+          ]
+        },
+        {
+          "key": "critical",
+          "locator": "map",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "spray_initial",
+          "parameter_name": "S_over_D",
+          "reported_value": "critical spacing decreases from 10.8 at We=13 to 5.4 at We=180",
+          "value_status": "reported",
+          "definition": "Boundary below which tandem interaction must be considered.",
+          "source_type": "text",
+          "parameter_role": "measured_output",
+          "parameter_context": "interaction_threshold",
+          "notes": "Two explicit endpoint values; intermediate curve not digitized."
+        }
+      ],
+      "dimensionless_definitions": [],
+      "process_relations": [
+        {
+          "key": "shield",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "lead_droplet_wake_shielding",
+          "relation_type": "suppresses",
+          "target_process": "trailing_droplet_deformation_drag_and_breakup",
+          "support_type": "direct_observation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Effect strengthens with smaller spacing and lower We."
+        },
+        {
+          "key": "wecrit",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "Weber_number_increase",
+          "relation_type": "correlates_with",
+          "target_process": "smaller_critical_interaction_spacing",
+          "support_type": "experimental_correlation",
+          "locator": "map",
+          "verification_status": "verified",
+          "notes": "Critical S halves from 10.8 to 5.4 across stated endpoints."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-C035-C01",
+          "claim": "Lead-droplet wake shielding delays and weakens the trailing droplet response, especially at smaller spacing and lower Weber number.",
+          "evidence_type": "primary_experimental",
+          "evidence_summary": "The trailing droplet has later initial deformation, smaller cross-stream maximum and lower mean drag while the lead droplet remains nearly isolated-like.",
+          "locator": "conclusion",
+          "support_type": "direct_observation",
+          "limitations": "Low-We rupture extends beyond the steady post-shock window; exact seven-spacing matrix is figure based.",
+          "parameters": [
+            "spacing",
+            "critical",
+            "we_13",
+            "we_180"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "shield"
+            ]
+          ],
+          "potential_chapter_role": "Multi-droplet shielding and dense-spray breakup."
+        },
+        {
+          "claim_id": "T1-C035-C02",
+          "claim": "The critical normalized spacing for tandem influence is Weber-dependent, decreasing from 10.8 at We=13 to 5.4 at We=180.",
+          "evidence_type": "experimental_correlation",
+          "evidence_summary": "The S-We interaction map separates independent, transition and suppressed breakup regions.",
+          "locator": "map",
+          "support_type": "experimental_correlation",
+          "limitations": "Only endpoint threshold values are explicitly retained; boundary curve is not digitized.",
+          "parameters": [
+            "critical"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "wecrit"
+            ]
+          ],
+          "potential_chapter_role": "Interaction-scale criterion."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "lead_droplet_wake_shielding",
+          "relation_type": "suppresses",
+          "target_node": "trailing_droplet_breakup_intensity",
+          "support_type": "direct_observation",
+          "candidate_claim_id": "T1-C035-C01",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Primary experiment."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "Weber_number",
+          "relation_type": "correlates_with",
+          "target_node": "critical_tandem_spacing",
+          "support_type": "experimental_correlation",
+          "candidate_claim_id": "T1-C035-C02",
+          "locator": "map",
+          "verification_status": "verified",
+          "notes": "Endpoint values preserved."
+        }
+      ],
+      "note_sections": [
+        "C035 / C-MD-03. Identity verified from canonical PDF.",
+        "Primary tandem-droplet interaction experiment.",
+        "How do Weber number and tandem spacing alter lead/trailing deformation and breakup?",
+        "Planar shock-tube shadowgraphy of two water droplets.",
+        "Approximately 2 mm droplets; seven S/d0 values 1.2-10.5; We 13, 24, 70, 180.",
+        "Post-shock velocity/density estimated from measured shock speed and initial atmosphere; no pressure-ratio record applies.",
+        "Planar incident shock; approximately 4.5 ms steady-flow window before expansion waves.",
+        "Two equal droplets aligned with flow; on-center spacing explicitly defined.",
+        "We, Oh and Re are case-specific; definitions preserved.",
+        "T=t ug/(d0 sqrt(rho_d/rho_g)); each droplet zeroed at its own impact, offset below 0.06 ms.",
+        "Lead response is nearly isolated-like; trailing deformation and breakup weaken with shielding and can change to puncture/coalescence at close spacing.",
+        "Table II retains Tini values; critical S falls from 10.8 at We13 to 5.4 at We180.",
+        "Authors attribute attenuation to the lower windward pressure in the lead-droplet wake.",
+        "Shock -> lead deformation/wake -> trailing shielding -> delayed/weaker deformation and altered breakup.",
+        "NA: nonreacting water droplets.",
+        "Eqs.1-6; Tables I-II; Figs.3-4 and 18-20; Conclusion.",
+        "Reported values only; no map or curve digitization.",
+        "Low-We rupture extends beyond steady window; shadowgraph projection; spacing matrix partly figure-only.",
+        "T1-C035-C01 and T1-C035-C02.",
+        "Provides a controlled contrast with isolated-droplet breakup and dense-spray assumptions.",
+        "No Schema gap.",
+        "Multi-droplet interaction and breakup modeling.",
+        "Full text, cases, parameters, time architecture, mechanisms and evidence checked."
+      ],
+      "key_results": [
+        "Trailing-droplet breakup is progressively suppressed as spacing falls.",
+        "Critical interaction spacing is strongly We-dependent."
+      ],
+      "mechanisms": [
+        {
+          "summary": "The lead-droplet wake shields the trailing droplet, reducing its windward pressure loading, drag and deformation.",
+          "support_type": "direct_observation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "No figure digitization.",
+        "Low-We steady-window limitation preserved."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "D018",
+      "source_record_id": "D-DW-03",
+      "library": "D",
+      "pdf_relpath": "02_PDF_Raw/D/D-DW-03_2026_Yang_RP3_Droplet_DeformationBreakup_Detonation.pdf",
+      "tier1_role": "Primary detonation experiment comparing RP-3 and water droplet deformation, acceleration, breakup time and detonation-adapted correlations.",
+      "study_context": "High-speed shadowgraph experiments of single RP-3 and water droplets struck by stable ethylene/oxygen-enriched-air detonations.",
+      "cases": [
+        {
+          "case_id": "D018-A",
+          "description": "Water cases A1-A6"
+        },
+        {
+          "case_id": "D018-B",
+          "description": "RP-3 cases B1-B9"
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Scope and correlations."
+        },
+        {
+          "key": "setup",
+          "pdf_page": "3",
+          "section": "2. Experimental methods",
+          "raw_locator": "PDF p.3, Section 2.1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Reactants, imaging, diagnostics and uncertainty."
+        },
+        {
+          "key": "table1",
+          "pdf_page": "3",
+          "section": "2.2 Testing conditions",
+          "table": "1",
+          "raw_locator": "PDF p.3, Table 1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Fifteen case conditions and surface tensions."
+        },
+        {
+          "key": "defs",
+          "pdf_page": "4",
+          "section": "2.2 Testing conditions",
+          "equation": "1-2",
+          "raw_locator": "PDF p.4, Eqs. (1)-(2)",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "We/Oh and post-detonation reference-state definitions."
+        },
+        {
+          "key": "mechanism",
+          "pdf_page": "5",
+          "section": "3.1 Global observations",
+          "figure": "4-6",
+          "raw_locator": "PDF pp.4-6, Section 3.1",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "KHI then coupled KHI-RTI breakup."
+        },
+        {
+          "key": "deform",
+          "pdf_page": "8",
+          "section": "3.2 Droplet deformation dynamics",
+          "figure": "11-12",
+          "raw_locator": "PDF p.8, Figs.11-12",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Cross-stream correlation and adverse pressure gradient."
+        },
+        {
+          "key": "drag",
+          "pdf_page": "10",
+          "section": "3.2 Droplet deformation dynamics",
+          "figure": "13-14",
+          "equation": "8",
+          "raw_locator": "PDF pp.9-10, Eq. (8), Figs.13-14",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Displacement fit and drag coefficient."
+        },
+        {
+          "key": "breakup",
+          "pdf_page": "10",
+          "section": "3.3 Droplet breakup dynamics",
+          "figure": "15-16",
+          "raw_locator": "PDF p.10, Section 3.3, Figs.15-16",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Breakup criterion and collapsed times."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "11",
+          "section": "4. Conclusions",
+          "equation": "10-11",
+          "raw_locator": "PDF p.11, Eqs. (10)-(11), Conclusions",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Correlations and limitations."
+        }
+      ],
+      "events": [
+        {
+          "key": "arrival",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "detonation_arrival",
+          "event_label": "detonation reaches droplet",
+          "event_domain": "wave_droplet",
+          "reported_time": "0",
+          "reported_time_unit": "us",
+          "normalized_time": "0",
+          "normalized_time_unit": "t*",
+          "signed_offset": "0",
+          "offset_unit": "t*",
+          "event_status": "reference_only",
+          "locator": "setup",
+          "verification_status": "verified",
+          "notes": "Reference for images and t*."
+        },
+        {
+          "key": "b4_complete",
+          "case_id": "D018-B",
+          "condition_id": "B4",
+          "event_type": "breakup_completion",
+          "event_label": "B4 representative complete breakup",
+          "event_domain": "droplet_response",
+          "reported_time": "37.5",
+          "reported_time_unit": "us",
+          "reported_time_uncertainty": "3.0",
+          "reference_event": "arrival",
+          "signed_offset": "37.5",
+          "offset_unit": "us",
+          "event_status": "reported",
+          "locator": "breakup",
+          "verification_status": "verified",
+          "notes": "Midpoint of observed 35-40 us interval."
+        }
+      ],
+      "intervals": [
+        {
+          "key": "b4_break",
+          "case_id": "D018-B",
+          "condition_id": "B4",
+          "interval_type": "breakup_interval",
+          "start_event": "arrival",
+          "end_event": "b4_complete",
+          "reported_duration": "35-40",
+          "reported_unit": "us",
+          "value_status": "reported",
+          "definition": "Observed interval containing complete breakup of the 530 um RP-3 B4 droplet.",
+          "locator": "breakup",
+          "verification_status": "verified",
+          "notes": "Representative 37.5+/-3.0 us retained separately as event."
+        }
+      ],
+      "histories": [
+        {
+          "key": "deform_hist",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "variable_name": "nondimensional cross-stream diameter and displacement",
+          "variable_role": "measured_output",
+          "parameter_context": "detonation_droplet",
+          "reference_event": "arrival",
+          "history_type": "other",
+          "data_availability": "figure_only",
+          "start_time": "0",
+          "end_time": "NR",
+          "time_unit": "t*",
+          "locator": "deform",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Explicit fit coefficients retained; points not digitized."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "experimental",
+          "value_status": "reported",
+          "definition": "Detonation-tube droplet-breakup experiment.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "detonation_droplet",
+          "notes": "Primary experiment."
+        },
+        {
+          "key": "sigma_water",
+          "locator": "table1",
+          "case_id": "D018-A",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "surface_tension",
+          "reported_value": "0.0728",
+          "reported_unit": "N/m",
+          "value_status": "reported",
+          "definition": "Water surface tension used in Table 1.",
+          "source_type": "table",
+          "parameter_role": "material_property",
+          "parameter_context": "water_droplet",
+          "notes": "Reported table caption."
+        },
+        {
+          "key": "sigma_rp3",
+          "locator": "table1",
+          "case_id": "D018-B",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "surface_tension",
+          "reported_value": "0.0245",
+          "reported_unit": "N/m",
+          "value_status": "reported",
+          "definition": "RP-3 surface tension used in Table 1.",
+          "source_type": "table",
+          "parameter_role": "material_property",
+          "parameter_context": "RP3_droplet",
+          "notes": "Reported table caption."
+        },
+        {
+          "key": "ma_{suffix}",
+          "locator": "table1",
+          "parameter_group": "rde_detonation",
+          "parameter_name": "detonation_wave_Mach",
+          "reported_value": "{ma}",
+          "value_status": "reported",
+          "definition": "Measured detonation speed divided by reactant sound speed; laboratory frame.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "detonation_front",
+          "reference_frame": "laboratory",
+          "for_each": [
+            {
+              "suffix": "a1",
+              "case_id": "D018-A",
+              "condition_id": "A1",
+              "ma": "6.03"
+            },
+            {
+              "suffix": "a2",
+              "case_id": "D018-A",
+              "condition_id": "A2",
+              "ma": "6.74"
+            },
+            {
+              "suffix": "a3",
+              "case_id": "D018-A",
+              "condition_id": "A3",
+              "ma": "7.03"
+            },
+            {
+              "suffix": "a4",
+              "case_id": "D018-A",
+              "condition_id": "A4",
+              "ma": "6.99"
+            },
+            {
+              "suffix": "a5",
+              "case_id": "D018-A",
+              "condition_id": "A5",
+              "ma": "6.74"
+            },
+            {
+              "suffix": "a6",
+              "case_id": "D018-A",
+              "condition_id": "A6",
+              "ma": "6.50"
+            },
+            {
+              "suffix": "b1",
+              "case_id": "D018-B",
+              "condition_id": "B1",
+              "ma": "6.60"
+            },
+            {
+              "suffix": "b2",
+              "case_id": "D018-B",
+              "condition_id": "B2",
+              "ma": "6.03"
+            },
+            {
+              "suffix": "b3",
+              "case_id": "D018-B",
+              "condition_id": "B3",
+              "ma": "6.03"
+            },
+            {
+              "suffix": "b4",
+              "case_id": "D018-B",
+              "condition_id": "B4",
+              "ma": "7.07"
+            },
+            {
+              "suffix": "b5",
+              "case_id": "D018-B",
+              "condition_id": "B5",
+              "ma": "6.29"
+            },
+            {
+              "suffix": "b6",
+              "case_id": "D018-B",
+              "condition_id": "B6",
+              "ma": "6.88"
+            },
+            {
+              "suffix": "b7",
+              "case_id": "D018-B",
+              "condition_id": "B7",
+              "ma": "7.07"
+            },
+            {
+              "suffix": "b8",
+              "case_id": "D018-B",
+              "condition_id": "B8",
+              "ma": "6.03"
+            },
+            {
+              "suffix": "b9",
+              "case_id": "D018-B",
+              "condition_id": "B9",
+              "ma": "6.88"
+            }
+          ]
+        },
+        {
+          "key": "d_{suffix}",
+          "locator": "table1",
+          "parameter_group": "droplet_initial",
+          "parameter_name": "droplet_diameter_initial",
+          "reported_value": "{d}",
+          "reported_unit": "mm",
+          "value_status": "reported",
+          "definition": "Initial droplet diameter.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "single_droplet",
+          "for_each": [
+            {
+              "suffix": "a1",
+              "case_id": "D018-A",
+              "condition_id": "A1",
+              "d": "0.25"
+            },
+            {
+              "suffix": "a2",
+              "case_id": "D018-A",
+              "condition_id": "A2",
+              "d": "0.73"
+            },
+            {
+              "suffix": "a3",
+              "case_id": "D018-A",
+              "condition_id": "A3",
+              "d": "0.80"
+            },
+            {
+              "suffix": "a4",
+              "case_id": "D018-A",
+              "condition_id": "A4",
+              "d": "0.80"
+            },
+            {
+              "suffix": "a5",
+              "case_id": "D018-A",
+              "condition_id": "A5",
+              "d": "0.93"
+            },
+            {
+              "suffix": "a6",
+              "case_id": "D018-A",
+              "condition_id": "A6",
+              "d": "1.20"
+            },
+            {
+              "suffix": "b1",
+              "case_id": "D018-B",
+              "condition_id": "B1",
+              "d": "0.27"
+            },
+            {
+              "suffix": "b2",
+              "case_id": "D018-B",
+              "condition_id": "B2",
+              "d": "0.53"
+            },
+            {
+              "suffix": "b3",
+              "case_id": "D018-B",
+              "condition_id": "B3",
+              "d": "0.53"
+            },
+            {
+              "suffix": "b4",
+              "case_id": "D018-B",
+              "condition_id": "B4",
+              "d": "0.53"
+            },
+            {
+              "suffix": "b5",
+              "case_id": "D018-B",
+              "condition_id": "B5",
+              "d": "0.60"
+            },
+            {
+              "suffix": "b6",
+              "case_id": "D018-B",
+              "condition_id": "B6",
+              "d": "0.67"
+            },
+            {
+              "suffix": "b7",
+              "case_id": "D018-B",
+              "condition_id": "B7",
+              "d": "0.73"
+            },
+            {
+              "suffix": "b8",
+              "case_id": "D018-B",
+              "condition_id": "B8",
+              "d": "1.20"
+            },
+            {
+              "suffix": "b9",
+              "case_id": "D018-B",
+              "condition_id": "B9",
+              "d": "1.27"
+            }
+          ]
+        },
+        {
+          "key": "u_{suffix}",
+          "locator": "table1",
+          "parameter_group": "shock_structure",
+          "parameter_name": "post_shock_velocity",
+          "reported_value": "{u}",
+          "reported_unit": "m/s",
+          "value_status": "reported",
+          "definition": "Representative post-detonation velocity averaged between induction-zone and CJ states.",
+          "source_type": "table",
+          "parameter_role": "model_input",
+          "parameter_context": "post_detonation_average",
+          "reference_frame": "laboratory",
+          "for_each": [
+            {
+              "suffix": "603",
+              "case_id": "ALL",
+              "condition_id": "Ma6.03",
+              "u": "1407.99"
+            },
+            {
+              "suffix": "629",
+              "case_id": "ALL",
+              "condition_id": "Ma6.29",
+              "u": "1445.98"
+            },
+            {
+              "suffix": "650",
+              "case_id": "ALL",
+              "condition_id": "Ma6.50",
+              "u": "1477.62"
+            },
+            {
+              "suffix": "660",
+              "case_id": "ALL",
+              "condition_id": "Ma6.60",
+              "u": "1492.20"
+            },
+            {
+              "suffix": "674",
+              "case_id": "ALL",
+              "condition_id": "Ma6.74",
+              "u": "1512.13"
+            },
+            {
+              "suffix": "688",
+              "case_id": "ALL",
+              "condition_id": "Ma6.88",
+              "u": "1532.56"
+            },
+            {
+              "suffix": "699",
+              "case_id": "ALL",
+              "condition_id": "Ma6.99",
+              "u": "1549.18"
+            },
+            {
+              "suffix": "703",
+              "case_id": "ALL",
+              "condition_id": "Ma7.03",
+              "u": "1555.59"
+            },
+            {
+              "suffix": "707",
+              "case_id": "ALL",
+              "condition_id": "Ma7.07",
+              "u": "1558.89"
+            }
+          ]
+        },
+        {
+          "key": "we_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "We_reported",
+          "reported_value": "{we}",
+          "value_status": "reported",
+          "definition": "We=rho_g ug^2 d0/sigma using the paper's averaged post-detonation state.",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "post_detonation_average",
+          "for_each": [
+            {
+              "suffix": "a1",
+              "case_id": "D018-A",
+              "condition_id": "A1",
+              "we": "30990"
+            },
+            {
+              "suffix": "a2",
+              "case_id": "D018-A",
+              "condition_id": "A2",
+              "we": "106499"
+            },
+            {
+              "suffix": "a3",
+              "case_id": "D018-A",
+              "condition_id": "A3",
+              "we": "124364"
+            },
+            {
+              "suffix": "a4",
+              "case_id": "D018-A",
+              "condition_id": "A4",
+              "we": "123224"
+            },
+            {
+              "suffix": "a5",
+              "case_id": "D018-A",
+              "condition_id": "A5",
+              "we": "135676"
+            },
+            {
+              "suffix": "a6",
+              "case_id": "D018-A",
+              "condition_id": "A6",
+              "we": "166160"
+            },
+            {
+              "suffix": "b1",
+              "case_id": "D018-B",
+              "condition_id": "B1",
+              "we": "95767"
+            },
+            {
+              "suffix": "b2",
+              "case_id": "D018-B",
+              "condition_id": "B2",
+              "we": "195219"
+            },
+            {
+              "suffix": "b3",
+              "case_id": "D018-B",
+              "condition_id": "B3",
+              "we": "195219"
+            },
+            {
+              "suffix": "b4",
+              "case_id": "D018-B",
+              "condition_id": "B4",
+              "we": "245976"
+            },
+            {
+              "suffix": "b5",
+              "case_id": "D018-B",
+              "condition_id": "B5",
+              "we": "234977"
+            },
+            {
+              "suffix": "b6",
+              "case_id": "D018-B",
+              "condition_id": "B6",
+              "we": "299336"
+            },
+            {
+              "suffix": "b7",
+              "case_id": "D018-B",
+              "condition_id": "B7",
+              "we": "339992"
+            },
+            {
+              "suffix": "b8",
+              "case_id": "D018-B",
+              "condition_id": "B8",
+              "we": "442005"
+            },
+            {
+              "suffix": "b9",
+              "case_id": "D018-B",
+              "condition_id": "B9",
+              "we": "567398"
+            }
+          ]
+        },
+        {
+          "key": "oh_{suffix}",
+          "locator": "table1",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "Oh_reported",
+          "reported_value": "{oh}",
+          "value_status": "reported",
+          "definition": "Oh=mu_l/sqrt(rho_l sigma d0).",
+          "source_type": "table",
+          "parameter_role": "measured_input",
+          "parameter_context": "liquid_droplet",
+          "for_each": [
+            {
+              "suffix": "a1",
+              "case_id": "D018-A",
+              "condition_id": "A1",
+              "oh": "0.0075"
+            },
+            {
+              "suffix": "a2",
+              "case_id": "D018-A",
+              "condition_id": "A2",
+              "oh": "0.0044"
+            },
+            {
+              "suffix": "a3",
+              "case_id": "D018-A",
+              "condition_id": "A3",
+              "oh": "0.0042"
+            },
+            {
+              "suffix": "a4",
+              "case_id": "D018-A",
+              "condition_id": "A4",
+              "oh": "0.0042"
+            },
+            {
+              "suffix": "a5",
+              "case_id": "D018-A",
+              "condition_id": "A5",
+              "oh": "0.0039"
+            },
+            {
+              "suffix": "a6",
+              "case_id": "D018-A",
+              "condition_id": "A6",
+              "oh": "0.0041"
+            },
+            {
+              "suffix": "b1",
+              "case_id": "D018-B",
+              "condition_id": "B1",
+              "oh": "0.0223"
+            },
+            {
+              "suffix": "b2",
+              "case_id": "D018-B",
+              "condition_id": "B2",
+              "oh": "0.0159"
+            },
+            {
+              "suffix": "b3",
+              "case_id": "D018-B",
+              "condition_id": "B3",
+              "oh": "0.0159"
+            },
+            {
+              "suffix": "b4",
+              "case_id": "D018-B",
+              "condition_id": "B4",
+              "oh": "0.0159"
+            },
+            {
+              "suffix": "b5",
+              "case_id": "D018-B",
+              "condition_id": "B5",
+              "oh": "0.0150"
+            },
+            {
+              "suffix": "b6",
+              "case_id": "D018-B",
+              "condition_id": "B6",
+              "oh": "0.0142"
+            },
+            {
+              "suffix": "b7",
+              "case_id": "D018-B",
+              "condition_id": "B7",
+              "oh": "0.0136"
+            },
+            {
+              "suffix": "b8",
+              "case_id": "D018-B",
+              "condition_id": "B8",
+              "oh": "0.0106"
+            },
+            {
+              "suffix": "b9",
+              "case_id": "D018-B",
+              "condition_id": "B9",
+              "oh": "0.0103"
+            }
+          ]
+        },
+        {
+          "key": "dcfit",
+          "locator": "deform",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_response",
+          "parameter_name": "maximum_deformation",
+          "reported_value": "dc/d0 = 1 + 0.72821 t*",
+          "value_status": "reported",
+          "definition": "Combined empirical correlation during the KHI-dominated linear-growth stage.",
+          "source_type": "equation",
+          "parameter_role": "reported_correlation",
+          "parameter_context": "detonation_droplet",
+          "history": "deform_hist",
+          "notes": "Correlation, not a single deformation value."
+        },
+        {
+          "key": "cd",
+          "locator": "drag",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "transport",
+          "parameter_name": "drag_coefficient",
+          "reported_value": "0.23",
+          "reported_uncertainty": "0.069 standard deviation",
+          "value_status": "reported",
+          "definition": "Average windward drag coefficient inferred by the paper from the displacement correlation.",
+          "source_type": "text",
+          "parameter_role": "reported_correlation",
+          "parameter_context": "detonation_droplet",
+          "notes": "Paper-reported result; not agent-derived."
+        },
+        {
+          "key": "tb_water",
+          "locator": "breakup",
+          "case_id": "D018-A",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_response",
+          "parameter_name": "breakup_time",
+          "reported_value": "10.06",
+          "reported_unit": "t*",
+          "value_status": "reported",
+          "definition": "Collapsed nondimensional complete-breakup time for water droplets.",
+          "source_type": "text",
+          "parameter_role": "measured_output",
+          "parameter_context": "detonation_droplet",
+          "notes": "Breakup means no visible coherent liquid core."
+        },
+        {
+          "key": "tb_rp3",
+          "locator": "breakup",
+          "case_id": "D018-B",
+          "condition_id": "ALL",
+          "parameter_group": "droplet_response",
+          "parameter_name": "breakup_time",
+          "reported_value": "7.90",
+          "reported_unit": "t*",
+          "value_status": "reported",
+          "definition": "Collapsed nondimensional complete-breakup time for RP-3 droplets.",
+          "source_type": "text",
+          "parameter_role": "measured_output",
+          "parameter_context": "detonation_droplet",
+          "notes": "Breakup means no visible coherent liquid core."
+        }
+      ],
+      "dimensionless_definitions": [],
+      "process_relations": [
+        {
+          "key": "khrt",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "KHI_dominated_mass_stripping",
+          "relation_type": "precedes",
+          "target_process": "coupled_KHI_RTI_piercing_and_catastrophic_breakup",
+          "support_type": "direct_observation",
+          "locator": "mechanism",
+          "verification_status": "verified",
+          "notes": "Two-stage breakup observed for both liquids."
+        },
+        {
+          "key": "gradient",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "post_detonation_adverse_pressure_gradient",
+          "relation_type": "suppresses",
+          "target_process": "convection_shear_acceleration_and_deformation_rate",
+          "support_type": "author_interpretation",
+          "locator": "deform",
+          "verification_status": "verified",
+          "notes": "ZND/post-shock comparison supports interpretation."
+        },
+        {
+          "key": "surface",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "source_process": "higher_surface_tension",
+          "relation_type": "suppresses",
+          "target_process": "interfacial_instability_growth_and_breakup_rate",
+          "support_type": "experimental_correlation",
+          "locator": "breakup",
+          "verification_status": "verified",
+          "notes": "Water t*b is 27% above RP-3; cross-stream slope changes little."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-D018-C01",
+          "claim": "Detonation-driven RP-3 and water breakup proceeds from a KHI-dominated stripping stage to coupled KHI-RTI piercing and catastrophic breakup.",
+          "evidence_type": "primary_experimental",
+          "evidence_summary": "High-speed sequences resolve early shear stripping and later RT piercing for both liquids.",
+          "locator": "mechanism",
+          "support_type": "direct_observation",
+          "limitations": "Shadowgraph is a two-dimensional projection and the smallest early structures are below resolution.",
+          "parameters": [
+            "we_a6",
+            "we_b9"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "khrt"
+            ]
+          ],
+          "potential_chapter_role": "Detonation-induced breakup mechanism."
+        },
+        {
+          "claim_id": "T1-D018-C02",
+          "claim": "Shock-derived deformation and drag correlations are not directly transferable to detonation loading because the post-detonation adverse pressure gradient reduces convection and aerodynamic forcing.",
+          "evidence_type": "experiment_plus_model_comparison",
+          "evidence_summary": "Detonation data collapse to dc/d0=1+0.72821t* and Cd=0.23, far below the cited shock-induced slopes/drag.",
+          "locator": "deform",
+          "support_type": "author_interpretation",
+          "limitations": "Cross-study shock comparison is secondary; primary detonation correlations are measured in this facility.",
+          "parameters": [
+            "dcfit",
+            "cd"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "gradient"
+            ]
+          ],
+          "potential_chapter_role": "Loading-history dependence and model transferability."
+        },
+        {
+          "claim_id": "T1-D018-C03",
+          "claim": "Collapsed detonation breakup time differs by liquid: t*b=10.06 for water and 7.90 for RP-3, with surface tension implicated in the difference.",
+          "evidence_type": "primary_experimental_correlation",
+          "evidence_summary": "Both case families fall within the fitted prediction bands and adapted mass-stripping equations use the two constants.",
+          "locator": "breakup",
+          "support_type": "experimental_correlation",
+          "limitations": "The time normalization itself excludes surface tension; the mechanism is an author interpretation supported by the liquid comparison.",
+          "parameters": [
+            "tb_water",
+            "tb_rp3",
+            "sigma_water",
+            "sigma_rp3"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "surface"
+            ]
+          ],
+          "potential_chapter_role": "Detonation breakup-time scaling."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "KHI_mass_stripping",
+          "relation_type": "precedes",
+          "target_node": "KHI_RTI_piercing_catastrophic_breakup",
+          "support_type": "direct_observation",
+          "candidate_claim_id": "T1-D018-C01",
+          "locator": "mechanism",
+          "verification_status": "verified",
+          "notes": "Primary experiment."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "adverse_post_detonation_pressure_gradient",
+          "relation_type": "suppresses",
+          "target_node": "droplet_acceleration_and_cross_stream_growth",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-D018-C02",
+          "locator": "deform",
+          "verification_status": "verified",
+          "notes": "Author interpretation informed by ZND calculation."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "surface_tension",
+          "relation_type": "modifies",
+          "target_node": "nondimensional_breakup_time",
+          "support_type": "experimental_correlation",
+          "candidate_claim_id": "T1-D018-C03",
+          "locator": "breakup",
+          "verification_status": "verified",
+          "notes": "Water/RP-3 comparison."
+        }
+      ],
+      "note_sections": [
+        "D018 / D-DW-03. Identity verified from canonical PDF.",
+        "Primary detonation-driven RP-3/water breakup evidence.",
+        "How do liquid properties and detonation loading alter deformation, acceleration, breakup mechanism and timescale?",
+        "Detonation-tube high-speed shadowgraph experiments with RP-3 and water.",
+        "Droplets 0.25-1.27 mm; Ma 6.03-7.07; 15 tabulated cases.",
+        "Ethylene plus 50% O2 oxygen-enriched air, equivalence ratio 0.9; post-detonation state uses named ZND/CJ averaging.",
+        "Stable detonation front; post-front density and velocity gradients distinguish loading from a uniform post-shock state.",
+        "Single water or RP-3 droplets; surface tension 0.0728 and 0.0245 N/m.",
+        "We uses averaged post-detonation rho_g and ug; Oh definition and all case values preserved; Mach is detonation-front/laboratory-frame.",
+        "t*=t ug/d0 sqrt(rho_g/rho_l); B4 breakup observed 35-40 us; collapsed t*b 10.06 water and 7.90 RP-3.",
+        "Both liquids show KHI stripping followed by coupled KHI-RTI piercing; RP-3 wake also contains a qualitative combustion-related signature.",
+        "dc/d0=1+0.72821t*; Cd=0.23; x/d0=0.08054(t*)^2; breakup-time constants differ by liquid.",
+        "Authors attribute slower deformation/acceleration than shocks to the adverse post-detonation pressure gradient and longer breakup to lower average dynamic pressure.",
+        "Detonation -> KHI stripping -> RT piercing/coupling -> catastrophic breakup; adverse gradient weakens acceleration.",
+        "RP-3 vapor may burn in the hot wake, but shadowgraph evidence is qualitative and not stored as a quantitative combustion parameter.",
+        "Table 1; Eqs.1-11; Figs.4-18; Conclusions.",
+        "All values are paper-reported measurements/correlations; no new derived values.",
+        "Projection imaging, finite resolution, engineering ZND averaging; shock comparison partly literature-secondary.",
+        "T1-D018-C01 through C03.",
+        "Directly contrasts detonation versus shock loading without forcing equivalence.",
+        "No blocking gap. The qualitative reacting wake is preserved in prose rather than promoted to numeric evidence.",
+        "Detonation characteristic loading, breakup mechanism and timescale.",
+        "Full text, 15 conditions, parameters, events, interval, history, mechanisms and evidence checked."
+      ],
+      "key_results": [
+        "Detonation-induced Cd collapses near 0.23 and cross-stream growth is slower than shock-derived correlation.",
+        "Water and RP-3 collapse to distinct nondimensional breakup times."
+      ],
+      "mechanisms": [
+        {
+          "summary": "KHI initiates stripping; growing RTI later pierces the droplet, while the post-detonation adverse pressure gradient weakens bulk acceleration.",
+          "support_type": "direct_observation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "No external data.",
+        "No figure digitization.",
+        "Table 1 values control over conflicting prose typos."
+      ],
+      "extraction_status": "complete"
+    }
+  ]
+}

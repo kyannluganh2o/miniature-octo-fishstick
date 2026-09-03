@@ -1,0 +1,1478 @@
+{
+  "batch_id": "T1-Batch-3",
+  "papers": [
+    {
+      "paper_id": "A026",
+      "source_record_id": "A-H2-09",
+      "library": "A",
+      "pdf_relpath": "02_PDF_Raw/A/A-H2-09_2025_Heaton_HydrogenInjectionTiming_EnergyProportion_Flame.pdf",
+      "tier1_role": "Primary optical-engine evidence separating hydrogen-energy-share and hydrogen-injection-timing effects on pilot ignition, flame development and combustion mode.",
+      "study_context": "Single-cylinder optical H2/diesel dual-direct-injection engine with dual-camera natural-luminosity imaging, cylinder pressure and apparent heat-release analysis.",
+      "cases": [
+        {
+          "case_id": "A026-E95",
+          "description": "95% H2 / 5% diesel, H2 SOI 10 CA bTDC"
+        },
+        {
+          "case_id": "A026-E90",
+          "description": "90% H2 / 10% diesel, H2 SOI 10 CA bTDC"
+        },
+        {
+          "case_id": "A026-E80",
+          "description": "80% H2 / 20% diesel, H2 SOI 10 CA bTDC"
+        },
+        {
+          "case_id": "A026-E70",
+          "description": "70% H2 / 30% diesel, H2 SOI 10 CA bTDC"
+        },
+        {
+          "case_id": "A026-T0",
+          "description": "90/10 energy share, H2 SOI TDC"
+        },
+        {
+          "case_id": "A026-T10",
+          "description": "90/10 energy share, H2 SOI 10 CA bTDC"
+        },
+        {
+          "case_id": "A026-T20",
+          "description": "90/10 energy share, H2 SOI 20 CA bTDC"
+        },
+        {
+          "case_id": "A026-T30",
+          "description": "90/10 energy share, H2 SOI 30 CA bTDC"
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Scope and main findings."
+        },
+        {
+          "key": "setup",
+          "pdf_page": "3",
+          "section": "2.1 Optical engine and injection system",
+          "table": "1-2",
+          "raw_locator": "PDF p.3, Tables 1-2",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Engine, injector and operating conditions."
+        },
+        {
+          "key": "diagnostics",
+          "pdf_page": "4",
+          "section": "2.2-2.3 Diagnostics and image processing",
+          "table": "3",
+          "raw_locator": "PDF p.4, Table 3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Dual-camera settings and limitations."
+        },
+        {
+          "key": "share",
+          "pdf_page": "6",
+          "section": "3.1 Effect of hydrogen energy share",
+          "figure": "3-8",
+          "raw_locator": "PDF pp.4-7, Section 3.1, Figs.3-8",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Energy-share response."
+        },
+        {
+          "key": "timing",
+          "pdf_page": "10",
+          "section": "3.2 Effect of hydrogen injection timing",
+          "figure": "9-13",
+          "raw_locator": "PDF pp.7-11, Section 3.2, Figs.9-13",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Timing response and pilot dilution."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "12",
+          "section": "4. Conclusions",
+          "raw_locator": "PDF pp.11-13, Conclusions",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Author conclusions."
+        }
+      ],
+      "events": [
+        {
+          "key": "tdc",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "other",
+          "event_label": "top dead center reference",
+          "event_domain": "engine_cycle",
+          "reported_time": "0",
+          "reported_time_unit": "CA",
+          "normalized_time": "0",
+          "normalized_time_unit": "CA",
+          "signed_offset": "0",
+          "offset_unit": "CA",
+          "event_status": "reference_only",
+          "locator": "setup",
+          "verification_status": "verified",
+          "notes": "Negative signed offsets denote crank angles before TDC."
+        },
+        {
+          "key": "hsoi_{suffix}",
+          "event_type": "SOI",
+          "event_label": "hydrogen electronic start of injection at {timing} CA bTDC",
+          "event_domain": "injection",
+          "reported_time": "{timing}",
+          "reported_time_unit": "CA bTDC",
+          "reference_event": "tdc",
+          "signed_offset": "-{timing}",
+          "offset_unit": "CA",
+          "event_status": "reported",
+          "locator": "setup",
+          "verification_status": "verified",
+          "notes": "Electronic signal timing, not hydraulic SOI.",
+          "for_each": [
+            {
+              "suffix": "e95",
+              "case_id": "A026-E95",
+              "condition_id": "A026-E95",
+              "timing": "10"
+            },
+            {
+              "suffix": "e90",
+              "case_id": "A026-E90",
+              "condition_id": "A026-E90",
+              "timing": "10"
+            },
+            {
+              "suffix": "e80",
+              "case_id": "A026-E80",
+              "condition_id": "A026-E80",
+              "timing": "10"
+            },
+            {
+              "suffix": "e70",
+              "case_id": "A026-E70",
+              "condition_id": "A026-E70",
+              "timing": "10"
+            },
+            {
+              "suffix": "t0",
+              "case_id": "A026-T0",
+              "condition_id": "A026-T0",
+              "timing": "0"
+            },
+            {
+              "suffix": "t10",
+              "case_id": "A026-T10",
+              "condition_id": "A026-T10",
+              "timing": "10"
+            },
+            {
+              "suffix": "t20",
+              "case_id": "A026-T20",
+              "condition_id": "A026-T20",
+              "timing": "20"
+            },
+            {
+              "suffix": "t30",
+              "case_id": "A026-T30",
+              "condition_id": "A026-T30",
+              "timing": "30"
+            }
+          ]
+        },
+        {
+          "key": "dsoi",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "event_type": "SOI",
+          "event_label": "diesel pilot electronic start of injection at 6 CA bTDC",
+          "event_domain": "injection",
+          "reported_time": "6",
+          "reported_time_unit": "CA bTDC",
+          "reference_event": "tdc",
+          "signed_offset": "-6",
+          "offset_unit": "CA",
+          "event_status": "reported",
+          "locator": "setup",
+          "verification_status": "verified",
+          "notes": "Fixed across all cases; electronic signal timing."
+        }
+      ],
+      "histories": [
+        {
+          "key": "share_hist",
+          "case_id": "ALL",
+          "condition_id": "energy_share_sweep",
+          "variable_name": "cylinder pressure, aHRR, flame area and luminosity versus crank angle",
+          "variable_role": "measured_output",
+          "parameter_context": "energy_share_sweep",
+          "reference_event": "tdc",
+          "history_type": "heat_release_history",
+          "data_availability": "figure_only",
+          "start_time": "NR",
+          "end_time": "NR",
+          "time_unit": "CA",
+          "locator": "share",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "Explicit qualitative trends retained; curves not digitized."
+        },
+        {
+          "key": "timing_hist",
+          "case_id": "ALL",
+          "condition_id": "timing_sweep",
+          "variable_name": "cylinder pressure, aHRR, ignition delay and flame development versus crank angle",
+          "variable_role": "measured_output",
+          "parameter_context": "H2_timing_sweep",
+          "reference_event": "tdc",
+          "history_type": "heat_release_history",
+          "data_availability": "figure_only",
+          "start_time": "NR",
+          "end_time": "NR",
+          "time_unit": "CA",
+          "locator": "timing",
+          "reported_or_derived": "reported",
+          "verification_status": "verified",
+          "notes": "No figure digitization."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "experimental",
+          "value_status": "reported",
+          "definition": "Optical-engine dual-direct-injection combustion experiment.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "H2DDI",
+          "notes": "Primary experiment."
+        },
+        {
+          "key": "hpress",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "injection_conditions",
+          "parameter_name": "injection_pressure",
+          "reported_value": "350",
+          "reported_unit": "bar",
+          "value_status": "reported",
+          "definition": "Hydrogen injection pressure, pressure reference not specified.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "hydrogen_injection",
+          "notes": "Reported as 35 MPa/350 bar."
+        },
+        {
+          "key": "dpress",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "injection_conditions",
+          "parameter_name": "injection_pressure",
+          "reported_value": "750",
+          "reported_unit": "bar",
+          "value_status": "reported",
+          "definition": "Diesel common-rail injection pressure, pressure reference not specified.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "diesel_pilot",
+          "notes": "Reported as 75 MPa/750 bar."
+        },
+        {
+          "key": "hnozzle",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "injector_nozzle",
+          "parameter_name": "nozzle_diameter",
+          "reported_value": "1",
+          "reported_unit": "mm",
+          "value_status": "reported",
+          "definition": "Axially drilled single-hole injector-cap diameter for side-mounted hydrogen injection.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "hydrogen_injector",
+          "notes": "Underlying modified injector has six 160 um holes combined with cap."
+        },
+        {
+          "key": "energy",
+          "locator": "setup",
+          "case_id": "ALL",
+          "condition_id": "ALL",
+          "parameter_group": "dimensionless_numbers",
+          "parameter_name": "definition",
+          "reported_value": "1200 J total fuel energy per cycle",
+          "value_status": "reported",
+          "definition": "Total cycle fuel-energy input held constant.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "cycle_energy",
+          "notes": "No derived fuel masses calculated."
+        },
+        {
+          "key": "hshare_{suffix}",
+          "locator": "setup",
+          "parameter_group": "mixing",
+          "parameter_name": "fuel_concentration",
+          "reported_value": "{h}",
+          "reported_unit": "% energy",
+          "value_status": "reported",
+          "definition": "Hydrogen share of total cycle fuel energy.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "energy_share",
+          "history": "share_hist",
+          "for_each": [
+            {
+              "suffix": "95",
+              "case_id": "A026-E95",
+              "condition_id": "A026-E95",
+              "h": "95"
+            },
+            {
+              "suffix": "90",
+              "case_id": "A026-E90",
+              "condition_id": "A026-E90",
+              "h": "90"
+            },
+            {
+              "suffix": "80",
+              "case_id": "A026-E80",
+              "condition_id": "A026-E80",
+              "h": "80"
+            },
+            {
+              "suffix": "70",
+              "case_id": "A026-E70",
+              "condition_id": "A026-E70",
+              "h": "70"
+            }
+          ]
+        },
+        {
+          "key": "hdur_{suffix}",
+          "locator": "setup",
+          "parameter_group": "injection_conditions",
+          "parameter_name": "injection_duration",
+          "reported_value": "{dur}",
+          "reported_unit": "us",
+          "value_status": "reported",
+          "definition": "Hydrogen electronic command duration.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "hydrogen_injection",
+          "for_each": [
+            {
+              "suffix": "95",
+              "case_id": "A026-E95",
+              "condition_id": "A026-E95",
+              "dur": "4427"
+            },
+            {
+              "suffix": "90",
+              "case_id": "A026-E90",
+              "condition_id": "A026-E90",
+              "dur": "4314"
+            },
+            {
+              "suffix": "80",
+              "case_id": "A026-E80",
+              "condition_id": "A026-E80",
+              "dur": "4087"
+            },
+            {
+              "suffix": "70",
+              "case_id": "A026-E70",
+              "condition_id": "A026-E70",
+              "dur": "3539"
+            }
+          ]
+        },
+        {
+          "key": "ddur_{suffix}",
+          "locator": "setup",
+          "parameter_group": "injection_conditions",
+          "parameter_name": "injection_duration",
+          "reported_value": "{dur}",
+          "reported_unit": "us",
+          "value_status": "reported",
+          "definition": "Diesel pilot electronic command duration.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "diesel_pilot",
+          "for_each": [
+            {
+              "suffix": "95",
+              "case_id": "A026-E95",
+              "condition_id": "A026-E95",
+              "dur": "231"
+            },
+            {
+              "suffix": "90",
+              "case_id": "A026-E90",
+              "condition_id": "A026-E90",
+              "dur": "284"
+            },
+            {
+              "suffix": "80",
+              "case_id": "A026-E80",
+              "condition_id": "A026-E80",
+              "dur": "368"
+            },
+            {
+              "suffix": "70",
+              "case_id": "A026-E70",
+              "condition_id": "A026-E70",
+              "dur": "438"
+            }
+          ]
+        },
+        {
+          "key": "timing_{suffix}",
+          "locator": "setup",
+          "parameter_group": "ignition_combustion",
+          "parameter_name": "combustion_phasing",
+          "reported_value": "H2 SOI {t} CA bTDC; diesel SOI 6 CA bTDC",
+          "reported_unit": "CA",
+          "value_status": "reported",
+          "definition": "Electronic injection timing pair at fixed 90/10 energy share.",
+          "source_type": "table",
+          "parameter_role": "experimental_control",
+          "parameter_context": "H2_timing_sweep",
+          "event": "hsoi_{suffix}",
+          "history": "timing_hist",
+          "for_each": [
+            {
+              "suffix": "t0",
+              "case_id": "A026-T0",
+              "condition_id": "A026-T0",
+              "t": "0"
+            },
+            {
+              "suffix": "t10",
+              "case_id": "A026-T10",
+              "condition_id": "A026-T10",
+              "t": "10"
+            },
+            {
+              "suffix": "t20",
+              "case_id": "A026-T20",
+              "condition_id": "A026-T20",
+              "t": "20"
+            },
+            {
+              "suffix": "t30",
+              "case_id": "A026-T30",
+              "condition_id": "A026-T30",
+              "t": "30"
+            }
+          ]
+        },
+        {
+          "key": "mode_share",
+          "locator": "conclusion",
+          "case_id": "ALL",
+          "condition_id": "energy_share_sweep",
+          "parameter_group": "ignition_combustion",
+          "parameter_name": "combustion_mode",
+          "reported_value": "premixed flame propagation followed by broadly similar mixing-controlled combustion",
+          "value_status": "reported",
+          "definition": "Author-observed sequence for the energy-share sweep.",
+          "source_type": "text",
+          "parameter_role": "measured_output",
+          "parameter_context": "energy_share_sweep",
+          "history": "share_hist",
+          "notes": "95H/5D has delayed/decoupled ignition behavior."
+        },
+        {
+          "key": "mode_timing",
+          "locator": "conclusion",
+          "case_id": "ALL",
+          "condition_id": "timing_sweep",
+          "parameter_group": "ignition_combustion",
+          "parameter_name": "combustion_mode",
+          "reported_value": "advancing hydrogen injection increases premixed fraction and reduces the mixing-controlled period",
+          "value_status": "reported",
+          "definition": "Timing-dependent combustion-mode transition.",
+          "source_type": "text",
+          "parameter_role": "measured_output",
+          "parameter_context": "H2_timing_sweep",
+          "history": "timing_hist",
+          "notes": "Qualitative full-sweep result."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "pilot_energy",
+          "case_id": "ALL",
+          "condition_id": "energy_share_sweep",
+          "source_process": "diesel_pilot_energy_and_spatial_extent_increase",
+          "relation_type": "promotes",
+          "target_process": "initial_H2_ignition_volume_and_reaction_intensity",
+          "support_type": "direct_observation",
+          "locator": "share",
+          "verification_status": "verified",
+          "notes": "Lower H2 share means a larger/more robust pilot."
+        },
+        {
+          "key": "advance",
+          "case_id": "ALL",
+          "condition_id": "timing_sweep",
+          "source_process": "advanced_H2_injection",
+          "relation_type": "promotes",
+          "target_process": "premixing_and_initial_heat_release",
+          "support_type": "experimental_correlation",
+          "locator": "timing",
+          "verification_status": "verified",
+          "notes": "Earlier timing reduces mixing-controlled duration."
+        },
+        {
+          "key": "dilution",
+          "case_id": "A026-T30",
+          "condition_id": "A026-T30",
+          "source_process": "preignition_H2_diesel_overlap_and_dilution",
+          "relation_type": "suppresses",
+          "target_process": "diesel_pilot_autoignition_rate",
+          "support_type": "author_interpretation",
+          "locator": "timing",
+          "verification_status": "verified",
+          "notes": "Author uses likely/local dilution language; causality not upgraded beyond interpretation."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-A026-C01",
+          "claim": "Increasing diesel energy share strengthens and spreads the pilot flame, accelerating the initial H2 reaction, while the late mixing-controlled phase remains similar across energy shares.",
+          "evidence_type": "primary_experimental",
+          "evidence_summary": "Pressure/aHRR and flame images show a larger pilot and faster early H2 flame development as H2 share decreases from 95% to 70%.",
+          "locator": "conclusion",
+          "support_type": "direct_observation",
+          "limitations": "Natural-luminosity thresholds and two imaging arrangements limit quantitative cross-sweep intensity comparison.",
+          "parameters": [
+            "hshare_95",
+            "hshare_70",
+            "mode_share"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "pilot_energy"
+            ]
+          ],
+          "potential_chapter_role": "Pilot-energy control of H2 ignition."
+        },
+        {
+          "claim_id": "T1-A026-C02",
+          "claim": "Advancing H2 injection changes the premixed/mixing-controlled balance and the 30 CA bTDC case significantly delays diesel pilot ignition, attributed to preignition dilution.",
+          "evidence_type": "primary_experimental",
+          "evidence_summary": "aHRR and flame images separate timing-dependent interaction, premixing and delayed pilot ignition.",
+          "locator": "timing",
+          "support_type": "experimental_correlation",
+          "limitations": "Fuel distributions before ignition were not directly visualized; dilution is author interpretation.",
+          "parameters": [
+            "timing_t0",
+            "timing_t30",
+            "mode_timing"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "advance"
+            ],
+            [
+              "process",
+              "dilution"
+            ]
+          ],
+          "potential_chapter_role": "Injection-event chain and pilot/H2 coupling."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "ALL",
+          "source_node": "diesel_pilot_energy",
+          "relation_type": "promotes",
+          "target_node": "initial_H2_reaction_intensity",
+          "support_type": "direct_observation",
+          "candidate_claim_id": "T1-A026-C01",
+          "locator": "share",
+          "verification_status": "verified",
+          "notes": "Primary optical-engine evidence."
+        },
+        {
+          "case_id": "ALL",
+          "source_node": "advanced_H2_SOI",
+          "relation_type": "promotes",
+          "target_node": "premixed_H2_fraction",
+          "support_type": "experimental_correlation",
+          "candidate_claim_id": "T1-A026-C02",
+          "locator": "timing",
+          "verification_status": "verified",
+          "notes": "Timing sweep."
+        },
+        {
+          "case_id": "A026-T30",
+          "source_node": "H2_pilot_preignition_overlap",
+          "relation_type": "author_attributes_to",
+          "target_node": "longer_diesel_ignition_delay",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A026-C02",
+          "locator": "timing",
+          "verification_status": "verified",
+          "notes": "Dilution mechanism remains qualified."
+        }
+      ],
+      "note_sections": [
+        "A026 / A-H2-09. Identity verified from canonical PDF.",
+        "Primary H2DDI optical-engine experiment.",
+        "How do H2 energy share and electronic SOI alter pilot ignition, H2 flame development and combustion mode?",
+        "Single-cylinder optical engine; dual-camera luminosity, pressure and aHRR.",
+        "35 MPa side H2 injector with 1 mm cap; 75 MPa central diesel injector; 1200 rpm.",
+        "H2/diesel injection pressures 350/750 bar; total 1200 J/cycle; intake 101.3 kPa and 303 K.",
+        "No underexpanded-jet shock structure is directly measured; emphasis is in-cylinder jet/flame coupling.",
+        "NA: no droplets; gaseous H2 plus diesel pilot spray/flame.",
+        "Energy shares and crank-angle event definitions are preserved case by case; no NPR inferred.",
+        "Electronic H2 SOI 0-30 CA bTDC and fixed diesel SOI 6 CA bTDC; command durations tabulated.",
+        "Larger pilots accelerate early H2 reaction; advanced H2 timing increases premixing but can dilute/delay the pilot.",
+        "Table 2 preserves pressures, timings, durations and shares; plotted ignition-delay values are not digitized.",
+        "Pilot size controls ignition-source extent; authors attribute the most advanced case's delay to local H2 dilution.",
+        "H2 SOI/diesel SOI -> preignition overlap -> pilot ignition -> H2 propagation -> mixing-controlled burn.",
+        "Directly relevant to mixing, ignition, heat release and flame stabilization.",
+        "Tables 1-3; Figs.3-13; Conclusions.",
+        "Reported values only; no curve digitization or inferred numeric ignition delay.",
+        "Luminosity is line-of-sight and threshold-sensitive; preignition distributions are not visualized; camera setups differ.",
+        "T1-A026-C01 and C02.",
+        "Provides primary support for timing/energy-share concepts synthesized by A030.",
+        "No Schema gap.",
+        "HPDI/H2DDI event chain and pilot-main-fuel interaction.",
+        "Full text, cases, events, parameters, histories, mechanisms and evidence checked."
+      ],
+      "key_results": [
+        "Lower H2 energy share produces a larger pilot and faster initial H2 reaction.",
+        "Earlier H2 injection increases premixing; the earliest case delays pilot ignition while maintaining phasing through faster subsequent heat release."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Pilot-flame energy/spatial reach and preignition H2 overlap jointly set ignition timing and the premixed-to-mixing-controlled transition.",
+          "support_type": "author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Electronic timing kept distinct from hydraulic timing.",
+        "No figure digitization."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "A028",
+      "source_record_id": "A-R-02",
+      "library": "A",
+      "pdf_relpath": "02_PDF_Raw/A/A-R-02_2021_Li_NumericalReview_HPDI_NaturalGas_Engines.pdf",
+      "tier1_role": "Review-level framework for underexpanded-jet analytical/correlation/CFD methods and pilot-ignited HPDI engine modeling choices.",
+      "study_context": "Review of numerical methods for natural-gas HPDI jets, engine turbulence/chemistry and soot modeling.",
+      "cases": [
+        {
+          "case_id": "A028-REV",
+          "description": "Review-level synthesis only; no primary case values claimed."
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "scope",
+          "pdf_page": "4",
+          "section": "1. Introduction / review scope",
+          "raw_locator": "PDF p.4, review scope",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Two-part framework."
+        },
+        {
+          "key": "jet",
+          "pdf_page": "5",
+          "section": "2.1-2.2 Underexpanded gas jets",
+          "equation": "7-11",
+          "table": "2-3",
+          "raw_locator": "PDF pp.5-7, Sections 2.1-2.2, Tables 2-3",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Penetration and Mach-disk model taxonomy."
+        },
+        {
+          "key": "challenge",
+          "pdf_page": "15",
+          "section": "4. Challenges",
+          "raw_locator": "PDF p.15, Section 4",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Accuracy/cost/model-transfer gaps."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "16",
+          "section": "5. Conclusions and prospects",
+          "raw_locator": "PDF pp.15-17, Section 5",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review recommendations and limitations."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "scope",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "review",
+          "value_status": "reported",
+          "definition": "Review of numerical investigations for pilot-ignited HPDI natural-gas engines.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Not primary evidence."
+        },
+        {
+          "key": "framework",
+          "locator": "scope",
+          "parameter_group": "numerical_method",
+          "parameter_name": "solver_type",
+          "reported_value": "analytical penetration models; empirical Mach-disk correlations; RANS/LES/DNS jet CFD; engine turbulence, chemistry and soot models",
+          "value_status": "reported",
+          "definition": "Review's model-selection framework.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Review taxonomy."
+        },
+        {
+          "key": "mdfit",
+          "locator": "jet",
+          "parameter_group": "shock_structure",
+          "parameter_name": "mach_disk_distance_over_D",
+          "reported_value": "Hm/d = Cm (Rp^a + A)^b; common high-Rp special cases scale with sqrt(Rp)",
+          "value_status": "reported",
+          "definition": "Review-level correlation family for Mach-disk height.",
+          "source_type": "equation",
+          "parameter_role": "reported_correlation",
+          "parameter_context": "review_secondary",
+          "state_qualifier": "reported_unspecified",
+          "notes": "Secondary correlation synthesis; applicability depends on nozzle, pressure-ratio definition and gas."
+        },
+        {
+          "key": "pressure_defs",
+          "locator": "jet",
+          "parameter_group": "jet_global",
+          "parameter_name": "NPR_definition",
+          "reported_value": "Rp is total-pressure ratio; Re is exit-pressure ratio",
+          "value_status": "reported",
+          "definition": "Review distinguishes two pressure-ratio families used by correlations.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "No bare numeric NPR stored."
+        },
+        {
+          "key": "gap",
+          "locator": "challenge",
+          "parameter_group": "process_context",
+          "parameter_name": "model_applicability_note",
+          "reported_value": "nozzle geometry and fluid properties limit transfer of Mach-disk correlations; high-fidelity methods trade accuracy for cost",
+          "value_status": "reported",
+          "definition": "Central applicability limitation identified by review.",
+          "source_type": "text",
+          "parameter_role": "descriptive_state",
+          "parameter_context": "review_secondary",
+          "notes": "Review gap, not schema gap."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "geometry",
+          "case_id": "A028-REV",
+          "condition_id": "A028-REV",
+          "source_process": "nozzle_geometry_and_pressure_ratio_definition",
+          "relation_type": "modifies",
+          "target_process": "Mach_disk_correlation_applicability",
+          "support_type": "author_interpretation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review-secondary synthesis."
+        },
+        {
+          "key": "fidelity",
+          "case_id": "A028-REV",
+          "condition_id": "A028-REV",
+          "source_process": "higher_fidelity_turbulence_resolution",
+          "relation_type": "correlates_with",
+          "target_process": "higher_computational_cost",
+          "support_type": "author_interpretation",
+          "locator": "challenge",
+          "verification_status": "verified",
+          "notes": "Review assessment."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-A028-C01",
+          "claim": "Mach-disk correlations are strongly conditional on total versus exit pressure ratio, nozzle geometry, Mach number and gas properties.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "Tables 2-3 and the conclusions sort correlation families by their validated parameter and nozzle ranges.",
+          "locator": "jet",
+          "support_type": "author_interpretation",
+          "limitations": "Secondary synthesis of heterogeneous primary studies.",
+          "parameters": [
+            "mdfit",
+            "pressure_defs"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "geometry"
+            ]
+          ],
+          "potential_chapter_role": "HPDI underexpanded-jet model selection."
+        },
+        {
+          "claim_id": "T1-A028-C02",
+          "claim": "RANS, LES and DNS choices involve a persistent near-field/transient-fidelity versus computational-cost tradeoff in coupled HPDI engine simulations.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "The review identifies near-field deficiencies of many RANS models and the cost burden of LES/DNS plus chemistry and soot.",
+          "locator": "challenge",
+          "support_type": "author_interpretation",
+          "limitations": "Model recommendations are condition-specific and not universal rankings.",
+          "parameters": [
+            "framework",
+            "gap"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "fidelity"
+            ]
+          ],
+          "potential_chapter_role": "Numerical-method limitations."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "A028-REV",
+          "source_node": "nozzle_geometry_and_pressure_definition",
+          "relation_type": "modifies",
+          "target_node": "Mach_disk_model_validity",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A028-C01",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review-secondary."
+        },
+        {
+          "case_id": "A028-REV",
+          "source_node": "numerical_fidelity",
+          "relation_type": "correlates_with",
+          "target_node": "computational_cost",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A028-C02",
+          "locator": "challenge",
+          "verification_status": "verified",
+          "notes": "Review-secondary."
+        }
+      ],
+      "note_sections": [
+        "A028 / A-R-02. Identity verified from canonical PDF.",
+        "Review framework for HPDI numerical methods.",
+        "Which jet and engine CFD methods are suitable for pilot-ignited natural-gas HPDI development?",
+        "Review of analytical, empirical, RANS, LES/DNS, chemistry and soot methods.",
+        "Natural-gas HPDI context; nozzle and pressure-ratio ranges are reviewed but not treated as primary cases.",
+        "Review notes 100-300 bar injection context and time-varying rail/cylinder ratio as secondary background.",
+        "Underexpanded penetration, Mach-disk height/diameter and near-field modeling.",
+        "NA: no new droplet/spray experiment.",
+        "Total-pressure ratio Rp and exit-pressure ratio Re are distinguished; review correlations retain their own domains.",
+        "Transient jet/engine processes are discussed qualitatively; no unified event timeline is generated.",
+        "Analytical models capture penetration but not detailed near field; empirical correlations are geometry-specific; CFD trades fidelity for cost.",
+        "Only review-authored taxonomy/correlation families enter parameters; cited-source numbers remain secondary.",
+        "No single universal turbulence or Mach-disk model is supported across all geometries and conditions.",
+        "Pressure/nozzle/gas definition -> model domain -> prediction accuracy/cost.",
+        "Engine implications include combustion, chemistry and soot-model selection.",
+        "Tables 2-4; Sections 2-5.",
+        "Review-secondary only; no primary numerical observations reclassified.",
+        "Heterogeneous validation data, geometry dependence and limited cross-model comparisons.",
+        "T1-A028-C01 and C02.",
+        "Connects B004 jet review to HPDI engine simulation needs.",
+        "No Schema gap.",
+        "Underexpanded HPDI model framework and uncertainty.",
+        "Full review read; taxonomy, definitions, gaps, evidence and relations checked."
+      ],
+      "key_results": [
+        "Mach-disk model selection depends on ratio definition, nozzle and gas.",
+        "High-fidelity transient jet modeling remains costly when coupled to engine chemistry/soot."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Geometry, pressure definition and turbulence representation condition the apparent accuracy of underexpanded-jet models.",
+          "support_type": "author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Review-secondary content explicitly separated.",
+        "No cited primary numbers promoted."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "A029",
+      "source_record_id": "A-R-03",
+      "library": "A",
+      "pdf_relpath": "02_PDF_Raw/A/A-R-03_2025_Li_DualFuel_DualDirectInjection_Review.pdf",
+      "tier1_role": "Broad DFDI review framework placing hydrogen-diesel dual-direct injection among gasoline, natural-gas, alcohol and ammonia strategies.",
+      "study_context": "Technology review of dual-fuel dual-direct-injection combustion, injection controls, fuel pairing, emissions and future applications.",
+      "cases": [
+        {
+          "case_id": "A029-REV",
+          "description": "Review-level synthesis; no primary case claimed."
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review scope."
+        },
+        {
+          "key": "h2",
+          "pdf_page": "13",
+          "section": "5. Diesel-hydrogen DFDI combustion",
+          "raw_locator": "PDF pp.13-14, Section 5",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Hydrogen-specific synthesis and source pointers."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "21",
+          "section": "7. Conclusion and further recommendations",
+          "raw_locator": "PDF pp.21-22, Section 7",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review taxonomy and future gaps."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "review",
+          "value_status": "reported",
+          "definition": "Review of dual-fuel dual-direct-injection combustion.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Broad multi-fuel review."
+        },
+        {
+          "key": "taxonomy",
+          "locator": "conclusion",
+          "parameter_group": "ignition_combustion",
+          "parameter_name": "combustion_mode",
+          "reported_value": "DFDI independently controls timing, quantity and interval of two fuels to regulate mixture, reactivity and concentration stratification",
+          "value_status": "reported",
+          "definition": "Review-level DFDI control taxonomy.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "No primary performance values claimed."
+        },
+        {
+          "key": "h2role",
+          "locator": "h2",
+          "parameter_group": "ignition_combustion",
+          "parameter_name": "gas_jet_pilot_interaction",
+          "reported_value": "diesel autoignition can ignite hydrogen after jet contact; sequence, interval, ambient oxygen and injector arrangement condition the interaction",
+          "value_status": "reported",
+          "definition": "Hydrogen-diesel mechanism synthesis.",
+          "source_type": "text",
+          "parameter_role": "descriptive_state",
+          "parameter_context": "review_secondary",
+          "notes": "Cited results remain secondary."
+        },
+        {
+          "key": "future",
+          "locator": "conclusion",
+          "parameter_group": "process_context",
+          "parameter_name": "model_applicability_note",
+          "reported_value": "future work should address real transient vehicle operation, injector/chamber design, injection optimization, flash boiling and EGR",
+          "value_status": "reported",
+          "definition": "Review-authored future-work framework.",
+          "source_type": "text",
+          "parameter_role": "descriptive_state",
+          "parameter_context": "review_secondary",
+          "notes": "Candidate knowledge gaps retained per paper only."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "control",
+          "case_id": "A029-REV",
+          "condition_id": "A029-REV",
+          "source_process": "independent_two_fuel_injection_control",
+          "relation_type": "modifies",
+          "target_process": "mixture_and_reactivity_stratification",
+          "support_type": "author_interpretation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review-level framework."
+        },
+        {
+          "key": "oxygen",
+          "case_id": "A029-REV",
+          "condition_id": "A029-REV",
+          "source_process": "ambient_oxygen_reduction",
+          "relation_type": "correlates_with",
+          "target_process": "longer_H2_diesel_interaction_and_ignition_delay",
+          "support_type": "author_interpretation",
+          "locator": "h2",
+          "verification_status": "verified",
+          "notes": "Secondary synthesis, not primary data."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-A029-C01",
+          "claim": "DFDI's central control advantage is independent adjustment of two fuels' timing, quantity and interval to shape mixture and reactivity stratification.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "The conclusion generalizes across five fuel-pair families.",
+          "locator": "conclusion",
+          "support_type": "author_interpretation",
+          "limitations": "Broad review; fuel pairs and facilities are heterogeneous.",
+          "parameters": [
+            "taxonomy"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "control"
+            ]
+          ],
+          "potential_chapter_role": "Cross-fuel DFDI taxonomy."
+        },
+        {
+          "claim_id": "T1-A029-C02",
+          "claim": "For hydrogen-diesel DFDI, ignition and flame development depend on which fuel pilots, injection interval, oxygen level and injector arrangement.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "Section 5 organizes reported mechanisms and identifies macro-engine versus controlled-facility evidence gaps.",
+          "locator": "h2",
+          "support_type": "author_interpretation",
+          "limitations": "Secondary synthesis; numerical values from cited papers are not entered as primary records.",
+          "parameters": [
+            "h2role"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "oxygen"
+            ]
+          ],
+          "potential_chapter_role": "Hydrogen-diesel interaction framework."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "A029-REV",
+          "source_node": "two_fuel_injection_control",
+          "relation_type": "modifies",
+          "target_node": "mixture_reactivity_stratification",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A029-C01",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review-secondary."
+        },
+        {
+          "case_id": "A029-REV",
+          "source_node": "oxygen_and_injection_sequence",
+          "relation_type": "modifies",
+          "target_node": "pilot_H2_ignition_interaction",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A029-C02",
+          "locator": "h2",
+          "verification_status": "verified",
+          "notes": "Review-secondary."
+        }
+      ],
+      "note_sections": [
+        "A029 / A-R-03. Identity verified from canonical PDF.",
+        "Broad DFDI technology and terminology review.",
+        "What control opportunities and fuel-specific tradeoffs arise from independently direct-injecting two fuels?",
+        "Review spanning diesel-gasoline, natural gas, alcohol, hydrogen and ammonia.",
+        "Multiple engines/facilities and injector designs; no single canonical case.",
+        "Injection timing, pressure, interval and quantity are the organizing controls.",
+        "Underexpanded gas-jet details are secondary to the broader DFDI framework.",
+        "Spray and jet information is review-secondary; no cited values promoted.",
+        "Fuel-specific definitions and metrics remain heterogeneous.",
+        "Event sequence and injection interval are central concepts but no unified numeric timeline is imposed.",
+        "DFDI regulates mixture/reactivity stratification and expands controllability across fuel pairs.",
+        "Only review-level taxonomy and synthesis are structured as parameters.",
+        "Hydrogen section emphasizes pilot identity, jet contact, ambient oxygen and injection sequence.",
+        "Two-fuel injection controls -> mixture stratification -> ignition/combustion/emissions.",
+        "Hydrogen acts as low-ignition-energy/high-flame-speed main fuel when diesel provides autoignition.",
+        "Section 5 and Section 7 are primary locators for this review role.",
+        "Review-secondary only; cited values not primary.",
+        "Very broad scope and heterogeneous evidence; vehicle transient operation underrepresented.",
+        "T1-A029-C01 and C02.",
+        "Provides cross-fuel context, not a substitute for A026 primary evidence.",
+        "No Schema gap.",
+        "DFDI taxonomy and hydrogen-diesel positioning.",
+        "Full review read; terminology, synthesis, gaps, evidence and mechanisms checked."
+      ],
+      "key_results": [
+        "Independent dual injection is the core lever for mixture/reactivity stratification.",
+        "Hydrogen-diesel behavior depends on pilot sequence, interval, oxygen and injector layout."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Independent timing and quantity control shapes two-fuel contact, stratification and ignition sequence.",
+          "support_type": "author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Review-secondary only.",
+        "No library expansion from cited pointers."
+      ],
+      "extraction_status": "complete"
+    },
+    {
+      "paper_id": "A030",
+      "source_record_id": "A-R-04",
+      "library": "A",
+      "pdf_relpath": "02_PDF_Raw/A/A-R-04_2025_Rorimpandey_HydrogenDiesel_DI_Combustion_Review.pdf",
+      "tier1_role": "Focused recent review of fundamental hydrogen-diesel direct-injection ignition, jet interaction, flame stabilization, ambient effects and injection controls.",
+      "study_context": "Mechanism-oriented review of controlled hydrogen-diesel DI studies under compression-ignition-engine-relevant conditions.",
+      "cases": [
+        {
+          "case_id": "A030-REV",
+          "description": "Review-level synthesis only; no cited primary value reclassified."
+        }
+      ],
+      "source_locators": [
+        {
+          "key": "abs",
+          "pdf_page": "1",
+          "section": "Abstract",
+          "raw_locator": "PDF p.1, Abstract",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Review scope and key synthesis."
+        },
+        {
+          "key": "duration",
+          "pdf_page": "12",
+          "section": "3.2 Relative injection duration",
+          "figure": "4-5",
+          "raw_locator": "PDF p.12, Section 3.2, Figs.4-5",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Momentum-balance and entrainment synthesis."
+        },
+        {
+          "key": "angle",
+          "pdf_page": "13",
+          "section": "3.3 Jet interaction angle",
+          "figure": "6",
+          "raw_locator": "PDF pp.12-13, Section 3.3, Fig.6",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Diverging/parallel/converging taxonomy."
+        },
+        {
+          "key": "gaps",
+          "pdf_page": "17",
+          "section": "4. Challenges and opportunities",
+          "raw_locator": "PDF pp.17-18, Section 4",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Diagnostics, conditions and application gaps."
+        },
+        {
+          "key": "conclusion",
+          "pdf_page": "18",
+          "section": "5. Conclusion",
+          "raw_locator": "PDF pp.18-19, Section 5",
+          "locator_status": "complete",
+          "verification_status": "verified",
+          "notes": "Mechanism synthesis."
+        }
+      ],
+      "parameters": [
+        {
+          "key": "study",
+          "locator": "abs",
+          "parameter_group": "study_context",
+          "parameter_name": "study_type",
+          "reported_value": "review",
+          "value_status": "reported",
+          "definition": "Focused review of hydrogen-diesel dual-fuel DI combustion.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Canonical PDF identity verified via source record, author, year and DOI; library_master title is malformed."
+        },
+        {
+          "key": "timing",
+          "locator": "conclusion",
+          "parameter_group": "ignition_combustion",
+          "parameter_name": "combustion_mode",
+          "reported_value": "earlier hydrogen injection promotes premixed combustion; later injection shifts toward mixing-controlled combustion",
+          "value_status": "reported",
+          "definition": "Review-level timing/combustion-mode synthesis.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "No cited numeric timing treated as primary."
+        },
+        {
+          "key": "duration_role",
+          "locator": "duration",
+          "parameter_group": "interaction_geometry",
+          "parameter_name": "jet_overlap_description",
+          "reported_value": "relative pilot/main injection duration changes jet momentum balance and entrainment",
+          "value_status": "reported",
+          "definition": "Qualitative review-level role; no numeric momentum ratio is inferred.",
+          "source_type": "text",
+          "parameter_role": "descriptive_state",
+          "parameter_context": "review_secondary",
+          "notes": "Schema field used qualitatively; no generated numeric value."
+        },
+        {
+          "key": "angle_tax",
+          "locator": "angle",
+          "parameter_group": "interaction_geometry",
+          "parameter_name": "interaction_geometry",
+          "reported_value": "diverging; parallel; converging jet-axis arrangements",
+          "value_status": "reported",
+          "definition": "Review taxonomy of dual-injector jet interaction angles.",
+          "source_type": "text",
+          "parameter_role": "classification",
+          "parameter_context": "review_secondary",
+          "notes": "Arrangement only, no angle value."
+        },
+        {
+          "key": "ambient",
+          "locator": "conclusion",
+          "parameter_group": "process_context",
+          "parameter_name": "model_applicability_note",
+          "reported_value": "ambient temperature and oxygen concentration alter ignition delay, mixing time, lift-off behavior and flame stabilization",
+          "value_status": "reported",
+          "definition": "Ambient-condition synthesis.",
+          "source_type": "text",
+          "parameter_role": "descriptive_state",
+          "parameter_context": "review_secondary",
+          "notes": "Causal strength follows review wording."
+        },
+        {
+          "key": "gap",
+          "locator": "gaps",
+          "parameter_group": "process_context",
+          "parameter_name": "model_applicability_note",
+          "reported_value": "need broader practical pressure/flow conditions, quantitative multispecies diagnostics, high-fidelity validated models and realistic engine turbulence",
+          "value_status": "reported",
+          "definition": "Review-authored research-gap framework.",
+          "source_type": "text",
+          "parameter_role": "descriptive_state",
+          "parameter_context": "review_secondary",
+          "notes": "Per-paper candidate gaps only; global knowledge_gaps unchanged."
+        }
+      ],
+      "process_relations": [
+        {
+          "key": "dur",
+          "case_id": "A030-REV",
+          "condition_id": "A030-REV",
+          "source_process": "relative_injection_duration_and_jet_momentum_balance",
+          "relation_type": "modifies",
+          "target_process": "pilot_product_entrainment_flame_stabilization_and_heat_release",
+          "support_type": "author_interpretation",
+          "locator": "duration",
+          "verification_status": "verified",
+          "notes": "Review synthesis."
+        },
+        {
+          "key": "converge",
+          "case_id": "A030-REV",
+          "condition_id": "A030-REV",
+          "source_process": "greater_jet_convergence_and_preignition_interaction",
+          "relation_type": "correlates_with",
+          "target_process": "longer_ignition_delay_and_faster_postignition_front_transfer",
+          "support_type": "author_interpretation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Correlation/interpretation preserved without upgrading to universal causality."
+        },
+        {
+          "key": "lowtemp",
+          "case_id": "A030-REV",
+          "condition_id": "A030-REV",
+          "source_process": "lower_ambient_temperature",
+          "relation_type": "correlates_with",
+          "target_process": "longer_main_fuel_ignition_delay_and_more_premixing",
+          "support_type": "author_interpretation",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review-level synthesis."
+        }
+      ],
+      "evidence_candidates": [
+        {
+          "claim_id": "T1-A030-C01",
+          "claim": "Hydrogen injection timing and sequence shift dual-fuel DI between premixed and mixing-controlled behavior, with stability and pressure-rise tradeoffs.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "The conclusion integrates timing, sequence and energy-share evidence across controlled studies.",
+          "locator": "conclusion",
+          "support_type": "author_interpretation",
+          "limitations": "Secondary synthesis; study conditions and definitions vary.",
+          "parameters": [
+            "timing"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "lowtemp"
+            ]
+          ],
+          "potential_chapter_role": "Hydrogen-diesel combustion-mode framework."
+        },
+        {
+          "claim_id": "T1-A030-C02",
+          "claim": "Relative injection duration and jet geometry modify preignition interaction, pilot-product entrainment, flame stabilization and heat release.",
+          "evidence_type": "review_synthesis",
+          "evidence_summary": "Sections 3.2-3.3 organize momentum-duration and diverging/parallel/converging interaction mechanisms.",
+          "locator": "duration",
+          "support_type": "author_interpretation",
+          "limitations": "Limited primary literature and line-of-sight diagnostics constrain generality.",
+          "parameters": [
+            "duration_role",
+            "angle_tax"
+          ],
+          "relations_events": [
+            [
+              "process",
+              "dur"
+            ],
+            [
+              "process",
+              "converge"
+            ]
+          ],
+          "potential_chapter_role": "Pilot/main-jet interaction mechanism."
+        },
+        {
+          "claim_id": "T1-A030-C03",
+          "claim": "Advancing the field requires quantitative multispecies diagnostics and validated high-fidelity models under realistic pressure, swirl and turbulence conditions.",
+          "evidence_type": "review_gap_synthesis",
+          "evidence_summary": "Section 4 explicitly links present line-of-sight and quasi-steady limitations to validation and application gaps.",
+          "locator": "gaps",
+          "support_type": "author_interpretation",
+          "limitations": "Research agenda, not an established mechanistic result.",
+          "parameters": [
+            "gap"
+          ],
+          "relations_events": [],
+          "potential_chapter_role": "Methods and knowledge-gap framing."
+        }
+      ],
+      "mechanism_relations": [
+        {
+          "case_id": "A030-REV",
+          "source_node": "relative_injection_duration",
+          "relation_type": "modifies",
+          "target_node": "pilot_product_entrainment_and_flame_stabilization",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A030-C02",
+          "locator": "duration",
+          "verification_status": "verified",
+          "notes": "Review-secondary."
+        },
+        {
+          "case_id": "A030-REV",
+          "source_node": "jet_convergence",
+          "relation_type": "correlates_with",
+          "target_node": "ignition_delay_and_reaction_front_transfer",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A030-C02",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review-secondary; not universal causality."
+        },
+        {
+          "case_id": "A030-REV",
+          "source_node": "ambient_temperature_and_oxygen",
+          "relation_type": "modifies",
+          "target_node": "ignition_and_flame_stabilization",
+          "support_type": "author_interpretation",
+          "candidate_claim_id": "T1-A030-C01",
+          "locator": "conclusion",
+          "verification_status": "verified",
+          "notes": "Review-secondary."
+        }
+      ],
+      "note_sections": [
+        "A030 / A-R-04. PDF title is 'A Review of the Fundamental Understanding of Hydrogen-Diesel Direct Injection Combustion: Recent Advances and Future Outlook'. Identity confirmed by source record, first author, 2025 year and DOI. library_master title is noncanonical and flagged for review; no ID change.",
+        "Focused mechanism review for H2-diesel DI.",
+        "How do injection controls, jet interaction and ambient state govern ignition, flame development and stabilization?",
+        "Review of controlled fundamental experiments and modeling under engine-relevant conditions.",
+        "Multiple injectors, angles, nozzle sizes and facilities; no primary case synthesized into a fake canonical condition.",
+        "Timing, duration, pressure, diameter, temperature and oxygen are treated as interacting controls.",
+        "Underexpanded H2 jet behavior is relevant but the review's focus is ignition/combustion coupling.",
+        "Pilot liquid spray and gaseous H2 jets; all cited numeric conditions remain secondary.",
+        "Definitions are study-specific; no reviewed numeric ratios are promoted.",
+        "Injection timing/sequence and relative duration define the event logic; no synthetic numeric timeline.",
+        "Earlier H2 injection promotes premixing; duration/momentum and geometry govern jet interaction; ambient state shifts ignition/stabilization.",
+        "Only review-created taxonomy and synthesis enter master tables.",
+        "Pilot products can be entrained into the main jet; convergence strengthens interaction but can extend ignition delay.",
+        "Injection sequence/duration/angle -> preignition overlap -> pilot ignition -> H2 flame transfer/stabilization.",
+        "Central relevance is flame stabilization, heat release, lift-off and combustion mode.",
+        "Sections 3.2-3.4, Section 4 and Conclusion.",
+        "Review-secondary only; no cited numeric evidence treated as primary.",
+        "Line-of-sight diagnostics, limited parameter ranges, quasi-steady facilities and sparse validated simulations.",
+        "T1-A030-C01 through C03.",
+        "Focused synthesis complements A026 primary engine evidence and A029 broad DFDI taxonomy.",
+        "No Schema gap. Malformed master title is a bibliographic QC issue, not a scientific-schema gap.",
+        "Core H2DDI mechanism and research-gap map.",
+        "Full review read; identity exception, taxonomy, synthesis, limitations, evidence and mechanisms checked."
+      ],
+      "key_results": [
+        "Injection timing shifts combustion mode; relative duration and geometry regulate pilot/main-jet interaction.",
+        "Ambient temperature/oxygen and diagnostic/model limitations are central to interpreting flame stabilization."
+      ],
+      "mechanisms": [
+        {
+          "summary": "Timing, duration-driven momentum balance and jet-axis arrangement control preignition mixing and transfer of pilot combustion products into the hydrogen jet.",
+          "support_type": "author_interpretation"
+        }
+      ],
+      "schema_gap_candidates": [],
+      "extraction_notes": [
+        "Review-secondary only.",
+        "A030 library_master title is malformed; original PDF identity independently confirmed and QC flag required.",
+        "No web or external bibliographic lookup."
+      ],
+      "extraction_status": "complete"
+    }
+  ]
+}
