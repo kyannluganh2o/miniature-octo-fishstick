@@ -1,0 +1,23 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Front matter and abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "APPENDIX: METHODOLOGY FOR CONTROLLED GENERA TION OF PARALLEL DROPLETS",
+    "pdf_page_start": 15,
+    "pdf_page_end": 15,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "results. As the frequency increases, the droplet diameter decreases. The distance between adjacent",
+    "pdf_page_start": 16,
+    "pdf_page_end": 19,
+    "boundary_status": "best_effort"
+  }
+]

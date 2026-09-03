@@ -1,0 +1,44 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "ABSTRACT",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "2.1. Experimental setup",
+    "pdf_page_start": 2,
+    "pdf_page_end": 10,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "6. Conclusions",
+    "pdf_page_start": 11,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "References",
+    "pdf_page_start": 11,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "Method. Opt Express 21, 26432 – 26449. http://doi.org/10.1364/OE.21.026432",
+    "pdf_page_start": 11,
+    "pdf_page_end": 12,
+    "boundary_status": "best_effort"
+  }
+]

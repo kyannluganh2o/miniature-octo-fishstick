@@ -1,0 +1,51 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 12,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "model",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "6. Conclusion",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "model. Further, the KHRT model predicts the early formation of very",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Appendix. Child droplet cloud model details",
+    "pdf_page_start": 14,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "Appendix A.6",
+    "pdf_page_start": 15,
+    "pdf_page_end": 15,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "References",
+    "pdf_page_start": 16,
+    "pdf_page_end": 16,
+    "boundary_status": "best_effort"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Front matter and abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 30,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "APPENDIX A: CASE PARAMETERS",
+    "pdf_page_start": 31,
+    "pdf_page_end": 31,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "APPENDIX B: SHOCK-BUBBLE INTERACTION",
+    "pdf_page_start": 32,
+    "pdf_page_end": 32,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "model. Figure 26 shows the numerical results which can be directly compared to the experimental",
+    "pdf_page_start": 33,
+    "pdf_page_end": 37,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "APPENDIX C: SHOCK-DROPLET INTERACTION",
+    "pdf_page_start": 38,
+    "pdf_page_end": 44,
+    "boundary_status": "best_effort"
+  }
+]

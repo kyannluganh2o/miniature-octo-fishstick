@@ -1,0 +1,58 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 2,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "2. Methods",
+    "pdf_page_start": 3,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "3. Results and discussion",
+    "pdf_page_start": 12,
+    "pdf_page_end": 28,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "4. Conclusions",
+    "pdf_page_start": 29,
+    "pdf_page_end": 30,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "result. The current method is also found to converge with grid reﬁnement",
+    "pdf_page_start": 31,
+    "pdf_page_end": 31,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "Appendix A. Numerical method for constructing the interface-normal 1-D Riemann problem",
+    "pdf_page_start": 31,
+    "pdf_page_end": 31,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "Appendix B. The interfacial Riemann problem",
+    "pdf_page_start": 32,
+    "pdf_page_end": 35,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S08",
+    "section_title": "References",
+    "pdf_page_start": 36,
+    "pdf_page_end": 38,
+    "boundary_status": "best_effort"
+  }
+]

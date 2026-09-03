@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1 Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 5,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "model",
+    "pdf_page_start": 6,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "9 Conclusion",
+    "pdf_page_start": 12,
+    "pdf_page_end": 12,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Appendix",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "References",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Front matter and introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 3,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Numerical methodology",
+    "pdf_page_start": 3,
+    "pdf_page_end": 6,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Physical model and validation",
+    "pdf_page_start": 6,
+    "pdf_page_end": 8,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Results: phase change",
+    "pdf_page_start": 8,
+    "pdf_page_end": 17,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Results: Mach number",
+    "pdf_page_start": 17,
+    "pdf_page_end": 19,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "Conclusions",
+    "pdf_page_start": 19,
+    "pdf_page_end": 20,
+    "boundary_status": "confirmed"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "References",
+    "pdf_page_start": 20,
+    "pdf_page_end": 21,
+    "boundary_status": "confirmed"
+  }
+]

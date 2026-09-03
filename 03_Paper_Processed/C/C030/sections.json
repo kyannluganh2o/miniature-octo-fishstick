@@ -1,0 +1,51 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1. Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "2. Methodology",
+    "pdf_page_start": 2,
+    "pdf_page_end": 2,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "methods. The simulation approach used for the present simulations has been presented",
+    "pdf_page_start": 2,
+    "pdf_page_end": 3,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "3. Results",
+    "pdf_page_start": 4,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "4. Conclusions",
+    "pdf_page_start": 12,
+    "pdf_page_end": 12,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "Appendix. Grid reﬁnement studies",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "REFERENCES",
+    "pdf_page_start": 14,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  }
+]
