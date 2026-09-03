@@ -1,0 +1,44 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "1 Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "2 Experimental Setup",
+    "pdf_page_start": 2,
+    "pdf_page_end": 3,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "4 Results",
+    "pdf_page_start": 4,
+    "pdf_page_end": 6,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "5 Conclusions",
+    "pdf_page_start": 7,
+    "pdf_page_end": 7,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "model. From the pilot and natural gas ignition delays, the follow-",
+    "pdf_page_start": 7,
+    "pdf_page_end": 7,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "References",
+    "pdf_page_start": 8,
+    "pdf_page_end": 8,
+    "boundary_status": "best_effort"
+  }
+]

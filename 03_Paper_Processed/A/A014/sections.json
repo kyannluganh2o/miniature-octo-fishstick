@@ -1,0 +1,72 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 5,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Appendix B",
+    "pdf_page_start": 6,
+    "pdf_page_end": 6,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "discussion. The calculation of X0",
+    "pdf_page_start": 7,
+    "pdf_page_end": 18,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Conclusions",
+    "pdf_page_start": 19,
+    "pdf_page_end": 19,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "References",
+    "pdf_page_start": 20,
+    "pdf_page_end": 20,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "Appendix A",
+    "pdf_page_start": 21,
+    "pdf_page_end": 21,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S08",
+    "section_title": "Appendix B",
+    "pdf_page_start": 22,
+    "pdf_page_end": 22,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S09",
+    "section_title": "Appendix C",
+    "pdf_page_start": 22,
+    "pdf_page_end": 22,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S10",
+    "section_title": "Appendix D",
+    "pdf_page_start": 23,
+    "pdf_page_end": 24,
+    "boundary_status": "best_effort"
+  }
+]

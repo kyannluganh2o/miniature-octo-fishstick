@@ -1,0 +1,37 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Introduction",
+    "pdf_page_start": 2,
+    "pdf_page_end": 4,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Results and discussion",
+    "pdf_page_start": 5,
+    "pdf_page_end": 10,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Conclusions",
+    "pdf_page_start": 11,
+    "pdf_page_end": 11,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "references",
+    "pdf_page_start": 12,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "section_id": "S01",
+    "section_title": "Abstract",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S02",
+    "section_title": "Introduction",
+    "pdf_page_start": 1,
+    "pdf_page_end": 1,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S03",
+    "section_title": "Experimental Methods",
+    "pdf_page_start": 2,
+    "pdf_page_end": 3,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S04",
+    "section_title": "Results and Discussion",
+    "pdf_page_start": 4,
+    "pdf_page_end": 9,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S05",
+    "section_title": "Conclusions",
+    "pdf_page_start": 10,
+    "pdf_page_end": 10,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S06",
+    "section_title": "References",
+    "pdf_page_start": 10,
+    "pdf_page_end": 12,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S07",
+    "section_title": "APPENDIX",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S08",
+    "section_title": "APPENDIX A: MULTI-INJECTOR TESTS",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S09",
+    "section_title": "APPENDIX B: METHANE EMISSION AND IGNITION DWELL",
+    "pdf_page_start": 13,
+    "pdf_page_end": 13,
+    "boundary_status": "best_effort"
+  },
+  {
+    "section_id": "S10",
+    "section_title": "APPENDIX C: CFD PREDICTION OF AHRR FOR BASELINE AND SPC CONDITIONS",
+    "pdf_page_start": 13,
+    "pdf_page_end": 14,
+    "boundary_status": "best_effort"
+  }
+]

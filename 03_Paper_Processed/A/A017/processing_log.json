@@ -1,0 +1,18 @@
+{
+  "paper_id": "A017",
+  "input_pdf": "02_PDF_Raw/A/A-NG-17_2026_Yang_InjectorStructure_InjectionPressure_Commercial_HPDI.pdf",
+  "processing_started": "2026-08-31T09:24:30+00:00",
+  "processing_completed": "2026-08-31T09:24:31+00:00",
+  "parser_method": "pypdf page-by-page text extraction",
+  "identity_title_token_coverage": 1.0,
+  "identity_confirmation_basis": "title token coverage >= 0.70",
+  "warnings": [],
+  "unreadable_pages": [],
+  "scientific_reading_mode": "claim_targeted",
+  "reading_tier": "tier3",
+  "extraction_limitations": [
+    "Multi-column order, equations, and glyphs may require PDF cross-check.",
+    "Section boundaries are best-effort.",
+    "No figure digitization was performed."
+  ]
+}
